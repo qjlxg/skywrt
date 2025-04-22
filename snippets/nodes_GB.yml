@@ -133,48 +133,26 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国家庭IP-1B
-  network: ws
-  port: '61213'
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  uuid: dfb9bd45-049d-44bb-a6cc-0409a8424b88
-  ws-opts:
-    headers:
-      Host: shop.1357.pics
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 DATA C N L I 200 GB-1A
+  name: 18|🇬🇧 DATA C N L I 200 GB-1C
   network: ws
   port: '80'
   server: japan.4gsieutoc.tokyo
   tls: false
   type: vmess
-  uuid: 41e4f4a2-9014-432b-9ee8-c0fb85df175a
+  uuid: d70dabf8-8aa2-4cf0-939f-0768a1455886
   ws-opts:
     headers:
       Host: m.tiktok.com
     path: /4gsieutoc.tokyo
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国1-1F
-  network: tcp
-  port: '45066'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 0ab6ecd3-c261-4548-b09e-ab59bc029973
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国2-1B
+  name: 18|🇬🇧 英国2-1E
   network: tcp
   port: '45067'
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 1883b793-193d-41be-a6f9-e02b63036232
+  uuid: 5b511270-5b35-4249-9a0c-ebc3643b2820
 - alterId: 0
   cipher: auto
   name: 18|🇬🇧 英国A-1A
@@ -183,4 +161,26 @@ proxies:
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 73c6c90e-7913-404e-a3ec-1865a2784ae3
+  uuid: 0a82d347-0ee9-4191-9a27-742cb62c1420
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国家庭IP-1D
+  network: ws
+  port: '61213'
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  uuid: e8c7ced6-be48-4d4a-a4a5-cc09b242ff5a
+  ws-opts:
+    headers:
+      Host: shop.1357.pics
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国1-1D
+  network: tcp
+  port: '45066'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 7f4da11b-2c37-4c8d-8912-61762649b2cb

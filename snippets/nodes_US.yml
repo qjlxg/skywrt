@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速1 #1'
+  name: 7,15,18|🇺🇸 美国光速1
   network: ws
   port: '2086'
   server: 170.114.45.51
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速2 #1'
+  name: 7,15,18|🇺🇸 美国光速2
   network: ws
   port: '2086'
   server: 170.114.45.52
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速3 #1'
+  name: 7,15,18|🇺🇸 美国光速3
   network: ws
   port: '2086'
   server: 170.114.45.53
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速4 #1'
+  name: 7,15,18|🇺🇸 美国光速4
   network: ws
   port: '2086'
   server: csgo.com
@@ -105,7 +105,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速6 #1'
+  name: 7,15,18|🇺🇸 美国光速6
   network: ws
   port: '2086'
   server: cloudflare.182682.xyz
@@ -118,7 +118,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速7 #1'
+  name: 7,15,18|🇺🇸 美国光速7
   network: ws
   port: '2086'
   server: 141.193.213.167
@@ -131,7 +131,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速8 #1'
+  name: 7,15,18|🇺🇸 美国光速8
   network: ws
   port: '2086'
   server: 141.193.213.168
@@ -144,7 +144,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,15|🇺🇸美国光速9 #1'
+  name: 7,15,18|🇺🇸 美国光速9
   network: ws
   port: '2086'
   server: 141.193.213.169
@@ -203,39 +203,39 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13,18|🇺🇸 IEPL专线-美国-1-1E
+  name: 13,18|🇺🇸 IEPL专线-美国-1-1D
   network: ws
   port: '8008'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: 4a43979f-e5f0-4e0c-b8c3-275e713f83c2
+  uuid: 7f0379cd-cc8f-4086-a99f-d273d52167d3
   ws-opts:
     headers:
       Host: v3.nmcf.me
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 13,18|🇺🇸 VMESS-直连-US-1A
+  name: 13,18|🇺🇸 VMESS-直连-US-1L
   network: ws
   port: '48421'
   server: v6.nmcf.me
   tls: false
   type: vmess
-  uuid: 991a4234-202e-48ab-a7fd-cb64415b16c7
+  uuid: 848e7b87-7b47-49d0-a0e1-159a684cc6b4
   ws-opts:
     headers:
       Host: www.bing.com
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 13,18|🇺🇸 美国直连-VMESS-1J
+  name: 13,18|🇺🇸 美国直连-VMESS-1I
   network: ws
   port: '8002'
   server: v5.nmcf.me
   tls: false
   type: vmess
-  uuid: 64bbaa0f-0e1b-423a-a52e-a3e79ba1a44e
+  uuid: 8d81d467-c30d-4d67-8289-cb7f3195f439
   ws-opts:
     headers:
       Host: www.bing.com
@@ -297,26 +297,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-家庭IPB-1E
+  name: 18|🇺🇸 YANG-VM-US-1D
   network: ws
-  port: '56217'
-  server: 183.240.187.175
+  port: '13892'
+  server: yang.718181.xyz
   tls: false
   type: vmess
-  uuid: c8388c25-59ed-4298-88f3-9190ee73cab5
+  uuid: 5b67767c-2875-40b3-a367-203db7ac1c5d
   ws-opts:
     headers:
-      Host: www.baidu.com
+      Host: tms.dingtalk.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国2-1P
-  network: tcp
-  port: '27822'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸 美国8-圣何塞-1B
@@ -325,142 +316,41 @@ proxies:
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: ed0255ef-faca-4e44-b51c-c6fdcbd7f2f9
+  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-V6|05-1B
+  name: 18|🇺🇸 美国-V6|03-1A
   network: tcp
-  port: '22309'
-  server: dmitv64.616626.xyz
+  port: '22306'
+  server: dmitv62.616626.xyz
   tls: false
   type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 圣何塞4-1E
-  network: ws
-  port: '443'
-  server: xiaoqi.yangmie.online
-  tls: true
-  type: vmess
-  uuid: 8902c631-67f6-43ee-b096-618f0f73e471
-  ws-opts:
-    headers:
-      Host: shs111.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国9-洛杉矶-NF-1A
-  network: tcp
-  port: '12519'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国-1L
+  name: 18|🇺🇸 美国-1F
   network: ws
   port: '55188'
   server: 183.240.180.26
   tls: false
   type: vmess
-  uuid: 4a6feab5-d721-48d3-a38b-d20cf8568f21
+  uuid: f66360f4-07fc-4769-94e0-5805f9930de0
   ws-opts:
     headers:
       Host: www.baidu.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国2.2-1B
-  network: ws
-  port: '45698'
-  server: usa2.vip.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 5adbe84e-53de-4b03-b64b-da737637f424
-  ws-opts:
-    headers:
-      Host: usa2.vip.xjay.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国原生01-1B
+  name: 18|🇺🇸 美国-V6|01-1B
   network: tcp
-  port: '22257'
-  server: hn3x.newbee8.me
+  port: '22308'
+  server: crun6.668918.xyz
   tls: false
   type: vmess
-  uuid: 6a035af4-fe48-436c-ba16-059256cfd8c6
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-波士顿-1A
-  network: ws
-  port: '55133'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: 821dbca0-3151-4457-ab9a-6e7b125e98c4
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 US| VMESS WS TLS-1B
-  network: ws
-  port: '443'
-  server: dc6.api-aws.com
-  tls: true
-  type: vmess
-  uuid: 9dcf9d5c-aefb-4e00-a9c9-97b9e0d8b8ce
-  ws-opts:
-    headers:
-      Host: dc6.api-aws.com
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国1-1C
-  network: tcp
-  port: '27821'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国|隧道2-1A
-  network: tcp
-  port: '27832'
-  server: zf1.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 4d7d11ca-044f-4ee8-bbcd-e4d9f3040ce5
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国4-1A
-  network: tcp
-  port: '12514'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国-旧金山-1C
-  network: ws
-  port: '52217'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: f7ff5a08-aa26-42e7-a0bb-6cd00448602a
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 圣何塞1-1F
+  name: 18|🇺🇸 圣何塞1-1E
   network: ws
   port: '443'
   server: 443ip.yangmie.online
@@ -473,198 +363,58 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国2-FACE-1A
+  name: 18|🇺🇸 美国1-1A
   network: tcp
-  port: '12512'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 YANG-VM-US-1C
-  network: ws
-  port: '13892'
-  server: yang.718181.xyz
-  tls: false
-  type: vmess
-  uuid: 0627a5ce-ad4e-4b43-8a70-fb4394d366b4
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国6-阿什本-1C
-  network: tcp
-  port: '12516'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 4bc5211f-01b4-43a4-bc01-304b045d7f48
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 圣何塞3-1E
-  network: ws
-  port: '443'
-  server: bestcf.top
-  tls: true
-  type: vmess
-  uuid: 8902c631-67f6-43ee-b096-618f0f73e471
-  ws-opts:
-    headers:
-      Host: shs111.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: 666100k.666811.xyz
-  name: 18|🇺🇸 美国 GRCP-1D
-  network: grpc
-  port: '8443'
-  server: 666100k.666811.xyz
-  tls: true
-  type: vmess
-  uuid: 57569b66-3ead-4382-8c66-0068557517c9
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国3-1E
-  network: tcp
-  port: '27823'
+  port: '27821'
   server: ppx1.6128888.xyz
   tls: false
   type: vmess
   uuid: 9b486836-c35b-4bf4-a696-b33c5d715e82
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-洛杉矶-1C
-  network: ws
-  port: '45611'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: dfb9bd45-049d-44bb-a6cc-0409a8424b88
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国|隧道3-1B
-  network: tcp
-  port: '27832'
-  server: zf2.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: ebac3ba3-f48d-4b68-ac1e-f44e089cae8d
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 圣何塞2-1C
+  name: 18|🇺🇸 圣何塞2-1A
   network: ws
   port: '443'
   server: bestcf.mfwl.art
   tls: true
   type: vmess
-  uuid: 41809b9d-7bfa-41a9-b2a9-2f0d19c0d638
+  uuid: 16ca8018-f4fd-4c0f-a74c-80d91f3f893b
   ws-opts:
     headers:
       Host: shs111.kejixiaoqi666.store
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国3-1I
-  network: ws
-  port: '22559'
-  server: usa3.vip.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 5adbe84e-53de-4b03-b64b-da737637f424
-  ws-opts:
-    headers:
-      Host: usa3.vip.xjay.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国2-1J
-  network: tcp
-  port: '20985'
-  server: zf.662293.xyz
-  tls: false
-  type: vmess
-  uuid: 0d8fa254-f902-4bdb-a345-3dcd19aaafd8
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国1-1E
-  network: tcp
-  port: '42970'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: e31bc602-c308-4857-8e49-d2697c016cdc
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国3-1G
-  network: tcp
-  port: '12513'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 4bc5211f-01b4-43a4-bc01-304b045d7f48
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 XB-VM-US-1B
+  name: 18|🇺🇸 XB-VM-US-1C
   network: ws
   port: '16894'
   server: xb-vm-us.718181.xyz
   tls: false
   type: vmess
-  uuid: e96a5b2c-a8ac-41c3-a590-17968878ea46
+  uuid: f96bba77-2dfc-4dd7-8ae9-d1be7320f851
   ws-opts:
     headers:
       Host: minipkg.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国01-1D
-  network: tcp
-  port: '22255'
-  server: hn3x.newbee8.me
-  tls: false
-  type: vmess
-  uuid: 6a035af4-fe48-436c-ba16-059256cfd8c6
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国5-1D
-  network: tcp
-  port: '12515'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 9d7eeceb-c830-4286-bb3f-227bd53537f3
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国原生02-1C
-  network: tcp
-  port: '35659'
-  server: gzdx.newbee8.me
-  tls: false
-  type: vmess
-  uuid: a2fe38bd-a97f-45dc-aeb2-9a6c7b70026c
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 US| V2RAY TCP-1B
-  network: tcp
-  port: '8843'
-  server: 38.130.98.152
-  tls: false
-  type: vmess
-  uuid: 9dcf9d5c-aefb-4e00-a9c9-97b9e0d8b8ce
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 圣何塞5-1D
+  name: 18|🇺🇸 圣何塞4-1H
   network: ws
   port: '443'
-  server: time.is
+  server: xiaoqi.yangmie.online
+  tls: true
+  type: vmess
+  uuid: 1bf18210-dea5-4a9c-8f9e-23b9e1f10b30
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞3-1G
+  network: ws
+  port: '443'
+  server: bestcf.top
   tls: true
   type: vmess
   uuid: b526926d-1474-4f41-985e-8b877cb840cd
@@ -674,31 +424,252 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国3-1D
-  network: tcp
-  port: '47593'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: e31bc602-c308-4857-8e49-d2697c016cdc
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国NO.2-1D
+  name: 18|🇺🇸 美国NO.2-1C
   network: tcp
   port: '45053'
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: aa5096a7-4432-4088-a9d1-39b491d07905
+  uuid: 5b511270-5b35-4249-9a0c-ebc3643b2820
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-V6|04-1B
+  name: 18|🇺🇸 美国9-洛杉矶-NF-1B
+  network: tcp
+  port: '12519'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-洛杉矶-1M
+  network: ws
+  port: '45611'
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  uuid: 8ec2bcc0-d61f-4d90-8f21-eff8c4017e46
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国4-1D
+  network: tcp
+  port: '12514'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国6-阿什本-1B
+  network: tcp
+  port: '12516'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞5-1A
+  network: ws
+  port: '443'
+  server: time.is
+  tls: true
+  type: vmess
+  uuid: 16ca8018-f4fd-4c0f-a74c-80d91f3f893b
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国3-1N
+  network: tcp
+  port: '12513'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-波士顿-1A
+  network: ws
+  port: '55133'
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  uuid: 061ecc11-c280-40b6-ad8c-48a2f7b6c532
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: 666100k.666811.xyz
+  name: 18|🇺🇸 美国 GRCP-1N
+  network: grpc
+  port: '8443'
+  server: 666100k.666811.xyz
+  tls: true
+  type: vmess
+  uuid: 66bfc69a-d843-4376-bcc3-19d60c0a5b92
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|05-1D
+  network: tcp
+  port: '22309'
+  server: dmitv64.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-旧金山-1C
+  network: ws
+  port: '52217'
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  uuid: 4d4d0084-c884-4379-af4e-fe1d1b8ddad4
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 1-1E
+  network: tcp
+  port: '15327'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: e28c357e-50f4-4920-ac0b-64cc016517db
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国NO.1-1F
+  network: tcp
+  port: '45052'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 99870be4-56eb-42de-9808-8a4ade0ddc42
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国1-1U
+  network: tcp
+  port: '42970'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: 6a562fce-034a-4129-ad05-71f92a55e001
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国原生01-1A
+  network: tcp
+  port: '22257'
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  uuid: bc70462d-3c05-45d0-b06a-946becc3b05d
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国01-1L
+  network: tcp
+  port: '22255'
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  uuid: e1cdc789-2362-4ab7-a15f-f723e67471a6
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US| VMESS WS TLS-1B
+  network: ws
+  port: '443'
+  server: dc6.api-aws.com
+  tls: true
+  type: vmess
+  uuid: cf2eeca9-e845-4e9a-b240-6620db2bb000
+  ws-opts:
+    headers:
+      Host: dc6.api-aws.com
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国|隧道2-1B
+  network: tcp
+  port: '27832'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: f0a8743e-700b-4fb5-83c7-d53b4289104f
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|04-1A
   network: tcp
   port: '22307'
   server: dmitv63.616626.xyz
   tls: false
   type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-家庭IPB-1E
+  network: ws
+  port: '56217'
+  server: 183.240.187.175
+  tls: false
+  type: vmess
+  uuid: 76f29239-26c7-483b-a57a-6978fcf37873
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国1.2-1B
+  network: ws
+  port: '37558'
+  server: jp05.vip.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: bb593bd5-d263-44bd-9eae-60fb03ca91a1
+  ws-opts:
+    headers:
+      Host: jp05.vip.xjay.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国5-1E
+  network: tcp
+  port: '12515'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: bfc829be-dc55-4459-8ffb-429aa16cf43a
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US| V2RAY TCP-1B
+  network: tcp
+  port: '8843'
+  server: 38.130.98.152
+  tls: false
+  type: vmess
+  uuid: cf2eeca9-e845-4e9a-b240-6620db2bb000
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: web
+  name: 18|🇺🇸 US| V2RAY GRPC-1C
+  network: grpc
+  port: '8443'
+  server: test.api-aws.com
+  tls: true
+  type: vmess
+  uuid: a35951ff-7c3d-4511-a734-b95ea4713e5e
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸 美国-加利福尼亚州
@@ -710,38 +681,70 @@ proxies:
   uuid: ea5a596a-0868-4f8c-a9a6-76adb9c34aeb
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国1.2-1A
-  network: ws
-  port: '37558'
-  server: jp05.vip.xjay.xyz
+  name: 18|🇺🇸 美国3-1L
+  network: tcp
+  port: '27823'
+  server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: 819f258d-edd4-45b7-826d-d14433890b19
-  ws-opts:
-    headers:
-      Host: jp05.vip.xjay.xyz
-    path: /
+  uuid: ed7199b7-acc2-4db9-99fe-6e31cd8b574a
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国10-芝加哥-1D
+  name: 18|🇺🇸 美国原生02-1A
+  network: tcp
+  port: '35659'
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  uuid: bc70462d-3c05-45d0-b06a-946becc3b05d
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国2-1G
+  network: tcp
+  port: '27822'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国|隧道1-1A
+  network: tcp
+  port: '27832'
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 56cf9702-f864-4d4f-b584-507af0b5411f
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国2-FACE-1C
+  network: tcp
+  port: '12512'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国|隧道3-1A
+  network: tcp
+  port: '27832'
+  server: zf2.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 56cf9702-f864-4d4f-b584-507af0b5411f
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国10-芝加哥-1B
   network: tcp
   port: '12520'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 9d7eeceb-c830-4286-bb3f-227bd53537f3
+  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国NO.1-1C
-  network: tcp
-  port: '45052'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 32615111-e271-4706-aa2e-b2ae9429df8b
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 US| VMESS WEBSOCKET-1B
+  name: 18|🇺🇸 US| VMESS WEBSOCKET-1A
   network: ws
   port: '23552'
   server: 38.126.114.213
@@ -754,45 +757,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 UNITED STATES 1-1D
+  name: 18|🇺🇸 美国B 所有节点支持一切外网视频及-1A
   network: tcp
-  port: '15327'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: e28c357e-50f4-4920-ac0b-64cc016517db
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国1-1J
-  network: tcp
-  port: '33441'
-  server: zf.662293.xyz
-  tls: false
-  type: vmess
-  uuid: 66e253d5-019d-413c-9c91-eb7e7ac63538
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国7-凤凰城-1A
-  network: tcp
-  port: '12517'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国C-1A
-  network: tcp
-  port: '30337'
+  port: '30336'
   server: 36.151.194.33
   tls: false
   type: vmess
-  uuid: 73c6c90e-7913-404e-a3ec-1865a2784ae3
+  uuid: 0a82d347-0ee9-4191-9a27-742cb62c1420
 - alterId: 0
   cipher: auto
   grpc-opts:
     grpc-service-name: webinar
-  name: 18|🇺🇸 US| VLESS GRPC-1B
+  name: 18|🇺🇸 US| VLESS GRPC-1A
   network: grpc
   port: '8443'
   server: dc6.api-aws.com
@@ -801,48 +777,54 @@ proxies:
   uuid: 9dcf9d5c-aefb-4e00-a9c9-97b9e0d8b8ce
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-V6|01-1B
-  network: tcp
-  port: '22308'
-  server: crun6.668918.xyz
+  name: 18|🇺🇸 美国3-1J
+  network: ws
+  port: '22559'
+  server: usa3.vip.xjay.xyz
   tls: false
   type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+  uuid: b3bac174-4cf0-4948-8776-df0905c7a4f8
+  ws-opts:
+    headers:
+      Host: usa3.vip.xjay.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: web
-  name: 18|🇺🇸 US| V2RAY GRPC-1A
-  network: grpc
-  port: '8443'
-  server: test.api-aws.com
-  tls: true
-  type: vmess
-  uuid: a35951ff-7c3d-4511-a734-b95ea4713e5e
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国|隧道1-1A
+  name: 18|🇺🇸 美国C-1B
   network: tcp
-  port: '27832'
-  server: zf.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 4d7d11ca-044f-4ee8-bbcd-e4d9f3040ce5
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国B 所有节点支持一切外网视频及-1B
-  network: tcp
-  port: '30336'
+  port: '30337'
   server: 36.151.194.33
   tls: false
   type: vmess
-  uuid: d47303a9-c329-4317-8428-92c5aa7d8284
+  uuid: 96dd67a9-1c0e-4ec8-9d08-0afd3a368b56
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-V6|03-1B
-  network: tcp
-  port: '22306'
-  server: dmitv62.616626.xyz
+  name: 18|🇺🇸 美国2.2-1A
+  network: ws
+  port: '45698'
+  server: usa2.vip.xjay.xyz
   tls: false
   type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+  uuid: b3bac174-4cf0-4948-8776-df0905c7a4f8
+  ws-opts:
+    headers:
+      Host: usa2.vip.xjay.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国3-1C
+  network: tcp
+  port: '47593'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: cad518fe-6488-4064-a8b3-c2eb9782be7f
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国7-凤凰城-1A
+  network: tcp
+  port: '12517'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 9d095b08-2266-4258-945a-3077c99f99c0

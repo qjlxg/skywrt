@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,15|🇸🇬新加坡1 #1'
+  name: 7,15,18|🇸🇬 新加坡1-1J
   network: ws
   port: '2086'
   server: cdn1.bpcdn.cc
@@ -86,26 +86,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13,18|🇸🇬 新加坡直连-VMESS-1I
+  name: 13,18|🇸🇬 新加坡直连-VMESS-1A
   network: ws
   port: '8000'
   server: v7.nmcf.me
   tls: false
   type: vmess
-  uuid: 614f63a0-8c85-4346-b319-e1384442d6aa
+  uuid: c46e91a7-9cd6-49e4-896a-cee08cfb92a2
   ws-opts:
     headers:
       Host: www.bing.com
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 13,18|🇸🇬 IEPL专线-新加坡-1-1D
+  name: 13,18|🇸🇬 IEPL专线-新加坡-1-1N
   network: ws
   port: '8001'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: 3bb82fa9-0af8-4f5a-8c30-30b185f01fbc
+  uuid: 8fdf49a3-6f90-44bd-b594-90ecbccd98e2
   ws-opts:
     headers:
       Host: v3.nmcf.me
@@ -174,7 +174,7 @@ proxies:
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   type: trojan
-- client-fingerprint: firefox
+- client-fingerprint: safari
   name: 15,30|🇸🇬新加坡01/1x
   network: tcp
   port: 13533
@@ -186,7 +186,7 @@ proxies:
   tls: false
   type: vless
   uuid: b19c4375-d847-4c40-9824-4767c88b5f38
-- client-fingerprint: qq
+- client-fingerprint: firefox
   name: 15,30|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
@@ -219,123 +219,87 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡2-1B
+  name: 18|🇸🇬 新加坡3-1H
   network: tcp
-  port: '12412'
+  port: '12413'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
+  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡4-网页-1C
+  name: 18|🇸🇬 新加坡02-1H
   network: tcp
-  port: '12414'
-  server: xxx.btmbxxx.top
+  port: '42205'
+  server: aps.dongfangyihao.xyz
   tls: false
   type: vmess
-  uuid: 4bc5211f-01b4-43a4-bc01-304b045d7f48
+  uuid: f91349f2-bcb7-46d2-ad03-18d6efd44877
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡CF-1D
+  name: 18|🇸🇬 新加坡NO.2-1C
+  network: tcp
+  port: '45055'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 5b511270-5b35-4249-9a0c-ebc3643b2820
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡CF-1A
   network: ws
   port: '80'
   server: time.is
   tls: false
   type: vmess
-  uuid: b526926d-1474-4f41-985e-8b877cb840cd
+  uuid: 16ca8018-f4fd-4c0f-a74c-80d91f3f893b
   ws-opts:
     headers:
       Host: mgsg2.zhousi.link
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡03-隧道-1D
+  name: 18|🇸🇬 新加坡-1V
+  network: ws
+  port: '33441'
+  server: 47.236.119.64
+  tls: false
+  type: vmess
+  uuid: 03e48087-0bb9-4eff-b9c5-56d8fca88d17
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡1-1E
+  network: tcp
+  port: '40140'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: cad518fe-6488-4064-a8b3-c2eb9782be7f
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡03-隧道-1A
   network: tcp
   port: '35661'
   server: gzdx.newbee8.me
   tls: false
   type: vmess
-  uuid: c476a507-f869-444b-ba0d-f6ddb960552c
+  uuid: bc70462d-3c05-45d0-b06a-946becc3b05d
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 SINGAPORE 1-1D
-  network: tcp
-  port: '28673'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: e28c357e-50f4-4920-ac0b-64cc016517db
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡NO.1-1C
+  name: 18|🇸🇬 新加坡NO.1-1F
   network: tcp
   port: '45054'
   server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 32615111-e271-4706-aa2e-b2ae9429df8b
+  uuid: 99870be4-56eb-42de-9808-8a4ade0ddc42
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡NO.2-1E
-  network: tcp
-  port: '45055'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 8675a2ef-a258-417b-b290-0f69406d9ec3
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡1-1H
-  network: tcp
-  port: '44155'
-  server: zf.662293.xyz
-  tls: false
-  type: vmess
-  uuid: 66e253d5-019d-413c-9c91-eb7e7ac63538
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1A
-  network: tcp
-  port: '27838'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1O
-  network: ws
-  port: '54311'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: c8388c25-59ed-4298-88f3-9190ee73cab5
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡A QQ客服943793367-1A
-  network: tcp
-  port: '30334'
-  server: 117.172.176.43
-  tls: false
-  type: vmess
-  uuid: 73c6c90e-7913-404e-a3ec-1865a2784ae3
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡1-NF-1C
-  network: tcp
-  port: '12411'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 4bc5211f-01b4-43a4-bc01-304b045d7f48
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1R
+  name: 18|🇸🇬 新加坡-1T
   network: ws
   port: '32919'
   server: 47.236.119.64
@@ -348,75 +312,102 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡1-1M
+  name: 18|🇸🇬 SINGAPORE 1-1D
   network: tcp
-  port: '40140'
-  server: zf.leifeng888.com
+  port: '28673'
+  server: svip1.pingboy.top
   tls: false
   type: vmess
-  uuid: 63b64f2d-f9fa-4fb5-b03c-74ce7ee8ef8f
+  uuid: 96cc1c40-b242-4bea-99f3-92b0731302da
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡-1D
-  network: ws
-  port: '33441'
-  server: 47.236.119.64
-  tls: false
-  type: vmess
-  uuid: 0b22a6fd-1af8-4f64-b16e-7ad4c47ac055
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡02-1H
-  network: tcp
-  port: '42205'
-  server: aps.dongfangyihao.xyz
-  tls: false
-  type: vmess
-  uuid: c9b4eda7-8664-4e97-b120-33e2b6f55d0a
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1S
+  name: 18|🇸🇬 新加坡-1R
   network: ws
   port: '35888'
   server: 47.236.119.64
   tls: false
   type: vmess
-  uuid: 03e48087-0bb9-4eff-b9c5-56d8fca88d17
+  uuid: 9d4add7e-7904-4dee-a14d-f6745110f008
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡01-1L
-  network: tcp
-  port: '42204'
-  server: aoj.dongfangyihao.xyz
+  name: 18|🇸🇬 新加坡-2A
+  network: ws
+  port: '54311'
+  server: 120.232.217.221
   tls: false
   type: vmess
-  uuid: 5182b76e-be6d-4a34-8123-7ed51e6b6953
+  uuid: 76f29239-26c7-483b-a57a-6978fcf37873
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡3-1A
+  name: 18|🇸🇬 新加坡-1N
   network: tcp
-  port: '12413'
-  server: xxx.btmbxxx.top
+  port: '27838'
+  server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
+  uuid: 6c678e05-4684-4d3e-859b-4db734111752
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡01-1J
+  name: 18|🇸🇬 新加坡01-1H
   network: tcp
   port: '22252'
   server: hn3x.newbee8.me
   tls: false
   type: vmess
-  uuid: c476a507-f869-444b-ba0d-f6ddb960552c
+  uuid: e1cdc789-2362-4ab7-a15f-f723e67471a6
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡2-1R
+  network: tcp
+  port: '12412'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: bfc829be-dc55-4459-8ffb-429aa16cf43a
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡4-网页-1A
+  network: tcp
+  port: '12414'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 9d095b08-2266-4258-945a-3077c99f99c0
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡A QQ客服943793367-1B
+  network: tcp
+  port: '30334'
+  server: 117.172.176.43
+  tls: false
+  type: vmess
+  uuid: 96dd67a9-1c0e-4ec8-9d08-0afd3a368b56
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡01-1J
+  network: tcp
+  port: '42204'
+  server: aoj.dongfangyihao.xyz
+  tls: false
+  type: vmess
+  uuid: a8e4230c-f678-4abf-bef7-1f08cb666e36
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡1-NF-1B
+  network: tcp
+  port: '12411'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 32|🇸🇬AWS新加坡02 | 高速专线推荐

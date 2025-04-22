@@ -34,13 +34,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯-1A
+  name: 18|🇷🇺 俄罗斯-1G
   network: ws
   port: '53100'
   server: 120.232.217.221
   tls: false
   type: vmess
-  uuid: 821dbca0-3151-4457-ab9a-6e7b125e98c4
+  uuid: 9f2cdcd7-99fa-4ef9-aeb5-17d9c9466c03
   ws-opts:
     headers:
       Host: www.baidu.com
@@ -53,4 +53,4 @@ proxies:
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 73c6c90e-7913-404e-a3ec-1865a2784ae3
+  uuid: 0a82d347-0ee9-4191-9a27-742cb62c1420

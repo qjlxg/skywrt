@@ -1,13 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 深港中转-IEPL专线-US-1-1J
+  name: 13,18|🇭🇰 深港中转-IEPL专线-US-1-1A
   network: ws
   port: '8006'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: 64bbaa0f-0e1b-423a-a52e-a3e79ba1a44e
+  uuid: c46e91a7-9cd6-49e4-896a-cee08cfb92a2
   ws-opts:
     headers:
       Host: www.bing.com
