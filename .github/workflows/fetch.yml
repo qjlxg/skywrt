@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 表达式生成 https://crontab.guru/
-    - cron: '0 0/3 * * *'
+    - cron: '30 */1 * * *'
   push:
     paths:
       - 'sources.list'
@@ -40,13 +40,9 @@ jobs:
         git add list*
         git add snippets/
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
-   
-
-    
-    
-
-    - name: 删除运行记录
-      uses: Mattraks/delete-workflow-runs@v2
+    - name: 推送更改
+      uses: ad-m/github-push-action@master
       with:
-        retain_days: 0
-        keep_minimum_runs: 0
+        branch: master
+
+    
