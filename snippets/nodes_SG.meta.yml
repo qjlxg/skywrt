@@ -174,7 +174,7 @@ proxies:
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   type: trojan
-- client-fingerprint: edge
+- client-fingerprint: safari
   name: 15,30|🇸🇬新加坡01/1x
   network: tcp
   port: 13533

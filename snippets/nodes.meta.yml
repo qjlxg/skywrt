@@ -1441,7 +1441,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 15|日本 05 加密测试 - IPLC1中转
+  name: '15,31|日本 05 加密测试 - IPLC1中转 #1'
   network: tcp
   port: '30020'
   server: 120.232.223.153
@@ -1450,14 +1450,14 @@ proxies:
   uuid: aa825895-0ae4-4b26-916e-e7dad4f57128
 - alterId: 0
   cipher: auto
-  name: 15|日本 05 加密测试 - IPLC2中转
+  name: '15,31|日本 05 加密测试 - IPLC2中转 #1'
   network: tcp
   port: '30020'
   server: 59.42.247.124
   tls: false
   type: vmess
   uuid: aa825895-0ae4-4b26-916e-e7dad4f57128
-- client-fingerprint: edge
+- client-fingerprint: safari
   name: 15,30|🇸🇬新加坡01/1x
   network: tcp
   port: 13533
