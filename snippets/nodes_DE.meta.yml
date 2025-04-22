@@ -1,0 +1,740 @@
+proxies:
+- client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 17783vless
+  name: 3|fa6899bb75134b2cade848b08b1567...
+  network: grpc
+  port: 1773
+  server: germany.khoreshtsabzi.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 3|b1302963a3784e849bb19912c336d2...
+  network: ws
+  port: 443
+  server: 57.129.24.142
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- client-fingerprint: chrome
+  fingerprint: ''
+  name: 3|d349335db04c4a85966a77732f37fa...
+  network: ws
+  port: 2053
+  server: 116.203.133.145
+  tls: false
+  type: vless
+  udp: false
+  uuid: 74748f3e-ede7-467c-e25d-253d88d2ef3e
+  ws-opts:
+    path: /telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560
+- client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
+  name: 3|ce2027a029ef4b6da3ec4093852346...
+  network: grpc
+  port: 8443
+  server: 91.107.181.10
+  servername: Vpnmizban.iranigamepars.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 3e509f62-56ef-479f-a884-e74aea5b89e1
+- client-fingerprint: chrome
+  fingerprint: ''
+  name: 3|edfedf49436e460f87d74fb1b64bff...
+  network: ws
+  port: 22222
+  server: 63.177.165.64
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  udp: false
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
+  name: 3|c850ecbbde55437c89e58230891083...
+  network: grpc
+  port: 8443
+  server: crm.iranigamepars.ir
+  servername: Vpnmizban.iranigamepars.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 3e509f62-56ef-479f-a884-e74aea5b89e1
+- name: 5|备用🍖@xkmfjd_🇩🇪
+  network: grpc
+  port: 8880
+  server: 157.180.20.12
+  tls: false
+  type: vless
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 5,9,11,24,27,30,37|DE
+  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
+  port: 31471
+  server: free.2apzhfa.xyz
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  name: 5|2|🇩🇪8 |  5.8MB/s
+  port: 59574
+  server: falk.headsetabad.ir
+  servername: refersion.com
+  tls: true
+  type: vless
+  uuid: f626e2f0-eea1-411c-9f06-cae4a056d26b
+- alterId: 0
+  cipher: auto
+  name: 5|德国-优化
+  network: ws
+  port: '16644'
+  server: yes.mojcn.com
+  tls: false
+  type: vmess
+  uuid: da91214e-b022-4f61-a724-01c538170e62
+  ws-opts:
+    headers:
+      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  flow: ''
+  name: 5|2|🇩🇪1 |  5.8MB/s
+  port: 59574
+  server: 91.107.167.61
+  servername: refersion.com
+  tls: true
+  type: vless
+  uuid: f626e2f0-eea1-411c-9f06-cae4a056d26b
+- alterId: 0
+  cipher: auto
+  name: 5|德国-优化2
+  network: ws
+  port: '16644'
+  server: m.cnmjcn.com
+  tls: false
+  type: vmess
+  uuid: da91214e-b022-4f61-a724-01c538170e62
+  ws-opts:
+    headers:
+      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|1|🇪 德国 01 | 1x DE #1'
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 8|🇩🇪DE-52.58.179.46-180_1@180
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.58.179.46
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 8|德国 001_2@22
+  network: tcp
+  port: 5260
+  server: 49.13.134.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 06b02791-af50-46bd-8679-bc84b754f0aa
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: 2086vless
+  name: 10|德国 006
+  network: grpc
+  port: 2060
+  reality-opts:
+    public-key: jW_vraWBLfMcIkPp89pEPSbFQn2VM4qtPO4FAoC2chE
+    short-id: 629cc26960e47e39
+  server: 91.107.181.177
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065
+- alterId: 1
+  cipher: auto
+  name: 10|德国 001
+  network: ws
+  port: 8080
+  server: 130.61.253.111
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- client-fingerprint: chrome
+  name: 10|德国 002
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: y_QTFoFtDtkpJ57ypPCThsAyV9az-MmZQcCR9F-o7Ew
+    short-id: 42a22604946c86
+  server: 165.22.69.147
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20fe9385-f429-4dc4-acc8-2e372a3d982b
+- client-fingerprint: chrome
+  name: 10|德国 003
+  network: grpc
+  port: 54280
+  reality-opts:
+    public-key: ZRmfE4xJHk1EI5WTAoOPv97CS95jqOKz25zs-CvMA18
+    short-id: d0f89f
+  server: 207.154.224.68
+  servername: grizzly.viraticket.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d1b86fe-bc58-4b13-871c-51a5621782bc
+- client-fingerprint: chrome
+  name: 10|德国 004
+  network: ws
+  port: 443
+  server: dd11.asalemaraghe.ir
+  servername: dd11.asalemaraghe.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 420f44ae-ff46-47c3-ba43-36c9c61812ef
+  ws-opts:
+    headers:
+      Host: dd11.asalemaraghe.ir
+    path: /
+- client-fingerprint: chrome
+  name: 10|德国 005
+  network: grpc
+  port: 2060
+  reality-opts:
+    public-key: jW_vraWBLfMcIkPp89pEPSbFQn2VM4qtPO4FAoC2chE
+    short-id: 629cc26960e47e39
+  server: gr.sashabike.ir
+  servername: refersion.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065
+- name: 10|德国 007
+  port: 2226
+  server: 116.203.40.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62d8d572-6bb8-4a27-8e14-dfee6f61af2d
+- name: 10|德国 008
+  port: 6893
+  server: 116.203.40.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62d8d572-6bb8-4a27-8e14-dfee6f61af2d
+- client-fingerprint: chrome
+  name: 10|德国 009
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: wlghahz8IBborsnQMFjenhi87XdUiueAe32SWbmOPxc
+    short-id: 5745335c15
+  server: mehdi22.vact.ir
+  servername: www.cdn77.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a26baa6-fcb1-4c44-9f84-bf9ef4b5987d
+- name: 10|德国 010
+  network: grpc
+  port: 16072
+  server: 188.34.201.88
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c935aba0-8835-426a-a585-225baee13f70
+- client-fingerprint: chrome
+  name: 10|德国 011
+  network: grpc
+  port: 1370
+  reality-opts:
+    public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
+    short-id: 2665af94c7b25f90
+  server: hetzner.unironically.ir
+  servername: sourceforge.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de3e121a-8405-4888-98ec-8914c1850a2d
+- client-fingerprint: chrome
+  name: 10|德国 012
+  network: grpc
+  port: 2097
+  reality-opts:
+    public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
+    short-id: 2665af94c7b25f90
+  server: hetzner.unironically.ir
+  servername: sourceforge.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de3e121a-8405-4888-98ec-8914c1850a2d
+- client-fingerprint: chrome
+  name: 10|德国 013
+  network: grpc
+  port: 2098
+  reality-opts:
+    public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
+    short-id: 2665af94c7b25f90
+  server: hetzner.unironically.ir
+  servername: sourceforge.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de3e121a-8405-4888-98ec-8914c1850a2d
+- name: 10|德国 014
+  network: grpc
+  port: 8880
+  server: 128.140.90.226
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e72a7a59-2f86-4916-97d1-b2b5c08d1f8f
+- name: 10|德国 015
+  port: 20000
+  reality-opts:
+    public-key: PHP5Ibb_VceW-qb5RXLn-lKMHoqMTZbhrjwCMtsJZiQ
+  server: 5.75.202.153
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7154df0-ce29-463e-8766-2afbf814b1b1
+- client-fingerprint: chrome
+  name: 10|德国 016
+  network: xhttp
+  port: 8443
+  server: germahy.nakarjgemming.ir
+  servername: germahy.nakarjgemming.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c44fbe30-1989-4917-bdae-04ef1315c4c8
+- alterId: 0
+  cipher: auto
+  name: 10|德国 017
+  network: ws
+  port: 443
+  raw:
+    add: 193.122.58.158
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: irvideo.cfd
+    id: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_230
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 193.122.58.158
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- allowInsecure: ''
+  name: 10|德国 018
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.59.180.235
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|德国 019
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: AZfJhYHphztYrI4N-RpcZqfNhqV-9PG-qT80ShLpJQ8
+    short-id: a473bfc1f4
+  server: mehdi24.vact.ir
+  servername: www.cdn77.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8cba15d2-7c60-48b5-8075-58790b4ed714
+- client-fingerprint: chrome
+  name: 10|德国 020
+  network: xhttp
+  port: 443
+  server: mrconfigchannel.hajalii.com
+  servername: mrconfigchannel-cdn.hajalii.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 923bbb5e-3f65-43ae-a0c0-9a83c464073f
+- alterId: 0
+  cipher: auto
+  name: 10|德国 021
+  network: tcp
+  port: 33157
+  raw:
+    add: 116.203.14.117
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: JOin+Telegram.@JOKERRVPN
+    id: d61ef6c6-b70a-4f05-8df6-14b37ec8720a
+    net: tcp
+    path: ''
+    port: '33157'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 116.203.14.117
+  tls: false
+  type: vmess
+  uuid: d61ef6c6-b70a-4f05-8df6-14b37ec8720a
+- client-fingerprint: chrome
+  name: 10|德国 022
+  network: grpc
+  port: 2087
+  reality-opts:
+    public-key: gUIqr0-OS4pZYeLZ3nfpH775LAV7ruMUmDNO04vL11g
+    short-id: 2b2e
+  server: 116.203.32.109
+  servername: www.target.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbb4251b-9b20-4c42-b09d-df77666bda12
+- alterId: 0
+  cipher: auto
+  name: 10|德国 023
+  network: tcp
+  port: 3378
+  raw:
+    add: fi.pr0xymare.com
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 6e53b146-1756-4297-ba10-c0370fa9c471
+    net: tcp
+    path: ''
+    port: 3378
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: none
+    type: ''
+    v: '2'
+  server: fi.pr0xymare.com
+  tls: false
+  type: vmess
+  uuid: 6e53b146-1756-4297-ba10-c0370fa9c471
+- name: 10|德国 024
+  network: grpc
+  port: 59483
+  server: 128.140.124.194
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
+- name: 10|德国 025
+  network: grpc
+  port: 59483
+  server: 157.180.29.37
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
+- name: 10|德国 026
+  network: grpc
+  port: 59483
+  server: 159.69.18.30
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47d7d5eb-55e6-4085-a155-bdf3fcc428f6
+- allowInsecure: '1'
+  name: 10|德国 027
+  network: tcp
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 60800
+  server: 130.61.173.105
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+- allowInsecure: '1'
+  name: 10|德国 028
+  network: tcp
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 42600
+  server: 84.235.237.61
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|德国 029
+  network: ws
+  port: 443
+  server: 132.145.232.171
+  servername: beyonddsz.cfd
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- client-fingerprint: chrome
+  name: 10|德国 030
+  network: ws
+  port: 443
+  server: mw5.asalemaraghe.ir
+  servername: mw5.asalemaraghe.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
+  ws-opts:
+    headers:
+      Host: mw5.asalemaraghe.ir
+    path: /
+- name: 13|🇩🇪_DE_德国_1
+  network: tcp
+  password: 4732adfa16c6450bbef87264e41332db
+  port: 443
+  server: nextstepcareer.online
+  skip-cert-verify: true
+  type: trojan
+- name: 13|🇩🇪_DE_德国_2
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.58.149.106
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: rc4-md5
+  name: 19|🇩🇪DE-193.108.119.230-0910
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19|🇩🇪DE-193.122.58.158-1506
+  network: ws
+  port: 443
+  server: 193.122.58.158
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      host: irvideo.cfd
+    path: /linkws
+- cipher: aes-256-cfb
+  name: 19|🇩🇪DE-80.92.204.106-6032
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|🇩🇪DE-80.92.204.106-3215
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 80.92.204.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,21|🇩🇪DE-57.129.24.141-6171 #1'
+  network: ws
+  port: 443
+  server: 57.129.24.141
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '20,21|🇩🇪DE-57.129.24.125-8287 #1'
+  network: ws
+  port: 443
+  server: 57.129.24.125
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- name: 24|🇩🇪 _德国
+  password: 4732adfa16c6450bbef87264e41332db
+  port: 443
+  server: nextstepcareer.online
+  skip-cert-verify: false
+  sni: nextstepcareer.online
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '24|🇩🇪 _德国 #1'
+  network: ws
+  port: '443'
+  server: 132.145.232.171
+  tls: false
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '24|🇩🇪 _德国 #2'
+  network: ws
+  port: '443'
+  server: hms23.fixedfloati.cfd
+  tls: false
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: hms23.fixedfloati.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '24|🇩🇪 _德国 #3'
+  network: ws
+  port: '443'
+  server: 193.122.58.158
+  tls: false
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: JbiB8V66V78Hf5bivfsis8vH
+  name: 36|🔒 VM-GRPC-NA 🇩🇪 DE-88.198.172....
+  network: grpc
+  port: '15145'
+  server: 88.198.172.25
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e7eb472e-dc83-49d5-be5e-82a79a2124ee
+- alterId: 0
+  cipher: auto
+  name: 36|🔒 VM-TCP-NONE 🇩🇪 DE-23.158.56....
+  network: tcp
+  port: '22324'
+  server: 23.158.56.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 36|🔒 VM-TCP-NONE 🇩🇪 DE-147.45.178...
+  network: tcp
+  port: 5008
+  server: 147.45.178.63
+  tls: false
+  type: vmess
+  uuid: 9ef6a6ce-5654-4751-a45a-80546bc346ea

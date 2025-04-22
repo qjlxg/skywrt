@@ -1,0 +1,1071 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 5|香港HY-优化2
+  network: ws
+  port: '16632'
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: da91214e-b022-4f61-a724-01c538170e62
+  ws-opts:
+    headers:
+      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '5,11,24,27,30|13|香港6|@ripaojiedian #1'
+  network: tcp
+  port: 15229
+  server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  ws-headers:
+    Host: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 5,9,11,24,27,30|0|🇭 01 | 1x HK
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|0|🇭🇰香港 03 | 1x HK #1'
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|1|🇭🇰 香港IP 03 | 1x HK #1'
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|12|🇭🇰 香港|@ripaojiedian #3'
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: '5,11,24,27,30|13|香港7|@ripaojiedian #3'
+  network: tcp
+  port: 36609
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|1|🇭🇰 香港 01 | 1x HK #3'
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '5,9,11,24,27,30|12|🇭🇰 香港5|@ripaojiedian #3'
+  network: ws
+  port: 46003
+  server: cloudgd.coemn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: cloudgd.coemn.com
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|12|🇭🇰 香港3|@ripaojiedian #3'
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: 111.29.57.125
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|0|🇭🇰香港 02 | 1x HK #3'
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|1|🇭🇰 香港 02 | 1x HK #3'
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|12|🇭🇰 香港2|@ripaojiedian #3'
+  password: be443689-bc64-49ff-85a5-8eecaa2235d3
+  port: 41049
+  server: hk2.fgmcx.top
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '5,9,11,24,27,30|12|🇭🇰 香港6|@ripaojiedian #3'
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 12202
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 5|2|🇭🇰5 |  2.5MB/s
+  port: 45883
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 5|香港wap-T
+  password: da91214e-b022-4f61-a724-01c538170e62
+  port: 443
+  server: waphk.mjt000.com
+  skip-cert-verify: false
+  sni: waphk.mjt000.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 5|香港HY-优化
+  network: ws
+  port: '16632'
+  server: yes.mojcn.com
+  tls: false
+  type: vmess
+  uuid: da91214e-b022-4f61-a724-01c538170e62
+  ws-opts:
+    headers:
+      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '5,9,11,24,27,30|12,13|香港4|@ripaojiedian #3'
+  network: ws
+  port: 30809
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- name: '5,9,10,11,24,27,30|12|🇭🇰 香港8|@ripaojiedian #3'
+  network: tcp
+  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
+  port: 27101
+  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 5|香港WAP-优化
+  network: ws
+  port: '16622'
+  server: yes.mojcn.com
+  tls: false
+  type: vmess
+  uuid: da91214e-b022-4f61-a724-01c538170e62
+  ws-opts:
+    headers:
+      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 5|香港WAP-优化2
+  network: ws
+  port: '16622'
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: da91214e-b022-4f61-a724-01c538170e62
+  ws-opts:
+    headers:
+      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 5|2|🇭🇰1 |  4.5MB/s
+  port: 41279
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: '5,11,27,30|13|香港5|@ripaojiedian #3'
+  network: ws
+  port: 46003
+  server: cloudgd.coemn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 5|2|🇭🇰2 |  1.7MB/s
+  port: 24318
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 64
+  cipher: auto
+  name: '9,11,27,30|12|🇭🇰 香港7|@ripaojiedian #3'
+  port: 36609
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰 13|香港6|@ripaojiedian
+  port: 15229
+  server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_1
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_63
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_3
+  network: ws
+  port: 8080
+  server: www.coldstone.club
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.coldstone.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_29
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_46
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_6
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_22
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_8
+  network: ws
+  port: 2095
+  server: 104.26.4.57
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_37
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_11
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_36
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_15
+  port: 30055
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_14
+  network: ws
+  port: 8080
+  server: www.nahck.site
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.nahck.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_23
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_17
+  network: ws
+  port: 8080
+  server: yh2.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_55
+  network: ws
+  port: 8080
+  server: yh1.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_53
+  port: 30053
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_61
+  network: ws
+  port: 8080
+  server: 23.227.38.44
+  tls: false
+  type: vmess
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_48
+  port: 30015
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_27
+  network: ws
+  port: 8080
+  server: 162.159.130.208
+  tls: false
+  type: vmess
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_40
+  network: ws
+  port: 8080
+  server: www.velvetmountain.shop
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_67
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_43
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_33
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_57
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_68
+  network: ws
+  port: 8080
+  server: 162.159.134.23
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_54
+  port: 30013
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_39
+  network: ws
+  port: 8080
+  server: yh2.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_41
+  network: ws
+  port: 8080
+  server: 23.227.38.11
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_42
+  network: ws
+  port: 8080
+  server: 23.227.39.23
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_44
+  network: ws
+  port: 80
+  server: 223.113.130.55
+  tls: false
+  type: vmess
+  uuid: 803c7369-444a-4495-b965-2b68611a983b
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /ll
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_45
+  network: ws
+  port: 8080
+  server: yh2.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_47
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_49
+  network: ws
+  port: 8080
+  server: 104.21.54.252
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_72
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_56
+  network: ws
+  port: 8080
+  server: yh1.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_52
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_75
+  network: ws
+  port: 8080
+  server: yh2.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_59
+  port: 30063
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_60
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_74
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_64
+  network: ws
+  port: 8080
+  server: 23.227.39.12
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_65
+  network: ws
+  port: 8880
+  server: 104.26.5.57
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_69
+  network: ws
+  port: 8080
+  server: 23.227.39.45
+  tls: false
+  type: vmess
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_71
+  port: 30113
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 Twitter苏小柠|深港隧道|流媒体解锁_73
+  port: 30112
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- name: '20,21|🇭🇰HK-43.161.255.183-0943 #1'
+  password: oIwjHDXpKePvYIg8
+  port: 443
+  server: 43.161.255.183
+  sni: myvps.lol
+  type: trojan
+- name: 20,21,24|🇦🇺 _澳大利亚
+  password: oIwjHDXpKePvYIg8
+  port: 443
+  server: myvps.lol
+  skip-cert-verify: false
+  sni: myvps.lol
+  type: trojan
+- name: 26|V1-香港01∣K1线路∣
+  password: 7daf833c-37b9-4afc-8495-96590f03f781
+  port: 21135
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 26|V1-香港04∣K4线路∣
+  password: 7daf833c-37b9-4afc-8495-96590f03f781
+  port: 21061
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 26|V1-香港05∣K10线路∣
+  password: 7daf833c-37b9-4afc-8495-96590f03f781
+  port: 21386
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 36|🔒 VM-WS-NA 🇭🇰 HK-112.120.125.1...
+  network: ws
+  port: 8100
+  server: 112.120.125.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 36|🔒 VM-WS-TLS 🇭🇰 HK-43.154.34.74...
+  network: ws
+  port: '1935'
+  server: 43.154.34.74
+  servername: djdjjrjjrhk.lzj520hxw.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 2e5bfd4a-0852-4df4-b9e7-9b6f207113b4
+  ws-opts:
+    headers:
+      Host: djdjjrjjrhk.lzj520hxw.dpdns.org
+    path: /vmess-argo
+- alterId: 0
+  cipher: auto
+  name: 36|🔒 VM-TCP-NA 🇭🇰 HK-35.220.230.2...
+  network: tcp
+  port: '30251'
+  server: 35.220.230.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+- alterId: 0
+  name: 37|HK
+  network: ws
+  password: Aimer
+  port: 443
+  server: 8.223.15.4
+  skip-cert-verify: true
+  sni: agepl.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK2
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 43395
+  server: 45.146.232.172
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK3
+  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
+  port: 27101
+  server: 45.146.232.171
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  name: 37|HK4
+  password: NLGZXGG09D5F8X5U
+  port: 15008
+  server: 156.245.190.17
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 37|HK5
+  network: tcp
+  password: 7505bf2d-9d04-46a3-b91e-d1115c5dcba8
+  port: 13730
+  server: 154.64.246.217
+  skip-cert-verify: true
+  sni: sslvs-xjp.lihuayun.top
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK6
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 27408
+  server: 45.146.232.173
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK7
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 42883
+  server: 45.146.232.172
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK8
+  network: tcp
+  password: d4c22fd9-1474-4e9f-baf7-80b162f3e60c
+  port: 12002
+  server: 185.14.47.199
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK9
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 22269
+  server: 45.146.232.172
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK10
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 43393
+  server: 45.146.232.172
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK11
+  network: tcp
+  password: 7505bf2d-9d04-46a3-b91e-d1115c5dcba8
+  port: 13720
+  server: 154.64.246.217
+  skip-cert-verify: true
+  sni: ger.lihua.click
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK12
+  network: tcp
+  password: b37c8327-1fcf-4c9e-a42f-9f7922972cc1
+  port: 43497
+  server: 45.146.232.173
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK13
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 22271
+  server: 45.146.232.173
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK14
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 33506
+  server: 45.146.232.171
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK15
+  password: 0597af27-0972-45de-a32f-d320348cb765
+  port: 44397
+  server: 45.146.232.171
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK16
+  password: Aimer
+  port: 16032
+  server: 47.239.107.108
+  skip-cert-verify: true
+  sni: epcco.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 37|HK17
+  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
+  port: 27408
+  server: 45.146.232.172
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+  udp: true
