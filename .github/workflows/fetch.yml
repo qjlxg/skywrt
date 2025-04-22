@@ -40,10 +40,7 @@ jobs:
         git add list*
         git add snippets/
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
-    - name: 推送更改
-      uses: ad-m/github-push-action@master
-      with:
-        branch: master
+   
 
     
     - name: 清除 JsDelivr CDN 缓存
