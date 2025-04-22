@@ -1457,7 +1457,7 @@ proxies:
   tls: false
   type: vmess
   uuid: aa825895-0ae4-4b26-916e-e7dad4f57128
-- client-fingerprint: qq
+- client-fingerprint: edge
   name: 15,30|🇸🇬新加坡01/1x
   network: tcp
   port: 13533
