@@ -1,703 +1,708 @@
 proxies:
-- client-fingerprint: chrome
-  fingerprint: ''
-  name: 3|9b61a0fbabae49f588ddaf3c25dbac...
-  network: ws
-  port: 80
-  server: 156.238.18.174
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    path: Telegram@WangCai2/?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: '5,9,11,24,27,30|12|🇵 日本3|@ripaojiedian #2'
-  password: cdc48a7a-b618-45af-a831-5afbd686b02f
-  port: 12210
-  server: gg21.hangfengjiasu.com
-  tfo: false
-  type: ss
-  udp: true
+- name: '1,4,15,19|八佰官网专用节点 #5'
+  password: 1473ee11-9b26-4f6d-8c43-08e4dbca450e
+  port: 22628
+  server: 170dx.babatspeed.xyz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '5,11,24,27,30|13|日本2|@ripaojiedian #3'
-  network: tcp
-  port: 23919
-  server: hzz9.fgmcx.top
-  servername: ''
+  name: '7,15|🇯🇵日本1 #1'
+  network: ws
+  port: '2086'
+  server: cdn1.bpcdn.cc
   tls: false
   type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- cipher: chacha20-ietf-poly1305
-  name: '5,9,11,24,27,30|0|🇵日本 03 | 1x JP #1'
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 5|日本-优化2
+  name: '7,15|🇯🇵日本2 #1'
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7,15|🇯🇵日本3 #1'
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
+    path: /
+- name: '8,15|日本1隧道 #1'
+  network: tcp
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 20345
+  server: twjpzz2.376897.xyz
+  skip-cert-verify: false
+  sni: 1jp001.376897.xyz
+  type: trojan
+- name: '8,15|日本2隧道 #1'
+  network: tcp
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 63278
+  server: twjpzznew.376897.xyz
+  skip-cert-verify: false
+  sni: 1jp001.376897.xyz
+  type: trojan
+- name: '8,15|日本3隧道 #1'
+  network: tcp
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 16741
+  server: twjpzznew.376897.xyz
+  skip-cert-verify: false
+  sni: 1jp001.376897.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '11,15|日本-优化2 #1'
   network: ws
   port: '16617'
   server: m.cnmjin.net
   tls: false
   type: vmess
-  uuid: da91214e-b022-4f61-a724-01c538170e62
+  uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
   ws-opts:
     headers:
-      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+      Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 5,11,24,27|2|🇯🇵3 |  6.1MB/s
-  network: tcp
-  port: 17233
-  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  ws-headers:
-    Host: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: '5,9,11,24,27,30|0| 01 | 1x JP #1'
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 5|尼日利亚NI-T
-  password: da91214e-b022-4f61-a724-01c538170e62
-  port: 443
-  server: ni.mjt000.com
-  skip-cert-verify: false
-  sni: ni.mjt000.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '5,9,11,24,27,30|1|🇵 日本 01 | 1x JP #1'
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '5,9,11,24,27,30|1|🇯🇵 日本 02 | 1x JP #3'
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '5,9,11,24,27,30|12|🇬 特殊|@ripaojiedian #2'
-  password: amazonskr05
-  port: 443
-  server: 3.36.96.166
-  tfo: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '5,11,24,27,30|13|日本4|@ripaojiedian #1'
-  network: tcp
-  port: 17233
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-  ws-headers:
-    Host: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: '5,9,11,24,27,30|1|🇵 日本 03 | 1x JP #1'
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 5|过滤掉3条线路
-  network: ws
-  port: '16617'
-  server: yes.mojcn.com
-  tls: false
-  type: vmess
-  uuid: da91214e-b022-4f61-a724-01c538170e62
-  ws-opts:
-    headers:
-      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '5,11,24,27,30|2|🇯🇵7 |  5.4MB/s #3'
-  network: tcp
-  port: 17233
-  server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
-  ws-headers:
-    Host: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: '5,9,11,24,27,30|0|🇵日本 02 | 1x JP #1'
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 5,24,30|2|🇵3 |  2.5MB/s
-  network: tcp
-  port: 17233
-  server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-  ws-headers:
-    Host: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 5,11,24,27|2|🇯🇵13 |  5.0MB/s
-  network: tcp
-  port: 17233
-  server: b14e2931-suvds0-sutgau-1r62f.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
-  ws-headers:
-    Host: b14e2931-suvds0-sutgau-1r62f.cm5.p5pv.com
-  ws-path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 5|2|🇯🇵4 |  6.0MB/s
-  port: 16497
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: '5,11,24,27,30|2|🇯🇵8 |  3.8MB/s #3'
-  network: tcp
-  port: 17233
-  server: 2a070f4a-suvds0-tdcdb7-1k27l.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-  ws-headers:
-    Host: 2a070f4a-suvds0-tdcdb7-1k27l.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 5,11,24,27|2|🇯🇵6 |  5.2MB/s
-  network: tcp
-  port: 17233
-  server: 5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
-  ws-headers:
-    Host: 5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 5|日本-优化3
+  name: '11,15|日本-优化3 #1'
   network: ws
   port: '16617'
   server: t.cnmjcn.cyou
   tls: false
   type: vmess
-  uuid: da91214e-b022-4f61-a724-01c538170e62
+  uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
   ws-opts:
     headers:
-      Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
+      Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
-- name: 5|日本JP-T
-  password: da91214e-b022-4f61-a724-01c538170e62
+- name: '11,15|日本JP-T #1'
+  password: 6400c720-13f6-45b0-81ea-419b89873cd2
   port: 443
   server: jp.mjt000.com
   skip-cert-verify: true
   sni: jp.mjt000.com
   type: trojan
+- name: '11,15|尼日利亚NI-T #1'
+  password: 6400c720-13f6-45b0-81ea-419b89873cd2
+  port: 443
+  server: ni.mjt000.com
+  skip-cert-verify: false
+  sni: ni.mjt000.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇯🇵 日本直连-VMESS-1G
+  network: ws
+  port: '8000'
+  server: v18.nmcf.me
+  tls: false
+  type: vmess
+  uuid: 8d81d467-c30d-4d67-8289-cb7f3195f439
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇯🇵 IEPL专线-日本-1-1C
+  network: ws
+  port: '8004'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: 7365fecd-64ef-485d-bf16-838abc3dddc3
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- name: 15|🇯🇵日本 01 | 专线
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp1.63051107-e4c1-7e10-ba67-9291ba7890d6.7adf211e.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+- name: 15|🇯🇵日本 02 | 专线
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp2.63051107-e4c1-7e10-ba67-9291ba7890d6.02444020.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+- name: 15|🇯🇵日本 03 | 专线
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp3.63051107-e4c1-7e10-ba67-9291ba7890d6.5584fc1f.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+- name: 15|🇯🇵日本 04 | 专线
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp4.63051107-e4c1-7e10-ba67-9291ba7890d6.69408ae5.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+- name: 15|🇯🇵日本 05 | 25倍计费！
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp5.63051107-e4c1-7e10-ba67-9291ba7890d6.cfe6fe33.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+- name: 15|🇯🇵日本 06 | 25倍计费！
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp6.63051107-e4c1-7e10-ba67-9291ba7890d6.3958a655.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+- name: 15|🇯🇵日本 07 | 25倍计费！
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp7.63051107-e4c1-7e10-ba67-9291ba7890d6.722ab11a.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
+- name: 15|🇯🇵日本 08 | 25倍计费！
+  network: tcp
+  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
+  port: 443
+  server: jp8.63051107-e4c1-7e10-ba67-9291ba7890d6.7e2a9604.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 5|2|🇯🇵1 |  6.3MB/s
-  port: 35659
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
+  grpc-opts:
+    grpc-service-name: ''
+  name: '15,21|🇯🇵 日本 04 #1'
+  network: tcp
+  port: 30002
+  reality-opts:
+    public-key: FnXw-m0a_GBVsiwbpjfvxYZjvZpLNrvSIO4N0U-7OEc
+    short-id: 41f3c195
+  server: p1.bxy-fun4.org
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: 9c98ec59-231c-4091-ba05-a0c881021335
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本|隧道2-1B
+  network: tcp
+  port: '27833'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: ebac3ba3-f48d-4b68-ac1e-f44e089cae8d
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本软银独立服务器-1B
+  network: ws
+  port: '443'
+  server: jp-s1.bitfat.top
+  tls: true
+  type: vmess
+  uuid: 5ee402cd-66c2-48c4-8651-0f7f555bade3
+  ws-opts:
+    headers:
+      Host: jp-s1.bitfat.top
+    path: /bitfat
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-名古屋-1B
+  network: ws
+  port: '53129'
+  server: 120.232.217.221
+  tls: false
+  type: vmess
+  uuid: dfb9bd45-049d-44bb-a6cc-0409a8424b88
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本4-大阪-1B
+  network: tcp
+  port: '12314'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: ed0255ef-faca-4e44-b51c-c6fdcbd7f2f9
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本01-1F
+  network: tcp
+  port: '22253'
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  uuid: 6a035af4-fe48-436c-ba16-059256cfd8c6
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-秋田-1H
+  network: ws
+  port: '56432'
+  server: 120.232.217.221
+  tls: false
+  type: vmess
+  uuid: f94666ef-7b8d-4e08-b872-e632adcbddf6
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本NO.1-1F
+  network: tcp
+  port: '45056'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 0ab6ecd3-c261-4548-b09e-ab59bc029973
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本6解锁-1B
+  network: ws
+  port: '31546'
+  server: jp066.vip.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: 5adbe84e-53de-4b03-b64b-da737637f424
+  ws-opts:
+    headers:
+      Host: jp066.vip.xjay.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本NO.2-1B
+  network: tcp
+  port: '45057'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 1883b793-193d-41be-a6f9-e02b63036232
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2-1N
+  network: tcp
+  port: '22832'
+  server: zf.662293.xyz
+  tls: false
+  type: vmess
+  uuid: b24141d1-fc9a-481e-8b82-d111999b0d52
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2-YTB-1B
+  network: tcp
+  port: '12312'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: ed0255ef-faca-4e44-b51c-c6fdcbd7f2f9
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本1-1S
+  network: tcp
+  port: '27846'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|02-1B
+  network: tcp
+  port: '22307'
+  server: greenchais2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-大阪-1A
+  network: ws
+  port: '53229'
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  uuid: 821dbca0-3151-4457-ab9a-6e7b125e98c4
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本8解锁-1A
+  network: ws
+  port: '42337'
+  server: jp08.vip.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: 819f258d-edd4-45b7-826d-d14433890b19
+  ws-opts:
+    headers:
+      Host: jp08.vip.xjay.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本VULTR1-1C
+  network: ws
+  port: '443'
+  server: www.visa.com
+  tls: true
+  type: vmess
+  uuid: 41809b9d-7bfa-41a9-b2a9-2f0d19c0d638
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 1-1D
+  network: tcp
+  port: '19015'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: e28c357e-50f4-4920-ac0b-64cc016517db
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-2-1A
+  network: ws
+  port: '10805'
+  server: kajpa.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: a8055f17-cc6c-48d9-b43f-a85f812e9f68
+  ws-opts:
+    headers:
+      Host: kajpa.kia-ai.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本|隧道3-1B
+  network: tcp
+  port: '27833'
+  server: zf2.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: ebac3ba3-f48d-4b68-ac1e-f44e089cae8d
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本V-1B
+  network: ws
+  port: '443'
+  server: bookmyshow.com
+  tls: true
+  type: vmess
+  uuid: 1bf18210-dea5-4a9c-8f9e-23b9e1f10b30
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本1-NF-1A
+  network: tcp
+  port: '12311'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|06-1B
+  network: tcp
+  port: '22308'
+  server: greenip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本1-1Q
+  network: tcp
+  port: '50240'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: 63b64f2d-f9fa-4fb5-b03c-74ce7ee8ef8f
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本03-隧道-1A
+  network: tcp
+  port: '35662'
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  uuid: 4af9e681-ca56-45eb-83cb-36e22be6530c
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|05-1A
+  network: tcp
+  port: '22307'
+  server: greenip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|04-1A
+  network: tcp
+  port: '22306'
+  server: greenip1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|01-1B
+  network: tcp
+  port: '22306'
+  server: greenchais1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-1-1L
+  network: ws
+  port: '10805'
+  server: kajp.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: fb55bf14-2eaf-4d44-b71d-58a6250e1b6a
+  ws-opts:
+    headers:
+      Host: kajp.kia-ai.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2-1H
+  network: tcp
+  port: '27827'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 9b486836-c35b-4bf4-a696-b33c5d715e82
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-1O
+  network: tcp
+  port: '14179'
+  server: zf.662293.xyz
+  tls: false
+  type: vmess
+  uuid: b24141d1-fc9a-481e-8b82-d111999b0d52
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本3-东京-1A
+  network: tcp
+  port: '12313'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 904bd8e2-661a-4677-9015-c1ea3d852c42
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本高速06-1A
+  network: tcp
+  port: '42327'
+  server: e-jp2vmksj.dongfangyihao.xyz
+  tls: false
+  type: vmess
+  uuid: c9b4eda7-8664-4e97-b120-33e2b6f55d0a
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|07-1B
+  network: tcp
+  port: '22306'
+  server: vpsjp1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本|隧道1-1B
+  network: tcp
+  port: '27833'
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: ebac3ba3-f48d-4b68-ac1e-f44e089cae8d
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本5-1D
+  network: tcp
+  port: '50241'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: e31bc602-c308-4857-8e49-d2697c016cdc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32|🇯🇵AWS日本东京01 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: 0UFjUVBI4nT-rTdQewzCmsYLrs_a4-qTq2ksWpDanXw
+    short-id: c6306490
+  server: pq.aws53.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  name: 8|🇯🇵JP-54.199.83.239-171_1@171
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-- name: 8|🇯🇵JP-3.112.192.169-188_1@188
-  password: umis0GDWL5RQ
-  port: 16717
-  server: 3.112.192.169
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32|🇯🇵AWS日本东京02 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
+  server: pq.aws54.yydjc.top
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32|🇯🇵AWS日本东京03 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: zZJg13rJNHw6Zq2TGATm8UAnTmqD97i8qzrXcJFyEls
+    short-id: d4f2d377
+  server: pq.aws55.yydjc.top
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32|🇯🇵AWS日本东京04 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: USd1Iznfu9nwnvIfz5CPcrnhXoQX1e1C1fCPNB9mbAk
+    short-id: 36fb8090
+  server: pq.aws56.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32|🇯🇵AWS日本东京05 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: _yQO9PASS87tIT-CNO8o-YlAlX2-GpWgKJOjOaVkx2w
+    short-id: 1e326c70
+  server: pq.aws57.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32|🇯🇵AWS日本东京06 | 高速专线推荐
+  port: 443
+  reality-opts:
+    public-key: T1qm-lWyGwT_sYy7KsoVsIH20qVR3W79wHmElqjdgz4
+    short-id: c5905f97
+  server: pq.aws58.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+- mport: 35000-39000
+  name: 32|🇯🇵日本 | 高速专线-hy2
+  password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+  port: 35000
+  ports: 35000-39000
+  server: 217.142.233.165
   skip-cert-verify: true
-  sni: appsvs.shop
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 8|🇯🇵 节点日期：04-02_8@0
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: d4a530d5-9755-4ff9-a9ed-5a058cf0038b
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: '9,11,27,30|12|🇯🇵 日本4|@ripaojiedian #3'
-  port: 17233
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
+  sni: www.apple.com
+  type: hysteria2
   udp: true
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-- cipher: chacha20-ietf
-  name: 9,27|2|🇯🇵8 |  1.9MB/s
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '9,30|2|🇯🇵6 |  4.2MB/s #3'
-  port: 17233
-  server: b14e2931-suvds0-sutgau-1r62f.cm5.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 9,30|2|🇵5 |  5.3MB/s
-  port: 17233
-  server: 5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: '9,11,27,30|12|🇵 日本2|@ripaojiedian #2'
-  port: 23919
-  server: hzz9.fgmcx.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- name: 9|🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-  network: ws
-  password: ji0612uenfs
-  port: 8080
-  server: 103.232.213.117
-  skip-cert-verify: false
-  sni: ji0612e.nfjunka.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ji0612e.nfjunka.xyz
-    path: /?ed=2560
-- cipher: rc4-md5
-  name: 9|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503181464410-9tCwc1fdZ3.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  type: ss
+- mport: 35000-39000
+  name: 32|🇯🇵日本2 | 高速专线-hy2
+  password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
+  port: 35000
+  ports: 35000-39000
+  server: 217.142.230.50
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  name: 10|日本 006
+  flow: ''
+  name: 32|🇯🇵日本高速01-0.1倍
   network: ws
-  port: 2095
-  server: 156.238.18.163
+  port: 443
+  server: 104.27.125.158
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+      Host: jp1.xn--ghqu5fm27b67w.com
+    path: /pq/jp1
 - client-fingerprint: chrome
-  name: 10|日本 007
-  network: ws
-  port: 2052
-  server: 156.238.18.165
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - 2002:0000:0000::1
-    path:
-    - /Hello!
-  name: 10|日本 005
-  network: http
-  port: 80
-  server: 45.76.87.24
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 446bfcde-1d2d-4f6f-a828-117487411e01
-- alterId: 0
-  cipher: auto
-  name: 10|日本 001
-  network: ws
-  port: 14954
-  server: 91.200.242.187
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 1
-  cipher: auto
-  name: 10|日本 002
-  network: ws
-  port: 80
-  server: 99.84.128.45
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: dsw7q85l34hqa.cloudfront.net
-    path: /download
-- name: 10|日本 003
-  network: ws
-  port: 2095
-  server: 156.238.18.208
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- name: 10|日本 004
-  network: ws
-  port: 2095
-  server: 156.238.18.246
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- name: 10|日本 008
-  network: ws
-  port: 2095
-  server: 156.238.18.28
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|日本 009
-  network: grpc
-  port: 2087
-  server: 45.76.92.26
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 92afc96e-63c9-420a-9a5c-410f529d8b23
-- name: 10|日本 010
-  network: ws
-  password: amclubs
-  port: 2096
-  server: 156.238.19.69
-  skip-cert-verify: true
-  sni: tran.amclubstest.nyc.mn
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tran.amclubstest.nyc.mn
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 10|日本 011
-  network: ws
-  port: 8443
-  server: 156.238.18.68
-  servername: uswuxian.pai50288.uk
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
-  ws-opts:
-    headers:
-      Host: uswuxian.pai50288.uk
-    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 11,27|2|🇯🇵9 |  1.8MB/s
-  port: 17233
-  server: 76c85625-sutj40-t1k53r-1jm8i.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- cipher: rc4-md5
-  name: '11,27|12|🇵 日本|@ripaojiedian #1'
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504161119105-MDldW0hCpy.download.microsoft.com
-    mode: http
-  port: 8765
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- name: 17|荷兰(yudou66.com 玉豆免费节点)
-  network: ws
+  flow: xtls-rprx-vision
+  name: 32|🇯🇵日本东京
   port: 443
-  server: 188.42.145.140
-  servername: g1.youyuan.us.kg
-  tls: true
-  type: vless
-  uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
-  ws-opts:
-    headers:
-      Host: g1.youyuan.us.kg
-    path: '%2F'
-- name: 17|卢森堡(yudou66.com 玉豆免费节点)
-  network: ws
-  port: 443
-  server: 188.42.88.78
-  servername: g1.youyuan.us.kg
-  tls: true
-  type: vless
-  uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
-  ws-opts:
-    headers:
-      Host: g1.youyuan.us.kg
-    path: '%2F'
-- name: '17|NL_分享日记 #1'
-  network: ws
-  port: 443
-  server: 188.42.145.159
-  servername: VIrgiNiavPn-nL.pagEs.dEv
-  tls: true
-  type: vless
-  uuid: 54ef4ecf-ff37-436a-be13-95c8a8a1114d
-  ws-opts:
-    headers:
-      Host: VIrgiNiavPn-nL.pagEs.dEv
-    path: '%2F'
-- name: 17|日本(yudou66.com 玉豆免费节点)
-  network: ws
-  port: 443
-  server: 168.138.50.249
-  servername: dp.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dp.ylks.xyz
-    path: '%2Fblue'
-- name: '17|日本(yudou66.com 玉豆免费节点) #1'
-  network: ws
-  port: 32900
-  server: 146.56.151.254
-  servername: lp.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lp.ylks.us.kg
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  country: mattkaydiary.com|日本(JP)Japan/Tokyo_38
-  name: '23|mattkaydiary.com|日本(JP)Japan/T... #1'
-  network: tcp
-  port: 8888
-  server: 140.238.48.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47
-  ws-opts:
-    headers:
-      host: 140.238.48.194
-    path: /
-- name: '24|🇯🇵 12|🇯🇵 日本5|@ripaojiedian #2'
-  password: ji0612uenfs
-  port: 8080
-  server: 103.232.213.117
+  reality-opts:
+    public-key: IHJ7w7m13QsYPFq8eppdqyTyeLmXzTtOG9EGu_-ep2c
+    short-id: 49824283a241
+  server: 152.70.99.180
+  servername: buylite.music.apple.com
   skip-cert-verify: false
-  sni: ji0612e.nfjunka.xyz
-  type: trojan
-- name: 26|✪每日连接前点更新订阅
-  password: 0bc68743-cff8-4730-9818-9d8192ee335c
-  port: 21142
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 26|日本二 isp 解锁openai 2
-  password: 05370912-92b0-4678-a739-d80261e8de33
-  port: 21867
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
-  type: trojan
-  udp: true
-- name: 26|日本三 isp 解锁openai 2
-  password: 76b1251f-2198-480c-8e25-87c8f5944112
-  port: 21868
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
-  type: trojan
-  udp: true
-- name: 26|日本四 isp 解锁openai 2
-  password: a7fb4fa4-2ac1-460b-90c7-50fcc196e4b4
-  port: 21869
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
-  type: trojan
-  udp: true
-- name: 26|日本02|解GPT|解NF|解TT 41
-  password: 8f16bdcc-810a-44ee-83c5-30d526f318f4
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 26|V2-日本02∣K12线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21125
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 26|V1-日本05∣K44线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21014
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '30|2|🇯🇵9 |  3.4MB/s #3'
-  port: 17233
-  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- cipher: rc4-md5
-  name: '30|12|🇵 日本|@ripaojiedian #2'
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503181464410-9tCwc1fdZ3.download.microsoft.com
-    mode: http
-  port: 8765
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 36,37|未知9 2.8MB/s
-  network: tcp
-  port: 550
-  server: 20.78.127.141
-  servername: ''
-  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551
-- alterId: 0
-  cipher: auto
-  name: 36|🔒 VM-TCP-NA 🇯🇵 JP-13.230.235.2...
-  network: tcp
-  port: '48889'
-  server: 13.230.235.247
-  tls: false
-  type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
-- alterId: 0
-  cipher: auto
-  name: 36|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  type: vless
+  udp: true
+  uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
