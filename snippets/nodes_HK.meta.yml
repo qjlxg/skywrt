@@ -58,6 +58,629 @@ proxies:
   skip-cert-verify: false
   sni: waphk.mjt000.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港v6|12
+  network: tcp
+  port: '6667'
+  server: hkvm63.656888.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13|香港v6|10
+  network: tcp
+  port: '6666'
+  server: hkvm61.656888.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: '13|套餐到期：2025-04-23 #29'
+  network: tcp
+  port: '12111'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- alterId: 0
+  cipher: auto
+  name: 13|香港7.1
+  network: ws
+  port: '34575'
+  server: hk17.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: 097cac86-3a13-4714-92c6-2c8f4fea39b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- name: '13|香港 · 1号线 · Netflix等流媒体解锁 · Cha... #4'
+  password: 23491f56-1a78-4366-8ec6-568104d1d7ba
+  port: 28503
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '13|香港02 #3'
+  network: tcp
+  port: 33443
+  reality-opts:
+    public-key: Px0MDLOtpJbdyqt6adQ2JthNHr148q24g-cdD-tYE30
+    short-id: 0456b39d
+  server: 47.76.185.130
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: 405a2547-54d9-4509-b9af-b0583de4d82c
+- alterId: 0
+  cipher: auto
+  name: '13|🇭🇰 Hongkong#5 #1'
+  network: tcp
+  port: '39840'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
+- name: 13|香港03
+  password: b888e849-c69b-46f1-8a77-ca734195f630
+  port: 10022
+  server: hytro.91ai.de
+  skip-cert-verify: true
+  sni: hytro.91ai.de
+  type: trojan
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '13|[vless]香港-5+专线+倍率2 #1'
+  network: tcp
+  port: 13555
+  reality-opts:
+    public-key: S2x_vy_rh99yUn-0DXciGYUlAbe1N-WNT8o0NCcbrA0
+    short-id: abed0ea4
+  server: hkzfvl04.057296.xyz
+  servername: m.media-amazon.com
+  tls: false
+  type: vless
+  uuid: d68979da-f563-4edd-9a44-82652d0c299b
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|04
+  network: tcp
+  port: '22310'
+  server: hostip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '13|[vless]香港-3+专线+倍率2 #1'
+  network: tcp
+  port: 39770
+  reality-opts:
+    public-key: S2x_vy_rh99yUn-0DXciGYUlAbe1N-WNT8o0NCcbrA0
+    short-id: abed0ea4
+  server: hk-zf-03.057296.xyz
+  servername: m.media-amazon.com
+  tls: false
+  type: vless
+  uuid: d68979da-f563-4edd-9a44-82652d0c299b
+- alterId: 0
+  cipher: auto
+  name: '13|香港（直连） #2'
+  network: tcp
+  port: '19901'
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+- alterId: 0
+  cipher: auto
+  name: 13|香港v6|11
+  network: tcp
+  port: '10022'
+  server: hkvm62.656888.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13|香港8.1
+  network: ws
+  port: '40328'
+  server: hk18.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: 097cac86-3a13-4714-92c6-2c8f4fea39b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- name: '13|香港 · 3号线 · Netflix等流媒体解锁 · Cha... #4'
+  password: 71e43451-6b2b-4bc6-be3f-7f028144a13f
+  port: 28505
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港v6|09
+  network: tcp
+  port: '10211'
+  server: khanhk6.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '13|🇭🇰 Hongkong#4 #1'
+  network: tcp
+  port: 19731
+  server: svip1.pingboy.top
+  tls: false
+  type: vless
+  uuid: 67a1b8b4-5ad3-435f-a14a-77cafe619297
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '13|HK.香港.G | 多入口 #1'
+  network: tcp
+  port: '44489'
+  server: xctransfer1st.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇭🇰 IEPL专线-香港-1-1A
+  network: ws
+  port: '8007'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  ws-opts:
+    headers:
+      Host: v7.nmcf.me
+    path: /nmkj
+- name: '13|香港1|隧道|标准 #1'
+  password: f531d321-843d-49c6-81bc-e264b4189b83
+  port: 17702
+  server: zz.xinghongzf.xyz
+  skip-cert-verify: true
+  sni: zz.xinghongzf.xyz
+  type: trojan
+- name: 13|香港高速
+  network: tcp
+  port: 42302
+  server: e-hknjsx.dongfangyihao.xyz
+  tls: false
+  type: vless
+  uuid: 3628823b-083b-4e51-9720-dfc15f990f52
+- name: '13|香港 · 2号线 · Netflix等流媒体解锁 · Cha... #4'
+  password: 0554678e-19e8-46b2-bd10-60731d10ec9f
+  port: 28504
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港3
+  network: tcp
+  port: '56985'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: d6bd9aac-0432-4910-805e-127c59a2a45a
+- alterId: 0
+  cipher: auto
+  name: 13|香港|隧道1
+  network: tcp
+  port: '27834'
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- alterId: 0
+  cipher: auto
+  name: '13|香港NO.2（GPT奈飞等） #2'
+  network: tcp
+  port: '45051'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+- name: 13|2号专线 · 香港HK · 53
+  password: d9c8a390-5974-41de-9f4d-e68ad94bf4ff
+  port: 39765
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|香港5_网页 #1'
+  network: tcp
+  port: '12115'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- name: 13|2号专线 · 香港HK · 23
+  password: d9c8a390-5974-41de-9f4d-e68ad94bf4ff
+  port: 39978
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|香港4 #2'
+  network: tcp
+  port: '12114'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇭🇰 HK 香港2-1A
+  network: tcp
+  port: '52501'
+  server: hry200.2228333.xyz
+  tls: false
+  type: vmess
+  uuid: be9a7f85-2d8f-4c97-b8f3-2cdafe78be98
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '13|香港高速11【3倍流量计】 #2'
+  network: tcp
+  port: 33511
+  reality-opts:
+    public-key: NwlgS_3cU6G4AiUT232M9EyoBZ6E-zbnn6SMsozfSkA
+    short-id: 853bad2f
+  server: 47.238.71.59
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: 3d66ee61-de7e-4cd4-b099-62b904a7e4f8
+- alterId: 0
+  cipher: auto
+  name: '13|[vmess][隧道] 香港 vmess 5x #2'
+  network: tcp
+  port: '26043'
+  server: 666100d.666811.xyz
+  tls: false
+  type: vmess
+  uuid: 4e4dfd09-4fe3-41a2-8336-da47bc2e91a0
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '13|香港01 #6'
+  network: tcp
+  port: 33443
+  reality-opts:
+    public-key: NwlgS_3cU6G4AiUT232M9EyoBZ6E-zbnn6SMsozfSkA
+    short-id: 853bad2f
+  server: 47.242.27.68
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: 87004791-aa38-46c7-8542-48175e9def25
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|06
+  network: tcp
+  port: '10505'
+  server: greenhk0.616626.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇭🇰 HK 香港1-1A
+  network: tcp
+  port: '52500'
+  server: hry100.2228333.xyz
+  tls: false
+  type: vmess
+  uuid: be9a7f85-2d8f-4c97-b8f3-2cdafe78be98
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|02
+  network: tcp
+  port: '22308'
+  server: hostip1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: '13|HK.香港.C | 高速.2x倍率 #1'
+  network: tcp
+  port: '38630'
+  server: xctransfer1st.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
+- alterId: 0
+  cipher: auto
+  name: '13|香港05-隧道 #1'
+  network: tcp
+  port: '35660'
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  uuid: de6fde3d-6233-4cde-affb-a802eb94fe87
+- alterId: 0
+  cipher: auto
+  name: '13|香港1 #1'
+  network: tcp
+  port: '56984'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: d6bd9aac-0432-4910-805e-127c59a2a45a
+- name: 13|香港TJ🍒
+  network: ws
+  password: 63b3e3a3-84ca-4b7d-b556-5c3ddae07a8e
+  port: 22188
+  server: va.37cloud.cc
+  skip-cert-verify: false
+  sni: va.37cloud.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: m.taobao.com
+    path: '%2Fhd.m3u8'
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇭🇰 香港直连-VMESS-1A
+  network: ws
+  port: '8001'
+  server: v4.nmcf.me
+  tls: false
+  type: vmess
+  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '13|🇭🇰 Hongkong#6 #1'
+  network: tcp
+  port: 52097
+  server: svip1.pingboy.top
+  tls: false
+  type: vless
+  uuid: 67a1b8b4-5ad3-435f-a14a-77cafe619297
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- name: 13|HK+BGPLite
+  network: tcp
+  port: 50940
+  server: 103.216.253.16
+  tls: false
+  type: vless
+  uuid: 443553d2-e82e-4ca3-ad0d-6bd412a5c85f
+- alterId: 0
+  cipher: auto
+  name: '13|HK.香港.D #1'
+  network: tcp
+  port: '33575'
+  server: xctransfer1st.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
+- alterId: 0
+  cipher: auto
+  name: 13|香港|隧道2
+  network: tcp
+  port: '27834'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|05*0.5倍率
+  network: tcp
+  port: '18002'
+  server: nathk.91ai.de
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|01
+  network: tcp
+  port: '22307'
+  server: hosyun6.91ai.de
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13|香港v6|13
+  network: tcp
+  port: '6668'
+  server: hkvm64.656888.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇭🇰 香港-1-1B
+  network: ws
+  port: '10805'
+  server: kahk.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: 109fc8e3-c9f9-4107-b2db-55c664b3e6af
+  ws-opts:
+    headers:
+      Host: kahk.kia-ai.com
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '13|🇭🇰 Hongkong#2 #1'
+  network: tcp
+  port: 17367
+  server: svip1.pingboy.top
+  tls: false
+  type: vless
+  uuid: 67a1b8b4-5ad3-435f-a14a-77cafe619297
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|香港v6|18
+  network: tcp
+  port: '6668'
+  server: hytrob.656888.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: '13|HK.香港.E #1'
+  network: tcp
+  port: '12672'
+  server: xctransfer1st.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
+- name: 13|香港-v4|02
+  password: b888e849-c69b-46f1-8a77-ca734195f630
+  port: 30026
+  server: hkvm4.656888.xyz
+  skip-cert-verify: true
+  sni: hkvm4.656888.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|HK.香港.B | 推荐 #1'
+  network: tcp
+  port: '45449'
+  server: xctransfer1st.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
+- alterId: 0
+  cipher: auto
+  name: '13|🇭🇰 Hongkong#3 #1'
+  network: tcp
+  port: '38913'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: 67a1b8b4-5ad3-435f-a14a-77cafe619297
+- name: 13|2号专线 · 香港HK · 244
+  password: d9c8a390-5974-41de-9f4d-e68ad94bf4ff
+  port: 38522
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港|隧道3
+  network: tcp
+  port: '27834'
+  server: zf2.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- alterId: 0
+  cipher: auto
+  name: '13|香港2 #2'
+  network: tcp
+  port: '12112'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|08
+  network: tcp
+  port: '10507'
+  server: greenhk2.616626.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: '13|HK.香港.F #1'
+  network: tcp
+  port: '45861'
+  server: xctransfer1st.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|07
+  network: tcp
+  port: '10506'
+  server: greenhk1.616626.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇭🇰 香港-CN2-3-1A
+  network: ws
+  port: '10807'
+  server: cnhka.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: 894b23cc-90ab-43b0-8baf-bb84d8f6d073
+  ws-opts:
+    headers:
+      Host: cnhka.kia-ai.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13|香港3 #2'
+  network: tcp
+  port: '12113'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- name: 13|2号专线 · 香港HK · 74
+  password: d9c8a390-5974-41de-9f4d-e68ad94bf4ff
+  port: 33838
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港-v6|03
+  network: tcp
+  port: '22309'
+  server: hostip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - name: 15|🇭🇰香港 01 | 专线
   network: tcp
   password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
@@ -92,7 +715,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 15|香港1
+  name: '15|香港1 #2'
   network: ws
   port: '2086'
   server: cdn1.bpcdn.cc
@@ -105,7 +728,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|香港2
+  name: '15|香港2 #3'
   network: ws
   port: '2086'
   server: cdn2.bpcdn.cc
@@ -118,7 +741,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|香港3
+  name: '15|香港3 #3'
   network: ws
   port: '2086'
   server: cdn3.bpcdn.cc
@@ -150,635 +773,16 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 IEPL专线-香港-1-1C
-  network: ws
-  port: '8007'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: 5f981f88-2152-40c6-8312-7f36dc0e64ad
-  ws-opts:
-    headers:
-      Host: v7.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|06-1E
-  network: tcp
-  port: '10505'
-  server: greenhk0.616626.xyz
-  tls: false
-  type: vmess
-  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-石澳-1C
-  network: ws
-  port: '55102'
-  server: 103.216.253.149
-  tls: false
-  type: vmess
-  uuid: af0257ae-5cb5-4d29-a9d9-2518d2786f7a
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港7.1-1A
-  network: ws
-  port: '34575'
-  server: hk17.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 07b0cd3e-eb62-4dfd-aba8-cb3d09ab74d8
-  ws-opts:
-    headers:
-      Host: hk17.xjay.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|12-1A
-  network: tcp
-  port: '6667'
-  server: hkvm63.656888.xyz
-  tls: false
-  type: vmess
-  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONGKONG 1-1G
-  network: tcp
-  port: '17993'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: 2101e9fb-6e0f-46ef-ba9e-7d36a156ea4f
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONGKONG 3-1T
-  network: tcp
-  port: '38913'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: b8cf9904-bdd2-4bdb-a97a-df473f395a5b
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-铜锣湾-1C
-  network: ws
-  port: '51599'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: 3ae6f509-0e53-4f6a-915b-33b73842348e
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|02-1C
-  network: tcp
-  port: '22308'
-  server: hostip1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: ab1ff380-a7aa-457f-b541-4cce38a32dfb
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港5-网页-1B
-  network: tcp
-  port: '12115'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: f28cee64-efd2-417d-a308-aab425e59bb0
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 XB-VM-HK-1D
-  network: ws
-  port: '16893'
-  server: xb-vm-hk.718181.xyz
-  tls: false
-  type: vmess
-  uuid: fa95200c-a8b5-4a43-a6e5-645d2149fa2a
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港直连-VMESS-1G
-  network: ws
-  port: '8001'
-  server: v4.nmcf.me
-  tls: false
-  type: vmess
-  uuid: 66c01b67-395c-42a2-9b42-900bbafccec8
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-1Q
-  network: tcp
-  port: '19901'
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 16004922-0972-4810-8e0a-6228ff803be2
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|18-1A
-  network: tcp
-  port: '6668'
-  server: hytrob.656888.xyz
-  tls: false
-  type: vmess
-  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HK-01 VMESS-1D
-  network: ws
-  port: '10081'
-  server: 205.198.64.79
-  tls: false
-  type: vmess
-  uuid: d1e9c92d-b419-461d-a47e-7cadb73a5c3b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-石澳-1F
-  network: ws
-  port: '51599'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: 3ae6f509-0e53-4f6a-915b-33b73842348e
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港NO.1-1B
-  network: tcp
-  port: '45050'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 9a151e63-3e73-4b03-94ae-3bf6cf205fa5
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-油尖旺-1B
-  network: ws
-  port: '51551'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: af0257ae-5cb5-4d29-a9d9-2518d2786f7a
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-湾仔-1B
-  network: ws
-  port: '45007'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: af0257ae-5cb5-4d29-a9d9-2518d2786f7a
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港05-隧道-1D
-  network: tcp
-  port: '35660'
-  server: gzdx.newbee8.me
-  tls: false
-  type: vmess
-  uuid: 51cc97a7-8b75-4072-9678-227fcbce4e46
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港3-1D
-  network: tcp
-  port: '12113'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: f28cee64-efd2-417d-a308-aab425e59bb0
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港3-1A
-  network: tcp
-  port: '56985'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: d6bd9aac-0432-4910-805e-127c59a2a45a
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|09-1H
-  network: tcp
-  port: '10211'
-  server: khanhk6.668918.xyz
-  tls: false
-  type: vmess
-  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港|隧道2-1A
-  network: tcp
-  port: '27834'
-  server: zf1.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 3ba88c3b-84f4-4328-8ba9-c51206409163
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-深水埗-1C
-  network: ws
-  port: '58789'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: 3ae6f509-0e53-4f6a-915b-33b73842348e
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港1-NF-1C
-  network: tcp
-  port: '12111'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 41805b60-1e79-4045-8eac-acbe5fe37c97
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港01-1C
-  network: tcp
-  port: '22250'
-  server: hn3x.newbee8.me
-  tls: false
-  type: vmess
-  uuid: 9f137b1f-c563-443d-9174-bb5f522a658b
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONGKONG 5-1P
-  network: tcp
-  port: '39840'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: 9760bcbc-336a-43b9-bd45-94caac586b4a
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港NO.2-1A
-  network: tcp
-  port: '45051'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: bfb5ed28-8236-4f53-a8e7-ecb3cb6ed4e7
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HK 香港1-1A
-  network: tcp
-  port: '52500'
-  server: hry100.2228333.xyz
-  tls: false
-  type: vmess
-  uuid: 1eddc6b9-c1b0-4929-9878-52250eefcc1f
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港2-1C
-  network: tcp
-  port: '27825'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-1-1B
-  network: ws
-  port: '10805'
-  server: kahk.kia-ai.com
-  tls: true
-  type: vmess
-  uuid: afd38901-b557-44a8-9e3b-8450120fdb5b
-  ws-opts:
-    headers:
-      Host: kahk.kia-ai.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|07-1A
-  network: tcp
-  port: '10506'
-  server: greenhk1.616626.xyz
-  tls: false
-  type: vmess
-  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|05 0.5x-1G
-  network: tcp
-  port: '18002'
-  server: nathk.91ai.de
-  tls: false
-  type: vmess
-  uuid: 8af8f444-e362-4e1a-bbc0-26b3aed9a004
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港8.1-1A
-  network: ws
-  port: '40328'
-  server: hk18.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 07b0cd3e-eb62-4dfd-aba8-cb3d09ab74d8
-  ws-opts:
-    headers:
-      Host: hk18.xjay.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-1L
+  name: 18|🇭🇰 香港-1D
   network: ws
   port: '34365'
   server: 47.239.40.28
   tls: false
   type: vmess
-  uuid: 0b22a6fd-1af8-4f64-b16e-7ad4c47ac055
+  uuid: 68e566d5-d584-4331-856c-2398ef189ced
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港|隧道3-1B
-  network: tcp
-  port: '27834'
-  server: zf2.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 176c7e95-463a-448a-a683-cf4563e55005
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|08-1D
-  network: tcp
-  port: '10507'
-  server: greenhk2.616626.xyz
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|04-1H
-  network: tcp
-  port: '22310'
-  server: hostip3.668918.xyz
-  tls: false
-  type: vmess
-  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|03-1A
-  network: tcp
-  port: '22309'
-  server: hostip2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|11-1C
-  network: tcp
-  port: '10022'
-  server: hkvm62.656888.xyz
-  tls: false
-  type: vmess
-  uuid: ab1ff380-a7aa-457f-b541-4cce38a32dfb
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HK-02 VMESS-1H
-  network: ws
-  port: '10081'
-  server: 205.198.65.107
-  tls: true
-  type: vmess
-  uuid: 820eb68f-3aaf-4cb4-b8ad-bcda7fa31a22
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|13-1D
-  network: tcp
-  port: '6668'
-  server: hkvm64.656888.xyz
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 仅限海外 | HONGKONG
-  network: ws
-  port: '61999'
-  server: 210.3.205.169
-  tls: false
-  type: vmess
-  uuid: 53b2ff4b-2205-41ac-b69f-23d90ca5b417
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|01-1A
-  network: tcp
-  port: '22307'
-  server: hosyun6.91ai.de
-  tls: false
-  type: vmess
-  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管-1C
-  network: ws
-  port: '20759'
-  server: hkt.littleqqq.co
-  tls: false
-  type: vmess
-  uuid: bd4f2183-0904-434a-b204-7d478840cdbb
-  ws-opts:
-    headers:
-      Host: hkt.littleqqq.co
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HK-HKT-N
-  network: ws
-  port: '58003'
-  server: vtcm.vttopysk.com
-  tls: false
-  type: vmess
-  uuid: 53b2ff4b-2205-41ac-b69f-23d90ca5b417
-  ws-opts:
-    headers:
-      Host: vtcm.vttopysk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|10-1D
-  network: tcp
-  port: '6666'
-  server: hkvm61.656888.xyz
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港1-1T
-  network: tcp
-  port: '56984'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: 9e179081-4985-4ba5-bd22-d0eedb438366
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-九龙-1B
-  network: ws
-  port: '61112'
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  uuid: af0257ae-5cb5-4d29-a9d9-2518d2786f7a
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港2-1G
-  network: tcp
-  port: '12112'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 41805b60-1e79-4045-8eac-acbe5fe37c97
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港|隧道1-1A
-  network: tcp
-  port: '27834'
-  server: zf.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 3ba88c3b-84f4-4328-8ba9-c51206409163
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HK 香港2-1B
-  network: tcp
-  port: '52501'
-  server: hry200.2228333.xyz
-  tls: false
-  type: vmess
-  uuid: c90ae897-f3a2-461f-b120-1f6c4f9cc782
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港1-1G
-  network: tcp
-  port: '27824'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港4-1F
-  network: tcp
-  port: '12114'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 98166305-6b9e-4d50-91ca-4dd99108d8b6
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-尖沙咀-1D
-  network: ws
-  port: '54325'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: 83c4b6a1-b01b-4627-b3bf-d2a066132ae1
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-观塘-1C
-  network: ws
-  port: '55197'
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  uuid: 3ae6f509-0e53-4f6a-915b-33b73842348e
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-太古城-1B
-  network: ws
-  port: '59288'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: af0257ae-5cb5-4d29-a9d9-2518d2786f7a
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港 VMESS 5x-1A
-  network: tcp
-  port: '26043'
-  server: 666100d.666811.xyz
-  tls: false
-  type: vmess
-  uuid: 45edd0f6-c634-4a57-b145-6859bf74286d
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONGKONG
-  network: ws
-  port: '53030'
-  server: next1.orz.my.id
-  tls: false
-  type: vmess
-  uuid: c2359c67-b552-44b7-8ebd-ca68fb87b806
-  ws-opts:
-    headers:
-      Host: next1.orz.my.id
     path: /
 - client-fingerprint: ios
   flow: xtls-rprx-vision

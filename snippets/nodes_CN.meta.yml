@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: '13|中国联通节点1 #1'
+  password: 3ebb9738-cf17-4af8-bc35-b1741c91e53a
+  port: 5443
+  server: 115.231.220.33
+  skip-cert-verify: true
+  sni: nodecn1.jiayinetwork.es
+  type: trojan

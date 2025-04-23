@@ -72,6 +72,72 @@ proxies:
   skip-cert-verify: false
   sni: uk.mjt000.com
   type: trojan
+- client-fingerprint: qq
+  name: '13|[vless]英国[1x]-6 #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YHFqmya5q0NpjdYNVKSFwMuwgHfGD6IFkptMVtN_v1Q
+    short-id: 67479e51
+  server: uk6.731732.xyz
+  servername: www.kcl.ac.uk
+  tls: false
+  type: vless
+  uuid: 94ba5bae-09de-4e52-8a9b-545e8b476fe9
+- alterId: 0
+  cipher: auto
+  name: '13|(隧道)英国2 #2'
+  network: tcp
+  port: '45067'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 01e72db4-26e9-417c-953a-20867bc7124f
+- alterId: 0
+  cipher: auto
+  name: '13|套餐到期：2025-04-23 #32'
+  network: tcp
+  port: '45050'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
+- alterId: 0
+  cipher: auto
+  name: '13|套餐到期：2025-04-24 #3'
+  network: tcp
+  port: '17993'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇬🇧 英国A-1B
+  network: tcp
+  port: '30343'
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+- alterId: 0
+  cipher: auto
+  name: '13|(IEPL)英国1 #2'
+  network: tcp
+  port: '45066'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+- alterId: 0
+  cipher: auto
+  name: '13|UK.英国.A #1'
+  network: tcp
+  port: '18227'
+  server: xcuk.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
 - alterId: 0
   cipher: auto
   name: 15|🇷🇺专线去油管广告
@@ -150,59 +216,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国A-1C
-  network: tcp
-  port: '30343'
-  server: 183.236.123.34
-  tls: false
-  type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国1-1A
-  network: tcp
-  port: '45066'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: bfb5ed28-8236-4f53-a8e7-ecb3cb6ed4e7
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国2-1I
-  network: tcp
-  port: '45067'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 16004922-0972-4810-8e0a-6228ff803be2
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 DATA C N L I 200 GB-1K
-  network: ws
-  port: '80'
-  server: japan.4gsieutoc.tokyo
-  tls: false
-  type: vmess
-  uuid: f0be0925-1425-4947-aa46-1ecc07270742
-  ws-opts:
-    headers:
-      Host: m.tiktok.com
-    path: /4gsieutoc.tokyo
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国家庭IP-1D
-  network: ws
-  port: '61213'
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  uuid: 83c4b6a1-b01b-4627-b3bf-d2a066132ae1
-  ws-opts:
-    headers:
-      Host: shop.1357.pics
-    path: /
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 31|🇬🇧英国伦敦

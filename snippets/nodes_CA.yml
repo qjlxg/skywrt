@@ -40,6 +40,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '13|加拿大1 #2'
+  network: tcp
+  port: '45064'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大A
+  network: tcp
+  port: '30338'
+  server: 36.151.194.33
+  tls: false
+  type: vmess
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+- alterId: 0
+  cipher: auto
+  name: '13|加拿大2 #2'
+  network: tcp
+  port: '45065'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
+- alterId: 0
+  cipher: auto
   name: 15|🇨🇦加拿大1
   network: ws
   port: '2086'
@@ -79,41 +106,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦 加拿大-多伦多-1C
-  network: ws
-  port: '57729'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: 3ae6f509-0e53-4f6a-915b-33b73842348e
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦 加拿大1-1L
-  network: tcp
-  port: '45064'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 4dac9327-ef1b-4c09-906d-d05f21588efb
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦 加拿大2-1K
-  network: tcp
-  port: '45065'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 4dac9327-ef1b-4c09-906d-d05f21588efb
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦 加拿大A-1A
+  name: 18|🇨🇦 加拿大A-1B
   network: tcp
   port: '30338'
-  server: 36.151.194.33
+  server: 117.172.176.43
   tls: false
   type: vmess
-  uuid: 047fdeef-f930-4ad5-ae96-c17e5559d73a
+  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9

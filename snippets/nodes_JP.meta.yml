@@ -70,6 +70,486 @@ proxies:
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|日本1 #2'
+  network: tcp
+  port: '50240'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: d6bd9aac-0432-4910-805e-127c59a2a45a
+- alterId: 0
+  cipher: auto
+  name: 13|日本|隧道2
+  network: tcp
+  port: '27833'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- alterId: 0
+  cipher: auto
+  name: 13|日本-v6|07
+  network: tcp
+  port: '22306'
+  server: vpsjp1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- name: '13|日本 · 1号线 · Netflix等流媒体解锁 · Cha... #4'
+  password: bedfa906-a12f-407d-a0a5-bf7f36e3b1b0
+  port: 28507
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '13|[trojan]日本[3.2x]-IIJ高端3 #3'
+  network: ws
+  password: 2c97e70a-9acf-4b8c-bfac-cbe1fa378a5a
+  port: 443
+  server: jp12.426624.xyz
+  skip-cert-verify: false
+  sni: jp12.426624.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|日本8解锁GPT
+  network: ws
+  port: '42337'
+  server: jp08.vip.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: 097cac86-3a13-4714-92c6-2c8f4fea39b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 13|🇯🇵日本VL&GTP优选
+  network: tcp
+  port: 10095
+  reality-opts:
+    public-key: PKNenZChxDZT7M7R2pE-QnV-Za84E5H2u1JNAodKXU8
+    short-id: d7625f0f
+  server: txjp.681687.xyz
+  servername: m.media-amazon.com
+  tls: false
+  type: vless
+  uuid: 63b3e3a3-84ca-4b7d-b556-5c3ddae07a8e
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '13|日本1_GPT_NF #1'
+  network: tcp
+  port: '12311'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- name: 13|Japan 2
+  password: 3d16ac05-8e42-43b2-827c-046550673615
+  port: 443
+  server: japan.4gsieutoc.tokyo
+  skip-cert-verify: true
+  sni: povo.jp
+  type: trojan
+- name: '13|日本-自用 #1'
+  password: 7bdaf099-9c72-4760-aa04-6abe4576df2f
+  port: 443
+  server: jp.xaa.app
+  skip-cert-verify: true
+  sni: jp.xaa.app
+  type: trojan
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '13|[vless]ijj+日本vless #2'
+  network: tcp
+  port: 10123
+  reality-opts:
+    public-key: ixNYkNJsH8CK8OOQ3n39ZBAGJCDSIUMJ0L7dJCg78VM
+    short-id: 0c8a7425
+  server: 666100l.666811.xyz
+  servername: www.python.org
+  tls: false
+  type: vless
+  uuid: 4e4dfd09-4fe3-41a2-8336-da47bc2e91a0
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇯🇵 日本直连-VMESS-1A
+  network: ws
+  port: '8000'
+  server: v18.nmcf.me
+  tls: false
+  type: vmess
+  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: '13|🇯🇵 Japan#3 #1'
+  network: tcp
+  port: '19015'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: 67a1b8b4-5ad3-435f-a14a-77cafe619297
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 13|日本.3+0.1x计费
+  network: tcp
+  port: 30003
+  reality-opts:
+    public-key: velpeJ47HOJRAFXdWyUEt-_3dsZFBvP2yjZMQKG6CmI
+    short-id: b285daae
+  server: jp.316999.xyz
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 5609b9fa-c6f1-4ac2-b91e-3ed777e88928
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '13|日本09【纯原生ip，解锁大多日本网站】 #2'
+  network: tcp
+  port: 33449
+  reality-opts:
+    public-key: Px0MDLOtpJbdyqt6adQ2JthNHr148q24g-cdD-tYE30
+    short-id: 0456b39d
+  server: 218.251.113.121
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: 405a2547-54d9-4509-b9af-b0583de4d82c
+- alterId: 0
+  cipher: auto
+  name: 13|日本-v6|02
+  network: tcp
+  port: '22307'
+  server: greenchais2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '13|日本01【tiktok，chatGPT】 #2'
+  network: tcp
+  port: 33443
+  reality-opts:
+    public-key: Px0MDLOtpJbdyqt6adQ2JthNHr148q24g-cdD-tYE30
+    short-id: 0456b39d
+  server: jp01.netv2.work
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: 3d66ee61-de7e-4cd4-b099-62b904a7e4f8
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '13|[vless]日本[3.2x]-IIJ高端5 #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7BxMRzPVJxiSBTmI75eiUhW4HZvRb2qWzmwTFjtRdWo
+    short-id: 853bf026
+  server: jp13.426624.xyz
+  servername: www.keio.ac.jp
+  tls: false
+  type: vless
+  uuid: 40a75de4-1071-4958-bce4-d9ddcfc3d90e
+- name: 13|2号专线 · 日本JP · 75
+  password: d9c8a390-5974-41de-9f4d-e68ad94bf4ff
+  port: 39769
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|日本3_东京 #1'
+  network: tcp
+  port: '12313'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- name: '13|日本01 #2'
+  password: b888e849-c69b-46f1-8a77-ca734195f630
+  port: 11030
+  server: greenjp2.yueyun.de
+  skip-cert-verify: true
+  sni: greenjp2.yueyun.de
+  type: trojan
+- name: 13|日本高速05
+  network: tcp
+  port: 42326
+  server: e-jp2vlksj.dongfangyihao.xyz
+  tls: false
+  type: vless
+  uuid: 3628823b-083b-4e51-9720-dfc15f990f52
+- alterId: 0
+  cipher: auto
+  name: '13|日本4_大阪 #1'
+  network: tcp
+  port: '12314'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- alterId: 0
+  cipher: auto
+  name: '13|日本02 #2'
+  network: tcp
+  port: '22253'
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  uuid: de6fde3d-6233-4cde-affb-a802eb94fe87
+- alterId: 0
+  cipher: auto
+  name: 13|日本6解锁GPT
+  network: ws
+  port: '31546'
+  server: jp066.vip.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: 097cac86-3a13-4714-92c6-2c8f4fea39b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '13|日本NO.1 #2'
+  network: tcp
+  port: '45056'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
+- alterId: 0
+  cipher: auto
+  name: 13|日本|隧道1
+  network: tcp
+  port: '27833'
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '13|[vless]日本[3.2x]-IIJ高端4 #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7BxMRzPVJxiSBTmI75eiUhW4HZvRb2qWzmwTFjtRdWo
+    short-id: 853bf026
+  server: jp10.426624.xyz
+  servername: www.juntendo.ac.jp
+  tls: false
+  type: vless
+  uuid: 2c97e70a-9acf-4b8c-bfac-cbe1fa378a5a
+- alterId: 0
+  cipher: auto
+  name: 13|日本高速06
+  network: tcp
+  port: '42327'
+  server: e-jp2vmksj.dongfangyihao.xyz
+  tls: false
+  type: vmess
+  uuid: 3628823b-083b-4e51-9720-dfc15f990f52
+- alterId: 0
+  cipher: auto
+  name: '13|日本NO.2 #2'
+  network: tcp
+  port: '45057'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇯🇵 日本-2-1B
+  network: ws
+  port: '10805'
+  server: kajpa.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: 109fc8e3-c9f9-4107-b2db-55c664b3e6af
+  ws-opts:
+    headers:
+      Host: kajpa.kia-ai.com
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '13|🇯🇵 Japan#4 #1'
+  network: tcp
+  port: 49859
+  server: svip1.pingboy.top
+  tls: false
+  type: vless
+  uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|日本-v6|01
+  network: tcp
+  port: '22306'
+  server: greenchais1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13|日本-v6|06
+  network: tcp
+  port: '22308'
+  server: greenip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇯🇵 IEPL专线-日本-1-1B
+  network: ws
+  port: '8004'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: b868df9f-83ae-4221-9c1b-bc6d9ea4ea41
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- name: '13|日本02 #1'
+  password: b888e849-c69b-46f1-8a77-ca734195f630
+  port: 13036
+  server: vpsjp.yueyun.de
+  skip-cert-verify: true
+  sni: vpsjp.yueyun.de
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇯🇵 日本-1-1A
+  network: ws
+  port: '10805'
+  server: kajp.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: 894b23cc-90ab-43b0-8baf-bb84d8f6d073
+  ws-opts:
+    headers:
+      Host: kajp.kia-ai.com
+    path: /
+- name: '13|日本（海外专用） #1'
+  password: fba3bd85-e33b-4832-b130-8d857ade6031
+  port: 32283
+  server: xj.cokecloud.top
+  skip-cert-verify: false
+  sni: xj.cokecloud.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|日本2_YTB #1'
+  network: tcp
+  port: '12312'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- alterId: 0
+  cipher: auto
+  name: 13|日本-v6|04
+  network: tcp
+  port: '22306'
+  server: greenip1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13|日本|隧道3
+  network: tcp
+  port: '27833'
+  server: zf2.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- name: 13|日本03
+  password: b888e849-c69b-46f1-8a77-ca734195f630
+  port: 10389
+  server: cloud.yueyun.de
+  skip-cert-verify: true
+  sni: cloud.yueyun.de
+  type: trojan
+- flow: xtls-rprx-vision
+  name: 13|JP-4837
+  network: tcp
+  port: 43216
+  server: node8.caaa.tech
+  tls: false
+  type: vless
+  uuid: 443553d2-e82e-4ca3-ad0d-6bd412a5c85f
+- name: '13|日本（新疆专用测试） #1'
+  password: fba3bd85-e33b-4832-b130-8d857ade6031
+  port: 32283
+  server: xjtf.cokecloud.top
+  skip-cert-verify: false
+  sni: xj.cokecloud.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|日本03-隧道 #1'
+  network: tcp
+  port: '35662'
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  uuid: 51cc97a7-8b75-4072-9678-227fcbce4e46
+- alterId: 0
+  cipher: auto
+  name: 13|日本-v6|05
+  network: tcp
+  port: '22307'
+  server: greenip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 13|日本A 客服邮箱 christchen517@gmail.c...
+  network: tcp
+  port: '30333'
+  server: 36.151.194.33
+  tls: false
+  type: vmess
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+- alterId: 0
+  cipher: auto
+  name: '13|日本5 #2'
+  network: tcp
+  port: '50241'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: d6bd9aac-0432-4910-805e-127c59a2a45a
+- name: 13|Azure+SJP
+  network: tcp
+  port: 51234
+  server: node3.caaa.tech
+  tls: false
+  type: vless
+  uuid: 443553d2-e82e-4ca3-ad0d-6bd412a5c85f
 - name: 15|🇯🇵日本 01 | 专线
   network: tcp
   password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
@@ -192,378 +672,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本03-隧道-1J
-  network: tcp
-  port: '35662'
-  server: gzdx.newbee8.me
-  tls: false
-  type: vmess
-  uuid: 418ef2bd-fc0b-4a4b-9872-15e82f134743
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本2-1N
-  network: tcp
-  port: '27827'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: ed7199b7-acc2-4db9-99fe-6e31cd8b574a
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本直连-VMESS-1D
-  network: ws
-  port: '8000'
-  server: v18.nmcf.me
-  tls: false
-  type: vmess
-  uuid: 64bbaa0f-0e1b-423a-a52e-a3e79ba1a44e
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|04-1J
-  network: tcp
-  port: '22306'
-  server: greenip1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 085c017d-225f-4382-ac5d-2834dc063a54
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本1-NF-1F
-  network: tcp
-  port: '12311'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 98166305-6b9e-4d50-91ca-4dd99108d8b6
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 1-1S
-  network: tcp
-  port: '19015'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: 76ecfbb1-2e76-46eb-a6eb-c9130f9090a4
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 IEPL专线-日本-1-1R
-  network: ws
-  port: '8004'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: 676f113d-f2ab-4fa5-9b2b-43428a489e56
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本|隧道2-1B
-  network: tcp
-  port: '27833'
-  server: zf1.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 176c7e95-463a-448a-a683-cf4563e55005
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本NO.1-1F
-  network: tcp
-  port: '45056'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本VULTR1-1R
-  network: ws
-  port: '443'
-  server: www.visa.com
-  tls: true
-  type: vmess
-  uuid: 4d3e162b-0c1a-47e4-98c2-1d8c4610ac73
-  ws-opts:
-    headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-大阪-1A
-  network: ws
-  port: '53229'
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  uuid: 0c0ea6a8-ce77-47c7-b484-324543e8556d
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本3-东京-1D
-  network: tcp
-  port: '12313'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: b2a5a93f-6369-400d-9f24-4f1e40d0bbe0
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本V-1R
-  network: ws
-  port: '443'
-  server: bookmyshow.com
-  tls: true
-  type: vmess
-  uuid: 4d3e162b-0c1a-47e4-98c2-1d8c4610ac73
-  ws-opts:
-    headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-1-1J
-  network: ws
-  port: '10805'
-  server: kajp.kia-ai.com
-  tls: true
-  type: vmess
-  uuid: b538250f-6b88-49f2-a7d1-76f27501f822
-  ws-opts:
-    headers:
-      Host: kajp.kia-ai.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|02-1G
-  network: tcp
-  port: '22307'
-  server: greenchais2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 8af8f444-e362-4e1a-bbc0-26b3aed9a004
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|05-1E
-  network: tcp
-  port: '22307'
-  server: greenip2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本8解锁-1B
-  network: ws
-  port: '42337'
-  server: jp08.vip.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 91ab176a-15e5-4be2-b4d4-a98c03a676d4
-  ws-opts:
-    headers:
-      Host: jp08.vip.xjay.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本NO.2-1E
-  network: tcp
-  port: '45057'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 6c9d55cb-3733-4596-affa-5e6e24b07476
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本软银独立服务器-1G
-  network: ws
-  port: '443'
-  server: jp-s1.bitfat.top
-  tls: true
-  type: vmess
-  uuid: f2b4e8b3-1c63-4532-8255-1cfb273593b5
-  ws-opts:
-    headers:
-      Host: jp-s1.bitfat.top
-    path: /bitfat
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|06-1D
-  network: tcp
-  port: '22308'
-  server: greenip3.668918.xyz
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本1-1L
-  network: tcp
-  port: '27846'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 9b486836-c35b-4bf4-a696-b33c5d715e82
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|07-1B
-  network: tcp
-  port: '22306'
-  server: vpsjp1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-名古屋-1D
-  network: ws
-  port: '53129'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: 83c4b6a1-b01b-4627-b3bf-d2a066132ae1
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-2-1F
-  network: ws
-  port: '10805'
-  server: kajpa.kia-ai.com
-  tls: true
-  type: vmess
-  uuid: 264c6c34-388a-48b7-ac29-e9ce887bea7c
-  ws-opts:
-    headers:
-      Host: kajpa.kia-ai.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本5-1x
-  network: tcp
-  port: '50241'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: 9e179081-4985-4ba5-bd22-d0eedb438366
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本01-1O
-  network: tcp
-  port: '22253'
-  server: hn3x.newbee8.me
-  tls: false
-  type: vmess
-  uuid: c2ee4f97-abc0-49cb-b30a-d62a028d5046
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本|隧道1-1D
-  network: tcp
-  port: '27833'
-  server: zf.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 00f85384-6340-4a51-820e-71f01928fe75
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-秋田-1D
-  network: ws
-  port: '56432'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: 83c4b6a1-b01b-4627-b3bf-d2a066132ae1
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 东京倍率5x-1D
-  network: tcp
-  port: '25081'
-  server: 666100c.666811.xyz
-  tls: false
-  type: vmess
-  uuid: 44e2177d-9257-4417-8a93-2c9e0e6cbc7d
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本4-大阪-1A
-  network: tcp
-  port: '12314'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: a04aaeb5-5773-43a6-baf5-81496ae7388d
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本2-YTB-1E
-  network: tcp
-  port: '12312'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 3e43641a-c134-4b6c-98ee-6cfb4f4a19a9
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本1-1B
-  network: tcp
-  port: '50240'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: a4c41c82-e02b-48d2-abd2-ca1b1d1787e5
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|01-1B
-  network: tcp
-  port: '22306'
-  server: greenchais1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本|隧道3-1B
-  network: tcp
-  port: '27833'
-  server: zf2.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 176c7e95-463a-448a-a683-cf4563e55005
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本6解锁-1B
-  network: ws
-  port: '31546'
-  server: jp066.vip.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 91ab176a-15e5-4be2-b4d4-a98c03a676d4
-  ws-opts:
-    headers:
-      Host: jp066.vip.xjay.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本高速06-1B
-  network: tcp
-  port: '42327'
-  server: e-jp2vmksj.dongfangyihao.xyz
-  tls: false
-  type: vmess
-  uuid: fa89be4a-68af-4e79-bf9a-3aff2b1682b4
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 31|🇯🇵AWS日本东京01 | 高速专线推荐

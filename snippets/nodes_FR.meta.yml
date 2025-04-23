@@ -1,77 +1,64 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷 法国1-巴黎-1A
-  network: tcp
-  port: '12718'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: a04aaeb5-5773-43a6-baf5-81496ae7388d
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷 法国2-巴黎-1C
-  network: tcp
-  port: '12719'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 41805b60-1e79-4045-8eac-acbe5fe37c97
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷 法国3-马赛-1B
-  network: tcp
-  port: '12720'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: f28cee64-efd2-417d-a308-aab425e59bb0
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷 法国1-1E
-  network: tcp
-  port: '45072'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 6c9d55cb-3733-4596-affa-5e6e24b07476
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷 法国-1C
-  network: tcp
-  port: '27835'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷 法国2-1J
+  name: '13|法国2 #2'
   network: tcp
   port: '45071'
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: ba284bf1-848b-4617-919b-f2ef06d2e7f5
+  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷 专线-法国-1B
-  network: ws
-  port: '45418'
-  server: 183.240.228.220
+  name: '13|FR.法国.A #1'
+  network: tcp
+  port: '15468'
+  server: frtf.cokecloud.top
   tls: false
   type: vmess
-  uuid: af0257ae-5cb5-4d29-a9d9-2518d2786f7a
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
+  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷 法国A-1B
+  name: '13|法国2-巴黎 #1'
+  network: tcp
+  port: '12719'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- alterId: 0
+  cipher: auto
+  name: '13|法国1-巴黎 #1'
+  network: tcp
+  port: '12718'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- alterId: 0
+  cipher: auto
+  name: '13|法国3-马赛 #1'
+  network: tcp
+  port: '12720'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- alterId: 0
+  cipher: auto
+  name: '13|法国1 #2'
+  network: tcp
+  port: '45072'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 01e72db4-26e9-417c-953a-20867bc7124f
+- alterId: 0
+  cipher: auto
+  name: 13,18|🇫🇷 法国A-1B
   network: tcp
   port: '30344'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 577bebba-dd9a-4918-a677-456b63493e36
+  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
