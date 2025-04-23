@@ -1,39 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 IEPL专线-韩国-1-1C
-  network: ws
-  port: '8002'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
-  ws-opts:
-    headers:
-      Host: v7.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国-1B
+  name: 18|🇰🇷 韩国-1U
   network: tcp
   port: '27842'
   server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: ed7199b7-acc2-4db9-99fe-6e31cd8b574a
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国 01 | WS
-  network: ws
-  port: '20000'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
 - alterId: 0
   cipher: auto
   name: 18|🇰🇷 韩国 02 | TCP
@@ -55,6 +29,19 @@ proxies:
   ws-opts:
     headers:
       Host: seoul-1ddns.aboutanime.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国 01 | WS
+  network: ws
+  port: '20000'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto

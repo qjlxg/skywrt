@@ -150,70 +150,101 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡直连-VMESS-1H
-  network: ws
-  port: '8000'
-  server: v7.nmcf.me
-  tls: false
-  type: vmess
-  uuid: 48f9974a-5f99-4e35-a029-eba20d508571
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 SINGAPORE 1-1B
-  network: tcp
-  port: '28673'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: 0440c5ff-64ea-4628-ab6c-fb2e65f6d2ed
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡CF-1B
-  network: ws
-  port: '80'
-  server: time.is
-  tls: false
-  type: vmess
-  uuid: 8902c631-67f6-43ee-b096-618f0f73e471
-  ws-opts:
-    headers:
-      Host: mgsg2.zhousi.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1E
+  name: 18|🇸🇬 新加坡-2O
   network: ws
   port: '32919'
   server: 47.236.119.64
   tls: false
   type: vmess
-  uuid: 03e48087-0bb9-4eff-b9c5-56d8fca88d17
+  uuid: 2ef5602e-f9e2-4063-b5a7-67bbb14052c5
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 IEPL专线-新加坡-1-1J
+  name: 18|🇸🇬 SINGAPORE 1-1L
+  network: tcp
+  port: '28673'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: 58ec8679-46d2-4350-9360-1cebc0771444
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡-3D
+  network: tcp
+  port: '27838'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡-1R
+  network: ws
+  port: '33441'
+  server: 47.236.119.64
+  tls: false
+  type: vmess
+  uuid: 693fe1e0-6f86-4513-a69f-3fd127a8b44b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡直连-VMESS-1Y
+  network: ws
+  port: '8000'
+  server: v7.nmcf.me
+  tls: false
+  type: vmess
+  uuid: 64841534-0e32-452e-a038-c443fe1fdef0
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡CF-1G
+  network: ws
+  port: '80'
+  server: time.is
+  tls: false
+  type: vmess
+  uuid: a0656826-bfc3-4ec9-bb92-7139cbdb1a04
+  ws-opts:
+    headers:
+      Host: mgsg2.zhousi.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡 03 | TCP
+  network: tcp
+  port: '80'
+  server: 09950cba-4d03-9ef3-38fd-f9078fae743e.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 IEPL专线-新加坡-1-1B
   network: ws
   port: '8001'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: 518259b4-a47c-4371-8999-92492d667b02
+  uuid: c46e91a7-9cd6-49e4-896a-cee08cfb92a2
   ws-opts:
     headers:
       Host: v3.nmcf.me
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡-2D
+  name: 18|🇸🇬 新加坡-2L
   network: ws
-  port: '33441'
+  port: '35888'
   server: 47.236.119.64
   tls: false
   type: vmess
@@ -222,37 +253,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1Q
-  network: ws
-  port: '35888'
-  server: 47.236.119.64
-  tls: false
-  type: vmess
-  uuid: 1eb270d5-d38a-4e69-ad6b-ef49ff3c1dc0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡 04 | TCP
-  network: tcp
-  port: '80'
-  server: bc81e2ce-d674-41f8-0ee5-259c589d48d3.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1D
-  network: tcp
-  port: '27838'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: ed7199b7-acc2-4db9-99fe-6e31cd8b574a
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬 SINGAPORE 6-1A
@@ -268,65 +268,13 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 SINGAPORE 4-1A
-  network: ws
-  port: '443'
-  server: 8.222.180.229
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 SINGAPORE 14
-  network: ws
-  port: '8443'
-  server: 104.129.164.255
-  tls: true
-  type: vmess
-  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
-  ws-opts:
-    headers:
-      Host: lax2.ibgfw.top
-    path: /dyajvws
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡 01 | WS
-  network: ws
-  port: '80'
-  server: 06809388-302a-29e7-ec15-006f5353d530.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡 03 | TCP
+  name: 18|🇸🇬 新加坡 04 | TCP
   network: tcp
   port: '80'
-  server: 09950cba-4d03-9ef3-38fd-f9078fae743e.castlepeakhospital.moe
+  server: bc81e2ce-d674-41f8-0ee5-259c589d48d3.castlepeakhospital.moe
   tls: false
   type: vmess
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡 02 | WS
-  network: ws
-  port: '80'
-  server: 0989a4f1-856a-4d0b-530b-aed9bf289ad8.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬 SINGAPORE 13
@@ -355,6 +303,19 @@ proxies:
     path: /sg1vmess
 - alterId: 0
   cipher: auto
+  name: 18|🇸🇬 新加坡 01 | WS
+  network: ws
+  port: '80'
+  server: 06809388-302a-29e7-ec15-006f5353d530.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 18|🇸🇬 SINGAPORE 5-1A
   network: ws
   port: '443'
@@ -366,3 +327,42 @@ proxies:
     headers:
       Host: sg25.jnstore.biz.id
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 SINGAPORE 4-1A
+  network: ws
+  port: '443'
+  server: 8.222.180.229
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 SINGAPORE 14
+  network: ws
+  port: '8443'
+  server: 104.129.164.255
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡 02 | WS
+  network: ws
+  port: '80'
+  server: 0989a4f1-856a-4d0b-530b-aed9bf289ad8.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /

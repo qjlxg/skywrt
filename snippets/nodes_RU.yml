@@ -34,15 +34,6 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯 02 | TCP
-  network: tcp
-  port: '20023'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
   name: 18|🇷🇺 俄罗斯 01 | WS
   network: ws
   port: '20022'
@@ -54,3 +45,12 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇷🇺 俄罗斯 02 | TCP
+  network: tcp
+  port: '20023'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
