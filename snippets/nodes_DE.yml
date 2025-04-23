@@ -27,81 +27,81 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国-V6|02 0.5x-1D
+  name: 18|🇩🇪 德国-V6|02 0.5x-1H
   network: tcp
   port: '22306'
   server: netcp2.616626.xyz
   tls: false
   type: vmess
-  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
+  uuid: ab1ff380-a7aa-457f-b541-4cce38a32dfb
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国1-1C
-  network: tcp
-  port: '12714'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|01 0.5x-1A
-  network: tcp
-  port: '22305'
-  server: netcp1.616626.xyz
-  tls: false
-  type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|03 0.5x-1A
+  name: 18|🇩🇪 德国-V6|03 0.5x-1F
   network: tcp
   port: '22307'
   server: netcp3.616626.xyz
   tls: false
   type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国2-1C
-  network: tcp
-  port: '12715'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国 AK CDN直连-1B
-  network: ws
-  port: '443'
-  server: akdev6.12ip.cc
-  tls: false
-  type: vmess
-  uuid: 0ddd8300-6637-4093-8516-da2b4aa16ccf
-  ws-opts:
-    headers:
-      Host: akdev6.12ip.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 专线-德国-1D
+  name: 18|🇩🇪 专线-德国-1B
   network: ws
   port: '58610'
   server: 183.240.228.220
   tls: false
   type: vmess
-  uuid: be31f8df-e968-417f-9138-cf5167e3f311
+  uuid: 4380d3f6-504d-4d0c-963b-4b8f99773273
   ws-opts:
     headers:
       Host: www.baidu.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国A
+  name: 18|🇩🇪 德国-V6|01 0.5x-1B
+  network: tcp
+  port: '22305'
+  server: netcp1.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国A-1A
   network: tcp
   port: '30341'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 8f83bd9c-e067-422d-9633-c5f9ffe917ae
+  uuid: f56a198b-5aa3-400b-865a-30484a3fe831
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国 AK CDN直连-1A
+  network: ws
+  port: '443'
+  server: akdev6.12ip.cc
+  tls: false
+  type: vmess
+  uuid: 7230cbe3-df6a-4900-8943-4fdc14bf0545
+  ws-opts:
+    headers:
+      Host: akdev6.12ip.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国1-1B
+  network: tcp
+  port: '12714'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: b2a5a93f-6369-400d-9f24-4f1e40d0bbe0
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国2-1B
+  network: tcp
+  port: '12715'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: b2a5a93f-6369-400d-9f24-4f1e40d0bbe0

@@ -15,58 +15,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '7,15|🇷🇺专线去油管广告 #1'
-  network: ws
-  port: '80'
-  server: eedp257bubu2wefy3.lovebaipiao.net
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇬🇧英国1丨ChatGpt #1'
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇬🇧英国2丨ChatGpt #1'
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇬🇧英国3丨ChatGpt #1'
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '11,15|日本-优化 #1'
   network: ws
   port: '16617'
@@ -124,6 +72,58 @@ proxies:
   skip-cert-verify: false
   sni: uk.mjt000.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 15|🇷🇺专线去油管广告
+  network: ws
+  port: '80'
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  name: 15|🇬🇧英国1丨ChatGpt
+  network: ws
+  port: '2086'
+  server: cdn1.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇬🇧英国2丨ChatGpt
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇬🇧英国3丨ChatGpt
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
 - name: 15|🇬🇧英国
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10210
@@ -152,26 +152,22 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国家庭IP-1B
-  network: ws
-  port: '61213'
-  server: 183.240.180.26
-  tls: false
-  type: vmess
-  uuid: bb947624-b0b6-4fc2-b52e-2612b4103804
-  ws-opts:
-    headers:
-      Host: shop.1357.pics
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国2-1C
+  name: 18|🇬🇧 英国2-1E
   network: tcp
   port: '45067'
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 78c091af-84cf-4d21-af3c-2a561493b8db
+  uuid: 16004922-0972-4810-8e0a-6228ff803be2
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国1-1J
+  network: tcp
+  port: '45066'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: ba284bf1-848b-4617-919b-f2ef06d2e7f5
 - alterId: 0
   cipher: auto
   name: 18|🇬🇧 DATA C N L I 200 GB-1G
@@ -180,29 +176,33 @@ proxies:
   server: japan.4gsieutoc.tokyo
   tls: false
   type: vmess
-  uuid: 6750945e-b902-4b5f-9150-fefe562e1cb0
+  uuid: 17b550ad-0a71-44a9-ad4b-f2d3cb667008
   ws-opts:
     headers:
       Host: m.tiktok.com
     path: /4gsieutoc.tokyo
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国A
+  name: 18|🇬🇧 英国家庭IP-1A
+  network: ws
+  port: '61213'
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  uuid: fd7c562e-03c4-47cb-9ad5-83cd2f44bcb2
+  ws-opts:
+    headers:
+      Host: shop.1357.pics
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国A-1C
   network: tcp
   port: '30343'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 8f83bd9c-e067-422d-9633-c5f9ffe917ae
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国1-1C
-  network: tcp
-  port: '45066'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 78c091af-84cf-4d21-af3c-2a561493b8db
+  uuid: 047fdeef-f930-4ad5-ae96-c17e5559d73a
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 31|🇬🇧英国伦敦
