@@ -1457,8 +1457,7 @@ proxies:
   tls: false
   type: vmess
   uuid: aa825895-0ae4-4b26-916e-e7dad4f57128
-- client-fingerprint: safari
-  name: 15,29|🇸🇬新加坡01/1x
+- name: 15|🇸🇬新加坡01
   network: tcp
   port: 13533
   reality-opts:
@@ -1469,7 +1468,7 @@ proxies:
   tls: false
   type: vless
   uuid: b19c4375-d847-4c40-9824-4767c88b5f38
-- client-fingerprint: edge
+- client-fingerprint: qq
   name: 15,29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
@@ -1495,7 +1494,7 @@ proxies:
   skip-cert-verify: false
   sni: www.jucer001.click
   type: trojan
-- name: 15,29|🇮🇳印度/1x
+- name: 15|🇮🇳印度
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10240
   server: www.hk-jd.top
@@ -4623,10 +4622,17 @@ proxies:
   uuid: 9648df03-d99e-476c-be23-1969f807f738
 - name: 29|🇿🇦南非/1x
   password: b19c4375-d847-4c40-9824-4767c88b5f38
-  port: 10890
+  port: 10900
   server: www.jucer001.click
   skip-cert-verify: false
   sni: www.jucer001.click
+  type: trojan
+- name: 29|🇮🇳印度/1x
+  password: b19c4375-d847-4c40-9824-4767c88b5f38
+  port: 10250
+  server: www.hk-jd.top
+  skip-cert-verify: false
+  sni: www.hk-jd.top
   type: trojan
 - flow: xtls-rprx-vision
   name: 31|🇸🇬AWS新加坡01 | 高速专线推荐
