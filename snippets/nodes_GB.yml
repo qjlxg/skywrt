@@ -74,60 +74,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '13|(隧道)英国2 #2'
-  network: tcp
-  port: '45067'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 01e72db4-26e9-417c-953a-20867bc7124f
-- alterId: 0
-  cipher: auto
-  name: '13|套餐到期：2025-04-23 #32'
-  network: tcp
-  port: '45050'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇭🇰 HONGKONG 1-1E
-  network: tcp
-  port: '17993'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: a97cfa17-c8a4-418e-8f26-8adb46b67b4a
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇬🇧 英国A-1B
-  network: tcp
-  port: '30343'
-  server: 183.236.123.34
-  tls: false
-  type: vmess
-  uuid: eb4fb9f1-0a41-484a-ad1e-feebf69da309
-- alterId: 0
-  cipher: auto
-  name: '13|(IEPL)英国1 #2'
-  network: tcp
-  port: '45066'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
-- alterId: 0
-  cipher: auto
-  name: '13|UK.英国.A #1'
-  network: tcp
-  port: '18227'
-  server: xcuk.cokecloud.top
-  tls: false
-  type: vmess
-  uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
-- alterId: 0
-  cipher: auto
   name: 15|🇷🇺专线去油管广告
   network: ws
   port: '80'
@@ -187,7 +133,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 DATA C N L I 200 GB-1C
+  name: 18|🇬🇧 英国A-1A
+  network: tcp
+  port: '30343'
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 DATA C N L I 200 GB-1H
   network: ws
   port: '80'
   server: japan.4gsieutoc.tokyo
@@ -198,15 +153,54 @@ proxies:
     headers:
       Host: m.tiktok.com
     path: /4gsieutoc.tokyo
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 18|🇬🇧 英国 02 | TCP
-  network: tcp
-  port: '20033'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  name: 18|🇬🇧 英国1-1E
+  network: ws
+  port: '23605'
+  server: 5.mamamajd.site
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: fba24df7-63b9-37e8-a6dc-73a68567b6cd
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国-北京隧道-1C
+  network: tcp
+  port: '13801'
+  server: cu21.kuxueyun.com
+  tls: false
+  type: vmess
+  uuid: de505435-b8a1-4b1f-a6df-06c4f19341d0
+- alterId: 2
+  cipher: auto
+  name: 18|🇬🇧 英国2-1B
+  network: ws
+  port: '23613'
+  server: 13.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: b827df7a-dca7-3267-89ec-1e8c568a5a8b
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 18|🇬🇧 英国 高速T
+  network: ws
+  port: '32012'
+  server: gzyd.talends.top
+  tls: true
+  type: vmess
+  uuid: e0c583d9-0cca-3779-8c23-d2268e7b655e
+  ws-opts:
+    headers:
+      Host: gbispv.cloudbb.cyou
+    path: /v2ray
 - alterId: 0
   cipher: auto
   name: 18|🇬🇧 英国 01 | WS
@@ -222,10 +216,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国-北京隧道
+  name: 18|🇬🇧 英国 02 | TCP
   network: tcp
-  port: '13801'
-  server: cu21.kuxueyun.com
+  port: '20033'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
   tls: false
   type: vmess
-  uuid: de505435-b8a1-4b1f-a6df-06c4f19341d0
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d

@@ -27,92 +27,44 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13,18|🇩🇪 德国-V6|02 0.5x-1C
+  name: 18|🇩🇪 德国 02 | TCP
   network: tcp
-  port: '22306'
-  server: netcp2.616626.xyz
+  port: '20031'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
   tls: false
   type: vmess
-  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 13,18|🇩🇪 德国-V6|01 0.5x-1A
+  name: 18|🇩🇪 德国-V6|01 0.5x-1C
   network: tcp
   port: '22305'
   server: netcp1.616626.xyz
   tls: false
   type: vmess
   uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: '13|德国1 #1'
-  network: tcp
-  port: '12714'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- alterId: 0
-  cipher: auto
-  name: 13|🇩🇪 德国(ipv6)AK CDN直连
+  name: 18|🇩🇪 德国2-1B
   network: ws
-  port: '443'
-  server: akdev6.12ip.cc
+  port: '23618'
+  server: 18.mamamajd.site
   tls: false
   type: vmess
-  uuid: 209666f4-4851-463d-b76b-462805e9f843
+  uuid: b827df7a-dca7-3267-89ec-1e8c568a5a8b
   ws-opts:
     headers:
-      Host: ''
+      Host: 18.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
-  name: '13|德国2 #1'
+  name: 18|🇩🇪 德国-V6|02 0.5x-1E
   network: tcp
-  port: '12715'
-  server: xxx.btmbxxx.top
+  port: '22306'
+  server: netcp2.616626.xyz
   tls: false
   type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇩🇪 德国-V6|03 0.5x-1C
-  network: tcp
-  port: '22307'
-  server: netcp3.616626.xyz
-  tls: false
-  type: vmess
-  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
-- alterId: 0
-  cipher: auto
-  name: 13|[vmess]德国[0.75x]-福利
-  network: ws
-  port: '80'
-  server: decf1.426624.xyz
-  servername: bing.com
-  tls: false
-  type: vmess
-  uuid: 40a75de4-1071-4958-bce4-d9ddcfc3d90e
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: 13|【德国06】*0.5倍率
-  password: b888e849-c69b-46f1-8a77-ca734195f630
-  port: 10027
-  server: netcp4.616626.xyz
-  skip-cert-verify: true
-  sni: netcp4.616626.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇩🇪 德国A-1A
-  network: tcp
-  port: '30341'
-  server: 183.236.123.34
-  tls: false
-  type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
 - alterId: 0
   cipher: auto
   name: 18|🇩🇪 德国 AK CDN直连-1C
@@ -121,7 +73,7 @@ proxies:
   server: akdev6.12ip.cc
   tls: false
   type: vmess
-  uuid: 874ef57e-c8e0-4ea5-beb8-f2acfbc98b0f
+  uuid: c4f2ed81-290b-4b1c-a169-9942e2d88fbe
   ws-opts:
     headers:
       Host: akdev6.12ip.cc
@@ -141,6 +93,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 18|🇩🇪 德国-V6|03 0.5x-1B
+  network: tcp
+  port: '22307'
+  server: netcp3.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国A-1F
+  network: tcp
+  port: '30341'
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国-北京隧道-1C
+  network: tcp
+  port: '13802'
+  server: cu21.kuxueyun.com
+  tls: false
+  type: vmess
+  uuid: de505435-b8a1-4b1f-a6df-06c4f19341d0
+- alterId: 2
+  cipher: auto
+  name: 18|🇩🇪 德国1-1B
+  network: ws
+  port: '23616'
+  server: 16.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: b827df7a-dca7-3267-89ec-1e8c568a5a8b
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
   name: 18|🇩🇪 德国01-免费
   network: ws
   port: '2096'
@@ -152,21 +144,3 @@ proxies:
     headers:
       Host: de01.sh-cloudflare.sbs
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-北京隧道
-  network: tcp
-  port: '13802'
-  server: cu21.kuxueyun.com
-  tls: false
-  type: vmess
-  uuid: de505435-b8a1-4b1f-a6df-06c4f19341d0
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国 02 | TCP
-  network: tcp
-  port: '20031'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
