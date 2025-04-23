@@ -1,27 +1,11 @@
-# ============================================================
-# 配置文件的语法：
-# 行首的 '#' 表示此行为注释。
-# 行首的 '!' 表示这行订阅在国内下载不了。
-# 行首的 '+' 表示这行订阅的 URL 带有动态内容，其中：
-#     +date 表示 URL 中含有需动态填入的日期。
-# 行首的 '*' 表示这是一个订阅列表，即这个文件中的每一行又是一个订阅
-# 行末可以在 '#' 后添加参数，格式为常规 URL 格式，如 '#max=100&ignore=vmess,ss'
-#     其中 max=N 表示如果订阅提供的订阅多于 N 个则忽略订阅，
-#     ignore=A,B,C 表示忽略其中协议为 A,B 或 C 的节点。
-# 一行 'EOF' 表示配置文件结束，忽略下方所有内容。
-# ============================================================
-
-
 https://raw.githubusercontent.com/qjlxg/aggregator/refs/heads/main/data/all_clash.txt
 https://raw.githubusercontent.com/qjlxg/aggregator/refs/heads/main/data/api.txt
 https://raw.githubusercontent.com/qjlxg/aggregator/refs/heads/main/data/clash.yaml
 https://raw.githubusercontent.com/qjlxg/aggregator/refs/heads/main/data/transporter.txt
 https://raw.githubusercontent.com/qjlxg/aggregator/refs/heads/main/data/v2ray.txt
 https://raw.githubusercontent.com/qjlxg/aggregator/refs/heads/main/Long_term_subscription_num
-
 https://youyou.ccwink.cc/api/v1/client/subscribe?token=9ebe9b4d863e829da2e683dc735d22cc
 https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=58ffc435baffaca5119da2d78d67201f
-https://youyou.ccwink.cc/api/v1/client/subscribe?token=9ebe9b4d863e829da2e683dc735d22cc
 https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=51afccb0e19f977d2d6c73f0b71a53b1
 https://sub.eyujichang.com/api/v1/client/subscribe?token=0c7b2b8bb2e443bd5e86bc3efd66ddbd
 https://sub.666676666.xyz/api/v1/client/subscribe?token=ce8487fbcd54181a091015a03d5bd5f4
@@ -36,15 +20,6 @@ https://6yb3xq.dness.top/api/v1/client/subscribe?token=806af1bab2cc27eb02c2cf9ec
 https://9lkyfh.babaivip.top/api/v1/client/subscribe?token=0631b0e70e123fd5c1bb9ff2bff2cda6
 https://anft4s.cluobotu.xyz/api/v1/client/subscribe?token=8dd1ac6ebbad08764e2514382043ed1b
 https://sub.bxy.org.uk/api/v1/client/subscribe?token=e57e0cae5405ee66d3eb9059a4e7e13a&
-https://xship.top/v1/subscribe?starlink=sH-dNCXpq8RiI_PeL6Mr4lMT
-https://ts.xship.top/v1/subscribe?starlink=mSIusSz2Ku3YUWxB85cQa 
-https://xship.top/v1/subscribe?starlink=V3bDL91w89Uh5n65tXawOrHt
-https://xship.top/v1/subscribe?starlink=drpkx0fKv4I9AF4j2i2MH2Op
-https://xship.top/v1/subscribe?starlink=dqxLsBV3LitAt8Jwux5IRn7m
-https://xship.top/v1/subscribe?starlink=Jglkr9T9iNYDipZzxH8nRJhA
-https://xship.top/v1/subscribe?starlink=qaKSC44T83EOPpgCSR030vSH
-https://xship.top/v1/subscribe?starlink=_RP5WBvhkvkfK72mu4gwgQtv
-https://xship.top/v1/subscribe?starlink=smart@vx9RERFgw2WzURK1cQcRYW5K
 https://taibai0201.xn--8stx8olrwkucjq3b.com/api/v1/client/subscribe?token=21ac84a01cda936ab265d55efe1c6088#250328
 https://fn1.595780.xyz/api/v1/client/subscribe?token=283ba0a08745237e6e1507150261fbac
 https://kf2d8j.longonesub.xyz/api/v1/client/subscribe?token=751c31198bdd867e505edac3fb45d01d
@@ -57,4 +32,3 @@ https://subapi01.qytsublink.com/api/v1/client/subscribe?token=98966ee683b1723b46
 https://taibai0201.xn--8stx8olrwkucjq3b.com/api/v1/client/subscribe?token=4919dfdeb531db90d8bcb99bd2bc5950
 https://uthz8n.dness.top/api/v1/client/subscribe?token=806af1bab2cc27eb02c2cf9ec1e9f7b9
 https://yx5je8.fluobotu.xyz/api/v1/client/subscribe?token=8dd1ac6ebbad08764e2514382043ed1b
-
