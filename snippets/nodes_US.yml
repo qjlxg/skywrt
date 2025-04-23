@@ -45,462 +45,6 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 美国直连-VMESS-1H
-  network: ws
-  port: '8002'
-  server: v5.nmcf.me
-  tls: false
-  type: vmess
-  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- name: 13|美国07
-  password: b888e849-c69b-46f1-8a77-ca734195f630
-  port: 10021
-  server: vir694.189.ovh
-  skip-cert-verify: true
-  sni: vir694.189.ovh
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 美国01-1U
-  network: tcp
-  port: '22255'
-  server: hn3x.newbee8.me
-  tls: false
-  type: vmess
-  uuid: a6469eb9-94a9-4665-b350-e4b5b3bed32d
-- alterId: 0
-  cipher: auto
-  name: '13|美国NO.2（GPT） #2'
-  network: tcp
-  port: '45053'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
-- alterId: 0
-  cipher: auto
-  name: '13|美国2 #2'
-  network: tcp
-  port: '42970'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: d6bd9aac-0432-4910-805e-127c59a2a45a
-- name: '13|美国 · 1号线 · Netflix等流媒体解锁 · Cha... #4'
-  password: 0554678e-19e8-46b2-bd10-60731d10ec9f
-  port: 28506
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 UNITED STATES 1-1J
-  network: tcp
-  port: '15327'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 美国原生02-1B
-  network: tcp
-  port: '35659'
-  server: gzdx.newbee8.me
-  tls: false
-  type: vmess
-  uuid: 4ff3a755-ebd2-4b07-b39f-a2bf59c1ba5d
-- alterId: 0
-  cipher: auto
-  name: '13|美国6_阿什本 #1'
-  network: tcp
-  port: '12516'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- alterId: 0
-  cipher: auto
-  name: '13|美国NO.1（GPT） #2'
-  network: tcp
-  port: '45052'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
-- name: 13|美国04
-  password: b888e849-c69b-46f1-8a77-ca734195f630
-  port: 10021
-  server: layercloud.189.ovh
-  skip-cert-verify: true
-  sni: layercloud.189.ovh
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '13|美国3 #1'
-  network: tcp
-  port: '12513'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
-- name: '13|美国01 #1'
-  password: b888e849-c69b-46f1-8a77-ca734195f630
-  port: 10026
-  server: vir732.189.ovh
-  skip-cert-verify: true
-  sni: vir732.189.ovh
-  type: trojan
-- name: '13|美国[04] #1'
-  password: b4cf1cc5-ec85-41db-9659-a3e6af4a31b7
-  port: 658
-  server: 45.83.140.22
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 美国-V6|01-1B
-  network: tcp
-  port: '22308'
-  server: crun6.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: 666100k.666811.xyz
-  name: 13,18|🇺🇸 美国 GRCP-1G
-  network: grpc
-  port: '8443'
-  server: 666100k.666811.xyz
-  servername: 666100k.666811.xyz
-  tls: true
-  type: vmess
-  uuid: 89f54c0a-ab12-4053-af29-6dcd519fc6e3
-- name: '13|美国rn3-高速 #1'
-  password: 7bdaf099-9c72-4760-aa04-6abe4576df2f
-  port: 443
-  server: us-rn3.xaa.app
-  skip-cert-verify: false
-  sni: us-rn3.xaa.app
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '13|美国9_洛杉矶_GPT_NF #1'
-  network: tcp
-  port: '12519'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- name: '13|美国rn1-快速 #1'
-  password: 364babab-5c3c-4f7a-aee5-af3ee7b7e0b9
-  port: 443
-  server: us-rn1.xaa.app
-  skip-cert-verify: false
-  sni: us-rn1.xaa.app
-  type: trojan
-- name: '13|美国rn2-快速 #1'
-  password: 7bdaf099-9c72-4760-aa04-6abe4576df2f
-  port: 443
-  server: us-rn2.xaa.app
-  skip-cert-verify: false
-  sni: us-rn2.xaa.app
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '13|美国1_Twitter #1'
-  network: tcp
-  port: '12511'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
-- alterId: 0
-  cipher: auto
-  name: '13|美国5 #1'
-  network: tcp
-  port: '12515'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- alterId: 0
-  cipher: auto
-  name: '13|美国8_圣何塞 #1'
-  network: tcp
-  port: '12518'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- alterId: 0
-  cipher: auto
-  name: 13|美国1.2
-  network: ws
-  port: '37558'
-  server: jp05.vip.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 097cac86-3a13-4714-92c6-2c8f4fea39b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 13|美国集群v01
-  network: ws
-  port: '443'
-  server: vfast.jkjs.cloud
-  servername: us.dyvpn.cloud
-  tls: true
-  type: vmess
-  uuid: 88c03961-526c-4106-af76-58880e62391a
-  ws-opts:
-    headers:
-      Host: us.dyvpn.cloud
-    path: /2365
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 美国-V6|04-1G
-  network: tcp
-  port: '22307'
-  server: dmitv63.616626.xyz
-  tls: false
-  type: vmess
-  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
-- alterId: 0
-  cipher: auto
-  name: '13|US.美国.E #1'
-  network: tcp
-  port: '20067'
-  server: cokecloudus.cokecloud.top
-  tls: false
-  type: vmess
-  uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
-- name: '13|美国直连-Trojan #1'
-  password: c05181cb-e8b6-46be-8c22-51e42483d2e6
-  port: 443
-  server: v12.nmcf.me
-  skip-cert-verify: false
-  sni: v12.nmcf.me
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '13|美国10_芝加哥 #1'
-  network: tcp
-  port: '12520'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- name: '13|美国高速节点1 #1'
-  password: 3ebb9738-cf17-4af8-bc35-b1741c91e53a
-  port: 1443
-  server: 144.34.178.66
-  skip-cert-verify: true
-  sni: node4.yuntongclouds.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|美国C
-  network: tcp
-  port: '30337'
-  server: 36.151.194.33
-  tls: false
-  type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
-- name: '13|美国1|隧道|标准 #1'
-  password: 8a73b06d-7ef6-4f92-be7e-95768dfab074
-  port: 17704
-  server: zz.xinghongzf.xyz
-  skip-cert-verify: true
-  sni: zz.xinghongzf.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 IEPL专线-美国-1-1R
-  network: ws
-  port: '8008'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: 5f981f88-2152-40c6-8312-7f36dc0e64ad
-  ws-opts:
-    headers:
-      Host: v3.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: '13|美国2_Face #1'
-  network: tcp
-  port: '12512'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- alterId: 0
-  cipher: auto
-  name: 13|美国2.2
-  network: ws
-  port: '45698'
-  server: usa2.vip.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 097cac86-3a13-4714-92c6-2c8f4fea39b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: 13|美国05
-  password: b888e849-c69b-46f1-8a77-ca734195f630
-  port: 10027
-  server: advin.189.ovh
-  skip-cert-verify: true
-  sni: advin.189.ovh
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '13|US.美国.B #1'
-  network: tcp
-  port: '25619'
-  server: cokecloudus.cokecloud.top
-  tls: false
-  type: vmess
-  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
-- alterId: 0
-  cipher: auto
-  name: 13|美国|隧道2
-  network: tcp
-  port: '27832'
-  server: zf1.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 176c7e95-463a-448a-a683-cf4563e55005
-- name: 13|🇺🇸洛杉矶&解锁NetFlix/GPT🍒
-  network: ws
-  password: 63b3e3a3-84ca-4b7d-b556-5c3ddae07a8e
-  port: 443
-  server: waf1.37cloud.cc
-  skip-cert-verify: false
-  sni: waf1.37cloud.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: waf1.37cloud.cc
-    path: '%2Fhd.m3u8'
-- alterId: 0
-  cipher: auto
-  name: '13|美国4 #2'
-  network: tcp
-  port: '12514'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
-- alterId: 0
-  cipher: auto
-  name: '13|美国3 #2'
-  network: tcp
-  port: '47593'
-  server: zf.leifeng888.com
-  tls: false
-  type: vmess
-  uuid: d6bd9aac-0432-4910-805e-127c59a2a45a
-- alterId: 0
-  cipher: auto
-  name: 13|美国B 所有节点支持一切外网视频及ChatGPT
-  network: tcp
-  port: '30336'
-  server: 36.151.194.33
-  tls: false
-  type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 美国原生01-1G
-  network: tcp
-  port: '22257'
-  server: hn3x.newbee8.me
-  tls: false
-  type: vmess
-  uuid: 9a992e1e-7676-4c99-b928-53e6c7d888b4
-- name: 13|2号专线 · 美国US · 110
-  password: d9c8a390-5974-41de-9f4d-e68ad94bf4ff
-  port: 33889
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 美国-V6|05-1E
-  network: tcp
-  port: '22309'
-  server: dmitv64.616626.xyz
-  tls: false
-  type: vmess
-  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
-- alterId: 0
-  cipher: auto
-  name: '13|美国3 #3'
-  network: ws
-  port: '22559'
-  server: usa3.vip.xjay.xyz
-  tls: false
-  type: vmess
-  uuid: 097cac86-3a13-4714-92c6-2c8f4fea39b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '13|美国7_凤凰城 #1'
-  network: tcp
-  port: '12517'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
-- alterId: 0
-  cipher: auto
-  name: 13|美国|隧道3
-  network: tcp
-  port: '27832'
-  server: zf2.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 176c7e95-463a-448a-a683-cf4563e55005
-- name: '13|美国02 #3'
-  password: b888e849-c69b-46f1-8a77-ca734195f630
-  port: 10022
-  server: vir11.189.ovh
-  skip-cert-verify: true
-  sni: vir11.189.ovh
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,18|🇺🇸 VMESS-直连-US-1J
-  network: ws
-  port: '48421'
-  server: v6.nmcf.me
-  tls: false
-  type: vmess
-  uuid: 676f113d-f2ab-4fa5-9b2b-43428a489e56
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
 - name: 15|🇺🇸美国 01 | 专线
   network: tcp
   password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
@@ -707,6 +251,19 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 18|🇺🇸 美国直连-VMESS-1H
+  network: ws
+  port: '8002'
+  server: v5.nmcf.me
+  tls: false
+  type: vmess
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 圣何塞1-1F
   network: ws
   port: '443'
@@ -742,6 +299,24 @@ proxies:
   uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
 - alterId: 0
   cipher: auto
+  name: 18|🇺🇸 UNITED STATES 1-1J
+  network: tcp
+  port: '15327'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国01-1U
+  network: tcp
+  port: '22255'
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  uuid: a6469eb9-94a9-4665-b350-e4b5b3bed32d
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 圣何塞3-1D
   network: ws
   port: '443'
@@ -756,6 +331,35 @@ proxies:
 - alterId: 0
   cipher: auto
   grpc-opts:
+    grpc-service-name: 666100k.666811.xyz
+  name: 18|🇺🇸 美国 GRCP-1G
+  network: grpc
+  port: '8443'
+  server: 666100k.666811.xyz
+  tls: true
+  type: vmess
+  uuid: 89f54c0a-ab12-4053-af29-6dcd519fc6e3
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国原生02-1B
+  network: tcp
+  port: '35659'
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  uuid: 4ff3a755-ebd2-4b07-b39f-a2bf59c1ba5d
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|04-1G
+  network: tcp
+  port: '22307'
+  server: dmitv63.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
+- alterId: 0
+  cipher: auto
+  grpc-opts:
     grpc-service-name: webinar
   name: 18|🇺🇸 US| VLESS GRPC-1A
   network: grpc
@@ -764,6 +368,19 @@ proxies:
   tls: true
   type: vmess
   uuid: e83ce572-651c-48f6-a555-006f5ebdb5db
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 VMESS-直连-US-1J
+  network: ws
+  port: '48421'
+  server: v6.nmcf.me
+  tls: false
+  type: vmess
+  uuid: 676f113d-f2ab-4fa5-9b2b-43428a489e56
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸 YANG-VM-US-1A
@@ -805,6 +422,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 18|🇺🇸 美国-V6|05-1E
+  network: tcp
+  port: '22309'
+  server: dmitv64.616626.xyz
+  tls: false
+  type: vmess
+  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|03-1G
+  network: tcp
+  port: '22306'
+  server: dmitv62.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 美国 02 | WS
   network: ws
   port: '20013'
@@ -818,6 +453,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 18|🇺🇸 IEPL专线-美国-1-1R
+  network: ws
+  port: '8008'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: 5f981f88-2152-40c6-8312-7f36dc0e64ad
+  ws-opts:
+    headers:
+      Host: v3.nmcf.me
+    path: /nmkj
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 圣何塞5-1I
   network: ws
   port: '443'
@@ -829,6 +477,24 @@ proxies:
     headers:
       Host: shs111.kejixiaoqi666.store
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国原生01-1G
+  network: tcp
+  port: '22257'
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  uuid: 9a992e1e-7676-4c99-b928-53e6c7d888b4
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|01-1B
+  network: tcp
+  port: '22308'
+  server: crun6.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸 US| V2RAY TCP-1G
