@@ -125,49 +125,13 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾-1F
+  name: 18|🇹🇼 台湾2-2I
   network: tcp
-  port: '27830'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: ed7199b7-acc2-4db9-99fe-6e31cd8b574a
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾2-2D
-  network: tcp
-  port: '45077'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: ba284bf1-848b-4617-919b-f2ef06d2e7f5
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾1-1x
-  network: tcp
-  port: '45078'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 6c9d55cb-3733-4596-affa-5e6e24b07476
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾1-NF-1A
-  network: tcp
-  port: '12211'
+  port: '12212'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: b2a5a93f-6369-400d-9f24-4f1e40d0bbe0
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾|隧道1-1A
-  network: tcp
-  port: '27831'
-  server: zf.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 3ba88c3b-84f4-4328-8ba9-c51206409163
+  uuid: 3e43641a-c134-4b6c-98ee-6cfb4f4a19a9
 - alterId: 0
   cipher: auto
   name: 18|🇹🇼 TAIWAN 1-1B
@@ -176,69 +140,118 @@ proxies:
   server: 34.81.165.124
   tls: false
   type: vmess
-  uuid: 3f79029c-e252-4cc8-9e46-3e8831a9fb4a
+  uuid: 68d11dd1-1c88-49c5-950e-85506a179f49
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾|隧道2-1C
+  name: 18|🇹🇼 台湾4-网页-1C
   network: tcp
-  port: '27831'
-  server: zf1.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 5181e583-a788-4a51-a089-be268116b1a6
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾3-YTB-1B
-  network: tcp
-  port: '12213'
+  port: '12214'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
   uuid: 41805b60-1e79-4045-8eac-acbe5fe37c97
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾2-1x
+  name: 18|🇹🇼 台湾1-1I
   network: tcp
-  port: '12212'
+  port: '45078'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 024c3208-f299-47d8-a420-261476954c21
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾-1D
+  network: tcp
+  port: '27830'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: ed7199b7-acc2-4db9-99fe-6e31cd8b574a
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾3-YTB-1D
+  network: tcp
+  port: '12213'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
   uuid: b2a5a93f-6369-400d-9f24-4f1e40d0bbe0
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾4-网页-1A
+  name: 18|🇹🇼 台湾|隧道1-1B
   network: tcp
-  port: '12214'
+  port: '27831'
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾1-NF-1C
+  network: tcp
+  port: '12211'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: b2a5a93f-6369-400d-9f24-4f1e40d0bbe0
+  uuid: 41805b60-1e79-4045-8eac-acbe5fe37c97
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾 AK NAT4动态-1D
+  name: 18|🇹🇼 台湾2-1R
+  network: tcp
+  port: '45077'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾|隧道2-1A
+  network: tcp
+  port: '27831'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 3ba88c3b-84f4-4328-8ba9-c51206409163
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾 AK NAT4动态-1C
   network: ws
   port: '22100'
   server: twnat4.gangko.cc
   tls: false
   type: vmess
-  uuid: f1de8836-c098-4853-bfe7-278fe49271af
+  uuid: 0ddd8300-6637-4093-8516-da2b4aa16ccf
   ws-opts:
     headers:
       Host: twnat4.gangko.cc
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾|隧道3-1A
+  name: 18|🇹🇼 TAIWAN
+  network: ws
+  port: '53240'
+  server: next2.orz.my.id
+  tls: false
+  type: vmess
+  uuid: c2359c67-b552-44b7-8ebd-ca68fb87b806
+  ws-opts:
+    headers:
+      Host: next2.orz.my.id
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾|隧道3-1E
   network: tcp
   port: '27831'
   server: zf2.xinzhanduijie.top
   tls: false
   type: vmess
-  uuid: 3ba88c3b-84f4-4328-8ba9-c51206409163
+  uuid: 0bdc1aaf-0286-4b44-a04e-e11e56717547
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 31|🇹🇼台湾 | 避免晚高峰使用

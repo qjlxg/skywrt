@@ -34,22 +34,22 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯A-1B
+  name: 18|🇷🇺 俄罗斯A-1D
   network: tcp
   port: '30346'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 577bebba-dd9a-4918-a677-456b63493e36
+  uuid: b1b5aa52-df17-4fe3-8436-fd014305c184
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯-1D
+  name: 18|🇷🇺 俄罗斯-1F
   network: ws
   port: '53100'
   server: 120.232.217.221
   tls: false
   type: vmess
-  uuid: fd7c562e-03c4-47cb-9ad5-83cd2f44bcb2
+  uuid: 3ae6f509-0e53-4f6a-915b-33b73842348e
   ws-opts:
     headers:
       Host: www.baidu.com
