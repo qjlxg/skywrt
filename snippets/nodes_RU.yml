@@ -8,6 +8,27 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 13,18|🇷🇺 俄罗斯A-1E
+  network: tcp
+  port: '30346'
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+- name: 13|俄罗斯Tj🍒
+  network: ws
+  password: 63b3e3a3-84ca-4b7d-b556-5c3ddae07a8e
+  port: 28176
+  server: els.37cloud.cc
+  skip-cert-verify: false
+  sni: els.37cloud.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: els.37cloud.cc
+    path: '%2Fhd.m3u8'
+- alterId: 0
+  cipher: auto
   name: 15|🇷🇺俄罗斯1-专线-去广告
   network: ws
   port: '80'
@@ -32,15 +53,6 @@ proxies:
     headers:
       Host: www.apple.com
     path: /iphone
-- alterId: 0
-  cipher: auto
-  name: 18|🇷🇺 俄罗斯A-1E
-  network: tcp
-  port: '30346'
-  server: 183.236.123.34
-  tls: false
-  type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: 18|🇷🇺 俄罗斯 01 | WS
