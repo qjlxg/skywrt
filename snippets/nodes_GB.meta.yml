@@ -1,70 +1,18 @@
 proxies:
-- name: '0,3,15,28|官网专享 #8'
+- name: '0,3,15,27|官网专享 #8'
   password: cdcbf83d-de93-48e2-b6b2-cfdbf7c8d9a1
   port: 15156
   server: 160dx.czczcloud.top
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: '5,15,42|官网专享 #9'
+- name: '5,15,33|官网专享 #9'
   password: b32a163d-e22a-41ad-bdc5-2e744aee9e7f
   port: 15158
   server: 100dx.qikqik.xyz
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇷🇺专线去油管广告 #1'
-  network: ws
-  port: '80'
-  server: eedp257bubu2wefy3.lovebaipiao.net
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇬🇧英国1丨ChatGpt #1'
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇬🇧英国2丨ChatGpt #1'
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇬🇧英国3丨ChatGpt #1'
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    path: /
 - alterId: 0
   cipher: auto
   name: '11,15|日本-优化 #1'
@@ -124,6 +72,58 @@ proxies:
   skip-cert-verify: false
   sni: uk.mjt000.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 15|🇷🇺专线去油管广告
+  network: ws
+  port: '80'
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  name: 15|🇬🇧英国1丨ChatGpt
+  network: ws
+  port: '2086'
+  server: cdn1.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇬🇧英国2丨ChatGpt
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇬🇧英国3丨ChatGpt
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
 - name: 15|🇬🇧英国
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10210
@@ -205,7 +205,7 @@ proxies:
   uuid: 7f4da11b-2c37-4c8d-8912-61762649b2cb
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 32|🇬🇧英国伦敦
+  name: 31|🇬🇧英国伦敦
   port: 443
   reality-opts:
     public-key: b5WuWodd3tB9cHWUJuoEFNvgYVOcLuDyjaxHy70umU4

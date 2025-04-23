@@ -1,7 +1,14 @@
 proxies:
+- name: '11,15|俄罗斯RU-T #1'
+  password: 6400c720-13f6-45b0-81ea-419b89873cd2
+  port: 443
+  server: ru.mjt000.com
+  skip-cert-verify: false
+  sni: ru.mjt000.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '7,15|🇷🇺俄罗斯1-专线-去广告 #1'
+  name: 15|🇷🇺俄罗斯1-专线-去广告
   network: ws
   port: '80'
   server: eedp257bubu2wefy1.lovebaipiao.net
@@ -14,7 +21,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: '7,15|🇷🇺俄罗斯2-专线-去广告 #1'
+  name: 15|🇷🇺俄罗斯2-专线-去广告
   network: ws
   port: '80'
   server: eedp257bubu2wefy2.lovebaipiao.net
@@ -25,13 +32,6 @@ proxies:
     headers:
       Host: www.apple.com
     path: /iphone
-- name: '11,15|俄罗斯RU-T #1'
-  password: 6400c720-13f6-45b0-81ea-419b89873cd2
-  port: 443
-  server: ru.mjt000.com
-  skip-cert-verify: false
-  sni: ru.mjt000.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 18|🇷🇺 俄罗斯-1G

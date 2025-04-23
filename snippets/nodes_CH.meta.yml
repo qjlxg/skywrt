@@ -13,7 +13,7 @@ proxies:
       Host: www.baidu.com
     path: /
 - mport: 35000-39000
-  name: 32|🇨🇭瑞士苏黎世 | 高速专线-hy2
+  name: 31|🇨🇭瑞士苏黎世 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
   ports: 35000-39000

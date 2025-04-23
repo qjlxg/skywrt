@@ -1,45 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,15,18|🇨🇦 加拿大1-1E
-  network: ws
-  port: '2086'
-  server: digitalocean.com
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇨🇦 加拿大2-1C
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇨🇦 加拿大3
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '11,15|加拿大-优化 #1'
   network: ws
   port: '16641'
@@ -76,6 +37,45 @@ proxies:
   ws-opts:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇨🇦 加拿大1-1E
+  network: ws
+  port: '2086'
+  server: digitalocean.com
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇨🇦 加拿大2-1C
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇨🇦 加拿大3
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
     path: /
 - alterId: 0
   cipher: auto

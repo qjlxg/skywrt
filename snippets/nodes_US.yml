@@ -1,160 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇺🇸美国1 #1'
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: gz4wah11v4bem6ws.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇺🇸美国2 #1'
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: gz4wah11v4bem6ws.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇺🇸美国3 #1'
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: gz4wah11v4bem6ws.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速1
-  network: ws
-  port: '2086'
-  server: 170.114.45.51
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速2
-  network: ws
-  port: '2086'
-  server: 170.114.45.52
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速3
-  network: ws
-  port: '2086'
-  server: 170.114.45.53
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速4
-  network: ws
-  port: '2086'
-  server: csgo.com
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇺🇸美国光速5 #1'
-  network: ws
-  port: '2086'
-  server: digitalocean.com
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速6
-  network: ws
-  port: '2086'
-  server: cloudflare.182682.xyz
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速7
-  network: ws
-  port: '2086'
-  server: 141.193.213.167
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速8
-  network: ws
-  port: '2086'
-  server: 141.193.213.168
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇺🇸 美国光速9
-  network: ws
-  port: '2086'
-  server: 141.193.213.169
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
 - name: '11,15|美国USLA-T-GPT #1'
   password: 6400c720-13f6-45b0-81ea-419b89873cd2
   port: 443
@@ -279,6 +123,162 @@ proxies:
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 15|🇺🇸美国1
+  network: ws
+  port: '2086'
+  server: cdn1.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: gz4wah11v4bem6ws.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇺🇸美国2
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: gz4wah11v4bem6ws.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇺🇸美国3
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: gz4wah11v4bem6ws.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速1
+  network: ws
+  port: '2086'
+  server: 170.114.45.51
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速2
+  network: ws
+  port: '2086'
+  server: 170.114.45.52
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速3
+  network: ws
+  port: '2086'
+  server: 170.114.45.53
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速4
+  network: ws
+  port: '2086'
+  server: csgo.com
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇺🇸美国光速5
+  network: ws
+  port: '2086'
+  server: digitalocean.com
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速6
+  network: ws
+  port: '2086'
+  server: cloudflare.182682.xyz
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速7
+  network: ws
+  port: '2086'
+  server: 141.193.213.167
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速8
+  network: ws
+  port: '2086'
+  server: 141.193.213.168
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇺🇸 美国光速9
+  network: ws
+  port: '2086'
+  server: 141.193.213.169
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
 - name: 15|美国01隧道
   network: tcp
   password: 7d71464f-47de-40fc-b552-886d4147f22b

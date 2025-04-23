@@ -1,45 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '7,15|香港1 #1'
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|香港2 #1'
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|香港3 #1'
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '11,15|香港HY-优化 #1'
   network: ws
   port: '16632'
@@ -155,6 +116,45 @@ proxies:
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 15|香港1
+  network: ws
+  port: '2086'
+  server: cdn1.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|香港2
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|香港3
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:
@@ -752,7 +752,7 @@ proxies:
   uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 32|🇭🇰香港HKT1 | 三网推荐
+  name: 31|🇭🇰香港HKT1 | 三网推荐
   port: 443
   server: pq.hkt1.yydjc.top
   servername: download.globals-download.com
@@ -763,7 +763,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 32|🇭🇰香港HKT2 | 三网推荐
+  name: 31|🇭🇰香港HKT2 | 三网推荐
   port: 443
   server: pq.hkt2.yydjc.top
   servername: download.globals-download.com
@@ -774,7 +774,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 32|🇭🇰香港HKT3 | 三网推荐
+  name: 31|🇭🇰香港HKT3 | 三网推荐
   port: 443
   server: pq.hkt3.yydjc.top
   servername: download.globals-download.com
@@ -785,7 +785,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 32|🇭🇰香港HKT4 | 三网推荐
+  name: 31|🇭🇰香港HKT4 | 三网推荐
   port: 443
   server: pq.hkt4.yydjc.top
   servername: download.globals-download.com

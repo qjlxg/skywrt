@@ -1,43 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 7,15,18|🇸🇬 新加坡1-1J
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇸🇬新加坡2 #1'
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,15|🇸🇬新加坡3 #1'
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    path: /
 - name: '11,15|新加坡SG-T #1'
   password: 6400c720-13f6-45b0-81ea-419b89873cd2
   port: 443
@@ -174,8 +135,47 @@ proxies:
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   type: trojan
-- client-fingerprint: edge
-  name: 15,30|🇸🇬新加坡01/1x
+- alterId: 0
+  cipher: auto
+  name: 15,18|🇸🇬 新加坡1-1J
+  network: ws
+  port: '2086'
+  server: cdn1.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇸🇬新加坡2
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇸🇬新加坡3
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    headers:
+      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
+    path: /
+- client-fingerprint: ios
+  name: 15,29|🇸🇬新加坡01/1x
   network: tcp
   port: 13533
   reality-opts:
@@ -186,8 +186,8 @@ proxies:
   tls: false
   type: vless
   uuid: b19c4375-d847-4c40-9824-4767c88b5f38
-- client-fingerprint: safari
-  name: 15,30|🇸🇬新加坡02/1x
+- client-fingerprint: qq
+  name: 15,29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
   reality-opts:
@@ -410,7 +410,7 @@ proxies:
   uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇸🇬AWS新加坡02 | 高速专线推荐
+  name: 31|🇸🇬AWS新加坡02 | 高速专线推荐
   port: 443
   reality-opts:
     public-key: xOnY2ykLrcFMIhp7GBQu1mSH7yIW-yCc1ThJnVVtKDc
@@ -424,7 +424,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇸🇬AWS新加坡03 | 高速专线推荐
+  name: 31|🇸🇬AWS新加坡03 | 高速专线推荐
   port: 443
   reality-opts:
     public-key: O5WC6waWDGR_ElOHmhqEQGUWDufcFxTuu7BPhwW1sE4
@@ -438,7 +438,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇸🇬AWS新加坡04 | 高速专线推荐
+  name: 31|🇸🇬AWS新加坡04 | 高速专线推荐
   port: 443
   reality-opts:
     public-key: N86yyW-L91vOtC9qgJcYAhnva9M4WT3vclSnsQo4A2k
@@ -452,7 +452,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇸🇬AWS新加坡05 | 高速专线推荐
+  name: 31|🇸🇬AWS新加坡05 | 高速专线推荐
   port: 443
   reality-opts:
     public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
@@ -465,7 +465,7 @@ proxies:
   udp: true
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - mport: 35000-39000
-  name: 32|🇸🇬新加坡 | 高速专线-hy2
+  name: 31|🇸🇬新加坡 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
   ports: 35000-39000
@@ -475,7 +475,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 32|🇸🇬新加坡2 | 高速专线-hy2
+  name: 31|🇸🇬新加坡2 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
   ports: 35000-39000
@@ -485,7 +485,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 32|🇸🇬新加坡3 | 高速专线-hy2
+  name: 31|🇸🇬新加坡3 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
   ports: 35000-39000
@@ -495,7 +495,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 32|🇸🇬新加坡4 | 高速专线-hy2
+  name: 31|🇸🇬新加坡4 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
   ports: 35000-39000
@@ -505,7 +505,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 32|🇸🇬新加坡5 | 高速专线-hy2
+  name: 31|🇸🇬新加坡5 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
   ports: 35000-39000
@@ -515,7 +515,7 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 32|🇸🇬新加坡6 | 高速专线-hy2
+  name: 31|🇸🇬新加坡6 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
   ports: 35000-39000
@@ -526,7 +526,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇸🇬新加坡
+  name: 31|🇸🇬新加坡
   port: 443
   reality-opts:
     public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
@@ -540,7 +540,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '32|🇸🇬新加坡2 #2'
+  name: '31|🇸🇬新加坡2 #1'
   port: 443
   reality-opts:
     public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
@@ -554,7 +554,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '32|🇸🇬新加坡3 #2'
+  name: '31|🇸🇬新加坡3 #1'
   port: 443
   reality-opts:
     public-key: IPno1w9GUxhRN2JY_yIka2DNlnuJHQeb3_0yOCM4pQg
@@ -568,7 +568,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 32|🇸🇬新加坡4
+  name: 31|🇸🇬新加坡4
   port: 443
   reality-opts:
     public-key: kR-_5J2EPiB9nrdgyXjgzfJQnxQodkGeV_jgKOEnlEM

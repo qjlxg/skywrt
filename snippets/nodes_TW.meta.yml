@@ -248,7 +248,7 @@ proxies:
   uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇹🇼台湾 | 避免晚高峰使用
+  name: 31|🇹🇼台湾 | 避免晚高峰使用
   port: 443
   server: pq.hinet.tw1.yydjc.top
   servername: download.yydjc.top
@@ -259,7 +259,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇹🇼台湾2 | 避免晚高峰使用
+  name: 31|🇹🇼台湾2 | 避免晚高峰使用
   port: 443
   server: pq.hinet.tw2.yydjc.top
   servername: download.yydjc.top
@@ -270,7 +270,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇹🇼台湾3 | 避免晚高峰使用
+  name: 31|🇹🇼台湾3 | 避免晚高峰使用
   port: 443
   server: pq.hinet.tw3.yydjc.top
   servername: download.yydjc.top
