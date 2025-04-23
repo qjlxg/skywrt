@@ -85,6 +85,183 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '13|台湾2 #1'
+  network: tcp
+  port: '12212'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- alterId: 0
+  cipher: auto
+  name: '13|台湾1(GPT等流媒体1.5倍） #2'
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+- alterId: 0
+  cipher: auto
+  name: '13|TW.台湾.A #1'
+  network: tcp
+  port: '13255'
+  server: xdtw.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
+- name: '13|台湾01直连 #6'
+  network: tcp
+  password: 06fbbfc7-51ec-417a-b1b2-af91f6192e72
+  port: 2324
+  server: tw7.376897.xyz
+  skip-cert-verify: false
+  sni: tw7.376897.xyz
+  type: trojan
+- name: '13|台湾高速节点3 #1'
+  password: 3ebb9738-cf17-4af8-bc35-b1741c91e53a
+  port: 443
+  server: 118.232.199.14
+  skip-cert-verify: true
+  sni: node3.yuntongclouds.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|台湾|隧道3
+  network: tcp
+  port: '27831'
+  server: zf2.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- name: '13|台湾03直连 #4'
+  network: tcp
+  password: 048ab7ef-8d44-4a7d-be55-d86ad021bd9f
+  port: 23342
+  server: tw5.376897.xyz
+  skip-cert-verify: false
+  sni: tw5.376897.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|TW.台湾.B | 推荐 #1'
+  network: tcp
+  port: '29299'
+  server: xdtw.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: fba3bd85-e33b-4832-b130-8d857ade6031
+- alterId: 0
+  cipher: auto
+  name: '13|台湾1_GPT_NF #1'
+  network: tcp
+  port: '12211'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- name: '13|台湾01直连 #8'
+  network: tcp
+  password: 25a418ea-a9ce-4f50-92a4-70cdea518189
+  port: 23342
+  server: 2gzdx21.376897.xyz
+  skip-cert-verify: false
+  sni: 2gzdx21.376897.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '13|台湾2(GPT等流媒体1.5倍） #2'
+  network: tcp
+  port: '45077'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+- alterId: 0
+  cipher: auto
+  name: '13|TW.台湾.C | 高速2x倍率 #1'
+  network: tcp
+  port: '53497'
+  server: xdtw.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
+- alterId: 0
+  cipher: auto
+  name: '13|台湾4_网页 #1'
+  network: tcp
+  port: '12214'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
+- name: '13|台湾直连-Trojan #1'
+  password: c05181cb-e8b6-46be-8c22-51e42483d2e6
+  port: 443
+  server: v3.nmcf.me
+  skip-cert-verify: false
+  sni: v3.nmcf.me
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|台湾|隧道2
+  network: tcp
+  port: '27831'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
+- name: '13|台湾高速节点2 #1'
+  password: d6026cbb-41e8-40c1-85a5-09ea2e39ee43
+  port: 443
+  server: 118.232.199.29
+  skip-cert-verify: true
+  sni: node2.yuntongclouds.com
+  type: trojan
+- name: '13|台湾02直连 #3'
+  network: tcp
+  password: 0eae99c1-6c66-434c-947d-c38a047f3089
+  port: 2324
+  server: tw1.376897.xyz
+  skip-cert-verify: false
+  sni: tw1.376897.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|台湾B 域名发布 https://lzbt8.com
+  network: tcp
+  port: '30332'
+  server: 183.238.50.22
+  tls: false
+  type: vmess
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+- alterId: 0
+  cipher: auto
+  name: '13|台湾3_YTB #1'
+  network: tcp
+  port: '12213'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- name: '13|台湾高速节点 #1'
+  password: 3ebb9738-cf17-4af8-bc35-b1741c91e53a
+  port: 443
+  server: 103.137.63.77
+  skip-cert-verify: true
+  sni: node1.yuntongclouds.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|台湾|隧道1
+  network: tcp
+  port: '27831'
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 176c7e95-463a-448a-a683-cf4563e55005
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:
@@ -123,94 +300,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾 AK NAT4动态-1A
-  network: ws
-  port: '22100'
-  server: twnat4.gangko.cc
-  tls: false
-  type: vmess
-  uuid: 7230cbe3-df6a-4900-8943-4fdc14bf0545
-  ws-opts:
-    headers:
-      Host: twnat4.gangko.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾-宁波隧道-1A
-  network: tcp
-  port: '11485'
-  server: nbdx.nothingforward.link
-  tls: false
-  type: vmess
-  uuid: 936551aa-7288-403b-b833-90e67d98fb1c
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾-1C
-  network: tcp
-  port: '27830'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
-- alterId: 2
-  cipher: auto
-  name: 18|🇹🇼 台湾1|解锁NF|2.5x-1A
-  network: ws
-  port: '23619'
-  server: 19.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: b827df7a-dca7-3267-89ec-1e8c568a5a8b
-  ws-opts:
-    headers:
-      Host: 19.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾 04 | TCP
-  network: tcp
-  port: '80'
-  server: f7626a75-eece-d595-6259-ef09a5b3936d.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾 02 | WS
-  network: ws
-  port: '80'
-  server: 205928ec-61f8-1f90-8438-1b912b849b80.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾 01 | WS
-  network: ws
-  port: '80'
-  server: 85ef02dd-b03e-94d5-61f4-bb5a8d5f491f.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾 03 | TCP
-  network: tcp
-  port: '80'
-  server: 6907941d-3278-3aaa-857d-9cc670f66524.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 31|🇹🇼台湾 | 避免晚高峰使用

@@ -27,123 +27,130 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国 02 | TCP
-  network: tcp
-  port: '20031'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|01 0.5x-1C
-  network: tcp
-  port: '22305'
-  server: netcp1.616626.xyz
-  tls: false
-  type: vmess
-  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
-- alterId: 2
-  cipher: auto
-  name: 18|🇩🇪 德国2-1B
-  network: ws
-  port: '23618'
-  server: 18.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: b827df7a-dca7-3267-89ec-1e8c568a5a8b
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|02 0.5x-1E
+  name: 13|德国-v6|02*0.5倍率
   network: tcp
   port: '22306'
   server: netcp2.616626.xyz
   tls: false
   type: vmess
-  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国 AK CDN直连-1C
+  name: 13|德国-v6|01*0.5倍率
+  network: tcp
+  port: '22305'
+  server: netcp1.616626.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '13|[vless]德国[1.1x]-电联4 #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: PaAaDWyG_MhYTIhEHrLJusbrG35KN266mHqeISOb7n4
+    short-id: 8dc4a6c4
+  server: deuf1.731732.xyz
+  servername: www.uni-stuttgart.de
+  tls: false
+  type: vless
+  uuid: 94ba5bae-09de-4e52-8a9b-545e8b476fe9
+- alterId: 0
+  cipher: auto
+  name: '13|德国1 #1'
+  network: tcp
+  port: '12714'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- alterId: 0
+  cipher: auto
+  name: 13|🇩🇪 德国(ipv6)AK CDN直连
   network: ws
   port: '443'
   server: akdev6.12ip.cc
   tls: false
   type: vmess
-  uuid: c4f2ed81-290b-4b1c-a169-9942e2d88fbe
+  uuid: 209666f4-4851-463d-b76b-462805e9f843
   ws-opts:
     headers:
-      Host: akdev6.12ip.cc
+      Host: ''
     path: /
+- name: 13|vless-德国
+  network: ws
+  port: 35097
+  server: de.uzilol.cn
+  servername: de.uzilol.cn
+  tls: true
+  type: vless
+  uuid: d9e674f2-b1ab-470d-937c-5e2eb0d74751
+  ws-opts:
+    headers:
+      Host: de.uzilol.cn
+    path: '%2Frangws'
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国 01 | WS
-  network: ws
-  port: '20030'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  name: '13|德国2 #1'
+  network: tcp
+  port: '12715'
+  server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国-V6|03 0.5x-1B
+  name: 13|德国-v6|03*0.5倍率
   network: tcp
   port: '22307'
   server: netcp3.616626.xyz
   tls: false
   type: vmess
-  uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '13|[vless]德国[1.1x]-电联3 #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rvF_sInyHr40Ti4oMV1tVBMSCGWDnTY1SGPtH1ZK4SI
+    short-id: e78ef9a01b
+  server: deuf4.731732.xyz
+  servername: www.uni-stuttgart.de
+  tls: false
+  type: vless
+  uuid: 495a86c4-c6d2-4792-aad9-6932128284c1
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国A-1F
+  name: 13|[vmess]德国[0.75x]-福利
+  network: ws
+  port: '80'
+  server: decf1.426624.xyz
+  servername: bing.com
+  tls: false
+  type: vmess
+  uuid: 40a75de4-1071-4958-bce4-d9ddcfc3d90e
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- name: 13|【德国06】*0.5倍率
+  password: b888e849-c69b-46f1-8a77-ca734195f630
+  port: 10027
+  server: netcp4.616626.xyz
+  skip-cert-verify: true
+  sni: netcp4.616626.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|德国A
   network: tcp
   port: '30341'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-北京隧道-1C
-  network: tcp
-  port: '13802'
-  server: cu21.kuxueyun.com
-  tls: false
-  type: vmess
-  uuid: de505435-b8a1-4b1f-a6df-06c4f19341d0
-- alterId: 2
-  cipher: auto
-  name: 18|🇩🇪 德国1-1B
-  network: ws
-  port: '23616'
-  server: 16.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: b827df7a-dca7-3267-89ec-1e8c568a5a8b
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国01-免费
-  network: ws
-  port: '2096'
-  server: de01.sh-cloudflare.sbs
-  tls: true
-  type: vmess
-  uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8
-  ws-opts:
-    headers:
-      Host: de01.sh-cloudflare.sbs
-    path: /
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - mport: 35000-39000
   name: 31|🇩🇪德国 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c

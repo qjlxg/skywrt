@@ -1,58 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳 徐州移动 02 | TCP
-  network: tcp
-  port: '80'
-  server: 36.151.251.64
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳 镇江联通 01 | WS
-  network: ws
-  port: '80'
-  server: 103.56.63.19
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 18|🇮🇩 CN印度尼西亚I高速V 住宅ISP
-  network: ws
-  port: '32007'
-  server: gzv2b.talends.top
-  tls: true
-  type: vmess
-  uuid: e0c583d9-0cca-3779-8c23-d2268e7b655e
-  ws-opts:
-    headers:
-      Host: idispv.bcloudv.cyou
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳 镇江联通 02 | TCP
-  network: tcp
-  port: '80'
-  server: 103.56.63.253
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳 徐州移动 01 | WS
-  network: ws
-  port: '80'
-  server: 36.151.251.63
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+- name: '13|中国联通节点1 #1'
+  password: 3ebb9738-cf17-4af8-bc35-b1741c91e53a
+  port: 5443
+  server: 115.231.220.33
+  skip-cert-verify: true
+  sni: nodecn1.jiayinetwork.es
+  type: trojan
