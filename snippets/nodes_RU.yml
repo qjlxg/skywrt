@@ -1,14 +1,7 @@
 proxies:
-- name: '11,15|俄罗斯RU-T #1'
-  password: 6400c720-13f6-45b0-81ea-419b89873cd2
-  port: 443
-  server: ru.mjt000.com
-  skip-cert-verify: false
-  sni: ru.mjt000.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 15|🇷🇺俄罗斯1-专线-去广告
+  name: '7,15|🇷🇺俄罗斯1-专线-去广告 #1'
   network: ws
   port: '80'
   server: eedp257bubu2wefy1.lovebaipiao.net
@@ -21,7 +14,7 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 15|🇷🇺俄罗斯2-专线-去广告
+  name: '7,15|🇷🇺俄罗斯2-专线-去广告 #1'
   network: ws
   port: '80'
   server: eedp257bubu2wefy2.lovebaipiao.net
@@ -32,25 +25,32 @@ proxies:
     headers:
       Host: www.apple.com
     path: /iphone
+- name: '11,15|俄罗斯RU-T #1'
+  password: 6400c720-13f6-45b0-81ea-419b89873cd2
+  port: 443
+  server: ru.mjt000.com
+  skip-cert-verify: false
+  sni: ru.mjt000.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯-1G
+  name: 18|🇷🇺 俄罗斯-1C
   network: ws
   port: '53100'
   server: 120.232.217.221
   tls: false
   type: vmess
-  uuid: 9f2cdcd7-99fa-4ef9-aeb5-17d9c9466c03
+  uuid: bb947624-b0b6-4fc2-b52e-2612b4103804
   ws-opts:
     headers:
       Host: www.baidu.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯A-1A
+  name: 18|🇷🇺 俄罗斯A
   network: tcp
   port: '30346'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 0a82d347-0ee9-4191-9a27-742cb62c1420
+  uuid: 8f83bd9c-e067-422d-9633-c5f9ffe917ae

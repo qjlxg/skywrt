@@ -1,106 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13,18|🇰🇷 IEPL专线-韩国-1-1A
+  name: 13,18|🇰🇷 IEPL专线-韩国-1-1R
   network: ws
   port: '8002'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: c46e91a7-9cd6-49e4-896a-cee08cfb92a2
+  uuid: c828596a-23ff-48fb-98a3-832c3420627a
   ws-opts:
     headers:
       Host: v7.nmcf.me
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 韩国 专线NO2-1C
-  network: tcp
-  port: '45075'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 5b511270-5b35-4249-9a0c-ebc3643b2820
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国-汉城-1E
-  network: ws
-  port: '53342'
-  server: 120.232.217.221
-  tls: false
-  type: vmess
-  uuid: 76f29239-26c7-483b-a57a-6978fcf37873
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国2-1B
+  name: 18|🇰🇷 韩国2-1C
   network: tcp
   port: '12612'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国1-NF-1B
-  network: tcp
-  port: '12611'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国-水原-1F
-  network: ws
-  port: '57495'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: 9f2cdcd7-99fa-4ef9-aeb5-17d9c9466c03
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国3-1H
-  network: tcp
-  port: '12613'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国-1E
-  network: tcp
-  port: '27842'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: ed7199b7-acc2-4db9-99fe-6e31cd8b574a
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国 专线NO1-1B
-  network: tcp
-  port: '45076'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 7f4da11b-2c37-4c8d-8912-61762649b2cb
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国4-1E
-  network: tcp
-  port: '12614'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: bfc829be-dc55-4459-8ffb-429aa16cf43a
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
 - alterId: 0
   cipher: auto
   name: 18|🇰🇷 韩国5-1B
@@ -109,7 +29,65 @@ proxies:
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
+  uuid: f62731fc-7cb5-4578-94bb-d22a7ffdc0f6
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国-1C
+  network: tcp
+  port: '27842'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 6c678e05-4684-4d3e-859b-4db734111752
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国4-1B
+  network: tcp
+  port: '12614'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国 专线NO2-1C
+  network: tcp
+  port: '45075'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 71b17115-b25b-48cf-b03a-04b7d7b76ea8
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国-汉城-1D
+  network: ws
+  port: '53342'
+  server: 120.232.217.221
+  tls: false
+  type: vmess
+  uuid: be31f8df-e968-417f-9138-cf5167e3f311
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国1-NF-1B
+  network: tcp
+  port: '12611'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: f62731fc-7cb5-4578-94bb-d22a7ffdc0f6
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国 专线NO1-1A
+  network: tcp
+  port: '45076'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 78c091af-84cf-4d21-af3c-2a561493b8db
 - alterId: 0
   cipher: auto
   name: 18|🇰🇷 韩国6-1A
@@ -118,4 +96,26 @@ proxies:
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 9d095b08-2266-4258-945a-3077c99f99c0
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国-水原-1A
+  network: ws
+  port: '57495'
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  uuid: 1abf245b-66a2-480c-92de-a519b5a88b78
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国3-1B
+  network: tcp
+  port: '12613'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42

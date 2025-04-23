@@ -1,13 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇭 瑞士-1F
+  name: 18|🇨🇭 瑞士-1B
   network: ws
   port: '14962'
   server: 183.240.180.26
   tls: false
   type: vmess
-  uuid: 76f29239-26c7-483b-a57a-6978fcf37873
+  uuid: 1abf245b-66a2-480c-92de-a519b5a88b78
   ws-opts:
     headers:
       Host: www.baidu.com

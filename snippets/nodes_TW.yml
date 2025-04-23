@@ -94,82 +94,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾3-YTB-1C
-  network: tcp
-  port: '12213'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾2-2A
-  network: tcp
-  port: '45077'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 99870be4-56eb-42de-9808-8a4ade0ddc42
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾1-NF-1B
-  network: tcp
-  port: '12211'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 7638d335-0827-4b20-8b9e-4b06f3de79db
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾|隧道1-1A
-  network: tcp
-  port: '27831'
-  server: zf.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 56cf9702-f864-4d4f-b584-507af0b5411f
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾|隧道2-1A
-  network: tcp
-  port: '27831'
-  server: zf1.xinzhanduijie.top
-  tls: false
-  type: vmess
-  uuid: 56cf9702-f864-4d4f-b584-507af0b5411f
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾 AK NAT4动态-1A
-  network: ws
-  port: '22100'
-  server: twnat4.gangko.cc
-  tls: false
-  type: vmess
-  uuid: 0ddd8300-6637-4093-8516-da2b4aa16ccf
-  ws-opts:
-    headers:
-      Host: twnat4.gangko.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾1-1C
-  network: tcp
-  port: '45078'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 6283ec30-1180-4b56-b0a3-3a1a338ba504
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾4-网页-1C
-  network: tcp
-  port: '12214'
-  server: xxx.btmbxxx.top
-  tls: false
-  type: vmess
-  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
-- alterId: 0
-  cipher: auto
   name: 18|🇹🇼 TAIWAN 1-1A
   network: ws
   port: '80'
@@ -183,28 +107,104 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾|隧道3-1B
-  network: tcp
-  port: '27831'
-  server: zf2.xinzhanduijie.top
+  name: 18|🇹🇼 台湾 AK NAT4动态-1C
+  network: ws
+  port: '22100'
+  server: twnat4.gangko.cc
   tls: false
   type: vmess
-  uuid: f0a8743e-700b-4fb5-83c7-d53b4289104f
+  uuid: b3497d9a-8e37-4ec1-939e-b1db82ffdca7
+  ws-opts:
+    headers:
+      Host: twnat4.gangko.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾2-1U
+  name: 18|🇹🇼 台湾2-1S
   network: tcp
-  port: '12212'
+  port: '45077'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 929eab5d-c1b7-48b1-8bfc-14bd83b6d0bd
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾1-NF-1A
+  network: tcp
+  port: '12211'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 03462b0d-beaf-4e2b-86fa-08293637601c
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾-1B
+  name: 18|🇹🇼 台湾4-网页-1B
+  network: tcp
+  port: '12214'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: f62731fc-7cb5-4578-94bb-d22a7ffdc0f6
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾|隧道2
+  network: tcp
+  port: '27831'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 9648df03-d99e-476c-be23-1969f807f738
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾3-YTB-1B
+  network: tcp
+  port: '12213'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: f62731fc-7cb5-4578-94bb-d22a7ffdc0f6
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾1-1S
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 71b17115-b25b-48cf-b03a-04b7d7b76ea8
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾-1A
   network: tcp
   port: '27830'
   server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
+  uuid: 9b486836-c35b-4bf4-a696-b33c5d715e82
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾2-1O
+  network: tcp
+  port: '12212'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾|隧道3
+  network: tcp
+  port: '27831'
+  server: zf2.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 9648df03-d99e-476c-be23-1969f807f738
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾|隧道1
+  network: tcp
+  port: '27831'
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: 9648df03-d99e-476c-be23-1969f807f738

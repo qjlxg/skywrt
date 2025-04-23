@@ -27,75 +27,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 DE-1F
-  network: tcp
-  port: '8877'
-  server: de.ajiaxi.cyou
-  tls: false
-  type: vmess
-  uuid: 14bbca5e-c0c2-4180-a769-2e32f28f8cb4
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|02 0.5x-1C
+  name: 18|🇩🇪 德国-V6|02 0.5x-1D
   network: tcp
   port: '22306'
   server: netcp2.616626.xyz
   tls: false
   type: vmess
-  uuid: 86f88af2-ba2d-42b5-a1e7-74dde1391c5c
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|03 0.5x-1D
-  network: tcp
-  port: '22307'
-  server: netcp3.616626.xyz
-  tls: false
-  type: vmess
   uuid: 9d8c90b3-f555-4d38-98d8-135d0c780710
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 专线-德国-1F
-  network: ws
-  port: '58610'
-  server: 183.240.228.220
-  tls: false
-  type: vmess
-  uuid: 9f2cdcd7-99fa-4ef9-aeb5-17d9c9466c03
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国A-1A
-  network: tcp
-  port: '30341'
-  server: 183.236.123.34
-  tls: false
-  type: vmess
-  uuid: 0a82d347-0ee9-4191-9a27-742cb62c1420
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国 AK CDN直连-1C
-  network: ws
-  port: '443'
-  server: akdev6.12ip.cc
-  tls: false
-  type: vmess
-  uuid: 849c3c14-77ba-4afa-9a65-dd4ebedad292
-  ws-opts:
-    headers:
-      Host: akdev6.12ip.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国1-1I
+  name: 18|🇩🇪 德国1-1C
   network: tcp
   port: '12714'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: bfc829be-dc55-4459-8ffb-429aa16cf43a
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
 - alterId: 0
   cipher: auto
   name: 18|🇩🇪 德国-V6|01 0.5x-1A
@@ -104,13 +51,57 @@ proxies:
   server: netcp1.616626.xyz
   tls: false
   type: vmess
-  uuid: da2409ae-d6b2-41f2-beb8-e865248c211a
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国2-1I
+  name: 18|🇩🇪 德国-V6|03 0.5x-1A
+  network: tcp
+  port: '22307'
+  server: netcp3.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国2-1C
   network: tcp
   port: '12715'
   server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: bfc829be-dc55-4459-8ffb-429aa16cf43a
+  uuid: e8213f7f-3152-4d0b-aea2-f7d10da32b42
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国 AK CDN直连-1B
+  network: ws
+  port: '443'
+  server: akdev6.12ip.cc
+  tls: false
+  type: vmess
+  uuid: 0ddd8300-6637-4093-8516-da2b4aa16ccf
+  ws-opts:
+    headers:
+      Host: akdev6.12ip.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 专线-德国-1D
+  network: ws
+  port: '58610'
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  uuid: be31f8df-e968-417f-9138-cf5167e3f311
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国A
+  network: tcp
+  port: '30341'
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  uuid: 8f83bd9c-e067-422d-9633-c5f9ffe917ae
