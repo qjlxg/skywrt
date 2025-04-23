@@ -132,13 +132,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: '13|香港（直连） #2'
+  name: 13,18|🇭🇰 香港-1A
   network: tcp
   port: '19901'
   server: xg.dashuai.cyou
   tls: false
   type: vmess
-  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+  uuid: 1c349671-4506-4cfe-92d5-0d936313d04e
 - alterId: 0
   cipher: auto
   name: 13|香港v6|11
@@ -188,13 +188,13 @@ proxies:
   uuid: fba3bd85-e33b-4832-b130-8d857ade6031
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 IEPL专线-香港-1-1A
+  name: '13|IEPL专线-香港-1 #1'
   network: ws
   port: '8007'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
   ws-opts:
     headers:
       Host: v7.nmcf.me
@@ -274,13 +274,13 @@ proxies:
   uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 HK 香港2-1A
+  name: 13|HK 香港2[解锁|优化]
   network: tcp
   port: '52501'
   server: hry200.2228333.xyz
   tls: false
   type: vmess
-  uuid: be9a7f85-2d8f-4c97-b8f3-2cdafe78be98
+  uuid: c90ae897-f3a2-461f-b120-1f6c4f9cc782
 - alterId: 0
   cipher: auto
   name: '13|[vmess][隧道] 香港 vmess 5x #2'
@@ -301,13 +301,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 HK 香港1-1A
+  name: 13|HK 香港1[解锁|优化]
   network: tcp
   port: '52500'
   server: hry100.2228333.xyz
   tls: false
   type: vmess
-  uuid: be9a7f85-2d8f-4c97-b8f3-2cdafe78be98
+  uuid: c90ae897-f3a2-461f-b120-1f6c4f9cc782
 - alterId: 0
   cipher: auto
   name: 13|香港-v6|02
@@ -358,13 +358,13 @@ proxies:
     path: '%2Fhd.m3u8'
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 香港直连-VMESS-1A
+  name: '13|香港直连-vmess #1'
   network: ws
   port: '8001'
   server: v4.nmcf.me
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
   ws-opts:
     headers:
       Host: www.bing.com
@@ -416,13 +416,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 香港-1-1B
+  name: 13|[vmess]香港-1
   network: ws
   port: '10805'
   server: kahk.kia-ai.com
   tls: true
   type: vmess
-  uuid: 109fc8e3-c9f9-4107-b2db-55c664b3e6af
+  uuid: 65017397-25df-4c56-bad3-7aba344c87c3
   ws-opts:
     headers:
       Host: kahk.kia-ai.com
@@ -524,13 +524,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 香港-CN2-3-1A
+  name: 13|[vmess]香港-cn2-3
   network: ws
   port: '10807'
   server: cnhka.kia-ai.com
   tls: true
   type: vmess
-  uuid: 894b23cc-90ab-43b0-8baf-bb84d8f6d073
+  uuid: 65017397-25df-4c56-bad3-7aba344c87c3
   ws-opts:
     headers:
       Host: cnhka.kia-ai.com
@@ -633,14 +633,356 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-1D
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1...
   network: ws
-  port: '34365'
-  server: 47.239.40.28
+  port: '2086'
+  server: 104.19.47.65
   tls: false
   type: vmess
-  uuid: 68e566d5-d584-4331-856c-2398ef189ced
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
       Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-4...
+  network: ws
+  port: '2086'
+  server: 104.19.38.88
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-7...
+  network: ws
+  port: '2052'
+  server: 104.19.38.22
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港3
+  network: tcp
+  port: '10010'
+  server: xg3.tcity8.buzz
+  tls: false
+  type: vmess
+  uuid: 3cf6c16c-c5a5-4113-9a3f-44170dcbd4fe
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-4... #1'
+  network: ws
+  port: '2086'
+  server: 162.159.140.19
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #1'
+  network: ws
+  port: '2086'
+  server: 162.159.140.93
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #2'
+  network: ws
+  port: '2086'
+  server: 104.19.45.35
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HK-入湖北电信-出香港-V4
+  network: ws
+  port: '21461'
+  server: 119.96.137.5
+  tls: false
+  type: vmess
+  uuid: fc7eb111-1292-4706-f4fb-afba1958924c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #3'
+  network: ws
+  port: '2086'
+  server: 104.19.45.13
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-1B
+  network: tcp
+  port: '10010'
+  server: xg1.tcity8.buzz
+  tls: false
+  type: vmess
+  uuid: 3cf6c16c-c5a5-4113-9a3f-44170dcbd4fe
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港7
+  network: ws
+  port: '20206'
+  server: data-hk-v1.usabooks.com.cn
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 橘子公益-香港HK-4-1B
+  network: tcp
+  port: '50003'
+  server: 50003.baidu-cdn.top
+  tls: false
+  type: vmess
+  uuid: 722ee660-ca57-467f-9eda-5739859212f9
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-2
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: www.speedtest.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-4... #2'
+  network: ws
+  port: '2052'
+  server: 104.19.42.79
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #4'
+  network: ws
+  port: '2086'
+  server: 104.19.46.42
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-5...
+  network: ws
+  port: '2086'
+  server: 172.67.71.187
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-7... #1'
+  network: ws
+  port: '8880'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ivideos.sbs/linkws
+- alterId: 64
+  cipher: auto
+  name: 18|🇭🇰 香港2
+  network: tcp
+  port: '40259'
+  server: 120.238.122.243
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #5'
+  network: ws
+  port: '2086'
+  server: 104.19.32.216
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #6'
+  network: ws
+  port: '2086'
+  server: 104.19.45.50
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-5... #1'
+  network: ws
+  port: '443'
+  server: 141.724064.xyz
+  tls: true
+  type: vmess
+  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
+  ws-opts:
+    headers:
+      Host: 141.724064.xyz
+    path: /gmvfvws
+- alterId: 64
+  cipher: auto
+  name: 18|🇭🇰 香港-1C
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #7'
+  network: ws
+  port: '2086'
+  server: japan.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: japan.com
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-3...
+  network: ws
+  port: '2095'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #8'
+  network: ws
+  port: '443'
+  server: nmsl.rnmcnm.com
+  tls: true
+  type: vmess
+  uuid: 089e06da-2b50-46a3-9f57-6d05f4e68a28
+  ws-opts:
+    headers:
+      Host: nmsl.rnmcnm.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #9'
+  network: ws
+  port: '443'
+  server: 145.724064.xyz
+  tls: true
+  type: vmess
+  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
+  ws-opts:
+    headers:
+      Host: 145.724064.xyz
+    path: /zrqrvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-6...
+  network: ws
+  port: '2086'
+  server: 104.26.5.90
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇭🇰 香港04-专线-1A
+  network: grpc
+  port: '59614'
+  server: fl0022.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-5... #2'
+  network: ws
+  port: '80'
+  server: www.zula.ir
+  tls: false
+  type: vmess
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: www.zula.ir
     path: /

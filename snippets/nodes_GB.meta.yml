@@ -113,13 +113,13 @@ proxies:
   uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
 - alterId: 0
   cipher: auto
-  name: 13,18|🇬🇧 英国A-1B
+  name: 13|英国A
   network: tcp
   port: '30343'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|(IEPL)英国1 #2'
@@ -216,6 +216,58 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国 002
+  network: ws
+  port: '23451'
+  server: frankfurt.faforex.eu.org
+  tls: false
+  type: vmess
+  uuid: 4e309c18-ee5f-45f3-8f28-66467d1e0c4f
+  ws-opts:
+    headers:
+      Host: us-new03.daluquan.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国TG JUZIBAIPIAO-1
+  network: ws
+  port: '80'
+  server: 86.107.50.3
+  tls: false
+  type: vmess
+  uuid: 6a99725d-2af8-d27c-cef5-302fbbe54c07
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IVApi/NL/7
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 GB-JUZI8186-31
+  network: ws
+  port: '10001'
+  server: uk.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: uk.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国-JUZI8186-215
+  network: ws
+  port: '2082'
+  server: 45.12.30.237
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 31|🇬🇧英国伦敦

@@ -584,13 +584,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|🇺🇸 美国直连-VMESS-1B
+  name: '13|美国直连-vmess #1'
   network: ws
   port: '8002'
   server: v5.nmcf.me
   tls: false
   type: vmess
-  uuid: b868df9f-83ae-4221-9c1b-bc6d9ea4ea41
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: www.bing.com
@@ -978,13 +978,13 @@ proxies:
   uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
 - alterId: 0
   cipher: auto
-  name: '13|香港（直连） #2'
+  name: 13,18|🇭🇰 香港-1A
   network: tcp
   port: '19901'
   server: xg.dashuai.cyou
   tls: false
   type: vmess
-  uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
+  uuid: 1c349671-4506-4cfe-92d5-0d936313d04e
 - alterId: 0
   cipher: auto
   name: 13|Netflix - 奈飞专用
@@ -1149,13 +1149,13 @@ proxies:
   uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 深港中转-IEPL专线-US-1-1A
+  name: '13|深港中转-IEPL专线-US-1 #1'
   network: ws
   port: '8006'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
   ws-opts:
     headers:
       Host: www.bing.com
@@ -1225,22 +1225,22 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇹🇭 泰国A-1A
+  name: 13|泰国B
   network: tcp
   port: '30340'
   server: 117.172.176.43
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 IEPL专线-香港-1-1A
+  name: '13|IEPL专线-香港-1 #1'
   network: ws
   port: '8007'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
   ws-opts:
     headers:
       Host: v7.nmcf.me
@@ -1279,13 +1279,13 @@ proxies:
   uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
 - alterId: 0
   cipher: auto
-  name: 13,18|🇯🇵 日本直连-VMESS-1A
+  name: '13|日本直连-vmess #1'
   network: ws
   port: '8000'
   server: v18.nmcf.me
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
   ws-opts:
     headers:
       Host: www.bing.com
@@ -1350,13 +1350,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|所有节点都支持 和流媒体-1A
+  name: 13|香港C 2号官网 https://panel.lzbt.or...
   network: tcp
   port: '30331'
   server: 183.238.50.22
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|韩国6 #1'
@@ -1585,14 +1585,14 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: 666100k.666811.xyz
-  name: 13,18|🇺🇸 美国 GRCP-1D
+  name: '13|[vmess][直链] 美国 grcp #2'
   network: grpc
   port: '8443'
   server: 666100k.666811.xyz
   servername: 666100k.666811.xyz
   tls: true
   type: vmess
-  uuid: 88b5de0b-7efb-4df1-aed3-3f4e913a2326
+  uuid: 45edd0f6-c634-4a57-b145-6859bf74286d
 - alterId: 0
   cipher: auto
   name: '13|印度1-孟买 #1'
@@ -1620,13 +1620,13 @@ proxies:
   uuid: ba122c02-2234-4247-8b3e-2deb771a35ff
 - alterId: 0
   cipher: auto
-  name: 13,18|🇷🇺 俄罗斯A-1B
+  name: 13|俄罗斯A
   network: tcp
   port: '30346'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|日本3_东京 #1'
@@ -1700,13 +1700,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇮🇩 印尼A-1A
+  name: 13|印尼A
   network: tcp
   port: '30339'
   server: 117.172.176.43
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|美国1_Twitter #1'
@@ -1803,13 +1803,13 @@ proxies:
   uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 HK 香港2-1A
+  name: 13|HK 香港2[解锁|优化]
   network: tcp
   port: '52501'
   server: hry200.2228333.xyz
   tls: false
   type: vmess
-  uuid: be9a7f85-2d8f-4c97-b8f3-2cdafe78be98
+  uuid: c90ae897-f3a2-461f-b120-1f6c4f9cc782
 - alterId: 0
   cipher: auto
   name: '13|TW.台湾.C | 高速2x倍率 #1'
@@ -1821,13 +1821,13 @@ proxies:
   uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
 - alterId: 0
   cipher: auto
-  name: 13,18|🇵🇱 波兰A-1B
+  name: 13|波兰A
   network: tcp
   port: '30342'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|美国03-隧道 #1'
@@ -1884,13 +1884,13 @@ proxies:
   uuid: 4e4dfd09-4fe3-41a2-8336-da47bc2e91a0
 - alterId: 0
   cipher: auto
-  name: 13,18|所有节点都支持-1A
+  name: 13|所有节点都支持chatgpt
   network: tcp
   port: '30330'
   server: 183.238.50.22
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|澳大利亚01 #1'
@@ -1989,13 +1989,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 HK 香港1-1A
+  name: 13|HK 香港1[解锁|优化]
   network: tcp
   port: '52500'
   server: hry100.2228333.xyz
   tls: false
   type: vmess
-  uuid: be9a7f85-2d8f-4c97-b8f3-2cdafe78be98
+  uuid: c90ae897-f3a2-461f-b120-1f6c4f9cc782
 - alterId: 0
   cipher: auto
   name: 13|日本|隧道1
@@ -2015,13 +2015,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇸🇬 IEPL专线-新加坡-1-1A
+  name: '13|IEPL专线-新加坡-1 #1'
   network: ws
   port: '8001'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: v3.nmcf.me
@@ -2086,13 +2086,13 @@ proxies:
   uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
 - alterId: 0
   cipher: auto
-  name: 13,18|🇸🇬 新加坡A QQ客服943793367-1A
+  name: 13|新加坡A QQ客服943793367 （下午不在）
   network: tcp
   port: '30334'
   server: 117.172.176.43
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - name: '13|美国直连-Trojan #1'
   password: c05181cb-e8b6-46be-8c22-51e42483d2e6
   port: 443
@@ -2111,13 +2111,13 @@ proxies:
   uuid: 5fb4b2d4-85b7-4ca6-83a7-c325015373c5
 - alterId: 0
   cipher: auto
-  name: 13,18|🇬🇧 英国A-1B
+  name: 13|英国A
   network: tcp
   port: '30343'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|美国10_芝加哥 #1'
@@ -2240,13 +2240,13 @@ proxies:
   uuid: 01e72db4-26e9-417c-953a-20867bc7124f
 - alterId: 0
   cipher: auto
-  name: 13,18|🇸🇬 新加坡直连-VMESS-1B
+  name: '13|新加坡直连-vmess #1'
   network: ws
   port: '8000'
   server: v7.nmcf.me
   tls: false
   type: vmess
-  uuid: b868df9f-83ae-4221-9c1b-bc6d9ea4ea41
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: www.bing.com
@@ -2271,13 +2271,13 @@ proxies:
   uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
 - alterId: 0
   cipher: auto
-  name: 13,18|🇺🇸 IEPL专线-美国-1-1A
+  name: '13|IEPL专线-美国-1 #1'
   network: ws
   port: '8008'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: v3.nmcf.me
@@ -2293,26 +2293,26 @@ proxies:
   uuid: 176c7e95-463a-448a-a683-cf4563e55005
 - alterId: 0
   cipher: auto
-  name: 13,18|🇰🇷 IEPL专线-韩国-1-1B
+  name: '13|IEPL专线-韩国-1 #1'
   network: ws
   port: '8002'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: b868df9f-83ae-4221-9c1b-bc6d9ea4ea41
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: v7.nmcf.me
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 13,18|🇯🇵 日本-2-1B
+  name: 13|[vmess]日本-2
   network: ws
   port: '10805'
   server: kajpa.kia-ai.com
   tls: true
   type: vmess
-  uuid: 109fc8e3-c9f9-4107-b2db-55c664b3e6af
+  uuid: 65017397-25df-4c56-bad3-7aba344c87c3
   ws-opts:
     headers:
       Host: kajpa.kia-ai.com
@@ -2334,13 +2334,13 @@ proxies:
   uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 香港直连-VMESS-1A
+  name: '13|香港直连-vmess #1'
   network: ws
   port: '8001'
   server: v4.nmcf.me
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
   ws-opts:
     headers:
       Host: www.bing.com
@@ -2508,13 +2508,13 @@ proxies:
   uuid: fba3bd85-e33b-4832-b130-8d857ade6031
 - alterId: 0
   cipher: auto
-  name: 13,18|🇯🇵 IEPL专线-日本-1-1B
+  name: '13|IEPL专线-日本-1 #1'
   network: ws
   port: '8004'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: b868df9f-83ae-4221-9c1b-bc6d9ea4ea41
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: www.bing.com
@@ -2564,13 +2564,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇯🇵 日本-1-1A
+  name: 13|[vmess]日本-1
   network: ws
   port: '10805'
   server: kajp.kia-ai.com
   tls: true
   type: vmess
-  uuid: 894b23cc-90ab-43b0-8baf-bb84d8f6d073
+  uuid: 65017397-25df-4c56-bad3-7aba344c87c3
   ws-opts:
     headers:
       Host: kajp.kia-ai.com
@@ -2712,13 +2712,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 香港-1-1B
+  name: 13|[vmess]香港-1
   network: ws
   port: '10805'
   server: kahk.kia-ai.com
   tls: true
   type: vmess
-  uuid: 109fc8e3-c9f9-4107-b2db-55c664b3e6af
+  uuid: 65017397-25df-4c56-bad3-7aba344c87c3
   ws-opts:
     headers:
       Host: kahk.kia-ai.com
@@ -2977,13 +2977,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇹🇷 土耳其A-1A
+  name: 13|土耳其A
   network: tcp
   port: '30345'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
   name: '13|UK.英国.A #1'
@@ -3117,13 +3117,13 @@ proxies:
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 13,18|🇭🇰 香港-CN2-3-1A
+  name: 13|[vmess]香港-cn2-3
   network: ws
   port: '10807'
   server: cnhka.kia-ai.com
   tls: true
   type: vmess
-  uuid: 894b23cc-90ab-43b0-8baf-bb84d8f6d073
+  uuid: 65017397-25df-4c56-bad3-7aba344c87c3
   ws-opts:
     headers:
       Host: cnhka.kia-ai.com
@@ -3157,13 +3157,13 @@ proxies:
   uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
 - alterId: 0
   cipher: auto
-  name: 13,18|🇩🇪 德国A-1A
+  name: 13|德国A
   network: tcp
   port: '30341'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - name: 13|2号专线 · 香港HK · 74
   password: d9c8a390-5974-41de-9f4d-e68ad94bf4ff
   port: 33838
@@ -3207,22 +3207,22 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇫🇷 法国A-1B
+  name: 13|法国A
   network: tcp
   port: '30344'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - alterId: 0
   cipher: auto
-  name: 13,18|🇺🇸 VMESS-直连-US-1A
+  name: '13|vmess-直连-US #1'
   network: ws
   port: '48421'
   server: v6.nmcf.me
   tls: false
   type: vmess
-  uuid: aeed1add-be50-4920-b8fa-0afcf2b00c30
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
   ws-opts:
     headers:
       Host: www.bing.com
@@ -3957,152 +3957,4234 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: webinar
-  name: 18|🇺🇸 US| VLESS GRPC-1B
-  network: grpc
-  port: '8443'
-  server: dc6.api-aws.com
-  tls: true
-  type: vmess
-  uuid: f328db31-7204-491f-a94c-c118f0c3d1e3
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 US| V2RAY TCP-1A
-  network: tcp
-  port: '8843'
-  server: 38.130.98.152
-  tls: false
-  type: vmess
-  uuid: e83ce572-651c-48f6-a555-006f5ebdb5db
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 VMESS-US-1B
+  name: 18|🇺🇸 美国 017
   network: ws
-  port: '25314'
-  server: us-n1.speedyyun.com
+  port: '8080'
+  server: freedomisnear.onetwothree123.ir
   tls: false
   type: vmess
-  uuid: 2d9dbb27-8144-47e6-8b4c-9ecdc8b91b1b
+  uuid: 597649de-d8a0-48e7-a6a6-4fa471058f03
   ws-opts:
     headers:
-      Host: us-n1.speedyyun.com
-    path: /victorias
+      Host: freedomisnear.onetwothree123.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国C-1B
-  network: tcp
-  port: '30337'
-  server: 117.172.176.43
-  tls: false
-  type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: web
-  name: 18|🇺🇸 US| V2RAY GRPC-1B
-  network: grpc
-  port: '8443'
-  server: test.api-aws.com
-  tls: true
-  type: vmess
-  uuid: f328db31-7204-491f-a94c-c118f0c3d1e3
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦 加拿大A-1B
-  network: tcp
-  port: '30338'
-  server: 117.172.176.43
-  tls: false
-  type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国B 所有节点支持一切外网视频及-1B
-  network: tcp
-  port: '30336'
-  server: 117.172.176.43
-  tls: false
-  type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 US| VMESS WEBSOCKET-1A
+  name: 18|TG JUZIBAI-02IP-0.1x
   network: ws
-  port: '23552'
-  server: 38.126.114.213
+  port: '8080'
+  server: mugen22.6bnw.top
   tls: false
   type: vmess
-  uuid: e83ce572-651c-48f6-a555-006f5ebdb5db
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: mugen22.6bnw.top
+    path: /cctv?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-69
+  network: ws
+  port: '80'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-97-115-235.s1.db-link01.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-10-1A
+  network: ws
+  port: '80'
+  server: hk04.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: hk04.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAOIR83
+  network: ws
+  port: '8080'
+  server: 37.27.186.186
+  tls: false
+  type: vmess
+  uuid: 929757b2-77d9-45e4-9b87-2571960a8364
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 US| VMESS WS TLS-1B
+  name: 18|🇺🇸 美国-JUZI8186-212
+  network: ws
+  port: '80'
+  server: 151.101.2.133
+  tls: false
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 US-美国-SG-新加坡-1B
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  ws-opts:
+    headers:
+      Host: cfcdn2.sanfencdn9.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-21-1A
+  network: ws
+  port: '2086'
+  server: 104.26.8.156
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: a595e9ba-b641-480f-8597-323612357ba5
+  ws-opts:
+    headers:
+      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
+    path: /video/X37qXHip
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '18|🇻🇳 越南 04 #1'
+  network: grpc
+  port: '64436'
+  server: f10003.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1...
+  network: ws
+  port: '2086'
+  server: 104.19.47.65
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-22-1A
+  network: ws
+  port: '2095'
+  server: 172.66.47.86
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sany0116.donovan-a79.workers.dev
+    path: /max.mankadmu.com/linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-4...
+  network: ws
+  port: '2086'
+  server: 104.19.38.88
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 TG JUZIBAIPIAO 台湾04|全解锁
+  network: ws
+  port: '8880'
+  server: 4.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 4.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-2-1B
+  network: ws
+  port: '2052'
+  server: 104.18.25.92
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-48-1A
+  network: ws
+  port: '2082'
+  server: 172.67.70.92
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 052
+  network: ws
+  port: '8443'
+  server: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  uuid: 10749b58-d2ce-48db-997a-986d7c2dec35
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 053
+  network: ws
+  port: '8443'
+  server: 1744007541.tencentapp.cn
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1744007578.speed.adl.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-7...
+  network: ws
+  port: '2052'
+  server: 104.19.38.22
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 橘子日本-优化-TLS
   network: ws
   port: '443'
-  server: dc6.api-aws.com
+  server: www.csgo.com
   tls: true
   type: vmess
-  uuid: f328db31-7204-491f-a94c-c118f0c3d1e3
+  uuid: 65d0a3ab-c03a-4b02-a82a-477b1d5bc082
   ws-opts:
     headers:
-      Host: dc6.api-aws.com
-    path: /v2ray
+      Host: www.csgo.com
+    path: /juzi
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡-1G
+  name: 18|TG JUZIBAIPIAO-72
   network: ws
-  port: '33441'
-  server: 47.236.119.64
+  port: '2086'
+  server: 172.64.233.43
   tls: false
   type: vmess
-  uuid: 1eb270d5-d38a-4e69-ad6b-ef49ff3c1dc0
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-6
+  network: tcp
+  port: '80'
+  server: 20.44.241.123
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-11-1C
+  network: ws
+  port: '443'
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      Host: cold-dawn-9246.fly.dev
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 030
+  network: ws
+  port: '443'
+  server: 104.18.149.76
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.kkp.me.eu.org
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-64
+  network: ws
+  port: '2086'
+  server: 104.19.47.32
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港3
+  network: tcp
+  port: '10010'
+  server: xg3.tcity8.buzz
+  tls: false
+  type: vmess
+  uuid: 3cf6c16c-c5a5-4113-9a3f-44170dcbd4fe
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-3-1E
+  network: ws
+  port: '2095'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: s1.db-link01.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 荷兰
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-129-1A
+  network: ws
+  port: '2086'
+  server: 104.19.47.45
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 橘子新加坡-优化-TLS
+  network: ws
+  port: '443'
+  server: juzi.cloudflare.182682.xyz
+  tls: true
+  type: vmess
+  uuid: bb8e2215-82f1-4e04-de18-b94407a5ab13
+  ws-opts:
+    headers:
+      Host: juzi.cloudflare.182682.xyz
+    path: /juzi
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-223-1B
+  network: ws
+  port: '80'
+  server: root.mid.al
+  tls: false
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-147
+  network: ws
+  port: '2086'
+  server: 172.64.233.17
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-4-1B
+  network: ws
+  port: '2082'
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 039
+  network: ws
+  port: '2096'
+  server: de01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
+  ws-opts:
+    headers:
+      Host: de01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAI-HTP0-0.8x
+  network: ws
+  port: '2052'
+  server: 22.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-14-1F
+  network: ws
+  port: '2082'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: s1.db-link01.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-149
+  network: ws
+  port: '2086'
+  server: 104.19.55.49
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|橘子公益-未知-2-1C
+  network: ws
+  port: '33416'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-157
+  network: ws
+  port: '2086'
+  server: 104.19.47.122
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-4... #1'
+  network: ws
+  port: '2086'
+  server: 162.159.140.19
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-140-1B
+  network: ws
+  port: '2082'
+  server: 190.93.245.168
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-JUZI8186-6
+  network: ws
+  port: '10001'
+  server: us.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: us.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-5-1C
+  network: ws
+  port: '80'
+  server: 172.67.221.19
+  tls: false
+  type: vmess
+  uuid: 20017157-c258-4aba-8f66-efb5d0b92f6c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-132
+  network: ws
+  port: '2086'
+  server: 104.19.47.79
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-47
+  network: ws
+  port: '2086'
+  server: 104.26.0.56
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本 2
+  network: tcp
+  port: '11022'
+  server: dotu-jpv1.03ezhg0qsa.download
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-美国 9
+  network: ws
+  port: '2086'
+  server: 104.20.25.146
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡-1H
+  name: 18|🇺🇸 美国-JUZI8186-159-1B
   network: ws
-  port: '32919'
-  server: 47.236.119.64
+  port: '2086'
+  server: 104.26.0.233
   tls: false
   type: vmess
-  uuid: 68e566d5-d584-4331-856c-2398ef189ced
+  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+  ws-opts:
+    headers:
+      Host: p1.613055.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|橘子公益-未知-10-1A
+  network: ws
+  port: '8080'
+  server: n001.kovmk.website
+  tls: true
+  type: vmess
+  uuid: 92f1932f-ee19-464f-900c-93df90df830d
+  ws-opts:
+    headers:
+      Host: n001.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-142-1A
+  network: ws
+  port: '2086'
+  server: 104.19.38.8
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇩🇪 德国01-1A
+  network: grpc
+  port: '24413'
+  server: f10011.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 SG-JUZI8186-10
+  network: ws
+  port: '10001'
+  server: jp.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: jp.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-1-1A
+  network: ws
+  port: '443'
+  server: www.baldengineer.com
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: www.baldengineer.com
+    path: /linkws/afrhms16v.bestxray.buzz
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-145
+  network: ws
+  port: '2086'
+  server: 104.19.45.31
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-84
+  network: ws
+  port: '2086'
+  server: 104.19.42.49
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-9-1B
+  network: tcp
+  port: '80'
+  server: 4.145.30.221
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #1'
+  network: ws
+  port: '2086'
+  server: 162.159.140.93
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-70
+  network: ws
+  port: '2086'
+  server: 104.26.5.66
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-108-1A
+  network: ws
+  port: '2052'
+  server: 104.26.7.132
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-123-1A
+  network: ws
+  port: '2086'
+  server: 23.227.38.6
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip004.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-109
+  network: ws
+  port: '2086'
+  server: 172.64.233.15
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-80
+  network: ws
+  port: '2086'
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 042
+  network: ws
+  port: '443'
+  server: us156.vp1000.net
+  tls: true
+  type: vmess
+  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
+  ws-opts:
+    headers:
+      Host: us148.vp1000.net
+    path: /cp100vp800kkkdsnx
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-150
+  network: ws
+  port: '2086'
+  server: 162.159.140.45
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇺🇸 美国 02-1B
+  network: grpc
+  port: '61379'
+  server: f10011.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-53
+  network: ws
+  port: '2086'
+  server: 104.19.46.56
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-106-1A
+  network: ws
+  port: '2086'
+  server: 104.26.5.88
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-10-1C
+  network: ws
+  port: '443'
+  server: dkzbofzkop.com
+  tls: true
+  type: vmess
+  uuid: fa1897db-1925-4c86-a495-939a959af900
+  ws-opts:
+    headers:
+      Host: dkzbofzkop.com
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 076
+  network: ws
+  port: '80'
+  server: 172.67.42.232
+  tls: false
+  type: vmess
+  uuid: 4bf074f4-7e9c-4e4b-a10d-156e26199729
+  ws-opts:
+    headers:
+      Host: us03s.5d8ecf82.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #2'
+  network: ws
+  port: '2086'
+  server: 104.19.45.35
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 TG JUZIBAIPIAO 加拿大02
+  network: ws
+  port: '2052'
+  server: 22.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 018
+  network: ws
+  port: '8080'
+  server: s3.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-119-215-158.s3.cn-db.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-美国-CN-中国
+  network: ws
+  port: '2052'
+  server: 104.19.21.240
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-1D
+  name: 18|🇯🇵 橘子日本-优化-TLS-2-1B
   network: ws
-  port: '34365'
-  server: 47.239.40.28
+  port: '443'
+  server: 43.153.175.137
+  tls: true
+  type: vmess
+  uuid: 65d0a3ab-c03a-4b02-a82a-477b1d5bc082
+  ws-opts:
+    headers:
+      Host: ''
+    path: /juzi
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国LA-优化
+  network: ws
+  port: '16648'
+  server: yes.mojcn.com
   tls: false
   type: vmess
-  uuid: 68e566d5-d584-4331-856c-2398ef189ced
+  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  ws-opts:
+    headers:
+      Host: yes.mojcn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇦 TG JUZIBAIPIAOUA64
+  network: ws
+  port: '80'
+  server: 95.164.44.140
+  tls: false
+  type: vmess
+  uuid: 7e7325be-5c04-400a-9f11-e7f51c9cb1a9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 18|🇧🇪 比利时-JUZI8186-3
+  network: tcp
+  port: '80'
+  server: 57.155.31.98
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 JUZI8186-US-16-1B
+  network: ws
+  port: '443'
+  server: tqvbhgpbmudcrlzwdrcpkejltizqxo.roxifa.ir
+  tls: true
+  type: vmess
+  uuid: 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78
+  ws-opts:
+    headers:
+      Host: tqvbhgpbmudcrlzwdrcpkejltizqxo.roxifa.ir
+    path: '@RaFaV2Bot'
+- alterId: 0
+  cipher: auto
+  name: 18|🇷🇺 俄罗斯 002
+  network: ws
+  port: '8443'
+  server: 213.241.198.57
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-115
+  network: ws
+  port: '2052'
+  server: 104.26.0.66
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-4-1B
+  network: ws
+  port: '443'
+  server: 172.67.181.241
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 JUZI8186-US-17-1C
+  network: ws
+  port: '443'
+  server: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir
+  tls: true
+  type: vmess
+  uuid: 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78
+  ws-opts:
+    headers:
+      Host: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir
+    path: '@RaFaV2Bot'
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-46
+  network: ws
+  port: '2086'
+  server: 104.19.47.77
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-217
+  network: ws
+  port: '2095'
+  server: ip.sb
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip.sb
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-19-1F
+  network: ws
+  port: '80'
+  server: s2.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: s2.cn-db.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HK-入湖北电信-出香港-V4
+  network: ws
+  port: '21461'
+  server: 119.96.137.5
+  tls: false
+  type: vmess
+  uuid: fc7eb111-1292-4706-f4fb-afba1958924c
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡-1I
+  name: 18|🇺🇸 美国 004
   network: ws
-  port: '35888'
-  server: 47.236.119.64
+  port: '80'
+  server: ac.fastly80-2.hosting-ip.com
   tls: false
   type: vmess
-  uuid: 68e566d5-d584-4331-856c-2398ef189ced
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.dev
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 002
+  network: ws
+  port: '80'
+  server: www.xinjuc.com
+  tls: false
+  type: vmess
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: hk.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-111-1A
+  network: ws
+  port: '2086'
+  server: 104.19.51.232
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.3196772.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-113-1A
+  network: ws
+  port: '2086'
+  server: 104.19.46.33
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-37-1A
+  network: ws
+  port: '80'
+  server: de02.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: de02.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 040
+  network: ws
+  port: '23452'
+  server: westsg2-ddns.oraclenat.cc
+  tls: false
+  type: vmess
+  uuid: 5bd357c0-156b-4844-839d-164e0bd9ea66
+  ws-opts:
+    headers:
+      Host: westsg2-ddns.oraclenat.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-1A
+  network: ws
+  port: '2095'
+  server: tu.mahilu.site
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: tu.mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-139-1A
+  network: ws
+  port: '2052'
+  server: s5.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: s5.cn-db.top
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇺🇸 美国 02-1A
+  network: grpc
+  port: '61379'
+  server: f10021.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-118
+  network: ws
+  port: '2086'
+  server: 172.64.233.7
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 003
+  network: ws
+  port: '80'
+  server: www.wn03.cc
+  tls: false
+  type: vmess
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-13-1A
+  network: ws
+  port: '2052'
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: free.fnet00.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-119-1A
+  network: ws
+  port: '2052'
+  server: 104.19.46.123
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-美国-NL-荷兰
+  network: ws
+  port: '2086'
+  server: 172.64.198.249
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
       Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 003
+  network: ws
+  port: '8080'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-149-191-2.s5.db-link02.top
+    path: /dabai.in104.20.16.209
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-135-1A
+  network: ws
+  port: '2052'
+  server: 104.19.58.185
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇦🇪 阿联酋
+  network: ws
+  port: '443'
+  server: mugen22.6bnw.top
+  tls: true
+  type: vmess
+  uuid: 6c586eb5-e4ba-41bd-aff9-e4c17f9ff186
+  ws-opts:
+    headers:
+      Host: alq.telegraem.app
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡1-CDN
+  network: ws
+  port: '2053'
+  server: cloudflare.182682.xyz
+  tls: true
+  type: vmess
+  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
+  ws-opts:
+    headers:
+      Host: sg1.pavo.eu.org
+    path: /sg1vmess
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-88-1A
+  network: ws
+  port: '2086'
+  server: 104.19.46.59
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-137-1A
+  network: ws
+  port: '2052'
+  server: 104.19.57.24
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国2
+  network: tcp
+  port: '11029'
+  server: dotu-usv1.03ezhg0qsa.download
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-14-1A
+  network: ws
+  port: '2086'
+  server: ip.sb
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #3'
+  network: ws
+  port: '2086'
+  server: 104.19.45.13
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: hkyydsrongseven
+  name: 18|🇺🇸 美国 001
+  network: grpc
+  port: '54739'
+  server: 212.50.251.20
+  tls: true
+  type: vmess
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-24-1A
+  network: ws
+  port: '2052'
+  server: kt01.898965.xyz
+  tls: false
+  type: vmess
+  uuid: 1b7eac5b-476b-4433-bb43-720e659e01ae
+  ws-opts:
+    headers:
+      Host: kt01.898965.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-7-1A
+  network: ws
+  port: '2095'
+  server: 172.64.167.44
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ''
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0045
+  network: tcp
+  port: '17232'
+  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-美国-CN-中国 2
+  network: ws
+  port: '8080'
+  server: 104.19.47.126
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国 002
+  network: ws
+  port: '23451'
+  server: frankfurt.faforex.eu.org
+  tls: false
+  type: vmess
+  uuid: 4e309c18-ee5f-45f3-8f28-66467d1e0c4f
+  ws-opts:
+    headers:
+      Host: us-new03.daluquan.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-10-1F
+  network: ws
+  port: '8080'
+  server: mugen11.6bnw.top
+  tls: false
+  type: vmess
+  uuid: f7e09f30-8347-4acf-9dfa-ccc58f20f6d8
+  ws-opts:
+    headers:
+      Host: mugen11.6bnw.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-1B
+  network: tcp
+  port: '10010'
+  server: xg1.tcity8.buzz
+  tls: false
+  type: vmess
+  uuid: 3cf6c16c-c5a5-4113-9a3f-44170dcbd4fe
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-101-1A
+  network: ws
+  port: '2086'
+  server: 104.19.47.88
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-121-1A
+  network: ws
+  port: '2086'
+  server: 172.64.233.24
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇸🇬 新加坡 02-1A
+  network: grpc
+  port: '63150'
+  server: f10021.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-50
+  network: ws
+  port: '2086'
+  server: 104.26.7.132
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-48
+  network: ws
+  port: '2086'
+  server: 104.19.47.22
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-1-1B
+  network: ws
+  port: '2086'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: 82uple-bird-b087.pemed58443.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇩🇪 德国01-1B
+  network: grpc
+  port: '24413'
+  server: f10021.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港7
+  network: ws
+  port: '20206'
+  server: data-hk-v1.usabooks.com.cn
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-161-1A
+  network: ws
+  port: '2086'
+  server: 162.159.140.77
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇰 JUZI8186-DK-87
+  network: ws
+  port: '80'
+  server: 195.85.59.161
+  tls: false
+  type: vmess
+  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  ws-opts:
+    headers:
+      Host: ''
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-21-1B
+  network: ws
+  port: '2082'
+  server: s2.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: s2.db-link02.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 NL-JUZI8186-25
+  network: ws
+  port: '10002'
+  server: nl.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: nl.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国TG JUZIBAIPIAO-1
+  network: ws
+  port: '80'
+  server: 86.107.50.3
+  tls: false
+  type: vmess
+  uuid: 6a99725d-2af8-d27c-cef5-302fbbe54c07
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IVApi/NL/7
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-7-1A
+  network: ws
+  port: '80'
+  server: jp04.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: jp04.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 TG JUZIBAIPIAO 加拿大03
+  network: ws
+  port: '2082'
+  server: 22.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAI-PI1A-0.8x
+  network: ws
+  port: '2052'
+  server: 33.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 33.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 JUZI8186-US-22-1B
+  network: ws
+  port: '443'
+  server: nxmrkwulqfcyipaohevbtnsdpzfsae.roxifa.ir
+  tls: true
+  type: vmess
+  uuid: 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78
+  ws-opts:
+    headers:
+      Host: nxmrkwulqfcyipaohevbtnsdpzfsae.roxifa.ir
+    path: '@RaFaV2Bot'
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-102-1A
+  network: ws
+  port: '2086'
+  server: 23.227.38.3
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|JUZI8186-UNKNOW-42
+  network: ws
+  port: '443'
+  server: hxoht.mmzhk.website
+  tls: true
+  type: vmess
+  uuid: a6d2424b-8866-4c90-8b4d-23835a0db76c
+  ws-opts:
+    headers:
+      Host: hxoht.mmzhk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 JUZI8186-US-247
+  network: ws
+  port: '443'
+  server: jpvbshohcgc.com
+  tls: true
+  type: vmess
+  uuid: fa1897db-1925-4c86-a495-939a959af900
+  ws-opts:
+    headers:
+      Host: jpvbshohcgc.com
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 橘子公益-香港HK-4-1B
+  network: tcp
+  port: '50003'
+  server: 50003.baidu-cdn.top
+  tls: false
+  type: vmess
+  uuid: 722ee660-ca57-467f-9eda-5739859212f9
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-78
+  network: ws
+  port: '2086'
+  server: 104.19.38.12
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-128
+  network: ws
+  port: '2086'
+  server: 104.19.46.17
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 SG-JUZI8186-13
+  network: ws
+  port: '10001'
+  server: sg.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: sg.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '18|🇺🇸 美国 04 #1'
+  network: grpc
+  port: '61379'
+  server: f10003.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '18|🇺🇸 美国 03 #1'
+  network: grpc
+  port: '61379'
+  server: f10002.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-2
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: www.speedtest.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡-1A
+  network: ws
+  port: '40580'
+  server: s4.db-link.in
+  tls: true
+  type: vmess
+  uuid: 3f9939c2-b3ce-4179-9180-d9eccc01b3d5
+  ws-opts:
+    headers:
+      Host: s4.db-link.in
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-36-1A
+  network: ws
+  port: '2086'
+  server: 104.19.46.27
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|备用 XKMFJD-5-1B
+  network: tcp
+  port: '14100'
+  server: dxv4.pai50288.uk
+  tls: false
+  type: vmess
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-256
+  network: ws
+  port: '2095'
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: russia.com
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0031
+  network: tcp
+  port: '17234'
+  server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-76
+  network: ws
+  port: '2086'
+  server: 104.26.5.123
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-82
+  network: ws
+  port: '2086'
+  server: 172.67.74.112
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇷 哥斯达黎加 001
+  network: ws
+  port: '8443'
+  server: 144.22.216.68
+  tls: true
+  type: vmess
+  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
+  ws-opts:
+    headers:
+      Host: br3.vp1000.net
+    path: /pulicpDisney
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-40-1A
+  network: ws
+  port: '2086'
+  server: 104.19.47.36
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-133
+  network: ws
+  port: '2086'
+  server: 104.19.46.36
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 JUZI8186-CN-130
+  network: ws
+  port: '33202'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 TG JUZIBAIPIAO 台湾03|全解锁
+  network: ws
+  port: '2082'
+  server: 33.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 33.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-17-1B
+  network: ws
+  port: '2086'
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 015
+  network: ws
+  port: '2052'
+  server: 104.21.44.185
+  tls: false
+  type: vmess
+  uuid: 8088e23c-2332-4422-c754-927729c568bd
+  ws-opts:
+    headers:
+      Host: Freedomisnear.onetwothree123.ir
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-105-1A
+  network: ws
+  port: '2086'
+  server: 104.19.45.11
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-29-1B
+  network: ws
+  port: '2086'
+  server: malaysia.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 SG-JUZI8186-19
+  network: ws
+  port: '10001'
+  server: kr.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: kr.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-3-1A
+  network: ws
+  port: '443'
+  server: lc.org
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: lc.org
+    path: /linkws/afrhms16v.bestxray.buzz
+- alterId: 0
+  cipher: auto
+  name: 18|🇮🇳 IN-JUZI8186-34
+  network: ws
+  port: '10001'
+  server: in.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: in.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇧🇪 比利时-JUZI8186-1
+  network: tcp
+  port: '80'
+  server: 57.155.30.204
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-163
+  network: ws
+  port: '2052'
+  server: 104.19.55.79
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-198
+  network: ws
+  port: '8880'
+  server: 104.26.0.40
+  tls: false
+  type: vmess
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-8-1A
+  network: ws
+  port: '2086'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  ws-opts:
+    headers:
+      Host: vpnsupportfast.vpnsuortfast.workers.dev
+    path: /afrhms07.xfixedfloat.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 047
+  network: ws
+  port: '443'
+  server: br.vp1000.net
+  tls: true
+  type: vmess
+  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
+  ws-opts:
+    headers:
+      Host: br.vp1000.net
+    path: /pulicpDisney
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 TG JUZIBAIPIAO 新加坡04|WEB TK
+  network: ws
+  port: '2082'
+  server: 4.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 4.6bnw.top
+    path: /cctv?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 045
+  network: ws
+  port: '443'
+  server: ip4-jp2.vp1000.net
+  tls: true
+  type: vmess
+  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
+  ws-opts:
+    headers:
+      Host: ip4-jp2.vp1000.net
+    path: /pulicpaylfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-9-1A
+  network: ws
+  port: '443'
+  server: beiqili.ocloud.cc
+  tls: true
+  type: vmess
+  uuid: 4b9c2c66-62cc-4bcb-84a4-0a8ed38a0e06
+  ws-opts:
+    headers:
+      Host: beiqili.dddd.ooo
+    path: /en_US
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-3-1B
+  network: ws
+  port: '8080'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: 82uple-bird-b087.pemed58443.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-92-1B
+  network: ws
+  port: '443'
+  server: visa.com
+  tls: true
+  type: vmess
+  uuid: 3e125fac-2e5e-44f4-bd5b-5de5712fdbff
+  ws-opts:
+    headers:
+      Host: visa.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 JUZI8186-US-25-1C
+  network: ws
+  port: '443'
+  server: zlmixbynawszqkpmdrbgtprhtquicv.roxifa.ir
+  tls: true
+  type: vmess
+  uuid: 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78
+  ws-opts:
+    headers:
+      Host: zlmixbynawszqkpmdrbgtprhtquicv.roxifa.ir
+    path: '@RaFaV2Bot'
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 TG JUZIBAIPIAO 首尔03|动态|WEB ...
+  network: ws
+  port: '8880'
+  server: 33.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 33.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 橘子公益-德国DE-1-1A
+  network: ws
+  port: '80'
+  server: 151.101.0.155
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-126-1A
+  network: ws
+  port: '2086'
+  server: 104.19.45.19
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-160-1A
+  network: ws
+  port: '2052'
+  server: 104.26.7.152
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 033
+  network: ws
+  port: '443'
+  server: us16.998998.best
+  tls: true
+  type: vmess
+  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
+  ws-opts:
+    headers:
+      Host: server9-3.998877.best
+    path: /rksdnuhgteb?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-76-1B
+  network: ws
+  port: '80'
+  server: hsj.lbxjc.online
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 009
+  network: ws
+  port: '42360'
+  server: 0000000000000000000000000080.cgroup-node-for-bigairport.sbs
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: 0000000000000000000000000080.cgroup-node-for-bigairport.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-4... #2'
+  network: ws
+  port: '2052'
+  server: 104.19.42.79
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|OTHER 30MBPS
+  network: ws
+  port: '443'
+  server: n1723960458.ryjml.cn
+  tls: true
+  type: vmess
+  uuid: 77bcad64-8bb9-47a8-81f5-9086c6040b63
+  ws-opts:
+    headers:
+      Host: n1723960458.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 024
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 SG-JUZI8186-22
+  network: ws
+  port: '10001'
+  server: hk.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: hk.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #4'
+  network: ws
+  port: '2086'
+  server: 104.19.46.42
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-4
+  network: tcp
+  port: '80'
+  server: 20.44.241.248
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-41
+  network: ws
+  port: '2086'
+  server: 104.26.5.113
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-124-1A
+  network: ws
+  port: '2086'
+  server: 172.64.233.35
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-127-1A
+  network: ws
+  port: '2086'
+  server: 104.17.106.151
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-5...
+  network: ws
+  port: '2086'
+  server: 172.67.71.187
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-103-1A
+  network: ws
+  port: '2086'
+  server: 104.19.38.62
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip006.3196772.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAI-03OP-0.1x
+  network: ws
+  port: '8080'
+  server: mugen33.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: mugen33.6bnw.top
+    path: /cctv?ed=2048
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇹🇷 土耳其 01-1B
+  network: grpc
+  port: '54902'
+  server: f10001.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-44
+  network: ws
+  port: '2086'
+  server: 104.26.5.103
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇷🇺 JUZI8186-RU-28
+  network: ws
+  port: '33026'
+  server: 89.169.55.152
+  tls: true
+  type: vmess
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 TG JUZIBAIPIAO 日本08|WEB TK
+  network: ws
+  port: '2052'
+  server: 4.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 4.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇹🇷 土耳其 01-1A
+  network: grpc
+  port: '54902'
+  server: f10021.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-7... #1'
+  network: ws
+  port: '8880'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-38-1A
+  network: ws
+  port: '2086'
+  server: 104.26.5.112
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-148-1A
+  network: ws
+  port: '2052'
+  server: 104.19.47.75
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 043
+  network: ws
+  port: '443'
+  server: us155.vp1000.net
+  tls: true
+  type: vmess
+  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
+  ws-opts:
+    headers:
+      Host: us148.vp1000.net
+    path: /cp100vp800kkkdsnx
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 法国-JUZI8186-217
+  network: ws
+  port: '443'
+  server: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾
+  network: tcp
+  port: '11012'
+  server: dotu-twv1.03ezhg0qsa.download
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-5
+  network: tcp
+  port: '80'
+  server: 20.44.243.190
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 TG JUZIBAIPIAO 加拿大04
+  network: ws
+  port: '8880'
+  server: 22.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-美国 13
+  network: ws
+  port: '2086'
+  server: 104.19.21.230
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇭🇰 香港2
+  network: tcp
+  port: '40259'
+  server: 120.238.122.243
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-107
+  network: ws
+  port: '2086'
+  server: 104.19.45.17
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 2
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0052
+  network: ws
+  port: '30830'
+  server: v30.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-194-1B
+  network: ws
+  port: '8880'
+  server: 104.26.0.41
+  tls: false
+  type: vmess
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-152-1A
+  network: ws
+  port: '2086'
+  server: 104.19.32.88
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip5-4.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-55
+  network: ws
+  port: '2086'
+  server: 104.19.45.42
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0042
+  network: tcp
+  port: '17234'
+  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-30-1B
+  network: ws
+  port: '80'
+  server: us02.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: us02.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #5'
+  network: ws
+  port: '2086'
+  server: 104.19.32.216
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-2-1B
+  network: ws
+  port: '8080'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: s1.cn-db.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #6'
+  network: ws
+  port: '2086'
+  server: 104.19.45.50
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-31-1B
+  network: ws
+  port: '2086'
+  server: 104.26.5.145
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 CA-JUZI8186-28
+  network: ws
+  port: '10001'
+  server: ca.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: ca.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 GB-JUZI8186-31
+  network: ws
+  port: '10001'
+  server: uk.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: uk.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-146
+  network: ws
+  port: '2086'
+  server: 104.16.148.244
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip006.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-122
+  network: ws
+  port: '2052'
+  server: 172.67.74.122
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-73
+  network: ws
+  port: '2086'
+  server: 104.19.45.15
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-19-1B
+  network: ws
+  port: '80'
+  server: kr04.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: kr04.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-63
+  network: ws
+  port: '2086'
+  server: 104.19.32.46
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip002-3.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-140
+  network: ws
+  port: '2052'
+  server: 104.26.0.56
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-5... #1'
+  network: ws
+  port: '443'
+  server: 141.724064.xyz
+  tls: true
+  type: vmess
+  uuid: f3878e79-8166-4140-8dbe-e1f35b650e1c
+  ws-opts:
+    headers:
+      Host: 141.724064.xyz
+    path: /gmvfvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0017
+  network: tcp
+  port: '17232'
+  server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- alterId: 0
+  cipher: auto
+  name: 18|🇧🇪 比利时-JUZI8186-10
+  network: tcp
+  port: '80'
+  server: 57.155.30.139
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 057
+  network: ws
+  port: '2086'
+  server: 104.18.114.1
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-12-1A
+  network: ws
+  port: '80'
+  server: sg03.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: sg03.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 002
+  network: ws
+  port: '8880'
+  server: s4.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-128-12-180.s4.db-link02.top
+    path: /dabai.in104.25.239.131
+- alterId: 0
+  cipher: auto
+  name: 18|橘子公益-未知-26-1D
+  network: ws
+  port: '20315'
+  server: 185.121.134.12
+  tls: false
+  type: vmess
+  uuid: fa2a3c9b-47c0-41ba-8a8e-ff66ba96a286
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇭🇰 香港-1C
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-153
+  network: ws
+  port: '2086'
+  server: 104.19.46.39
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 020
+  network: ws
+  port: '8443'
+  server: 156.229.48.237
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAOUS213
+  network: ws
+  port: '2086'
+  server: 104.26.5.56
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-JUZI8186-16
+  network: ws
+  port: '10001'
+  server: de.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: de.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0027
+  network: tcp
+  port: '54652'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-52
+  network: ws
+  port: '2052'
+  server: 23.227.38.13
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-157
+  network: ws
+  port: '8880'
+  server: 104.26.0.89
+  tls: false
+  type: vmess
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAI-KTAP-0.8x
+  network: ws
+  port: '2052'
+  server: 4.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 4.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-62
+  network: ws
+  port: '2086'
+  server: 23.227.38.5
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip006.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-32-1G
+  network: ws
+  port: '80'
+  server: 151.101.194.133
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-195-1B
+  network: ws
+  port: '8880'
+  server: 104.26.0.169
+  tls: false
+  type: vmess
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇺🇸 美国02-1B
+  network: grpc
+  port: '20701'
+  server: f10003.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-42-1B
+  network: tcp
+  port: '44614'
+  server: 120.198.71.219
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 1
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-6-1A
+  network: ws
+  port: '443'
+  server: loveyourshelf.net
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: loveyourshelf.net
+    path: /linkvws/b.pelang.org
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-76-1C
+  network: ws
+  port: '80'
+  server: plex.com
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: plex.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-200-1B
+  network: ws
+  port: '8880'
+  server: 104.26.0.121
+  tls: false
+  type: vmess
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #7'
+  network: ws
+  port: '2086'
+  server: japan.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: japan.com
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-144-1A
+  network: ws
+  port: '2052'
+  server: 23.227.38.3
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 JUZI8186-FR-21
+  network: ws
+  port: '443'
+  server: discord.vpnsell.beauty
+  tls: true
+  type: vmess
+  uuid: a8ed942c-0c14-4061-89f7-c08b90ebea76
+  ws-opts:
+    headers:
+      Host: discord.vpnsell.beauty
+    path: /29516/iliya
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-34-1B
+  network: ws
+  port: '80'
+  server: de04.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: de04.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-100-1A
+  network: ws
+  port: '2086'
+  server: 104.19.46.63
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-66
+  network: ws
+  port: '80'
+  server: join.isvvpn.fastly80-3.hosting-ip.com
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: join.ISVvpn.fastly80-3.hosting-ip.com
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇺🇸 美国01-1A
+  network: grpc
+  port: '20701'
+  server: f10001.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-3...
+  network: ws
+  port: '2095'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #8'
+  network: ws
+  port: '443'
+  server: nmsl.rnmcnm.com
+  tls: true
+  type: vmess
+  uuid: 089e06da-2b50-46a3-9f57-6d05f4e68a28
+  ws-opts:
+    headers:
+      Host: nmsl.rnmcnm.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|中国-JUZI8186-3-1B
+  network: tcp
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 048
+  network: ws
+  port: '80'
+  server: 172.67.172.168
+  tls: false
+  type: vmess
+  uuid: 4bf074f4-7e9c-4e4b-a10d-156e26199729
+  ws-opts:
+    headers:
+      Host: us03s.5d8ecf82.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇧🇪 比利时-JUZI8186-7
+  network: tcp
+  port: '80'
+  server: 57.155.31.108
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡-1B
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: a595e9ba-b641-480f-8597-323612357ba5
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-27-1B
+  network: ws
+  port: '2086'
+  server: 104.19.47.80
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAI-AO0I-0.1x
+  network: ws
+  port: '8080'
+  server: mugen11.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: mugen11.6bnw.top
+    path: /cctv?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇧🇪 比利时-JUZI8186-2
+  network: tcp
+  port: '80'
+  server: 57.155.30.207
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-228
+  network: ws
+  port: '2095'
+  server: malaysia.com
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: malaysia.com
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国-JUZI8186-215
+  network: ws
+  port: '2082'
+  server: 45.12.30.237
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-66
+  network: ws
+  port: '2086'
+  server: 172.64.233.27
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 TG JUZIBAIPIAO 新加坡02|WEB TK
+  network: ws
+  port: '2082'
+  server: 22.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bnw.top
+    path: /cctv?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 041
+  network: ws
+  port: '443'
+  server: us148.vp1000.net
+  tls: true
+  type: vmess
+  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
+  ws-opts:
+    headers:
+      Host: us148.vp1000.net
+    path: /cp100vp800kkkdsnx
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-20-1B
+  network: ws
+  port: '8080'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-220-1B
+  network: ws
+  port: '2082'
+  server: 167.68.5.24
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 050
+  network: ws
+  port: '443'
+  server: ip4-jp1.vp1000.net
+  tls: true
+  type: vmess
+  uuid: a9326a5a-b890-46e3-bd3d-a4f9d5082323
+  ws-opts:
+    headers:
+      Host: ip4-jp1.vp1000.net
+    path: /pulicpaylfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-8
+  network: tcp
+  port: '80'
+  server: 4.145.26.112
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30812
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇩🇪 德国03
+  network: grpc
+  port: '24413'
+  server: f10001.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HK-入湖北电信-出日本-V4
+  network: ws
+  port: '11329'
+  server: 119.96.137.5
+  tls: false
+  type: vmess
+  uuid: fc7eb111-1292-4706-f4fb-afba1958924c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国3
+  network: ws
+  port: '2095'
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: a595e9ba-b641-480f-8597-323612357ba5
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇻🇳 越南 02-1A
+  network: grpc
+  port: '64436'
+  server: f10011.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-219
+  network: ws
+  port: '2095'
+  server: singapore.com
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: singapore.com
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 001
+  network: ws
+  port: '2052'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 荷兰-JUZI8186-168-1B
+  network: ws
+  port: '2082'
+  server: 45.159.218.63
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-39-1F
+  network: ws
+  port: '80'
+  server: 151.101.130.133
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-114
+  network: ws
+  port: '2086'
+  server: 172.64.233.32
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-139
+  network: ws
+  port: '80'
+  server: visa.com
+  tls: false
+  type: vmess
+  uuid: 4445b5c2-d5cb-45f6-a139-f96978f7bc95
+  ws-opts:
+    headers:
+      Host: beans-foto-hire-colleague.trycloudflare.com
+    path: /4445b5c2-d5cb-45f6-a139-f96978f7bc95-vmess
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-26-1B
+  network: ws
+  port: '80'
+  server: sg01.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: fddfab81-22bb-4d33-8e95-933c8c81b2ad
+  ws-opts:
+    headers:
+      Host: sg01.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-141
+  network: ws
+  port: '2086'
+  server: 104.19.47.27
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-32-1A
+  network: ws
+  port: '443'
+  server: 104.16.61.8
+  tls: true
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us2e-20240116.v2freevpn.com
+    path: /us2ekjds3nay
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇹🇷 土耳其 02
+  network: grpc
+  port: '54902'
+  server: f10003.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 2
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0043
+  network: ws
+  port: '30828'
+  server: v28.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US-美国 17
+  network: ws
+  port: '2086'
+  server: 104.18.57.111
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇰 JUZI8186-DK-88
+  network: ws
+  port: '80'
+  server: go.alipay.ovh
+  tls: false
+  type: vmess
+  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  ws-opts:
+    headers:
+      Host: go.alipay.ovh
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇻🇳 越南 02-1B
+  network: grpc
+  port: '64436'
+  server: f10021.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-16-1B
+  network: ws
+  port: '80'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-9-1A
+  network: ws
+  port: '443'
+  server: www.bzfmc.com
+  tls: true
+  type: vmess
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: www.bzfmc.com
+    path: /linkws/hms03.dongfeng.cfd
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-39-1A
+  network: ws
+  port: '2086'
+  server: 172.64.233.37
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-6-1A
+  network: ws
+  port: '2095'
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ep-sunset-9b11.kekic13319.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|橘子公益-未知-15-1A
+  network: ws
+  port: '8080'
+  server: n002.kovmk.website
+  tls: true
+  type: vmess
+  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
+  ws-opts:
+    headers:
+      Host: n002.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国-1A
+  network: tcp
+  port: '11045'
+  server: dotu-krv1.03ezhg0qsa.download
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-1... #9'
+  network: ws
+  port: '443'
+  server: 145.724064.xyz
+  tls: true
+  type: vmess
+  uuid: 5de1ff44-aaf8-4790-b0fb-e55aab062622
+  ws-opts:
+    headers:
+      Host: 145.724064.xyz
+    path: /zrqrvws
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-81
+  network: ws
+  port: '2086'
+  server: 104.19.59.89
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-191-1B
+  network: ws
+  port: '2082'
+  server: 154.83.2.121
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇻🇳 越南 05
+  network: grpc
+  port: '64436'
+  server: f10001.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-151
+  network: ws
+  port: '2086'
+  server: 104.19.46.233
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip004.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 橘子公益-美国US-22-1F
+  network: httpupgrade
+  port: '2095'
+  server: 104.19.150.10
+  tls: false
+  type: vmess
+  uuid: 94f332b0-c5d3-4531-a1d6-6e6358cc6c72
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-42-1A
+  network: ws
+  port: '443'
+  server: sg1.1vpn.sbs
+  tls: true
+  type: vmess
+  uuid: 46dde0d2-efb1-464b-acfc-8ae4e06adb5b
+  ws-opts:
+    headers:
+      Host: sg1.1vpn.sbs
+    path: /oihuih6788
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-57
+  network: ws
+  port: '2086'
+  server: www.visa.com
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 037
+  network: ws
+  port: '443'
+  server: freeyx.cloudflare88.eu.org
+  tls: false
+  type: vmess
+  uuid: 56b915c0-bdf8-4749-ab55-b44d0469e46d
+  ws-opts:
+    headers:
+      Host: go.daluquan.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAI-I04O-0.1x
+  network: ws
+  port: '8080'
+  server: mugen44.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: mugen44.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 038
+  network: ws
+  port: '23451'
+  server: phx-plus-1ddns.faforex.eu.org
+  tls: false
+  type: vmess
+  uuid: f845faba-ef07-4ef0-b055-866bbb81143c
+  ws-opts:
+    headers:
+      Host: phx-plus-1ddns.faforex.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-110
+  network: ws
+  port: '2086'
+  server: 104.19.46.103
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇰 JUZI8186-DK-60
+  network: ws
+  port: '80'
+  server: 195.85.59.95
+  tls: false
+  type: vmess
+  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  ws-opts:
+    headers:
+      Host: ''
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|橘子公益-未知-16-1A
+  network: ws
+  port: '8080'
+  server: m003.mmzhk.website
+  tls: true
+  type: vmess
+  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
+  ws-opts:
+    headers:
+      Host: m003.mmzhk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-JUZI8186-158
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  tls: true
+  type: vmess
+  uuid: 350af010-b09f-11ef-b234-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: eu-2.hihu.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-15-1A
+  network: ws
+  port: '80'
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: freevpn878.hamidimorteza680.workers.dev
+    path: /glweidf.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-86
+  network: ws
+  port: '2086'
+  server: 172.64.233.9
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-6...
+  network: ws
+  port: '2086'
+  server: 104.26.5.90
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ''
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇭🇰 香港04-专线-1A
+  network: grpc
+  port: '59614'
+  server: fl0022.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-99
+  network: ws
+  port: '2086'
+  server: 104.19.58.175
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 荷兰-JUZI8186-142-1B
+  network: ws
+  port: '2082'
+  server: 194.152.44.218
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-104
+  network: ws
+  port: '2086'
+  server: 104.19.45.47
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-120-1A
+  network: ws
+  port: '2086'
+  server: 104.19.46.22
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 橘子日本-优化-TLS-1-1B
+  network: ws
+  port: '443'
+  server: 103.116.7.248
+  tls: true
+  type: vmess
+  uuid: 65d0a3ab-c03a-4b02-a82a-477b1d5bc082
+  ws-opts:
+    headers:
+      Host: ''
+    path: /juzi
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 004
+  network: ws
+  port: '2086'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-47-154-9.s1.cn-db.top
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0050
+  network: ws
+  port: '30804'
+  server: v4.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 18|橘子公益-未知-27-1B
+  network: ws
+  port: '2082'
+  server: icook.tw
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: icook.tw
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '18|🇭🇰 TG JUZIBAIPIAO|深港隧道|流媒体解锁-5... #2'
+  network: ws
+  port: '80'
+  server: www.zula.ir
+  tls: false
+  type: vmess
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: www.zula.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-117
+  network: ws
+  port: '2086'
+  server: 104.26.0.50
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip5-4.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 TG JUZIBAIPIAO 日本07|WEB TK
+  network: ws
+  port: '2052'
+  server: 33.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 33.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 035
+  network: ws
+  port: '33443'
+  server: tls.05.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: b71f9e84-86c9-49c4-b5f4-b33b35ee7410
+  ws-opts:
+    headers:
+      Host: tls.05.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-134-1A
+  network: ws
+  port: '2086'
+  server: 104.19.45.90
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 TG JUZIBAIPIAO 新加坡03|WEB TK
+  network: ws
+  port: '2082'
+  server: 33.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 33.6bnw.top
+    path: /cctv?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-11
+  network: ws
+  port: '8080'
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: hyfhhg.jadovah977.workers.dev
+    path: /jahfkjha.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-112-1A
+  network: ws
+  port: '2086'
+  server: 104.19.57.4
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 18|TG JUZIBAIPIAO-5-1B
+  network: ws
+  port: '2086'
+  server: 104.16.61.8
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 2
+  cipher: auto
+  name: 18|🇨🇳 CN-2E296-0053
+  network: ws
+  port: '22643'
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
     path: /
 - name: 29|🇿🇦南非/1x
   password: b19c4375-d847-4c40-9824-4767c88b5f38

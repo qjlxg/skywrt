@@ -144,13 +144,72 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇩🇪 德国A-1A
+  name: 13|德国A
   network: tcp
   port: '30341'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: a07ce179-074a-46ad-afa2-dd727546cc8b
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 039
+  network: ws
+  port: '2096'
+  server: de01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
+  ws-opts:
+    headers:
+      Host: de01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇩🇪 德国01-1A
+  network: grpc
+  port: '24413'
+  server: f10011.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇩🇪 德国01-1B
+  network: grpc
+  port: '24413'
+  server: f10021.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 橘子公益-德国DE-1-1A
+  network: ws
+  port: '80'
+  server: 151.101.0.155
+  tls: false
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 18|🇩🇪 德国03
+  network: grpc
+  port: '24413'
+  server: f10001.flyflylflyflysbs.sbs
+  tls: true
+  type: vmess
+  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
 - mport: 35000-39000
   name: 31|🇩🇪德国 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c

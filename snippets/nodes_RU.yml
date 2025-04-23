@@ -8,13 +8,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,18|🇷🇺 俄罗斯A-1B
+  name: 13|俄罗斯A
   network: tcp
   port: '30346'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
 - name: 13|俄罗斯Tj🍒
   network: ws
   password: 63b3e3a3-84ca-4b7d-b556-5c3ddae07a8e
@@ -53,3 +53,29 @@ proxies:
     headers:
       Host: www.apple.com
     path: /iphone
+- alterId: 0
+  cipher: auto
+  name: 18|🇷🇺 俄罗斯 002
+  network: ws
+  port: '8443'
+  server: 213.241.198.57
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇷🇺 JUZI8186-RU-28
+  network: ws
+  port: '33026'
+  server: 89.169.55.152
+  tls: true
+  type: vmess
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /dangerzone

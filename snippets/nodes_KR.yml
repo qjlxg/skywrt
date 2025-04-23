@@ -55,13 +55,13 @@ proxies:
   uuid: 84fea280-64ab-41b9-b63e-0c7324e69fba
 - alterId: 0
   cipher: auto
-  name: 13,18|🇰🇷 IEPL专线-韩国-1-1B
+  name: '13|IEPL专线-韩国-1 #1'
   network: ws
   port: '8002'
   server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: b868df9f-83ae-4221-9c1b-bc6d9ea4ea41
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: v7.nmcf.me
@@ -93,3 +93,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 TG JUZIBAIPIAO 首尔03|动态|WEB ...
+  network: ws
+  port: '8880'
+  server: 33.6bnw.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 33.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国-1A
+  network: tcp
+  port: '11045'
+  server: dotu-krv1.03ezhg0qsa.download
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6

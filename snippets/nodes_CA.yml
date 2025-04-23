@@ -106,10 +106,105 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦 加拿大A-1B
-  network: tcp
-  port: '30338'
-  server: 117.172.176.43
+  name: 18|🇨🇦 TG JUZIBAIPIAO 加拿大02
+  network: ws
+  port: '2052'
+  server: 22.6bkc.top
   tls: false
   type: vmess
-  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 003
+  network: ws
+  port: '8080'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-149-191-2.s5.db-link02.top
+    path: /dabai.in104.20.16.209
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 TG JUZIBAIPIAO 加拿大03
+  network: ws
+  port: '2082'
+  server: 22.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 TG JUZIBAIPIAO 加拿大04
+  network: ws
+  port: '8880'
+  server: 22.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 22.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 CA-JUZI8186-28
+  network: ws
+  port: '10001'
+  server: ca.569520.xyz
+  tls: true
+  type: vmess
+  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
+  ws-opts:
+    headers:
+      Host: ca.569520.xyz
+    path: /cctv13/4k.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 002
+  network: ws
+  port: '8880'
+  server: s4.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-128-12-180.s4.db-link02.top
+    path: /dabai.in104.25.239.131
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 001
+  network: ws
+  port: '2052'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 004
+  network: ws
+  port: '2086'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-47-154-9.s1.cn-db.top
+    path: /

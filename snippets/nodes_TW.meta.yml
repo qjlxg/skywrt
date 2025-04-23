@@ -300,6 +300,41 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 TG JUZIBAIPIAO 台湾04|全解锁
+  network: ws
+  port: '8880'
+  server: 4.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 4.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 TG JUZIBAIPIAO 台湾03|全解锁
+  network: ws
+  port: '2082'
+  server: 33.6bkc.top
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: 33.6bkc.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾
+  network: tcp
+  port: '11012'
+  server: dotu-twv1.03ezhg0qsa.download
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 31|🇹🇼台湾 | 避免晚高峰使用
