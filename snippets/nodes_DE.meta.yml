@@ -27,130 +27,467 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|德国-v6|02*0.5倍率
-  network: tcp
-  port: '22306'
-  server: netcp2.616626.xyz
+  name: 18|🇩🇪 GERMANY 70
+  network: ws
+  port: '2095'
+  server: 185.135.9.250
   tls: false
   type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|德国-v6|01*0.5倍率
-  network: tcp
-  port: '22305'
-  server: netcp1.616626.xyz
+  name: 18|🇩🇪 GERMANY 77
+  network: ws
+  port: '443'
+  server: hdfrplcpnl1.airlineshoma.com
+  tls: true
+  type: vmess
+  uuid: a2ef1a8e-347e-4dc4-a1ff-de9b1ebeaf63
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /Sx6hCbCg6RqXrfw3l
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 27-1A
+  network: ws
+  port: '443'
+  server: 57.129.24.125
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aveiror.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 55
+  network: ws
+  port: '23451'
+  server: frankfurt.faforex.eu.org
   tls: false
   type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '13|[vless]德国[1.1x]-电联4 #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: PaAaDWyG_MhYTIhEHrLJusbrG35KN266mHqeISOb7n4
-    short-id: 8dc4a6c4
-  server: deuf1.731732.xyz
-  servername: www.uni-stuttgart.de
-  tls: false
-  type: vless
-  uuid: 94ba5bae-09de-4e52-8a9b-545e8b476fe9
+  uuid: 987bf15c-a362-4db2-866b-f319e767d4e0
+  ws-opts:
+    headers:
+      Host: us-new03.daluquan.top
+    path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: '13|德国1 #1'
-  network: tcp
-  port: '12714'
-  server: xxx.btmbxxx.top
+  name: 18|🇩🇪 GERMANY 31-1A
+  network: ws
+  port: '443'
+  server: 57.129.24.141
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 60
+  network: ws
+  port: '2052'
+  server: 185.135.9.19
   tls: false
   type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|🇩🇪 德国(ipv6)AK CDN直连
+  name: 18|🇩🇪 GERMANY 76
+  network: ws
+  port: '2095'
+  server: 185.135.9.75
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 65
+  network: tcp
+  port: '100'
+  server: cpanel.erade33.ir
+  tls: false
+  type: vmess
+  uuid: 1889d9ef-9d58-4427-bb3e-a08810c214eb
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国 AK CDN直连-1F
   network: ws
   port: '443'
   server: akdev6.12ip.cc
   tls: false
   type: vmess
-  uuid: 209666f4-4851-463d-b76b-462805e9f843
+  uuid: 874ef57e-c8e0-4ea5-beb8-f2acfbc98b0f
   ws-opts:
     headers:
-      Host: ''
+      Host: akdev6.12ip.cc
     path: /
-- name: 13|vless-德国
-  network: ws
-  port: 35097
-  server: de.uzilol.cn
-  servername: de.uzilol.cn
-  tls: true
-  type: vless
-  uuid: d9e674f2-b1ab-470d-937c-5e2eb0d74751
-  ws-opts:
-    headers:
-      Host: de.uzilol.cn
-    path: '%2Frangws'
 - alterId: 0
   cipher: auto
-  name: '13|德国2 #1'
+  name: 18|🇩🇪 德国 02 | TCP
   network: tcp
-  port: '12715'
-  server: xxx.btmbxxx.top
+  port: '20031'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
   tls: false
   type: vmess
-  uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 13|德国-v6|03*0.5倍率
+  name: 18|🇩🇪 GERMANY 35
+  network: tcp
+  port: '2053'
+  server: 91.107.249.225
+  tls: false
+  type: vmess
+  uuid: a0b2f962-fc82-407a-aa1b-647165a95a12
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国-V6|01 0.5x-1C
+  network: tcp
+  port: '22305'
+  server: netcp1.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 34
+  network: ws
+  port: '443'
+  server: 57.129.24.124
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 78
+  network: ws
+  port: '8443'
+  server: 185.135.9.153
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 54
+  network: ws
+  port: '443'
+  server: 139.162.178.95
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: fixedfloati.cfd
+    path: /linkwsd
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国-V6|03 0.5x-1B
   network: tcp
   port: '22307'
   server: netcp3.616626.xyz
   tls: false
   type: vmess
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '13|[vless]德国[1.1x]-电联3 #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: rvF_sInyHr40Ti4oMV1tVBMSCGWDnTY1SGPtH1ZK4SI
-    short-id: e78ef9a01b
-  server: deuf4.731732.xyz
-  servername: www.uni-stuttgart.de
-  tls: false
-  type: vless
-  uuid: 495a86c4-c6d2-4792-aad9-6932128284c1
 - alterId: 0
   cipher: auto
-  name: 13|[vmess]德国[0.75x]-福利
-  network: ws
-  port: '80'
-  server: decf1.426624.xyz
-  servername: bing.com
+  name: 18|🇩🇪 GERMANY 67
+  network: tcp
+  port: '41391'
+  server: 159.69.120.98
   tls: false
   type: vmess
-  uuid: 40a75de4-1071-4958-bce4-d9ddcfc3d90e
+  uuid: b5c3e2e8-dfb6-4a0a-b656-87e997610785
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 61
+  network: ws
+  port: '8443'
+  server: 45.80.111.223
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
   ws-opts:
     headers:
-      Host: ''
-    path: ''
-- name: 13|【德国06】*0.5倍率
-  password: b888e849-c69b-46f1-8a77-ca734195f630
-  port: 10027
-  server: netcp4.616626.xyz
-  skip-cert-verify: true
-  sni: netcp4.616626.xyz
-  type: trojan
+      Host: lax1.ibgfw.top
+    path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: 13|德国A
-  network: tcp
-  port: '30341'
-  server: 183.236.123.34
+  name: 18|🇩🇪 GERMANY 29
+  network: ws
+  port: '443'
+  server: frankfurt03.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
+  ws-opts:
+    headers:
+      Host: frankfurt03.zgjok.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 30-1A
+  network: ws
+  port: '443'
+  server: 57.129.24.142
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: harriscity.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 71
+  network: ws
+  port: '443'
+  server: 57.129.24.133
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国 01 | WS
+  network: ws
+  port: '20030'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
   tls: false
   type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国-北京隧道-1B
+  network: tcp
+  port: '13802'
+  server: cu21.kuxueyun.com
+  tls: false
+  type: vmess
+  uuid: 936551aa-7288-403b-b833-90e67d98fb1c
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国-V6|02 0.5x-1C
+  network: tcp
+  port: '22306'
+  server: netcp2.616626.xyz
+  tls: false
+  type: vmess
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 63
+  network: ws
+  port: '2095'
+  server: 185.135.9.247
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 57
+  network: tcp
+  port: '100'
+  server: 138.199.162.120
+  tls: false
+  type: vmess
+  uuid: 1889d9ef-9d58-4427-bb3e-a08810c214eb
+- alterId: 64
+  cipher: auto
+  name: 18|🇩🇰 DENMARK
+  network: tcp
+  port: '49020'
+  server: 193.29.107.234
+  tls: false
+  type: vmess
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 59
+  network: ws
+  port: '2095'
+  server: 185.135.9.158
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 69
+  network: ws
+  port: '8443'
+  server: 89.116.46.96
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 28
+  network: ws
+  port: '443'
+  server: hms23.fixedfloati.cfd
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: fixedfloati.cfd
+    path: /linkwsd
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国01-免费
+  network: ws
+  port: '2096'
+  server: de01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8
+  ws-opts:
+    headers:
+      Host: de01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 33-1A
+  network: ws
+  port: '443'
+  server: linde06.indiavideo.sbs
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 32-1A
+  network: ws
+  port: '443'
+  server: 23.158.56.227
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.227
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 68
+  network: ws
+  port: '443'
+  server: 23.158.56.241
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 36-1A
+  network: ws
+  port: '443'
+  server: hms24.ivideos.sbs
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ivideos.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 72
+  network: ws
+  port: '2095'
+  server: 185.135.9.166
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 73
+  network: tcp
+  port: '100'
+  server: 162.55.171.226
+  tls: false
+  type: vmess
+  uuid: 1889d9ef-9d58-4427-bb3e-a08810c214eb
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 66
+  network: ws
+  port: '80'
+  server: hdfrplcpnl1.airlineshoma.com
+  tls: false
+  type: vmess
+  uuid: a2ef1a8e-347e-4dc4-a1ff-de9b1ebeaf63
+  ws-opts:
+    headers:
+      Host: hdfrplcpnl1.airlineshoma.com
+    path: /Sx6hCbCg6RqXrfw3l
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 GERMANY 74
+  network: ws
+  port: '2095'
+  server: 185.135.9.225
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
 - mport: 35000-39000
   name: 31|🇩🇪德国 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c

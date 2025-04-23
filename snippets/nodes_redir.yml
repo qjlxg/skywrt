@@ -1,43 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '13|深港中转-IEPL专线-US-1 #1'
-  network: ws
-  port: '8006'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- name: '13|日本03中转快 #3'
-  network: tcp
-  password: 0eae99c1-6c66-434c-947d-c38a047f3089
-  port: 64420
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
-  type: trojan
-- name: '13|日本03中转1 #3'
-  network: tcp
-  password: ae6827eb-c714-4f40-8d42-a70d7227a6c2
-  port: 38327
-  server: twjpzz2.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyunjp039c5fedcd-4ecb-8b2f-37fd-9fd9388ed95e.376897.xyz
-  type: trojan
-- name: '13|新加坡05中转 #3'
-  network: tcp
-  password: 06fbbfc7-51ec-417a-b1b2-af91f6192e72
-  port: 35828
-  server: twjpzznew.376897.xyz
-  skip-cert-verify: false
-  sni: 2jdyun03c0d804c1-65d3-4507-8ef5-c557234fded1.376897.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: '15,30|日本 05 加密测试 - IPLC1中转 #1'
   network: tcp
   port: '30020'
@@ -54,3 +17,16 @@ proxies:
   tls: false
   type: vmess
   uuid: aa825895-0ae4-4b26-916e-e7dad4f57128
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 深港中转-IEPL专线-US-1-1T
+  network: ws
+  port: '8006'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: c46e91a7-9cd6-49e4-896a-cee08cfb92a2
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
