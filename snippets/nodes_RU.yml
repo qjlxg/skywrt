@@ -8,13 +8,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|俄罗斯A
+  name: 13,18|🇷🇺 俄罗斯A-1A
   network: tcp
   port: '30346'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
 - name: 13|俄罗斯Tj🍒
   network: ws
   password: 63b3e3a3-84ca-4b7d-b556-5c3ddae07a8e
@@ -55,27 +55,23 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯 002
-  network: ws
-  port: '8443'
-  server: 213.241.198.57
-  tls: true
+  name: 18|🇷🇺 俄罗斯 02 | TCP
+  network: tcp
+  port: '20023'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
   type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 JUZI8186-RU-28
+  name: 18|🇷🇺 俄罗斯 01 | WS
   network: ws
-  port: '33026'
-  server: 89.169.55.152
-  tls: true
+  port: '20022'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
   type: vmess
-  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
   ws-opts:
     headers:
-      Host: ''
-    path: /dangerzone
+      Host: tms.dingtalk.com
+    path: /

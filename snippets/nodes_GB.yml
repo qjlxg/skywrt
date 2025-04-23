@@ -92,22 +92,22 @@ proxies:
   uuid: 35ce5da9-4a1e-48af-b146-49f7fc52eb94
 - alterId: 0
   cipher: auto
-  name: '13|套餐到期：2025-04-24 #3'
+  name: 13,18|🇭🇰 HONGKONG 1-1E
   network: tcp
   port: '17993'
   server: svip1.pingboy.top
   tls: false
   type: vmess
-  uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
+  uuid: a97cfa17-c8a4-418e-8f26-8adb46b67b4a
 - alterId: 0
   cipher: auto
-  name: 13|英国A
+  name: 13,18|🇬🇧 英国A-1B
   network: tcp
   port: '30343'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+  uuid: eb4fb9f1-0a41-484a-ad1e-feebf69da309
 - alterId: 0
   cipher: auto
   name: '13|(IEPL)英国1 #2'
@@ -187,53 +187,45 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国 002
-  network: ws
-  port: '23451'
-  server: frankfurt.faforex.eu.org
-  tls: false
-  type: vmess
-  uuid: 4e309c18-ee5f-45f3-8f28-66467d1e0c4f
-  ws-opts:
-    headers:
-      Host: us-new03.daluquan.top
-    path: /itdog?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国TG JUZIBAIPIAO-1
+  name: 18|🇬🇧 DATA C N L I 200 GB-1C
   network: ws
   port: '80'
-  server: 86.107.50.3
+  server: japan.4gsieutoc.tokyo
   tls: false
   type: vmess
-  uuid: 6a99725d-2af8-d27c-cef5-302fbbe54c07
+  uuid: 45b7ad11-1fdb-4657-ba91-db3e71fa97e6
   ws-opts:
     headers:
-      Host: ''
-    path: /IVApi/NL/7
+      Host: m.tiktok.com
+    path: /4gsieutoc.tokyo
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 GB-JUZI8186-31
-  network: ws
-  port: '10001'
-  server: uk.569520.xyz
-  tls: true
-  type: vmess
-  uuid: fe6b8781-24a2-49cf-89ea-0856b0806653
-  ws-opts:
-    headers:
-      Host: uk.569520.xyz
-    path: /cctv13/4k.m3u8
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 英国-JUZI8186-215
-  network: ws
-  port: '2082'
-  server: 45.12.30.237
+  name: 18|🇬🇧 英国 02 | TCP
+  network: tcp
+  port: '20033'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
   tls: false
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国 01 | WS
+  network: ws
+  port: '20032'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
+      Host: tms.dingtalk.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国-北京隧道
+  network: tcp
+  port: '13801'
+  server: cu21.kuxueyun.com
+  tls: false
+  type: vmess
+  uuid: de505435-b8a1-4b1f-a6df-06c4f19341d0

@@ -27,22 +27,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|德国-v6|02*0.5倍率
+  name: 13,18|🇩🇪 德国-V6|02 0.5x-1C
   network: tcp
   port: '22306'
   server: netcp2.616626.xyz
   tls: false
   type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
 - alterId: 0
   cipher: auto
-  name: 13|德国-v6|01*0.5倍率
+  name: 13,18|🇩🇪 德国-V6|01 0.5x-1A
   network: tcp
   port: '22305'
   server: netcp1.616626.xyz
   tls: false
   type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+  uuid: 2876125d-3cf6-4b1d-92fb-22dcbc9e353d
 - alterId: 0
   cipher: auto
   name: '13|德国1 #1'
@@ -76,13 +76,13 @@ proxies:
   uuid: 0b69f86a-1055-48db-9ee0-048884b6b01e
 - alterId: 0
   cipher: auto
-  name: 13|德国-v6|03*0.5倍率
+  name: 13,18|🇩🇪 德国-V6|03 0.5x-1C
   network: tcp
   port: '22307'
   server: netcp3.616626.xyz
   tls: false
   type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
 - alterId: 0
   cipher: auto
   name: 13|[vmess]德国[0.75x]-福利
@@ -106,69 +106,67 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|德国A
+  name: 13,18|🇩🇪 德国A-1A
   network: tcp
   port: '30341'
   server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 5af1c828-4f04-4075-be5b-a1f3ca37313b
+  uuid: 7480c261-f664-4c45-a5fe-ec7dcee36bf9
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国 039
+  name: 18|🇩🇪 德国 AK CDN直连-1C
+  network: ws
+  port: '443'
+  server: akdev6.12ip.cc
+  tls: false
+  type: vmess
+  uuid: 874ef57e-c8e0-4ea5-beb8-f2acfbc98b0f
+  ws-opts:
+    headers:
+      Host: akdev6.12ip.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国 01 | WS
+  network: ws
+  port: '20030'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国01-免费
   network: ws
   port: '2096'
   server: de01.sh-cloudflare.sbs
   tls: true
   type: vmess
-  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
+  uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8
   ws-opts:
     headers:
       Host: de01.sh-cloudflare.sbs
     path: /
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 18|🇩🇪 德国01-1A
-  network: grpc
-  port: '24413'
-  server: f10011.flyflylflyflysbs.sbs
-  tls: true
-  type: vmess
-  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 18|🇩🇪 德国01-1B
-  network: grpc
-  port: '24413'
-  server: f10021.flyflylflyflysbs.sbs
-  tls: true
-  type: vmess
-  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 橘子公益-德国DE-1-1A
-  network: ws
-  port: '80'
-  server: 151.101.0.155
+  name: 18|🇩🇪 德国-北京隧道
+  network: tcp
+  port: '13802'
+  server: cu21.kuxueyun.com
   tls: false
   type: vmess
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: de505435-b8a1-4b1f-a6df-06c4f19341d0
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 18|🇩🇪 德国03
-  network: grpc
-  port: '24413'
-  server: f10001.flyflylflyflysbs.sbs
-  tls: true
+  name: 18|🇩🇪 德国 02 | TCP
+  network: tcp
+  port: '20031'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
   type: vmess
-  uuid: 0b8098b2-c9ab-47c9-8804-305c4cb404b2
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
