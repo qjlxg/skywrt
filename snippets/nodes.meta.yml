@@ -1878,7 +1878,7 @@ proxies:
     headers:
       Host: ''
     path: ''
-- client-fingerprint: ios
+- client-fingerprint: firefox
   name: 29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
