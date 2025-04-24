@@ -8531,7 +8531,7 @@ proxies:
     headers:
       Host: ''
     path: ''
-- client-fingerprint: qq
+- client-fingerprint: safari
   name: 29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
