@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 18|SEVER 1
+  network: ws
+  port: '80'
+  server: 103.166.184.93
+  tls: false
+  type: vmess
+  uuid: 3b948c60-31ad-4a50-af86-dc0af6cb16d2
+  ws-opts:
+    headers:
+      Host: povo.jp
+    path: /5gsieutocdo.com
+- alterId: 0
+  cipher: auto
+  name: 18|SEVER PREMIUM
+  network: ws
+  port: '80'
+  server: 154.83.93.132
+  tls: false
+  type: vmess
+  uuid: 3b948c60-31ad-4a50-af86-dc0af6cb16d2
+  ws-opts:
+    headers:
+      Host: povo.jp
+    path: /5gsieutocdo.com

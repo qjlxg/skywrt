@@ -194,51 +194,82 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本-V6|06-1A
+  name: 18|🇯🇵 JAPAN 1-1C
   network: tcp
-  port: '22308'
-  server: greenip3.668918.xyz
+  port: '19015'
+  server: svip1.pingboy.top
   tls: false
   type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+  uuid: eb0c3e9f-17e1-4d6f-96a6-d033a46d9fda
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本-V6|02-1C
+  name: 18|🇯🇵 日本-徐州隧道-1D
   network: tcp
-  port: '22307'
-  server: greenchais2.668918.xyz
+  port: '13549'
+  server: qqa813.198139.xyz
   tls: false
   type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
+  uuid: 4f760ce0-3278-464c-94b7-bf8003dd8070
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 IEPL专线-日本-1-1E
-  network: ws
-  port: '8004'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: dd722e86-6cec-44e8-a444-7f513ab61c0c
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本V-1P
+  name: 18|🇯🇵 日本V-1C
   network: ws
   port: '443'
   server: bookmyshow.com
   tls: true
   type: vmess
-  uuid: 6d31ab6f-fe49-4760-a751-27011be8e4e0
+  uuid: f0991217-66ce-418d-8040-3e07af1e3eca
   ws-opts:
     headers:
       Host: jpv.xiaoqi555.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本1-1E
+  name: 18|🇯🇵 日本-V6|01-1B
+  network: tcp
+  port: '22306'
+  server: greenchais1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: caaa27e4-1730-40db-b883-19e144def5a7
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本VULTR1-1H
+  network: ws
+  port: '443'
+  server: www.visa.com
+  tls: true
+  type: vmess
+  uuid: 16ca8018-f4fd-4c0f-a74c-80d91f3f893b
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 IEPL专线-日本-1-1F
+  network: ws
+  port: '8004'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: 6641a3ac-04f7-4542-9b30-1e547702f768
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|06-1B
+  network: tcp
+  port: '22308'
+  server: greenip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: caaa27e4-1730-40db-b883-19e144def5a7
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本1-1Y
   network: tcp
   port: '27846'
   server: ppx1.6128888.xyz
@@ -247,186 +278,13 @@ proxies:
   uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本直连-VMESS-1J
-  network: ws
-  port: '8000'
-  server: v18.nmcf.me
-  tls: false
-  type: vmess
-  uuid: 7365fecd-64ef-485d-bf16-838abc3dddc3
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 1-1G
-  network: tcp
-  port: '19015'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: 7e2f96f0-5df7-4eb8-bf39-9805442569fc
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|07-1C
-  network: tcp
-  port: '22306'
-  server: vpsjp1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本VULTR1-1P
-  network: ws
-  port: '443'
-  server: www.visa.com
-  tls: true
-  type: vmess
-  uuid: 6d31ab6f-fe49-4760-a751-27011be8e4e0
-  ws-opts:
-    headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|04-1B
-  network: tcp
-  port: '22306'
-  server: greenip1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 10-1A
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 4-1A
-  network: ws
-  port: '443'
-  server: oci.cbu.net
-  tls: true
-  type: vmess
-  uuid: 87ae2ebc-3e45-33d9-8ed3-61a337d88888
-  ws-opts:
-    headers:
-      Host: oci.cbu.net
-    path: /ccs
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本2-1A
-  network: tcp
-  port: '27827'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 0a136142-74dc-4a73-8524-8b0d734e72ec
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|01-1A
-  network: tcp
-  port: '22306'
-  server: greenchais1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 16
-  network: ws
-  port: '11443'
-  server: tls.01.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.01.node-for-bigairport.win
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|05-1C
-  network: tcp
-  port: '22307'
-  server: greenip2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
-- alterId: 1
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 14
-  network: tcp
-  port: '21585'
-  server: jp03-alt-vm0.entry.srthdw.art
-  tls: true
-  type: vmess
-  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本 04 | TCP
-  network: tcp
-  port: '80'
-  server: 4c82f4c8-9b80-1217-b2f0-829001215497.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-徐州隧道-1B
-  network: tcp
-  port: '13549'
-  server: qqa813.198139.xyz
-  tls: false
-  type: vmess
-  uuid: 0eab9d2f-ca09-4433-9f68-d1e8338001a5
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-宁波隧道-1A
+  name: 18|🇯🇵 日本-宁波隧道-1E
   network: tcp
   port: '54332'
   server: nbdx.nothingforward.link
   tls: false
   type: vmess
-  uuid: 936551aa-7288-403b-b833-90e67d98fb1c
-- alterId: 1
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 13-1B
-  network: tcp
-  port: '21583'
-  server: jp01-alt-vm0.entry.srthdw.art
-  tls: true
-  type: vmess
-  uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
-- alterId: 64
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 17
-  network: tcp
-  port: '24445'
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 11-1B
-  network: ws
-  port: '23443'
-  server: tls.04.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.04.node-for-bigairport.win
-    path: /
+  uuid: 0eab9d2f-ca09-4433-9f68-d1e8338001a5
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵 JAPAN 15
@@ -438,35 +296,44 @@ proxies:
   uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本 01 | WS
+  name: 18|🇯🇵 日本直连-VMESS-1Q
   network: ws
-  port: '80'
-  server: d9479ad0-2f0d-4dd0-253d-67606186a1ed.castlepeakhospital.moe
+  port: '8000'
+  server: v18.nmcf.me
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 7f0379cd-cc8f-4086-a99f-d273d52167d3
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
+      Host: www.bing.com
+    path: /nmkj
 - alterId: 1
   cipher: auto
-  name: 18|🇯🇵 JAPAN 3-1A
+  name: 18|🇯🇵 JAPAN 3-1B
   network: tcp
   port: '21585'
   server: jp01-alt-vm0.entry.srthdw.art
   tls: true
   type: vmess
   uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
-- alterId: 1
+- alterId: 64
   cipher: auto
-  name: 18|🇯🇵 JAPAN 10-1B
+  name: 18|🇯🇵 JAPAN 17
   network: tcp
-  port: '46484'
-  server: jp05-vm0.entry.srthdw.art
+  port: '24445'
+  server: 140.83.63.38
   tls: false
   type: vmess
-  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|07-1B
+  network: tcp
+  port: '22306'
+  server: vpsjp1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: caaa27e4-1730-40db-b883-19e144def5a7
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵 日本 02 | WS
@@ -482,6 +349,59 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 18|🇯🇵 日本-V6|05-1C
+  network: tcp
+  port: '22307'
+  server: greenip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-2-1B
+  network: ws
+  port: '10805'
+  server: kajpa.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: f67785e6-2d8e-42f3-90fb-baac60cb52ab
+  ws-opts:
+    headers:
+      Host: kajpa.kia-ai.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-1-1B
+  network: ws
+  port: '10805'
+  server: kajp.kia-ai.com
+  tls: true
+  type: vmess
+  uuid: f67785e6-2d8e-42f3-90fb-baac60cb52ab
+  ws-opts:
+    headers:
+      Host: kajp.kia-ai.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2-1L
+  network: tcp
+  port: '27827'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 6c678e05-4684-4d3e-859b-4db734111752
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本 04 | TCP
+  network: tcp
+  port: '80'
+  server: 4c82f4c8-9b80-1217-b2f0-829001215497.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 0
+  cipher: auto
   name: 18|🇯🇵 日本 03 | TCP
   network: tcp
   port: '80'
@@ -491,7 +411,104 @@ proxies:
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 JAPAN 6-1A
+  name: 18|🇯🇵 JAPAN 4-1B
+  network: ws
+  port: '443'
+  server: oci.cbu.net
+  tls: true
+  type: vmess
+  uuid: 87ae2ebc-3e45-33d9-8ed3-61a337d88888
+  ws-opts:
+    headers:
+      Host: oci.cbu.net
+    path: /ccs
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|04-1C
+  network: tcp
+  port: '22306'
+  server: greenip1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 16
+  network: ws
+  port: '11443'
+  server: tls.01.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: tls.01.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|02-1C
+  network: tcp
+  port: '22307'
+  server: greenchais2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 10-1B
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 1
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 10-1A
+  network: tcp
+  port: '46484'
+  server: jp05-vm0.entry.srthdw.art
+  tls: false
+  type: vmess
+  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 11-1A
+  network: ws
+  port: '23443'
+  server: tls.04.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: tls.04.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本 01 | WS
+  network: ws
+  port: '80'
+  server: d9479ad0-2f0d-4dd0-253d-67606186a1ed.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 13-1A
+  network: tcp
+  port: '21583'
+  server: jp01-alt-vm0.entry.srthdw.art
+  tls: true
+  type: vmess
+  uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 6-1B
   network: ws
   port: '80'
   server: ul-japan1.09vpn.com
@@ -502,6 +519,15 @@ proxies:
     headers:
       Host: ul-japan1.09vpn.com
     path: /vmess/#
+- alterId: 1
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 14
+  network: tcp
+  port: '21585'
+  server: jp03-alt-vm0.entry.srthdw.art
+  tls: true
+  type: vmess
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 31|🇯🇵AWS日本东京01 | 高速专线推荐
