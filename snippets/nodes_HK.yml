@@ -129,163 +129,88 @@ proxies:
     headers:
       Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
     path: /
-- name: 16|🇭🇰 香港 1 NETFLIX 解锁-1K
-  password: af0546b0-c57e-4220-9302-8f640052e7ac
-  port: 28503
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 HONGKONG 5-1P
+  name: 18|🇭🇰 HONGKONG 5-1I
   network: tcp
   port: '39840'
   server: svip1.pingboy.top
   tls: false
   type: vmess
-  uuid: 7e2f96f0-5df7-4eb8-bf39-9805442569fc
+  uuid: b3178513-ad55-4f4f-8417-c1d0c167ac7f
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-V6|06-1A
-  network: tcp
-  port: '10505'
-  server: greenhk0.616626.xyz
+  name: 18|🇭🇰 HK-01 VMESS-1C
+  network: ws
+  port: '10081'
+  server: 205.198.64.79
   tls: false
   type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
+  uuid: ea3ab97e-a975-4f4d-b51c-79d45ebfb9a7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港直连-VMESS-1Y
+  name: 18|🇭🇰 香港直连-VMESS-1U
   network: ws
   port: '8001'
   server: v4.nmcf.me
   tls: false
   type: vmess
-  uuid: 64841534-0e32-452e-a038-c443fe1fdef0
+  uuid: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   ws-opts:
     headers:
       Host: www.bing.com
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 HK-01 VMESS-1A
+  name: 18|🇭🇰 香港-1S
   network: ws
-  port: '10081'
-  server: 205.198.64.79
+  port: '34365'
+  server: 47.239.40.28
   tls: false
   type: vmess
-  uuid: 37bd9cfd-31fd-4367-a5df-77f1dc9fb001
+  uuid: 437c0d44-8c27-481b-9175-5deb37190347
   ws-opts:
     headers:
       Host: ''
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-宁波隧道-1E
-  network: tcp
-  port: '27214'
-  server: nbdx.nothingforward.link
-  tls: false
-  type: vmess
-  uuid: 936551aa-7288-403b-b833-90e67d98fb1c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|04-1A
-  network: tcp
-  port: '22310'
-  server: hostip3.668918.xyz
-  tls: false
-  type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 IEPL专线-香港-1-1O
-  network: ws
-  port: '8007'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: 614f63a0-8c85-4346-b319-e1384442d6aa
-  ws-opts:
-    headers:
-      Host: v7.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|09-1A
-  network: tcp
-  port: '10211'
-  server: khanhk6.668918.xyz
-  tls: false
-  type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG 10
-  network: tcp
-  port: '54675'
-  server: 103.149.183.178
-  tls: false
-  type: vmess
-  uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HK-02 VMESS-1B
-  network: ws
-  port: '10081'
-  server: 205.198.65.107
-  tls: true
-  type: vmess
-  uuid: a616bad7-06b7-4414-8f6a-006dee57d526
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|10-1B
-  network: tcp
-  port: '6666'
-  server: hkvm61.656888.xyz
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-1-1B
-  network: ws
-  port: '10805'
-  server: kahk.kia-ai.com
-  tls: true
-  type: vmess
-  uuid: e67b1872-80e9-468e-b46c-737816e94278
-  ws-opts:
-    headers:
-      Host: kahk.kia-ai.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港V6|18-1B
-  network: tcp
-  port: '6668'
-  server: hytrob.656888.xyz
+  name: 18|🇭🇰 香港 02 | WS
+  network: ws
+  port: '80'
+  server: 9351cca4-e594-cbfa-a6de-3c1ee2315694.castlepeakhospital.moe
   tls: false
   type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 HONGKONG 3-1P
+  name: 18|🇭🇰 HONGKONG 1-1F
+  network: tcp
+  port: '17993'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: eb0c3e9f-17e1-4d6f-96a6-d033a46d9fda
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HONGKONG 3-1A
   network: tcp
   port: '38913'
   server: svip1.pingboy.top
   tls: false
   type: vmess
-  uuid: 7e2f96f0-5df7-4eb8-bf39-9805442569fc
+  uuid: d7e6c8fc-62a5-40c5-b49c-5934efdbb1c5
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管-1C
+  name: 18|🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管-1B
   network: ws
   port: '20759'
   server: hkt.littleqqq.co
@@ -298,40 +223,102 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-V6|03-1B
+  name: 18|🇭🇰 香港1-1B
   network: tcp
-  port: '22309'
-  server: hostip2.668918.xyz
+  port: '27824'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 0a136142-74dc-4a73-8524-8b0d734e72ec
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港V6|13-1A
+  network: tcp
+  port: '6668'
+  server: hkvm64.656888.xyz
   tls: false
   type: vmess
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港V6|11-1B
+  name: 18|🇭🇰 IEPL专线-香港-1-1R
+  network: ws
+  port: '8007'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
+  ws-opts:
+    headers:
+      Host: v7.nmcf.me
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HK-02 VMESS-1D
+  network: ws
+  port: '10081'
+  server: 205.198.65.107
+  tls: true
+  type: vmess
+  uuid: d79f9494-4355-4f59-b66c-09367e29676b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-宁波隧道-1D
   network: tcp
-  port: '10022'
-  server: hkvm62.656888.xyz
+  port: '27214'
+  server: nbdx.nothingforward.link
+  tls: false
+  type: vmess
+  uuid: b466dddb-dd0f-4dd7-a0bc-4575f773b353
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|04-1C
+  network: tcp
+  port: '22310'
+  server: hostip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|06-1A
+  network: tcp
+  port: '10505'
+  server: greenhk0.616626.xyz
   tls: false
   type: vmess
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港 05 | TCP
+  name: 18|🇭🇰 香港V6|09-1C
   network: tcp
-  port: '80'
-  server: bf779a63-37dd-27f3-63bf-2fd24a1245cc.castlepeakhospital.moe
+  port: '10211'
+  server: khanhk6.668918.xyz
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 HONG KONG 11
+  name: 18|🇭🇰 香港V6|12-1C
   network: tcp
-  port: '21066'
-  server: 118.193.38.173
+  port: '6667'
+  server: hkvm63.656888.xyz
   tls: false
   type: vmess
-  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
+  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HONG KONG 4-1A
+  network: tcp
+  port: '27512'
+  server: 103.149.183.178
+  tls: false
+  type: vmess
+  uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc
 - alterId: 0
   cipher: auto
   name: 18|🇭🇰 香港 04 | TCP
@@ -343,19 +330,19 @@ proxies:
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 HONGKONG 1-1J
+  name: 18|🇭🇰 香港-V6|07-1A
   network: tcp
-  port: '17993'
-  server: svip1.pingboy.top
+  port: '10506'
+  server: greenhk1.616626.xyz
   tls: false
   type: vmess
-  uuid: 80cb97dc-ac0e-46d2-a929-556c113a79d7
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-V6|02-1B
+  name: 18|🇭🇰 香港-V6|08-1A
   network: tcp
-  port: '22308'
-  server: hostip1.668918.xyz
+  port: '10507'
+  server: greenhk2.616626.xyz
   tls: false
   type: vmess
   uuid: b888e849-c69b-46f1-8a77-ca734195f630
@@ -367,28 +354,100 @@ proxies:
   server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
+  uuid: 9b486836-c35b-4bf4-a696-b33c5d715e82
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-V6|07-1C
+  name: 18|🇭🇰 香港V6|11-1A
   network: tcp
-  port: '10506'
-  server: greenhk1.616626.xyz
+  port: '10022'
+  server: hkvm62.656888.xyz
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|05 0.5x-1B
+  network: tcp
+  port: '18002'
+  server: nathk.91ai.de
   tls: false
   type: vmess
   uuid: 849912d9-e4c5-413f-8423-e294ca8462af
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-1F
-  network: ws
-  port: '34365'
-  server: 47.239.40.28
+  name: 18|🇭🇰 香港-V6|02-1B
+  network: tcp
+  port: '22308'
+  server: hostip1.668918.xyz
   tls: false
   type: vmess
-  uuid: 693fe1e0-6f86-4513-a69f-3fd127a8b44b
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HONG KONG 11
+  network: tcp
+  port: '21066'
+  server: 118.193.38.173
+  tls: false
+  type: vmess
+  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|01-1A
+  network: tcp
+  port: '22307'
+  server: hosyun6.91ai.de
+  tls: false
+  type: vmess
+  uuid: b888e849-c69b-46f1-8a77-ca734195f630
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|03-1C
+  network: tcp
+  port: '22309'
+  server: hostip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港V6|10-1B
+  network: tcp
+  port: '6666'
+  server: hkvm61.656888.xyz
+  tls: false
+  type: vmess
+  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港V6|18-1C
+  network: tcp
+  port: '6668'
+  server: hytrob.656888.xyz
+  tls: false
+  type: vmess
+  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HONG KONG 8
+  network: tcp
+  port: '15366'
+  server: 118.193.39.104
+  tls: false
+  type: vmess
+  uuid: 30d50840-88b1-474b-a17f-9fca177918d2
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港 03 | WS
+  network: ws
+  port: '80'
+  server: 0b17b6cf-2c23-f38e-114f-8f1f3bcd06a3.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
   ws-opts:
     headers:
-      Host: ''
+      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
@@ -405,31 +464,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港V6|13-1A
+  name: 18|🇭🇰 香港 05 | TCP
   network: tcp
-  port: '6668'
-  server: hkvm64.656888.xyz
+  port: '80'
+  server: bf779a63-37dd-27f3-63bf-2fd24a1245cc.castlepeakhospital.moe
   tls: false
   type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|12-1A
-  network: tcp
-  port: '6667'
-  server: hkvm63.656888.xyz
-  tls: false
-  type: vmess
-  uuid: a735c342-bf8c-4a3f-bc84-50bcd8219686
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|01-1C
-  network: tcp
-  port: '22307'
-  server: hosyun6.91ai.de
-  tls: false
-  type: vmess
-  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
   name: 18|🇭🇰 香港 06 | TCP
@@ -441,72 +482,10 @@ proxies:
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-V6|08-1B
+  name: 18|🇭🇰 HONG KONG 10
   network: tcp
-  port: '10507'
-  server: greenhk2.616626.xyz
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港1-1H
-  network: tcp
-  port: '27824'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG 8
-  network: tcp
-  port: '15366'
-  server: 118.193.39.104
-  tls: false
-  type: vmess
-  uuid: 30d50840-88b1-474b-a17f-9fca177918d2
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG 4-1A
-  network: tcp
-  port: '27512'
+  port: '54675'
   server: 103.149.183.178
   tls: false
   type: vmess
-  uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|05 0.5x-1B
-  network: tcp
-  port: '18002'
-  server: nathk.91ai.de
-  tls: false
-  type: vmess
-  uuid: b888e849-c69b-46f1-8a77-ca734195f630
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港 03 | WS
-  network: ws
-  port: '80'
-  server: 0b17b6cf-2c23-f38e-114f-8f1f3bcd06a3.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港 02 | WS
-  network: ws
-  port: '80'
-  server: 9351cca4-e594-cbfa-a6de-3c1ee2315694.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
