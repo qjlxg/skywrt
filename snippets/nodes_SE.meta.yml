@@ -1,17 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇪 联通线路-瑞01-1A
-  password: d5f444f0-fe56-4825-956c-627728b6fdc7
-  port: 51492
-  server: nnertn.airport.lat
-  type: ss
-  udp: true
-- auth: fd644a53-5366-4936-b1d4-0af3fdaece55
-  name: 16|🇪 瑞典-高端-1D
-  password: fd644a53-5366-4936-b1d4-0af3fdaece55
-  port: 19842
-  server: swe.164165.xyz
-  skip-cert-verify: false
-  sni: swe.164165.xyz
-  type: hysteria2
-  udp: true
+proxies: []

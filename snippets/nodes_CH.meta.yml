@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇨 联通线路-瑞01-1B
-  password: 9742e93d-6dd6-4894-b65e-c073756cf312
-  port: 59895
-  server: nnertn.airport.lat
-  type: ss
-  udp: true
 - mport: 35000-39000
   name: 31|🇨🇭瑞士苏黎世 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
