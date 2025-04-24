@@ -1,5 +1,5 @@
 proxies:
-- name: '11,15|俄罗斯RU-T #1'
+- name: 11|俄罗斯RU-T
   password: 6400c720-13f6-45b0-81ea-419b89873cd2
   port: 443
   server: ru.mjt000.com
@@ -8,49 +8,59 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 15|🇷🇺俄罗斯1-专线-去广告
+  name: 16,18|🇷🇺 俄罗斯-1C
   network: ws
-  port: '80'
-  server: eedp257bubu2wefy1.lovebaipiao.net
+  port: '53100'
+  server: 120.232.217.221
   tls: false
   type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  udp: true
+  uuid: ea8d1783-1d6d-4e04-8b7c-56b5dcc0c922
   ws-opts:
     headers:
-      Host: www.apple.com
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  name: 15|🇷🇺俄罗斯2-专线-去广告
-  network: ws
-  port: '80'
-  server: eedp257bubu2wefy2.lovebaipiao.net
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  name: 18|🇷🇺 俄罗斯 01 | WS
-  network: ws
-  port: '20022'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
+      Host: www.baidu.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷🇺 俄罗斯 斯克-1D
+  password: d9708b7c-f9d0-4096-bea4-12d2bb4ccbf8
+  port: 49106
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷🇺 联通线路-俄罗斯01-1A
+  password: d5f444f0-fe56-4825-956c-627728b6fdc7
+  port: 22524
+  server: nnertn.airport.lat
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺 洲|俄罗斯01
+  password: daa5965c-da4e-4e9a-a460-ed02fedad351
+  port: 18349
+  server: hn.qlrk0.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺 俄罗斯 斯-1A
+  password: 35165264-d6f9-47dd-b304-5e2b31faaabe
+  port: 48875
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺 直连-01-1C
+  password: 2526b958-e0c2-4629-bd9f-226309fc50bb
+  port: 20580
+  server: ru01.airport.lat
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇷🇺 俄罗斯 02 | TCP
+  name: 18|🇷🇺 俄罗斯A
   network: tcp
-  port: '20023'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  port: '30346'
+  server: 183.236.123.34
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 2c0f801e-0e10-4b5c-837a-b3a3574c33cb

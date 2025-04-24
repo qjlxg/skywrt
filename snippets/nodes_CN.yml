@@ -1,45 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳 徐州移动 02 | TCP
-  network: tcp
-  port: '80'
-  server: 36.151.251.64
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳 徐州移动 01 | WS
+  name: 16,18|🇭🇰 香港-CN2-3
   network: ws
-  port: '80'
-  server: 36.151.251.63
-  tls: false
+  port: '10807'
+  server: cnhka.kia-ai.com
+  tls: true
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  udp: true
+  uuid: 35e942cf-d48a-4a1e-af9a-3929a9661832
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: cnhka.kia-ai.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳 镇江联通 02 | TCP
-  network: tcp
-  port: '80'
-  server: 103.56.63.253
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳 镇江联通 01 | WS
-  network: ws
-  port: '80'
-  server: 103.56.63.19
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+- name: 16|中国联通点1-1B
+  password: 591c2032-1814-4caa-8dfb-91a232368904
+  port: 5443
+  server: 115.231.220.33
+  skip-cert-verify: true
+  sni: nodecn1.jiayinetwork.es
+  type: trojan
+  udp: true

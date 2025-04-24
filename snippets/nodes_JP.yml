@@ -1,12 +1,12 @@
 proxies:
-- name: '1,4,15,19|八佰官网专用节点 #5'
+- name: '1,4,19|八佰官网专用节点 #2'
   password: 1473ee11-9b26-4f6d-8c43-08e4dbca450e
   port: 22628
   server: 170dx.babatspeed.xyz
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: '8,15|日本1隧道 #1'
+- name: 8|日本1隧道
   network: tcp
   password: 7d71464f-47de-40fc-b552-886d4147f22b
   port: 20345
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: false
   sni: 1jp001.376897.xyz
   type: trojan
-- name: '8,15|日本2隧道 #1'
+- name: 8|日本2隧道
   network: tcp
   password: 7d71464f-47de-40fc-b552-886d4147f22b
   port: 63278
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: 1jp001.376897.xyz
   type: trojan
-- name: '8,15|日本3隧道 #1'
+- name: 8|日本3隧道
   network: tcp
   password: 7d71464f-47de-40fc-b552-886d4147f22b
   port: 16741
@@ -32,7 +32,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '11,15|日本-优化2 #1'
+  name: 11|日本-优化2
   network: ws
   port: '16617'
   server: m.cnmjin.net
@@ -45,7 +45,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,15|日本-优化3 #1'
+  name: 11|日本-优化3
   network: ws
   port: '16617'
   server: t.cnmjcn.cyou
@@ -56,456 +56,833 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
-- name: '11,15|日本JP-T #1'
+- name: 11|日本JP-T
   password: 6400c720-13f6-45b0-81ea-419b89873cd2
   port: 443
   server: jp.mjt000.com
   skip-cert-verify: true
   sni: jp.mjt000.com
   type: trojan
-- name: '11,15|尼日利亚NI-T #1'
+- name: 11|尼日利亚NI-T
   password: 6400c720-13f6-45b0-81ea-419b89873cd2
   port: 443
   server: ni.mjt000.com
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
-- name: 15|🇯🇵日本 01 | 专线
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp1.63051107-e4c1-7e10-ba67-9291ba7890d6.7adf211e.the-best-airport.com
+- cipher: aes-256-gcm
+  name: 16|🇵 V1 | 日本3-1A
+  password: 8965c558-33ce-4d08-9fd2-13645fc4c166
+  port: 49033
+  server: jp93.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇵 V1 | 日本5-1B
+  password: 3fc12e92-003c-4447-bd57-49592011d1cd
+  port: 49040
+  server: jp95.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本1-1B
+  password: 707bae77-88fc-4119-ba50-aee47aa5bb62
+  port: 34134
+  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本9-1A
+  password: 23f85268-2f5d-412e-a8f5-da52dc3b4910
+  port: 34443
+  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
+  type: ss
+  udp: true
+- name: 16|🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+  password: f4ae206c-4f21-44d8-bb54-a460ef1f9a50
+  port: 28507
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: new.download.the-best-airport.com
+  sni: green2.cdntencentmusic.com
   type: trojan
-- name: 15|🇯🇵日本 02 | 专线
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp2.63051107-e4c1-7e10-ba67-9291ba7890d6.02444020.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
-- name: 15|🇯🇵日本 03 | 专线
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp3.63051107-e4c1-7e10-ba67-9291ba7890d6.5584fc1f.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
-- name: 15|🇯🇵日本 04 | 专线
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp4.63051107-e4c1-7e10-ba67-9291ba7890d6.69408ae5.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
-- name: 15|🇯🇵日本 05 | 25倍计费！
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp5.63051107-e4c1-7e10-ba67-9291ba7890d6.cfe6fe33.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
-- name: 15|🇯🇵日本 06 | 25倍计费！
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp6.63051107-e4c1-7e10-ba67-9291ba7890d6.3958a655.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
-- name: 15|🇯🇵日本 07 | 25倍计费！
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp7.63051107-e4c1-7e10-ba67-9291ba7890d6.722ab11a.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
-- name: 15|🇯🇵日本 08 | 25倍计费！
-  network: tcp
-  password: f96bec26-180a-4a80-8fb0-cc7e3327f04a
-  port: 443
-  server: jp8.63051107-e4c1-7e10-ba67-9291ba7890d6.7e2a9604.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇵 V1 | 日本2-1A
+  password: 8965c558-33ce-4d08-9fd2-13645fc4c166
+  port: 49032
+  server: jp92.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本 07-1C
+  password: 88b74fce-ea85-41b3-a4d1-9e46394af3fa
+  port: 45516
+  server: aambx02jp.dorabbb.top
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '16|🇵 日本-1B #1'
+  password: 493c76b5-4ebc-40bf-93ad-5f99789d9e0a
+  port: 30605
+  server: 005.kjahbg.info
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 IEPL 日本JP 48-1A
+  password: 9cd1ccd2-943c-4f93-85b2-4bc858b5e7fd
+  port: 16108
+  server: 183.240.116.150
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 15|🇯🇵日本1
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
+  name: 16|🇯🇵 日本NO.1-1A
+  port: 45056
+  server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
-    path: /
+  udp: true
+  uuid: b7637e6b-198a-42f4-8bcd-945d8490ae13
 - alterId: 0
   cipher: auto
-  name: 15|🇯🇵日本2
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15|🇯🇵日本3
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    headers:
-      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 1-1C
-  network: tcp
-  port: '19015'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: eb0c3e9f-17e1-4d6f-96a6-d033a46d9fda
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-徐州隧道-1D
-  network: tcp
-  port: '13549'
-  server: qqa813.198139.xyz
-  tls: false
-  type: vmess
-  uuid: 4f760ce0-3278-464c-94b7-bf8003dd8070
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本V-1C
+  name: 16,18|🇯🇵 日本软银独立服务器-1A
   network: ws
   port: '443'
-  server: bookmyshow.com
+  server: jp-s1.bitfat.top
   tls: true
   type: vmess
-  uuid: f0991217-66ce-418d-8040-3e07af1e3eca
+  udp: true
+  uuid: 9d60b1d1-3ee2-4166-ba4d-71a598e08dd8
   ws-opts:
     headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
+      Host: jp-s1.bitfat.top
+    path: /bitfat
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 IEPL 日本JP 209-1A
+  password: 9cd1ccd2-943c-4f93-85b2-4bc858b5e7fd
+  port: 16107
+  server: 183.240.116.150
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本 04-1B
+  password: f155134d-a5b1-449c-ad25-736fffb60e55
+  port: 45506
+  server: aambx01jp.dorabbb.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本-V6|01-1B
-  network: tcp
-  port: '22306'
-  server: greenchais1.668918.xyz
+  name: 16|🇯🇵 日本|隧道2
+  port: 27833
+  server: zf1.xinzhanduijie.top
   tls: false
   type: vmess
-  uuid: caaa27e4-1730-40db-b883-19e144def5a7
+  udp: true
+  uuid: a20e7121-b8af-4616-b7d6-ebd735460654
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇬 尼日利亚-1C
+  password: 88b74fce-ea85-41b3-a4d1-9e46394af3fa
+  port: 48926
+  server: ambnds00.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本线-03
+  password: 7788e3bc-17cc-4b6d-9148-a12d6593a9f9
+  port: 30011
+  server: gtm-sg-acm44szjs05.gym0boy.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 国际专线 日本JP 114-1G
+  password: 70f85b09-4534-421e-83f0-f2f37db0d98a
+  port: 39221
+  server: 120.232.239.186
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本VULTR1-1H
-  network: ws
-  port: '443'
-  server: www.visa.com
-  tls: true
-  type: vmess
-  uuid: 16ca8018-f4fd-4c0f-a74c-80d91f3f893b
-  ws-opts:
-    headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 IEPL专线-日本-1-1F
-  network: ws
-  port: '8004'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: 6641a3ac-04f7-4542-9b30-1e547702f768
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|06-1B
-  network: tcp
-  port: '22308'
+  name: 16|🇵 日本-V6|06
+  port: 22308
   server: greenip3.668918.xyz
   tls: false
   type: vmess
-  uuid: caaa27e4-1730-40db-b883-19e144def5a7
+  udp: true
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本1-1Y
-  network: tcp
-  port: '27846'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-宁波隧道-1E
-  network: tcp
-  port: '54332'
-  server: nbdx.nothingforward.link
-  tls: false
-  type: vmess
-  uuid: 0eab9d2f-ca09-4433-9f68-d1e8338001a5
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 15
-  network: tcp
-  port: '48898'
-  server: gy.youaremygod.top
-  tls: false
-  type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本直连-VMESS-1Q
-  network: ws
-  port: '8000'
-  server: v18.nmcf.me
-  tls: false
-  type: vmess
-  uuid: 7f0379cd-cc8f-4086-a99f-d273d52167d3
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 1
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 3-1B
-  network: tcp
-  port: '21585'
-  server: jp01-alt-vm0.entry.srthdw.art
-  tls: true
-  type: vmess
-  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
-- alterId: 64
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 17
-  network: tcp
-  port: '24445'
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|07-1B
-  network: tcp
-  port: '22306'
-  server: vpsjp1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: caaa27e4-1730-40db-b883-19e144def5a7
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本 02 | WS
-  network: ws
-  port: '80'
-  server: a8aed529-1960-4a84-695a-58bb33a7d896.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|05-1C
-  network: tcp
-  port: '22307'
-  server: greenip2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-2-1B
-  network: ws
-  port: '10805'
-  server: kajpa.kia-ai.com
-  tls: true
-  type: vmess
-  uuid: f67785e6-2d8e-42f3-90fb-baac60cb52ab
-  ws-opts:
-    headers:
-      Host: kajpa.kia-ai.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-1-1B
+  name: 16,18|🇯🇵 日本-1-1D
   network: ws
   port: '10805'
   server: kajp.kia-ai.com
   tls: true
   type: vmess
-  uuid: f67785e6-2d8e-42f3-90fb-baac60cb52ab
+  udp: true
+  uuid: 35e942cf-d48a-4a1e-af9a-3929a9661832
   ws-opts:
     headers:
       Host: kajp.kia-ai.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本2-1L
+  name: 16|🇯🇵 日本NO.2-1A
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7637e6b-198a-42f4-8bcd-945d8490ae13
+- alterId: 0
+  cipher: auto
+  name: 16|🇯🇵 日本3-东京-1A
+  port: 12313
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- alterId: 0
+  cipher: auto
+  name: 16,18|🇯🇵 日本-名古屋-1B
+  network: ws
+  port: '53129'
+  server: 120.232.217.221
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 08ab5dc6-4c5b-4790-9072-1b21d4b91508
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- cipher: aes-256-gcm
+  name: 16|🇯🇵 日本02-1B
+  password: 86d2194d-7670-4ff2-94a7-a8b1370c717a
+  port: 21108
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇵 日本2-1D
+  port: 27827
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本 02-1D
+  password: d9708b7c-f9d0-4096-bea4-12d2bb4ccbf8
+  port: 45505
+  server: aambx99.dorabbb.top
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 16|JP01 12线路 意-1A
+  password: ffbdfc67-de5e-46ad-b229-cf67c3f5959e
+  port: 17140
+  server: qqb12.198139.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本 05-1A
+  password: 35165264-d6f9-47dd-b304-5e2b31faaabe
+  port: 46629
+  server: aambx02jp.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本 01-1E
+  password: 0716aa57-2cb9-4f49-ba77-8b0192658ce3
+  port: 46617
+  server: aambx01jp.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本专线2-01
+  password: 7788e3bc-17cc-4b6d-9148-a12d6593a9f9
+  port: 12211
+  server: jg647hf446ghvw.gym0boy.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇵 日本4--1B
+  port: 12314
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 亚洲|本01
+  password: daa5965c-da4e-4e9a-a460-ed02fedad351
+  port: 31829
+  server: ah.qlrk0.cc
+  type: ss
+  udp: true
+- name: 16|🇵 日本-BGP-01
+  password: 8d7e5642-61bb-4f98-bf00-7a565b646341
+  port: 30003
+  server: mr6.xn--vl1a701a.xyz
+  skip-cert-verify: false
+  sni: mr6.xn--vl1a701a.xyz
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇵 日本|隧道1
+  port: 27833
+  server: zf.xinzhanduijie.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a20e7121-b8af-4616-b7d6-ebd735460654
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本-1A
+  password: 55f92b13-4cb1-4e45-8911-9a75a53c60cd
+  port: 15888
+  server: vip.baima360.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16,18|🇯🇵 日本-大阪-1D
+  network: ws
+  port: '53229'
+  server: 183.240.180.26
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fa0e8d91-8115-4954-ac02-9dbd40d9638f
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- cipher: aes-128-gcm
+  name: 16|🇯🇵 日本四-1B
+  password: 493c76b5-4ebc-40bf-93ad-5f99789d9e0a
+  port: 30604
+  server: 004.kjahbg.info
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇵 日本01-1A
+  port: 22253
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d0e90373-45dc-4cde-b6c9-c1fed5f76b90
+- cipher: aes-256-gcm
+  name: 16|🇯🇵 VIP 本2 高速-1A
+  password: f2fa5b42-4f36-4498-ba47-279bb052348c
+  port: 47032
+  server: jp02.jiasudu.buzz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 联通线路-日本01-1B
+  password: 9742e93d-6dd6-4894-b65e-c073756cf312
+  port: 43123
+  server: nnertn.airport.lat
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16,18|🇯🇵 日本-秋田-1D
+  network: ws
+  port: '56432'
+  server: 120.232.217.221
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fa0e8d91-8115-4954-ac02-9dbd40d9638f
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🇵 日本5-1C
+  port: 50241
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7c0acaeb-0cba-4182-be2b-ce10bdfe127a
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本 08-1C
+  password: 88b74fce-ea85-41b3-a4d1-9e46394af3fa
+  port: 45578
+  server: aambx02jp.dorabbb.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本 03-1B
+  password: f155134d-a5b1-449c-ad25-736fffb60e55
+  port: 45575
+  server: aambx01jp.dorabbb.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16,18|🇯🇵 日本直连-VMESS-1B
+  network: ws
+  port: '8000'
+  server: v18.nmcf.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本专线2-03
+  password: 7788e3bc-17cc-4b6d-9148-a12d6593a9f9
+  port: 14548
+  server: gtm-sg-acm44szjs05.gym0boy.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '16,18|🇯🇵 日本V #1'
+  network: ws
+  port: '443'
+  server: bookmyshow.com
+  servername: jpv.xiaoqi555.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- name: 16|🇯🇵 日本-用-1A
+  password: ad320ecf-1be5-4744-aba8-9fd3d2df908a
+  port: 443
+  server: jp.xaa.app
+  skip-cert-verify: true
+  sni: jp.xaa.app
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 直连-日本01-1B
+  password: 9742e93d-6dd6-4894-b65e-c073756cf312
+  port: 20730
+  server: jp01.airport.lat
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 JP 日本2
+  password: 6661820d-48f3-43c2-ab28-cd1c2ab6cc15
+  port: 51508
+  server: hry200.2228333.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇵 日本03-隧道-1B
+  port: 35662
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a1a9f7d3-6940-495c-96e5-7a35c3681f15
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本-1E
+  password: 16c9a775-d11c-41e1-86b1-5569c80f725d
+  port: 9527
+  server: jp.miaonode.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇯🇵 日本高06-1B
+  port: 42327
+  server: e-jp2vmksj.dongfangyihao.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dad258fa-d199-414e-9015-08a410a067a9
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本8-1A
+  password: 23f85268-2f5d-412e-a8f5-da52dc3b4910
+  port: 34439
+  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 亚|本05
+  password: daa5965c-da4e-4e9a-a460-ed02fedad351
+  port: 10616
+  server: hn.qlrk0.cc
+  type: ss
+  udp: true
+- name: 16|🇵 日本-BGP
+  password: 8d7e5642-61bb-4f98-bf00-7a565b646341
+  port: 30001
+  server: jp.xn--vl1a701a.xyz
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 16|🇯🇵 日本-1H
+  password: 52b01d00-4c0d-4140-9dcc-efae99b2f6f7
+  port: 32283
+  server: xj.cokecloud.top
+  skip-cert-verify: false
+  sni: xj.cokecloud.top
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇯🇵 日本01-1C
+  password: 86d2194d-7670-4ff2-94a7-a8b1370c717a
+  port: 21107
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- name: 16|🇯🇵 日本-IIJ高端3-1B
+  network: ws
+  password: a5b7adcf-c1c8-4db1-a13a-bab1d86b77cb
+  port: 443
+  server: jp12.426624.xyz
+  skip-cert-verify: false
+  sni: jp12.426624.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jp12.426624.xyz
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|🇵 日本1-1E
+  port: 50240
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7c0acaeb-0cba-4182-be2b-ce10bdfe127a
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 日本2-1C
+  password: 707bae77-88fc-4119-ba50-aee47aa5bb62
+  port: 34327
+  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇵 亚洲|日本07
+  password: daa5965c-da4e-4e9a-a460-ed02fedad351
+  port: 48199
+  server: hn.qlrk0.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 IEPL 本JP 140-1B
+  password: 662fdf6a-8590-4504-a2b4-60a77753bbcc
+  port: 16101
+  server: 183.240.116.150
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16,18|🇯🇵 日本-2
+  network: ws
+  port: '10805'
+  server: kajpa.kia-ai.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 35e942cf-d48a-4a1e-af9a-3929a9661832
+  ws-opts:
+    headers:
+      Host: kajpa.kia-ai.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本02-1C
+  password: e0fc7ddf-3739-4059-a1a4-4932041bf450
+  port: 23746
+  server: node2.cenidcbf.ink
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇯🇵 V1 | 日本1-1A
+  password: 8965c558-33ce-4d08-9fd2-13645fc4c166
+  port: 49031
+  server: jp91.cctv14.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本NO.1-1C
+  network: tcp
+  port: '45056'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 87e5b6b5-509d-4d50-abd9-a614fc43f976
+- alterId: 0
+  cipher: auto
+  name: '18|🇯🇵 日本|隧道2 #1'
+  network: tcp
+  port: '27833'
+  server: zf1.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: a20e7121-b8af-4616-b7d6-ebd735460654
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|06
+  network: tcp
+  port: '22308'
+  server: greenip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: '18|🇯🇵 日本NO.2-1A #1'
+  network: tcp
+  port: '45057'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: b7637e6b-198a-42f4-8bcd-945d8490ae13
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本3-东京-1B
+  network: tcp
+  port: '12313'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2-1D
   network: tcp
   port: '27827'
   server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本 04 | TCP
+  name: 18|🇯🇵 日本4-大阪-1A
   network: tcp
-  port: '80'
-  server: 4c82f4c8-9b80-1217-b2f0-829001215497.castlepeakhospital.moe
+  port: '12314'
+  server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本 03 | TCP
+  name: 18|🇯🇵 日本|隧道1
   network: tcp
-  port: '80'
-  server: d2f50be3-21cd-bb71-8651-96524dd88af1.castlepeakhospital.moe
+  port: '27833'
+  server: zf.xinzhanduijie.top
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: a20e7121-b8af-4616-b7d6-ebd735460654
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 JAPAN 4-1B
+  name: 18|🇯🇵 日本01-1G
+  network: tcp
+  port: '22253'
+  server: hn3x.newbee8.me
+  tls: false
+  type: vmess
+  uuid: b55699bf-c52e-4e89-b4ac-a5d09766ad17
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本5-1C
+  network: tcp
+  port: '50241'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: 7c0acaeb-0cba-4182-be2b-ce10bdfe127a
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本03-隧道-1A
+  network: tcp
+  port: '35662'
+  server: gzdx.newbee8.me
+  tls: false
+  type: vmess
+  uuid: d0e90373-45dc-4cde-b6c9-c1fed5f76b90
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本高速06-1A
+  network: tcp
+  port: '42327'
+  server: e-jp2vmksj.dongfangyihao.xyz
+  tls: false
+  type: vmess
+  uuid: 0475f0f9-77fc-4368-bc70-db9db6cde9de
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本1-1E
+  network: tcp
+  port: '50240'
+  server: zf.leifeng888.com
+  tls: false
+  type: vmess
+  uuid: 7c0acaeb-0cba-4182-be2b-ce10bdfe127a
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 1-1A
+  network: tcp
+  port: '19015'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 东京倍率慢慢慢
+  network: tcp
+  port: '25081'
+  server: 666100c.666811.xyz
+  tls: false
+  type: vmess
+  uuid: e29b5724-4953-40eb-baa4-efdcdba1d48a
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本VULTR1
   network: ws
   port: '443'
-  server: oci.cbu.net
+  server: www.visa.com
   tls: true
   type: vmess
-  uuid: 87ae2ebc-3e45-33d9-8ed3-61a337d88888
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
   ws-opts:
     headers:
-      Host: oci.cbu.net
-    path: /ccs
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|04-1C
-  network: tcp
-  port: '22306'
-  server: greenip1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 16
-  network: ws
-  port: '11443'
-  server: tls.01.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.01.node-for-bigairport.win
+      Host: jpv.xiaoqi555.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本-V6|02-1C
+  name: 18|🇯🇵 日本1-1D
+  network: tcp
+  port: '27846'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|02
   network: tcp
   port: '22307'
   server: greenchais2.668918.xyz
   tls: false
   type: vmess
-  uuid: 849912d9-e4c5-413f-8423-e294ca8462af
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 JAPAN 10-1B
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 1
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 10-1A
-  network: tcp
-  port: '46484'
-  server: jp05-vm0.entry.srthdw.art
-  tls: false
-  type: vmess
-  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 11-1A
+  name: 18|🇯🇵 IEPL专线-日本-1-1B
   network: ws
-  port: '23443'
-  server: tls.04.node-for-bigairport.win
-  tls: true
+  port: '8004'
+  server: 59.42.247.189
+  tls: false
   type: vmess
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
   ws-opts:
     headers:
-      Host: tls.04.node-for-bigairport.win
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2-YTB-1A
+  network: tcp
+  port: '12312'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|05
+  network: tcp
+  port: '22307'
+  server: greenip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本1-NF-1B
+  network: tcp
+  port: '12311'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|04
+  network: tcp
+  port: '22306'
+  server: greenip1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本8解锁
+  network: ws
+  port: '42337'
+  server: jp08.vip.xjay.xyz
+  tls: false
+  type: vmess
+  uuid: 0ed52ea3-6864-49e0-9864-aff707db6f55
+  ws-opts:
+    headers:
+      Host: jp08.vip.xjay.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本 01 | WS
+  name: 18|🇯🇵 日本6解锁
   network: ws
-  port: '80'
-  server: d9479ad0-2f0d-4dd0-253d-67606186a1ed.castlepeakhospital.moe
+  port: '31546'
+  server: jp066.vip.xjay.xyz
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 0ed52ea3-6864-49e0-9864-aff707db6f55
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: jp066.vip.xjay.xyz
     path: /
-- alterId: 1
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 13-1A
-  network: tcp
-  port: '21583'
-  server: jp01-alt-vm0.entry.srthdw.art
-  tls: true
-  type: vmess
-  uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 JAPAN 6-1B
-  network: ws
-  port: '80'
-  server: ul-japan1.09vpn.com
+  name: 18|🇯🇵 日本-V6|01
+  network: tcp
+  port: '22306'
+  server: greenchais1.668918.xyz
   tls: false
   type: vmess
-  uuid: 18659a31-add9-4b9f-af57-77ffaf0396c9
-  ws-opts:
-    headers:
-      Host: ul-japan1.09vpn.com
-    path: /vmess/#
-- alterId: 1
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
   cipher: auto
-  name: 18|🇯🇵 JAPAN 14
+  name: 18|🇯🇵 日本-V6|07
   network: tcp
-  port: '21585'
-  server: jp03-alt-vm0.entry.srthdw.art
-  tls: true
+  port: '22306'
+  server: vpsjp1.668918.xyz
+  tls: false
   type: vmess
-  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本|隧道3
+  network: tcp
+  port: '27833'
+  server: zf2.xinzhanduijie.top
+  tls: false
+  type: vmess
+  uuid: a20e7121-b8af-4616-b7d6-ebd735460654

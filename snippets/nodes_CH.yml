@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇨 联通线路-瑞01-1B
+  password: 9742e93d-6dd6-4894-b65e-c073756cf312
+  port: 59895
+  server: nnertn.airport.lat
+  type: ss
+  udp: true

@@ -1,67 +1,244 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷 韩国
+  password: 6661820d-48f3-43c2-ab28-cd1c2ab6cc15
+  port: 62520
+  server: hry01.2228333.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 16|🇷 韩国二-1A
+  password: b9119243-d54e-459b-8dde-917b55dde67f
+  port: 30631
+  server: 002.kjahbg.info
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 IEPL专线-韩国-1-1A
-  network: ws
-  port: '8002'
-  server: 59.42.247.189
+  name: 16|🇷 韩国1-NF-1B
+  port: 12611
+  server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 504aed84-d8e5-4076-bbc1-16a1e423cdf2
+  udp: true
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷 韩国-C5S-1B
+  password: 66e143d1-04ee-49b2-a7e9-56edee6285c2
+  port: 44304
+  server: nc-56112-51122.mofangfree.online
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇷 韩国2-1A
+  port: 12612
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- cipher: aes-256-gcm
+  name: 16|🇰🇷 KR-IDC-1
+  password: d1855738-b3a2-40a1-ac88-f539d1990a1f
+  port: 30000
+  server: 146.56.132.194
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇷 V1 | 韩国1-1A
+  password: 8965c558-33ce-4d08-9fd2-13645fc4c166
+  port: 49026
+  server: kr91.cctv14.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷 IEPL 韩国KR 242-1A
+  password: 9cd1ccd2-943c-4f93-85b2-4bc858b5e7fd
+  port: 16116
+  server: 183.240.116.150
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16,18|🇰🇷 韩国-水原-1A
+  network: ws
+  port: '57495'
+  server: 183.240.228.220
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 82d8fde1-5eae-45df-a782-0725f1798063
   ws-opts:
     headers:
-      Host: v7.nmcf.me
-    path: /nmkj
+      Host: www.baidu.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 SOUTH KOREA
-  network: tcp
-  port: '8888'
-  server: 146.56.112.110
+  name: 16|🇷 韩国-1A
+  port: 27842
+  server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  udp: true
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 韩国-1F
+  name: 16|🇰🇷 韩国5-1A
+  port: 12615
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- alterId: 0
+  cipher: auto
+  name: 16|🇷 韩国3-1A
+  port: 12613
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- alterId: 0
+  cipher: auto
+  name: 16|🇷 韩国6-1A
+  port: 12616
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇰🇷 韩国 01-1D
+  password: d9708b7c-f9d0-4096-bea4-12d2bb4ccbf8
+  port: 48813
+  server: aambx01qt.dorabbb.top
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇷 韩国01-1A
+  password: 86d2194d-7670-4ff2-94a7-a8b1370c717a
+  port: 23116
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇷 韩国4-1B
+  port: 12614
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- cipher: aes-256-gcm
+  name: 16|🇷 韩国02
+  password: 86d2194d-7670-4ff2-94a7-a8b1370c717a
+  port: 23117
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|🇷 韩国 专线NO2-1A
+  port: 45075
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7637e6b-198a-42f4-8bcd-945d8490ae13
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国1-NF-1B
+  network: tcp
+  port: '12611'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国2-1A
+  network: tcp
+  port: '12612'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国-1A
   network: tcp
   port: '27842'
   server: ppx1.6128888.xyz
   tls: false
   type: vmess
-  uuid: 6c678e05-4684-4d3e-859b-4db734111752
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 SOUTH KOREA 2-1B
-  network: ws
-  port: '23451'
-  server: 64.110.83.193
-  tls: false
-  type: vmess
-  uuid: 523904ba-fcc1-407b-808c-335b47c16be1
-  ws-opts:
-    headers:
-      Host: seoul-1ddns.aboutanime.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国 01 | WS
-  network: ws
-  port: '20000'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国 02 | TCP
+  name: 18|🇰🇷 韩国5-1B
   network: tcp
-  port: '20001'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  port: '12615'
+  server: xxx.btmbxxx.top
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国3-1B
+  network: tcp
+  port: '12613'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国6-1B
+  network: tcp
+  port: '12616'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 97fe4afd-6409-4c86-9a25-9bafd779deee
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国4-1A
+  network: tcp
+  port: '12614'
+  server: xxx.btmbxxx.top
+  tls: false
+  type: vmess
+  uuid: 041fb9e1-ed28-4731-b531-fd680a174819
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国 专线NO2-1C
+  network: tcp
+  port: '45075'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 87e5b6b5-509d-4d50-abd9-a614fc43f976
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国 专线NO1-1C
+  network: tcp
+  port: '45076'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 87e5b6b5-509d-4d50-abd9-a614fc43f976
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 IEPL专线-韩国-1-1B
+  network: ws
+  port: '8002'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
+  ws-opts:
+    headers:
+      Host: v7.nmcf.me
+    path: /nmkj
