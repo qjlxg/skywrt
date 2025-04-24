@@ -3886,7 +3886,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   ws-opts:
     headers:
-      Host: us2.globals-download.com
+      Host: us2s.globals-download.com
     path: /pq/us2
 - client-fingerprint: chrome
   flow: ''
@@ -3950,7 +3950,7 @@ proxies:
   uuid: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   ws-opts:
     headers:
-      Host: us6.globals-download.com
+      Host: us6s.globals-download.com
     path: /pq/us6
 - client-fingerprint: chrome
   flow: ''
