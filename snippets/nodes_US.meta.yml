@@ -365,16 +365,6 @@ proxies:
   type: hysteria2
   udp: true
 - mport: 35000-39000
-  name: 31|🇺🇸美国圣何塞05-hy2
-  password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
-  port: 35000
-  ports: 35000-39000
-  server: 146.235.212.192
-  skip-cert-verify: true
-  sni: tv.apple.com
-  type: hysteria2
-  udp: true
-- mport: 35000-39000
   name: 31|🇺🇸美国圣何塞06-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
   port: 35000
@@ -410,16 +400,6 @@ proxies:
   port: 35000
   ports: 35000-39000
   server: 167.234.210.122
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- mport: 35000-39000
-  name: 31|🇺🇸美国圣何塞10-hy2
-  password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
-  port: 35000
-  ports: 35000-39000
-  server: 146.235.203.34
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2

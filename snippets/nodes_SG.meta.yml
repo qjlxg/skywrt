@@ -139,7 +139,7 @@ proxies:
     headers:
       Host: ''
     path: ''
-- client-fingerprint: edge
+- client-fingerprint: ios
   name: 29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
