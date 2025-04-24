@@ -1311,7 +1311,7 @@ proxies:
   tls: false
   type: vless
   uuid: b19c4375-d847-4c40-9824-4767c88b5f38
-- client-fingerprint: ios
+- client-fingerprint: edge
   name: 15,29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
@@ -9144,7 +9144,7 @@ proxies:
   network: ws
   port: 443
   server: 104.18.20.20
-  servername: us2.globals-download.com
+  servername: us2s.globals-download.com
   skip-cert-verify: false
   tls: true
   type: vless
@@ -9204,7 +9204,7 @@ proxies:
   network: ws
   port: 443
   server: 104.18.20.20
-  servername: us6.globals-download.com
+  servername: us6s.globals-download.com
   skip-cert-verify: false
   tls: true
   type: vless
