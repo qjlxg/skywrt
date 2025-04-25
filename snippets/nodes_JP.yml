@@ -70,6 +70,55 @@ proxies:
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本8-1C
+  password: 5b3fc518-3fc1-443b-8ed4-bb7c32273d64
+  port: 34439
+  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16,18|🇯🇵 日本V
+  network: ws
+  port: '443'
+  server: bookmyshow.com
+  servername: jpv.xiaoqi555.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本1-2C
+  password: 73e27134-4035-4559-886e-deffbdd2a68e
+  port: 51021
+  server: cname03-ncpbbyhazxjnwkrx.222schweinshaxe.com
+  type: ss
+  udp: true
+- name: 16|🇯🇵 日本05-1F
+  network: ws
+  password: fdd1d613-f234-40f6-b63d-97517e0fc4b3
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- cipher: aes-256-gcm
+  name: 16|🇯🇵 JAPAN 6-1A
+  password: QFR3FSQMQRZL4HQ2
+  port: 18002
+  server: 156.231.104.12
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵 日本2-1B
@@ -119,19 +168,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本V
-  network: ws
-  port: '443'
-  server: bookmyshow.com
-  tls: true
-  type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵 LV1 日本2

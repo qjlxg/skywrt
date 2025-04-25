@@ -1,4 +1,11 @@
 proxies:
+- name: 16|🇷 FRANCE 96-1A
+  password: '!!str 3767107462583558144'
+  port: 443
+  server: modest-bulldog.goat627.mom
+  sni: modest-bulldog.goat627.mom
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷 法国-1A

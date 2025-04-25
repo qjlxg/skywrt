@@ -45,6 +45,19 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
+- name: 16|🇸🇬 07|流媒体-1C
+  network: ws
+  password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9
+  port: 20230
+  server: sg007.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬 IEPL专线-新加坡-1-1B
