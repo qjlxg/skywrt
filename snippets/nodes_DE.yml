@@ -25,3 +25,17 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
+- name: 16|🇪 V1-德国04
+  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
+  port: 21102
+  server: 125.94.40.162
+  sni: k28.tudou211.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇪 德国
+  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
+  port: 21009
+  server: tt09.51feitu.com
+  type: ss
+  udp: true

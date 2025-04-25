@@ -1,1 +1,40 @@
-proxies: []
+proxies:
+- name: 16|🇷 韩国-1B
+  password: 2905aed6-f547-468f-b540-7a5aa2cc1d98
+  port: 36049
+  server: zz1.jckumao.cc
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|🇷 V2-韩国03
+  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
+  port: 21017
+  server: 125.94.40.162
+  sni: k16.tudou211.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷 韩国-1A
+  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
+  port: 21017
+  server: tt07.51feitu.com
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 16|🇷 韩国 1
+  port: 11213
+  server: 13.wogg1.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
+- alterId: 2
+  cipher: auto
+  name: 16|🇷 韩国 3
+  port: 11215
+  server: 15.wogg1.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
