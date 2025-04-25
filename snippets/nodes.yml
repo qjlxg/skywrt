@@ -575,24 +575,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 16|V6|11
-  port: 10022
-  server: hkvm62.656888.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰 香港V6|13
-  port: 6668
-  server: hkvm64.656888.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
   name: 18|🇭🇰 香港V6|11
   network: tcp
   port: '10022'
@@ -602,7 +584,7 @@ proxies:
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: '18|🇭🇰 香港V6|13 #1'
+  name: 18|🇭🇰 香港V6|13
   network: tcp
   port: '6668'
   server: hkvm64.656888.xyz
