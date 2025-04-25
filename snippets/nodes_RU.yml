@@ -21,6 +21,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 18|🇷🇺 俄罗斯A
+  network: tcp
+  port: '30346'
+  server: 183.236.123.34
+  tls: false
+  type: vmess
+  uuid: 889d92fd-4b9b-419c-82ce-155e4dc7dd23
+- alterId: 0
+  cipher: auto
   name: 18|🇷🇺 俄罗斯 02 | TCP
   network: tcp
   port: '20023'

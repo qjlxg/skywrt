@@ -87,35 +87,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾 AK NAT4动态-1G
+  name: 18|🇹🇼 台湾 AK NAT4动态-1A
   network: ws
   port: '22100'
   server: twnat4.gangko.cc
   tls: false
   type: vmess
-  uuid: 0ddd8300-6637-4093-8516-da2b4aa16ccf
+  uuid: 7230cbe3-df6a-4900-8943-4fdc14bf0545
   ws-opts:
     headers:
       Host: twnat4.gangko.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾-1C
-  network: tcp
-  port: '27830'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 0a136142-74dc-4a73-8524-8b0d734e72ec
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 台湾 04 | TCP
-  network: tcp
-  port: '80'
-  server: f7626a75-eece-d595-6259-ef09a5b3936d.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
   name: 18|🇹🇼 LV1 台湾1
@@ -136,19 +118,6 @@ proxies:
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾 01 | WS
-  network: ws
-  port: '80'
-  server: 85ef02dd-b03e-94d5-61f4-bb5a8d5f491f.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 18|🇹🇼 LV1 台湾2
   network: tcp
   port: '60181'
@@ -162,6 +131,28 @@ proxies:
   network: ws
   port: '80'
   server: 205928ec-61f8-1f90-8438-1b912b849b80.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾 04 | TCP
+  network: tcp
+  port: '80'
+  server: f7626a75-eece-d595-6259-ef09a5b3936d.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾 01 | WS
+  network: ws
+  port: '80'
+  server: 85ef02dd-b03e-94d5-61f4-bb5a8d5f491f.castlepeakhospital.moe
   tls: false
   type: vmess
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d

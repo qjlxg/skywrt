@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳 镇江联通 02 | TCP
-  network: tcp
+  name: 18|🇨🇳 镇江联通 01 | WS
+  network: ws
   port: '80'
-  server: 103.56.63.253
+  server: 103.56.63.19
   tls: false
   type: vmess
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇨🇳 徐州移动 01 | WS
@@ -23,17 +27,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳 镇江联通 01 | WS
-  network: ws
+  name: 18|🇨🇳 镇江联通 02 | TCP
+  network: tcp
   port: '80'
-  server: 103.56.63.19
+  server: 103.56.63.253
   tls: false
   type: vmess
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇨🇳 徐州移动 02 | TCP

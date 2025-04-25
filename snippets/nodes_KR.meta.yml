@@ -1,13 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 韩国-1D
-  network: tcp
-  port: '27842'
-  server: ppx1.6128888.xyz
+  name: 18|🇰🇷 IEPL专线-韩国-1-1T
+  network: ws
+  port: '8002'
+  server: 59.42.247.189
   tls: false
   type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+  uuid: ebba1aa5-cb3f-4b52-ac4e-65155c2cd4ae
+  ws-opts:
+    headers:
+      Host: v7.nmcf.me
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 LV1 韩国5
+  network: tcp
+  port: '60198'
+  server: kr0199.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
   name: 18|🇰🇷 韩国 01 | WS
@@ -23,28 +36,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 IEPL专线-韩国-1-1I
-  network: ws
-  port: '8002'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: f07dad0e-9d42-4440-aac5-ff1f9ebc04af
-  ws-opts:
-    headers:
-      Host: v7.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 LV1 韩国1
-  network: tcp
-  port: '60019'
-  server: kr0020.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
   name: 18|🇰🇷 韩国 02 | TCP
   network: tcp
   port: '20001'
@@ -54,35 +45,13 @@ proxies:
   uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
 - alterId: 0
   cipher: auto
-  name: 18|🇰🇷 SOUTH KOREA 2-1B
-  network: ws
-  port: '23451'
-  server: 64.110.83.193
-  tls: false
-  type: vmess
-  uuid: 523904ba-fcc1-407b-808c-335b47c16be1
-  ws-opts:
-    headers:
-      Host: seoul-1ddns.aboutanime.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 LV1 韩国5
+  name: 18|🇰🇷 LV1 韩国1
   network: tcp
-  port: '60198'
-  server: kr0199.alibabaokz.com
+  port: '60019'
+  server: kr0020.alibabaokz.com
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 SOUTH KOREA
-  network: tcp
-  port: '8888'
-  server: 146.56.112.110
-  tls: false
-  type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - mport: 35000-39000
   name: 31|🇰🇷韩国-1倍 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c
