@@ -45,71 +45,16 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
-- name: 16|🇸🇬 2-1C
-  password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa
-  port: 18489
-  server: nbae7a7.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇸🇬 SINGAPORE丨08
-  password: 2e0e1142-1dc4-4453-977e-5fffc918e51e
-  port: 18008
-  server: sg008.dogsvip.site
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡NO.1-1B
-  network: tcp
-  port: '45054'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 SG | 新加坡 LB-1A
+  name: 18|SG1
   network: ws
   port: '443'
-  server: sgcft01.xqc.best
+  server: sg1.rtmp.online
   tls: true
   type: vmess
-  uuid: e9ce293d-5a2a-48f1-bb6e-32bf7ed108e6
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
   ws-opts:
     headers:
-      Host: d16henb377mok4.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡NO.2-1B
-  network: tcp
-  port: '45055'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡05极速节点|油管速度优化
-  network: ws
-  port: '80'
-  server: yx.sulink.one
-  tls: false
-  type: vmess
-  uuid: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
-  ws-opts:
-    headers:
-      Host: sg05.sulink.one
+      Host: sg1.rtmp.online
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 IEPL专线 新加坡 NO1
-  network: tcp
-  port: '44412'
-  server: i.needss.top
-  tls: false
-  type: vmess
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567

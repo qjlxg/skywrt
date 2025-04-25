@@ -1,10 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇦 CHINA-GUANGZHOU-VMESS-10118
-  network: tcp
-  port: '4135'
-  server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
+proxies: []

@@ -58,313 +58,58 @@ proxies:
   skip-cert-verify: false
   sni: waphk.mjt000.com
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG 01
-  network: tcp
-  port: '8080'
-  server: a41dd943b40fc7733.awsglobalaccelerator.com
-  tls: false
-  type: vmess
-  uuid: 2bc5997d-fa81-4613-cc10-dbcedb9a8669
-- alterId: 64
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG 02
-  network: tcp
-  port: '80'
-  server: a41dd943b40fc7733.awsglobalaccelerator.com
-  tls: false
-  type: vmess
-  uuid: 2a7a0324-e68e-4cb5-9e4c-dbc0060840ee
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-167
-  network: ws
-  port: '80'
-  server: 9c12ce3d-sv2sg0-t65a3e-tqgz.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 HK | 香港 LB-1x
+  name: 18|🇭🇰 香港 01
   network: ws
-  port: '443'
-  server: hkcft01.xqc.best
+  port: '1081'
+  server: hk-cn-01.yumeifang.cn
   tls: true
   type: vmess
-  uuid: 86cf49fe-17d1-49f0-afe2-13f1ee324db7
+  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
   ws-opts:
     headers:
-      Host: d1th2ch215a6xr.cloudfront.net
-    path: /stream?ed=2048
+      Host: wamxoa.com
+    path: /asdd
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 AUTOPROXY-HK-47.76.35.246-0...
+  name: 18|HK1
   network: ws
-  port: '24101'
-  server: 47.76.35.246
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-173
-  network: ws
-  port: '80'
-  server: f49bcb46-sv2sg0-sw1w5j-1a3sy.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b93c66cc-00ed-11ec-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-1B
-  network: tcp
-  port: '19901'
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-168
-  network: ws
-  port: '80'
-  server: 20b856dd-sv0xs0-sv75lj-1swf9.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-174
-  network: ws
-  port: '80'
-  server: d46ef597-sv2sg0-tc46wa-16wst.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60cfa954-0229-11f0-a910-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 香港1 | 2.4MB S
-  network: ws
-  port: '80'
-  server: 0a8b512d-sv2sg0-svlime-j22e.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: d189a7ec-f038-11ef-bb64-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 MFUU-12| 香港3| RIPAOJIEDIAN
-  network: tcp
-  port: '57888'
-  server: 47.83.137.220
-  tls: false
-  type: vmess
-  uuid: b68f8c35-935e-444f-8944-291bf15a56a5
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG-HONG KONG-VMESS-1...
-  network: ws
-  port: '23023'
-  server: 212.192.12.154
-  tls: false
-  type: vmess
-  uuid: 018474eb-864a-4fb6-9ee7-bcc51fb7e986
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG 07
-  network: tcp
   port: '443'
-  server: 143.92.47.31
-  tls: false
+  server: hk1.rtmp.online
+  tls: true
   type: vmess
-  uuid: e3624b03-f781-4b68-8e98-593157dfc1b6
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  ws-opts:
+    headers:
+      Host: hk1.rtmp.online
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港3
-  network: tcp
-  port: '10010'
-  server: xg3.tcity8.buzz
-  tls: false
-  type: vmess
-  uuid: 3cf6c16c-c5a5-4113-9a3f-44170dcbd4fe
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-175
+  name: 18|HK2-1C
   network: ws
-  port: '80'
-  server: 6bcba1b3-sv2sg0-sywkhi-1o4kv.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-172
-  network: ws
-  port: '80'
-  server: fc9a67c5-sv2sg0-svq7uu-1gevg.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 59
-  cipher: auto
-  name: 18|🇭🇰 HONG KONG 08
-  network: tcp
   port: '443'
-  server: 40.83.114.14
-  tls: false
+  server: hk2.rtmp.online
+  tls: true
   type: vmess
-  uuid: 508e3be6-3872-4a45-8a5f-0d6e42579eee
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-178
-  network: ws
-  port: '80'
-  server: a9b5ab57-sv2sg0-sv75lj-1swf9.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: hk2.rtmp.online
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-1E
-  network: tcp
-  port: '10010'
-  server: xg1.tcity8.buzz
-  tls: false
-  type: vmess
-  uuid: 3cf6c16c-c5a5-4113-9a3f-44170dcbd4fe
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-177
+  name: 18|🇭🇰 香港 02
   network: ws
-  port: '80'
-  server: a1d35d30-sv2sg0-t66zs1-1pq44.hk.p5pv.com
-  tls: false
+  port: '1086'
+  server: hk-02.foxspirit.click
+  tls: true
   type: vmess
-  uuid: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
+  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-170
-  network: ws
-  port: '8101'
-  server: 339bcc03-sv2sg0-swqixu-1luqs.wtt5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 788328ee-d49f-11ef-bd97-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-176
-  network: ws
-  port: '80'
-  server: 67d2e62f-sv2sg0-sxx3hh-1m7j8.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 91acf762-a4ea-11ef-b090-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 IEPL专线 香港 NO1
-  network: tcp
-  port: '24771'
-  server: i.needss.top
-  tls: false
-  type: vmess
-  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港NO.1-1B
-  network: tcp
-  port: '45050'
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
-- alterId: 0
-  cipher: auto
-  name: 18|🇲🇴 澳门NO.2
-  network: tcp
-  port: '45051'
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-169
-  network: ws
-  port: '80'
-  server: a4e9c5f4-sv0xs0-sv37gm-81nv.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 HK-171
-  network: ws
-  port: '80'
-  server: c5d2b428-sv2sg0-swbw6v-1h240.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 28a5ce18-e7a1-11ec-91b2-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+      Host: www.ouabaua.com
+    path: /zxascas
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:
