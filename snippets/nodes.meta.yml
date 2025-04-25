@@ -1851,8 +1851,7 @@ proxies:
     headers:
       Host: ''
     path: ''
-- client-fingerprint: safari
-  name: 29|🇸🇬新加坡02/1x
+- name: 29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
   reality-opts:
@@ -1877,24 +1876,6 @@ proxies:
   skip-cert-verify: false
   sni: www.hk-jd.top
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 30|日本 05 加密测试 - IPLC1中转
-  network: tcp
-  port: '30020'
-  server: 120.232.223.153
-  tls: false
-  type: vmess
-  uuid: aa825895-0ae4-4b26-916e-e7dad4f57128
-- alterId: 0
-  cipher: auto
-  name: 30|日本 05 加密测试 - IPLC2中转
-  network: tcp
-  port: '30020'
-  server: 59.42.247.124
-  tls: false
-  type: vmess
-  uuid: aa825895-0ae4-4b26-916e-e7dad4f57128
 - flow: xtls-rprx-vision
   name: 31|🇸🇬AWS新加坡01 | 高速专线推荐
   port: 443
