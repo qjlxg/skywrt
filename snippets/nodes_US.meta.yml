@@ -47,20 +47,302 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 圣何塞1
+  name: 18|🇺🇸 UNITED STATES 460
   network: ws
-  port: '443'
-  server: 443ip.yangmie.online
+  port: '8443'
+  server: 104.21.48.1
   tls: true
   type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /89c344f2
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞3-1T
+  network: ws
+  port: '443'
+  server: bestcf.top
+  tls: true
+  type: vmess
+  uuid: dfdd81a1-3a60-4be2-b965-761fd2772ada
   ws-opts:
     headers:
       Host: shs111.kejixiaoqi666.store
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 圣何塞4
+  name: 18|🇺🇸 UNITED STATES 467
+  network: ws
+  port: '443'
+  server: 38.99.82.193
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 567
+  network: tcp
+  port: '52143'
+  server: 142.4.104.33
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 571-1A
+  network: ws
+  port: '8880'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 489-1A
+  network: ws
+  port: '8443'
+  server: 104.21.96.1
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /89c344f2
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US| V2RAY TCP-1F
+  network: tcp
+  port: '8843'
+  server: 38.130.98.152
+  tls: false
+  type: vmess
+  uuid: 41847d9e-fe18-4691-992f-f7a25f32da6c
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: webinar
+  name: 18|🇺🇸 US| VLESS GRPC-1C
+  network: grpc
+  port: '8443'
+  server: dc6.api-aws.com
+  tls: true
+  type: vmess
+  uuid: 9dcf9d5c-aefb-4e00-a9c9-97b9e0d8b8ce
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 VMESS-US-1C
+  network: ws
+  port: '25314'
+  server: us-n1.speedyyun.com
+  tls: false
+  type: vmess
+  uuid: 020d8dd2-e106-4783-b755-515910a3dd56
+  ws-opts:
+    headers:
+      Host: us-n1.speedyyun.com
+    path: /victorias
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞5-1P
+  network: ws
+  port: '443'
+  server: time.is
+  tls: true
+  type: vmess
+  uuid: 858c0a36-323c-4dc2-b10a-83c757d288d1
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞1-1P
+  network: ws
+  port: '443'
+  server: 443ip.yangmie.online
+  tls: true
+  type: vmess
+  uuid: 858c0a36-323c-4dc2-b10a-83c757d288d1
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 501-1A
+  network: ws
+  port: '2052'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: f8c1f8ed-14b5-329d-b57d-61407783ee84
+  ws-opts:
+    headers:
+      Host: 100-196-88-104.s2.db-link02.top
+    path: /dabai.in172.67.14.233
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: 666100k.666811.xyz
+  name: 18|🇺🇸 美国 GRCP-1R
+  network: grpc
+  port: '8443'
+  server: 666100k.666811.xyz
+  tls: true
+  type: vmess
+  uuid: 937bb910-f480-4a19-a311-2ba6c5139c69
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 804
+  network: ws
+  port: '443'
+  server: 23.150.152.52
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: maxin.beauty
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 487-1A
+  network: ws
+  port: '443'
+  server: sg2.cowvpn.org
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: sg2cf.cowvpn.org
+    path: /cctv13/vmess_sg2cf
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 635-1A
+  network: ws
+  port: '2053'
+  server: 104.21.54.209
+  tls: true
+  type: vmess
+  uuid: a04001f3-2dba-40ed-8c2e-d0c765d9afaa
+  ws-opts:
+    headers:
+      Host: vu-mumbai-01.vnode.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 IEPL专线-美国-1-1O
+  network: ws
+  port: '8008'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: dd722e86-6cec-44e8-a444-7f513ab61c0c
+  ws-opts:
+    headers:
+      Host: v3.nmcf.me
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国1-1I
+  network: tcp
+  port: '27821'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: a80f0b85-c7f6-4b64-afb9-964b4a884fe9
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞2-1O
+  network: ws
+  port: '443'
+  server: bestcf.mfwl.art
+  tls: true
+  type: vmess
+  uuid: 1bf18210-dea5-4a9c-8f9e-23b9e1f10b30
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: web
+  name: 18|🇺🇸 US| V2RAY GRPC-1D
+  network: grpc
+  port: '8443'
+  server: test.api-aws.com
+  tls: true
+  type: vmess
+  uuid: c98306f6-3e55-47c6-ba27-bb5343de5da5
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国3
+  network: tcp
+  port: '60140'
+  server: us0141.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 VMESS-直连-US-1J
+  network: ws
+  port: '48421'
+  server: v6.nmcf.me
+  tls: false
+  type: vmess
+  uuid: 504aed84-d8e5-4076-bbc1-16a1e423cdf2
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国3-1C
+  network: tcp
+  port: '27823'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 0a136142-74dc-4a73-8524-8b0d734e72ec
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 478
+  network: ws
+  port: '38007'
+  server: 142.4.108.140
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/081412110418
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 816
+  network: tcp
+  port: '23423'
+  server: 206.206.80.66
+  tls: false
+  type: vmess
+  uuid: 8825fd04-9005-4410-b48c-d2f345ec7fee
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞4-1R
   network: ws
   port: '443'
   server: xiaoqi.yangmie.online
@@ -73,30 +355,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-V6|04
-  network: tcp
-  port: '22307'
-  server: dmitv63.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: 666100k.666811.xyz
-  name: 18|🇺🇸 美国 GRCP-1B
-  network: grpc
-  port: '8443'
-  server: 666100k.666811.xyz
-  tls: true
-  type: vmess
-  uuid: f47366bb-df70-466c-a1f7-137345788265
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 VMESS-直连-US-1B
+  name: 18|🇺🇸 美国直连-VMESS-1N
   network: ws
-  port: '48421'
-  server: v6.nmcf.me
+  port: '8002'
+  server: v5.nmcf.me
   tls: false
   type: vmess
   uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
@@ -104,24 +366,28 @@ proxies:
     headers:
       Host: www.bing.com
     path: /nmkj
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇺🇸 美国2-1C
+  name: 18|🇺🇸 UNITED STATES 554
   network: tcp
-  port: '27822'
-  server: ppx1.6128888.xyz
+  port: '41400'
+  server: 198.2.218.100
   tls: false
   type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国1-1C
-  network: tcp
-  port: '27821'
-  server: ppx1.6128888.xyz
-  tls: false
+  name: 18|🇺🇸 UNITED STATES 806
+  network: ws
+  port: '443'
+  server: ip.sb
+  tls: true
   type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+  uuid: 9fc77e5c-7621-403d-8bd2-959eaa1167e8
+  ws-opts:
+    headers:
+      Host: 00.orangelightyo.us.kg
+    path: /serv00?ed=2048
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸 UNITED STATES 1-1B
@@ -133,6 +399,484 @@ proxies:
   uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
 - alterId: 0
   cipher: auto
+  name: 18|🇺🇸 US| VMESS WEBSOCKET-1H
+  network: ws
+  port: '23552'
+  server: 38.126.114.213
+  tls: false
+  type: vmess
+  uuid: f328db31-7204-491f-a94c-c118f0c3d1e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 577
+  network: ws
+  port: '8080'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-213-61-102.s1.db-link02.top
+    path: /dabai.in104.21.151.202
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 779
+  network: ws
+  port: '443'
+  server: 23.154.136.23
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: myrna.fun
+    path: /linkvws
+- alterId: 32
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 782
+  network: ws
+  port: '443'
+  server: 77.83.141.171
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 462
+  network: ws
+  port: '8443'
+  server: it0.899994.xyz
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: it0.899994.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 468
+  network: ws
+  port: '80'
+  server: s2.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-66-201-35.s2.db-link02.top
+    path: /dabai.in104.20.76.67
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 550
+  network: ws
+  port: '8443'
+  server: 92.53.188.185
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 559
+  network: ws
+  port: '443'
+  server: northflank.107421.xyz
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: northflank.107421.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 796
+  network: ws
+  port: '443'
+  server: primer.ibilibi.li
+  tls: true
+  type: vmess
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  ws-opts:
+    headers:
+      Host: loki.oracle
+    path: /farcry?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 638
+  network: ws
+  port: '8443'
+  server: 14.102.229.82
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 626-1A
+  network: ws
+  port: '2082'
+  server: s4.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-4-150-250.s4.db-link01.top
+    path: /dabai.in104.25.248.188
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 479
+  network: ws
+  port: '433'
+  server: 156.246.94.94
+  tls: false
+  type: vmess
+  uuid: bebdb5c1-e0cb-4319-b614-a0581fdd3158
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 815
+  network: ws
+  port: '443'
+  server: tls.85.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.85.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 775
+  network: ws
+  port: '80'
+  server: 151.101.194.168
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 495
+  network: ws
+  port: '38005'
+  server: 107.148.203.99
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738402429044
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 519-1A
+  network: ws
+  port: '443'
+  server: 172.111.36.108
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 618-1A
+  network: ws
+  port: '31005'
+  server: 38.11.50.81
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1731490899984
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 613
+  network: ws
+  port: '2082'
+  server: s5.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-219-162-241.s5.cn-db.top
+    path: /dabai.in172.64.23.14
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 637
+  network: ws
+  port: '8443'
+  server: 104.21.13.222
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 587
+  network: ws
+  port: '443'
+  server: 172.67.204.19
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 643-1A
+  network: ws
+  port: '8080'
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 506-1A
+  network: ws
+  port: '443'
+  server: 104.21.81.115
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: northflank.107421.xyz
+    path: /vmess
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 640
+  network: tcp
+  port: '41400'
+  server: 198.2.218.102
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 518
+  network: ws
+  port: '443'
+  server: tls.84.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.84.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 789
+  network: tcp
+  port: '43834'
+  server: 50.114.243.61
+  tls: false
+  type: vmess
+  uuid: b246e34d-bbd1-4016-8f74-ea461c37e411
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 817
+  network: ws
+  port: '8443'
+  server: fbi.gov
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 508-1A
+  network: ws
+  port: '8443'
+  server: 104.21.16.1
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /89c344f2
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 574-1A
+  network: ws
+  port: '37002'
+  server: 38.33.55.79
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1734170291489
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 754
+  network: tcp
+  port: '45017'
+  server: 142.0.134.245
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 529
+  network: ws
+  port: '443'
+  server: visa.org
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: join---bede.mosiv2-com.workers.dev
+    path: /sgfqkqmltcy.site/rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 551
+  network: ws
+  port: '2052'
+  server: s4.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-106-60-74.s4.cn-db.top
+    path: /dabai.in104.25.124.184
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 566-1A
+  network: ws
+  port: '38007'
+  server: 142.4.108.139
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 521
+  network: ws
+  port: '443'
+  server: 104.21.21.192
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 457
+  network: ws
+  port: '38003'
+  server: 38.11.49.50
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738432110766
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国2-1C
+  network: tcp
+  port: '27822'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 0a136142-74dc-4a73-8524-8b0d734e72ec
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 472-1A
+  network: ws
+  port: '12269'
+  server: 2.58.87.221
+  tls: false
+  type: vmess
+  uuid: db85ff0e-c33f-401d-c415-4c7cce135704
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 628
+  network: ws
+  port: '2086'
+  server: s2.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-154-72-114.s2.db-link01.top
+    path: /dabai.in172.67.68.139
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 509
+  network: ws
+  port: '2052'
+  server: s2.db-link02.top
+  tls: false
+  type: vmess
+  uuid: f8c1f8ed-14b5-329d-b57d-61407783ee84
+  ws-opts:
+    headers:
+      Host: 100-196-88-104.s2.db-link02.top
+    path: /dabai.in172.67.14.233
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 LV1 美国2
   network: tcp
   port: '60231'
@@ -140,125 +884,1343 @@ proxies:
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇺🇸 圣何塞2
+  name: 18|🇺🇸 UNITED STATES 456-1A
   network: ws
-  port: '443'
-  server: bestcf.mfwl.art
+  port: '31004'
+  server: 199.188.105.61
   tls: true
   type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: shs111.kejixiaoqi666.store
+      Host: ''
+    path: /path/1738402429044
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 615-1A
+  network: ws
+  port: '8443'
+  server: 162.120.94.103
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 454-1A
+  network: ws
+  port: '80'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 614
+  network: ws
+  port: '443'
+  server: azarbayjab1.1p1.pages.dev
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /irvideo.cfd/linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 601
+  network: ws
+  port: '31003'
+  server: 192.74.239.212
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1737106641750
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 546
+  network: ws
+  port: '2082'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-113-212-3.s1.db-link02.top
+    path: /dabai.in172.67.79.231
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 US| VMESS WS TLS-1H
+  network: ws
+  port: '443'
+  server: dc6.api-aws.com
+  tls: true
+  type: vmess
+  uuid: f328db31-7204-491f-a94c-c118f0c3d1e3
+  ws-opts:
+    headers:
+      Host: dc6.api-aws.com
+    path: /v2ray
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 547-1A
+  network: ws
+  port: '38007'
+  server: 142.4.108.131
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/283126261303
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 535-1A
+  network: ws
+  port: '2095'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-206-104-218.s1.db-link01.top
+    path: /dabai.in172.67.93.174
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 788
+  network: ws
+  port: '443'
+  server: 38.75.137.21
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: harriscity.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 502
+  network: ws
+  port: '443'
+  server: se.899994.xyz
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: se.899994.xyz
+    path: /index
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 792
+  network: tcp
+  port: '45017'
+  server: 142.0.134.244
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 798
+  network: ws
+  port: '443'
+  server: 38.91.107.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 459
+  network: ws
+  port: '443'
+  server: sgfqkqmltcy.site
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 471-1A
+  network: ws
+  port: '2082'
+  server: s4.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-59-178-247.s4.cn-db.top
+    path: /dabai.in104.19.101.110
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 761
+  network: ws
+  port: '8443'
+  server: 104.19.218.236
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 589
+  network: ws
+  port: '443'
+  server: 172.233.160.249
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 590-1A
+  network: ws
+  port: '2095'
+  server: s5.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-26-239-98.s5.db-link02.top
+    path: /dabai.in172.67.11.171
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 05 | TCP
+  network: tcp
+  port: '20016'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 773
+  network: ws
+  port: '8888'
+  server: 38.150.7.183
+  tls: false
+  type: vmess
+  uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wada12222
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 484-1A
+  network: ws
+  port: '8880'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+- alterId: 0
+  cipher: auto
+  name: 18|🇦🇺 AUSTRALIA-1A
+  network: tcp
+  port: '17718'
+  server: 20.213.20.185
+  tls: false
+  type: vmess
+  uuid: c206e022-34c6-4fe3-a232-b9c07ba3165d
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 523-1A
+  network: ws
+  port: '37004'
+  server: 108.186.26.180
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738317438731
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 625-1A
+  network: ws
+  port: '8443'
+  server: 185.148.106.108
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 473
+  network: ws
+  port: '443'
+  server: 104.21.80.1
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: br.899994.xyz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 469-1A
+  network: ws
+  port: '443'
+  server: tokyo.899994.xyz
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: tokyo.899994.xyz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 758
+  network: ws
+  port: '443'
+  server: 38.75.136.73
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 38.75.136.73
+    path: /linkvws
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 560
+  network: ws
+  port: '38007'
+  server: 38.174.190.72
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/100318230503
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 452
+  network: ws
+  port: '38007'
+  server: 142.4.108.135
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1720963559796
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 520-1A
+  network: ws
+  port: '8443'
+  server: portland.899994.xyz
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: portland.899994.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-V6|01
-  network: tcp
-  port: '22308'
-  server: crun6.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国3
-  network: tcp
-  port: '27823'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 圣何塞5
+  name: 18|🇺🇸 UNITED STATES 610-1A
   network: ws
-  port: '443'
-  server: time.is
-  tls: true
+  port: '80'
+  server: s5.db-link01.top
+  tls: false
   type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: shs111.kejixiaoqi666.store
+      Host: 100-16-20-50.s5.db-link01.top
+    path: /dabai.in104.20.1.186
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 809
+  network: ws
+  port: '443'
+  server: 199.232.214.133
+  tls: true
+  type: vmess
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  ws-opts:
+    headers:
+      Host: loki.oracle
+    path: /farcry?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 600-1A
+  network: ws
+  port: '8880'
+  server: s2.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-14-147-154.s2.db-link01.top
+    path: /dabai.in172.64.0.32
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 636-1A
+  network: ws
+  port: '2095'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-78-250-146.s4.cn-db.top
+    path: /dabai.in104.25.36.93
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 558
+  network: ws
+  port: '443'
+  server: cf.fovi.tk
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 493-1A
+  network: ws
+  port: '8880'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-44-229-26.s4.db-link01.top
+    path: /dabai.in172.67.5.70
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 767
+  network: tcp
+  port: '22324'
+  server: 38.99.82.128
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 634-1A
+  network: ws
+  port: '443'
+  server: shsus.256709394.xyz
+  tls: true
+  type: vmess
+  uuid: 7a8ec047-662b-4a9f-b89f-fd7d97eca90f
+  ws-opts:
+    headers:
+      Host: shsus.256709394.xyz
+    path: /RVr8ALFBsgTfBC
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 619-1A
+  network: ws
+  port: '8880'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-103-58-39.s1.db-link02.top
+    path: /dabai.in104.25.249.215
+- alterId: 1
+  cipher: auto
+  name: 18|🇦🇺 AUSTRALIA-1B
+  network: ws
+  port: '443'
+  server: 172.105.172.209
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 172.105.172.209
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 LV1 美国3
-  network: tcp
-  port: '60140'
-  server: us0141.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 IEPL专线-美国-1-1B
+  name: 18|🇺🇸 UNITED STATES 540-1A
   network: ws
-  port: '8008'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
-  ws-opts:
-    headers:
-      Host: v3.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 LV1 美国1
-  network: tcp
-  port: '60174'
-  server: us0175.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国直连-VMESS-1B
-  network: ws
-  port: '8002'
-  server: v5.nmcf.me
-  tls: false
-  type: vmess
-  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国-V6|05
-  network: tcp
-  port: '22309'
-  server: dmitv64.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 LV1 美国5
-  network: tcp
-  port: '60145'
-  server: us0150.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 圣何塞3
-  network: ws
-  port: '443'
-  server: bestcf.top
+  port: '8443'
+  server: 172.67.133.78
   tls: true
   type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
   ws-opts:
     headers:
-      Host: shs111.kejixiaoqi666.store
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 629
+  network: ws
+  port: '2052'
+  server: 104.19.48.236
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-41-36-35.s2.db-link01.top
+    path: /dabai.in172.67.71.198
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 476
+  network: ws
+  port: '443'
+  server: us1.cowvpn.org
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: us1cf.cowvpn.org
+    path: /cctv13/vmess_us1cf
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 778
+  network: ws
+  port: '8443'
+  server: www.okcupid.com
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
     path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 578-1A
+  network: ws
+  port: '31005'
+  server: 38.11.50.66
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738317438731
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 756
+  network: ws
+  port: '2096'
+  server: 104.18.181.238
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 525
+  network: ws
+  port: '8080'
+  server: s4.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-143-127-247.s4.db-link01.top
+    path: /dabai.in104.20.125.64
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 632
+  network: ws
+  port: '443'
+  server: 141.101.122.109
+  tls: true
+  type: vmess
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  ws-opts:
+    headers:
+      Host: rac.679888.xyz
+    path: /lfljvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 766
+  network: ws
+  port: '443'
+  server: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 453-1A
+  network: ws
+  port: '38007'
+  server: 38.174.190.88
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/023114310920
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 645-1A
+  network: ws
+  port: '443'
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 581-1A
+  network: ws
+  port: '2086'
+  server: 104.19.48.236
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-171-104-238.s2.db-link02.top
+    path: /dabai.in172.64.43.14
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 492-1A
+  network: ws
+  port: '38001'
+  server: 137.175.21.180
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738432110766
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 545
+  network: ws
+  port: '38007'
+  server: 38.174.190.80
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/102206282005
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 488
+  network: ws
+  port: '8443'
+  server: 167.68.42.137
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 569
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 536-1A
+  network: tcp
+  port: '41400'
+  server: 198.2.218.108
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 776
+  network: ws
+  port: '443'
+  server: 23.154.136.2
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 497-1A
+  network: ws
+  port: '2053'
+  server: www.speedtest.net
+  tls: true
+  type: vmess
+  uuid: 7cd6bfb3-1601-58c5-9a8d-a74db6cef166
+  ws-opts:
+    headers:
+      Host: is2.v2vmess.site
+    path: /vmess#@v2ray_spatial
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 515-1A
+  network: ws
+  port: '8443'
+  server: lax2.ibgfw.top
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 576-1A
+  network: ws
+  port: '38007'
+  server: 142.4.108.147
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/181721272114
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 542
+  network: ws
+  port: '443'
+  server: mods-destruction-academy-gear.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: mods-destruction-academy-gear.trycloudflare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 01 | WS
+  network: ws
+  port: '20012'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 565-1A
+  network: ws
+  port: '443'
+  server: 172.67.51.186
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 530-1A
+  network: ws
+  port: '8443'
+  server: 104.21.3.219
+  tls: true
+  type: vmess
+  uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 768
+  network: ws
+  port: '2096'
+  server: 104.17.201.138
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 524
+  network: ws
+  port: '37003'
+  server: 38.33.1.168
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738432110766
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 465-1A
+  network: ws
+  port: '8080'
+  server: 104.19.48.236
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-150-171-114.s4.cn-db.top
+    path: /dabai.in104.20.244.251
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 616-1A
+  network: ws
+  port: '8443'
+  server: 170.114.46.139
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 516
+  network: ws
+  port: '2095'
+  server: s2.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-130-136-50.s2.db-link01.top
+    path: /dabai.in104.21.133.12
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 584-1A
+  network: ws
+  port: '31003'
+  server: 192.74.239.214
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738317438731
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 623-1A
+  network: ws
+  port: '8443'
+  server: 167.68.5.215
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 455-1A
+  network: ws
+  port: '443'
+  server: 172.67.200.13
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 464
+  network: ws
+  port: '2086'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-223-71-166.s1.db-link02.top
+    path: /dabai.in172.64.9.208
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 593-1A
+  network: ws
+  port: '80'
+  server: s4.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-210-164-205.s4.cn-db.top
+    path: /dabai.in172.64.27.157
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 585
+  network: ws
+  port: '2052'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-44-70-80.s1.db-link02.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 461-1A
+  network: ws
+  port: '443'
+  server: 172.64.170.159
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 544-1A
+  network: ws
+  port: '2095'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-206-104-218.s1.db-link01.top
+    path: /dabai.in172.67.93.174
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 482-1A
+  network: ws
+  port: '8880'
+  server: s4.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-128-12-180.s4.db-link02.top
+    path: /dabai.in104.25.239.131
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 641
+  network: ws
+  port: '443'
+  server: 104.21.42.243
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 621
+  network: ws
+  port: '2086'
+  server: s5.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-68-4-71.s5.db-link02.top
+    path: /dabai.in104.25.98.224
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 814
+  network: ws
+  port: '8880'
+  server: lamusa.daozhang.site
+  tls: false
+  type: vmess
+  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
+  ws-opts:
+    headers:
+      Host: lamusa.daozhang.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 568
+  network: ws
+  port: '2082'
+  server: 104.19.48.236
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-6-81-226.s1.db-link02.top
+    path: /dabai.in104.20.8.162
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 757
+  network: ws
+  port: '443'
+  server: 38.99.82.253
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 494-1A
+  network: ws
+  port: '443'
+  server: 67.220.66.194
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 67.220.66.194
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 538
+  network: ws
+  port: '8443'
+  server: buffalo.899994.xyz
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: buffalo.899994.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 511-1A
+  network: ws
+  port: '2082'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-150-51-99.s1.cn-db.top
+    path: /dabai.in172.64.27.73
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 562-1A
+  network: ws
+  port: '8443'
+  server: nl.899994.xyz
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: nl.899994.xyz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国01-免费
+  network: ws
+  port: '8443'
+  server: us01.sh-cloudflare.sbs
+  tls: true
+  type: vmess
+  uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 769
+  network: ws
+  port: '2096'
+  server: 104.18.169.168
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 759
+  network: ws
+  port: '443'
+  server: 38.99.82.203
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 579
+  network: ws
+  port: '2082'
+  server: s4.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-116-85-183.s4.db-link02.top
+    path: /dabai.in172.67.8.3
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 541-1A
+  network: ws
+  port: '8880'
+  server: s2.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-165-40-54.s2.cn-db.top
+    path: /dabai.in104.24.231.155
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 812
+  network: ws
+  port: '38004'
+  server: 199.180.101.29
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1734770577466
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 605-1A
+  network: tcp
+  port: '48712'
+  server: 107.148.207.249
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 06 | TCP
+  network: tcp
+  port: '20017'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 517-1A
+  network: ws
+  port: '38003'
+  server: 38.14.107.226
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/340434130032
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 595
+  network: ws
+  port: '2095'
+  server: s5.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-170-6-223.s5.db-link01.top
+    path: /dabai.in104.24.108.89
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 477
+  network: ws
+  port: '8080'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-213-61-102.s1.db-link02.top
+    path: /dabai.in104.21.151.202
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 451
+  network: ws
+  port: '38003'
+  server: 38.14.107.228
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/181721272114
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 555
+  network: ws
+  port: '38002'
+  server: 38.33.56.27
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738402429044
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 633-1A
+  network: ws
+  port: '443'
+  server: 172.67.136.233
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 795
+  network: ws
+  port: '443'
+  server: 172.67.164.232
+  tls: true
+  type: vmess
+  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 539-1A
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  tls: true
+  type: vmess
+  uuid: 2ee82b54-c039-5ab1-9efa-47cce8e62e64
+  ws-opts:
+    headers:
+      Host: is1.v2vmess.site
+    path: /vmess#@v2ray_spatial
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 499
+  network: ws
+  port: '36003'
+  server: 137.175.23.140
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738402429044
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸 LV1 美国4
@@ -270,6 +2232,141 @@ proxies:
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
+  name: 18|🇺🇸 UNITED STATES 620-1A
+  network: ws
+  port: '8443'
+  server: ovhwuxian.pai50288.uk
+  tls: true
+  type: vmess
+  uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 596
+  network: ws
+  port: '443'
+  server: br.899994.xyz
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: br.899994.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 810
+  network: tcp
+  port: '45017'
+  server: 142.0.134.241
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 774
+  network: tcp
+  port: '45017'
+  server: 142.0.134.242
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 573-1A
+  network: ws
+  port: '2095'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-139-204-73.s1.cn-db.top
+    path: /dabai.in104.25.132.97
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 514-1A
+  network: ws
+  port: '8880'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-250-32-53.s1.db-link01.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 496-1A
+  network: ws
+  port: '2086'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-47-154-9.s1.cn-db.top
+    path: /dabai.in104.24.181.189
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 760
+  network: ws
+  port: '2096'
+  server: 104.18.79.53
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 602-1A
+  network: ws
+  port: '8443'
+  server: 66.235.200.22
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 784
+  network: ws
+  port: '8880'
+  server: 104.16.143.237
+  tls: false
+  type: vmess
+  uuid: 7efc3b9a-e73f-4e40-b57a-5319c463148b
+  ws-opts:
+    headers:
+      Host: yd.changyouVPN.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 575-1A
+  network: ws
+  port: '80'
+  server: s1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-215-151-174.s1.cn-db.top
+    path: /dabai.in172.64.34.18
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 LV1 美国6
   network: tcp
   port: '60146'
@@ -279,6 +2376,479 @@ proxies:
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
+  name: 18|🇺🇸 UNITED STATES 531
+  network: ws
+  port: '80'
+  server: 38.107.234.57
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 466-1A
+  network: ws
+  port: '2086'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-171-104-238.s2.db-link02.top
+    path: /dabai.in172.64.43.14
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 597
+  network: ws
+  port: '8443'
+  server: 92.53.190.226
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 485-1A
+  network: ws
+  port: '8880'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-81-36.s4.db-link01.top
+    path: /dabai.in104.24.185.219
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 458-1A
+  network: ws
+  port: '8443'
+  server: 104.21.32.1
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /89c344f2
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 609-1A
+  network: ws
+  port: '8880'
+  server: s5.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-240-33-58.s5.cn-db.top
+    path: /dabai.in172.67.30.35
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 819
+  network: ws
+  port: '8880'
+  server: server31.beheshtbaneh.com
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 588-1A
+  network: ws
+  port: '38003'
+  server: 38.33.44.11
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738317438731
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 606
+  network: ws
+  port: '80'
+  server: s5.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-116-186-216.s5.cn-db.top
+    path: /dabai.in104.25.66.1
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 02 | WS
+  network: ws
+  port: '20013'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|05
+  network: tcp
+  port: '22309'
+  server: dmitv64.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 591
+  network: ws
+  port: '8443'
+  server: 86.38.214.52
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 557
+  network: ws
+  port: '2095'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-209-47-141.s2.db-link02.top
+    path: /dabai.in104.20.27.115
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 505-1A
+  network: ws
+  port: '443'
+  server: 172.66.168.199
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: br.899994.xYz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 527-1A
+  network: ws
+  port: '443'
+  server: 104.21.77.29
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: beyonddbc.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 630-1A
+  network: ws
+  port: '8443'
+  server: 45.159.219.179
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 564-1A
+  network: ws
+  port: '2082'
+  server: s2.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-22-66-14.s2.cn-db.top
+    path: /dabai.in104.21.22.199
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 787
+  network: ws
+  port: '80'
+  server: 151.101.2.168
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 617-1A
+  network: ws
+  port: '443'
+  server: us.cowvpn.org
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: us2cf.cowvpn.org
+    path: /cctv13/vmess_us1
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 537
+  network: tcp
+  port: '22324'
+  server: 23.166.88.183
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 611-1A
+  network: ws
+  port: '2095'
+  server: 104.19.48.236
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-209-47-141.s2.db-link02.top
+    path: /dabai.in104.20.27.115
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 553-1A
+  network: ws
+  port: '8880'
+  server: s5.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-85-25-119.s5.db-link02.top
+    path: /dabai.in104.19.220.104
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 781
+  network: ws
+  port: '443'
+  server: 38.99.82.96
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 528
+  network: ws
+  port: '443'
+  server: 165.1.69.50
+  tls: true
+  type: vmess
+  uuid: 7a8ec047-662b-4a9f-b89f-fd7d97eca90f
+  ws-opts:
+    headers:
+      Host: shsus.256709394.xyz
+    path: /RVr8ALFBsgTfBC
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 639-1A
+  network: ws
+  port: '443'
+  server: 172.67.213.110
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 599
+  network: ws
+  port: '8443'
+  server: 172.67.153.156
+  tls: true
+  type: vmess
+  uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 644
+  network: ws
+  port: '8880'
+  server: 104.21.82.183
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 474-1A
+  network: ws
+  port: '443'
+  server: 172.67.71.217
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: 1t3chx0.zed23.web1337.net
+    path: /fixedfloati.cfd/linkwsd
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 813
+  network: ws
+  port: '443'
+  server: afrhms16v.bestxray.buzz
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
+    path: /linkws
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 561-1A
+  network: ws
+  port: '38007'
+  server: 142.4.108.141
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 503
+  network: ws
+  port: '2052'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-151-164-47.s1.db-link01.top
+    path: /dabai.in172.67.2.142
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 807
+  network: ws
+  port: '443'
+  server: 38.91.106.227
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 570-1A
+  network: ws
+  port: '2095'
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-33-108-197.s1.db-link02.top
+    path: /dabai.in104.24.248.64
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 594-1A
+  network: ws
+  port: '2082'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-38-62-25.s5.db-link02.top
+    path: /dabai.in104.18.42.172
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 603
+  network: ws
+  port: '36002'
+  server: 38.33.34.38
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1738432110766
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 755
+  network: ws
+  port: '443'
+  server: 23.150.152.32
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /linkvws
+- alterId: 32
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 808
+  network: ws
+  port: '443'
+  server: vc.fly.dev
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 美国-V6|03
   network: tcp
   port: '22306'
@@ -286,6 +2856,715 @@ proxies:
   tls: false
   type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 622
+  network: ws
+  port: '80'
+  server: hsj.lbxjc.online
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 785
+  network: ws
+  port: '443'
+  server: u2.huvicloud.com
+  tls: true
+  type: vmess
+  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
+  ws-opts:
+    headers:
+      Host: u2.huvicloud.com
+    path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 533
+  network: ws
+  port: '443'
+  server: 104.21.112.1
+  tls: true
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: tokyo.899994.xyz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 470-1A
+  network: ws
+  port: '8443'
+  server: 104.21.112.1
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /89c344f2
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 624
+  network: ws
+  port: '8443'
+  server: 92.53.189.151
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 526-1A
+  network: ws
+  port: '2052'
+  server: 198.41.209.70
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-102-247-92.s1.db-link02.top
+    path: /dabai.in104.25.175.137
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 532
+  network: ws
+  port: '8443'
+  server: 104.21.64.1
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /89c344f2
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 513
+  network: ws
+  port: '38003'
+  server: 38.14.107.225
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/181721272114
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 642
+  network: ws
+  port: '8443'
+  server: 141.11.203.194
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 764
+  network: ws
+  port: '443'
+  server: 69.50.93.90
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 552
+  network: ws
+  port: '38003'
+  server: 38.14.107.233
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/340434130032
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 490
+  network: ws
+  port: '8080'
+  server: s5.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-149-191-2.s5.db-link02.top
+    path: /dabai.in104.20.16.209
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 04 | TCP
+  network: tcp
+  port: '20015'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国5
+  network: tcp
+  port: '60145'
+  server: us0150.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 563-1A
+  network: ws
+  port: '2095'
+  server: s4.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-187-244-205.s4.db-link02.top
+    path: /dabai.in104.19.97.91
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 543-1A
+  network: ws
+  port: '80'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 793
+  network: ws
+  port: '8443'
+  server: www.visa.com.sg
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 631-1A
+  network: ws
+  port: '443'
+  server: 104.25.127.240
+  tls: true
+  type: vmess
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  ws-opts:
+    headers:
+      Host: rac.679888.xyz
+    path: /lfljvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 481-1A
+  network: ws
+  port: '8880'
+  server: s4.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-74-148-152.s4.cn-db.top
+    path: /dabai.in104.21.239.139
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 627-1A
+  network: ws
+  port: '80'
+  server: s2.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-55-60-174.s2.db-link01.top
+    path: /dabai.in172.67.60.154
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 556-1A
+  network: ws
+  port: '2082'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-32-21-187.s1.db-link01.top
+    path: /dabai.in104.25.184.216
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 572
+  network: tcp
+  port: '46628'
+  server: 2.58.87.221
+  tls: false
+  type: vmess
+  uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国1
+  network: tcp
+  port: '60174'
+  server: us0175.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 777
+  network: tcp
+  port: '45017'
+  server: 142.0.134.243
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 582-1A
+  network: ws
+  port: '8080'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-74-144-32.s5.cn-db.top
+    path: /dabai.in104.19.219.194
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 794
+  network: ws
+  port: '80'
+  server: www.aetv.com
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 583-1A
+  network: ws
+  port: '443'
+  server: 104.24.59.213
+  tls: true
+  type: vmess
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  ws-opts:
+    headers:
+      Host: rac.679888.xyz
+    path: /lfljvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 534-1A
+  network: ws
+  port: '8443'
+  server: 92.53.191.56
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 500
+  network: ws
+  port: '443'
+  server: www.visa.com.tw
+  tls: true
+  type: vmess
+  uuid: 42d6df5d-e21a-4d4e-8863-50da907543cc
+  ws-opts:
+    headers:
+      Host: halloween-validity-tooth-hammer.trycloudflare.com
+    path: /vmess-argo?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 592-1A
+  network: ws
+  port: '443'
+  server: 104.18.112.107
+  tls: true
+  type: vmess
+  uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
+  ws-opts:
+    headers:
+      Host: rac.679888.xyz
+    path: /lfljvws
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 598-1A
+  network: ws
+  port: '37002'
+  server: 192.74.247.140
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.13480033.xyz
+    path: /path/1736674613025
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 486-1A
+  network: ws
+  port: '8443'
+  server: 104.21.80.1
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /89c344f2
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 549
+  network: ws
+  port: '8443'
+  server: ff.kncc2.top
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: ff.kncc2.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 504-1A
+  network: ws
+  port: '80'
+  server: 104.17.213.241
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-49-141-209.s1.db-link02.top
+    path: /dabai.in104.17.169.115
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|04
+  network: tcp
+  port: '22307'
+  server: dmitv63.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 510-1A
+  network: ws
+  port: '8880'
+  server: 104.19.48.236
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-128-12-180.s4.db-link02.top
+    path: /dabai.in104.25.239.131
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|01
+  network: tcp
+  port: '22308'
+  server: crun6.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 771
+  network: ws
+  port: '8443'
+  server: whatismyipaddress.com
+  tls: true
+  type: vmess
+  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
+  ws-opts:
+    headers:
+      Host: kus.htg8866.us.kg
+    path: /465YRTS2AQTEW
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 548
+  network: ws
+  port: '443'
+  server: 198.41.211.189
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: northflank.107421.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 498-1A
+  network: ws
+  port: '8443'
+  server: 148.135.35.33
+  tls: true
+  type: vmess
+  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /89c344f2
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 783
+  network: ws
+  port: '443'
+  server: 172.111.38.233
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: muriel.makeup
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 765
+  network: ws
+  port: '2052'
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: worker-mute-bar-1719.nifotok993.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 463
+  network: ws
+  port: '2086'
+  server: s4.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-240-91-30.s4.db-link02.top
+    path: /dabai.in172.64.38.67
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 491
+  network: ws
+  port: '443'
+  server: jp.cowvpn.org
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: jpcf.cowvpn.org
+    path: /cctv13/vmess_jpcf
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 612-1A
+  network: ws
+  port: '2086'
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-48-202-143.s1.db-link01.top
+    path: /dabai.in104.17.154.223
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 480
+  network: ws
+  port: '2052'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-102-247-92.s1.db-link02.top
+    path: /dabai.in104.25.175.137
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 475
+  network: ws
+  port: '14555'
+  server: 2.58.87.221
+  tls: true
+  type: vmess
+  uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 512-1A
+  network: ws
+  port: '2086'
+  server: s2.cn-db.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-28-190-253.s2.cn-db.top
+    path: /dabai.in104.18.128.173
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 586
+  network: ws
+  port: '8443'
+  server: 89.116.161.240
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 507-1A
+  network: ws
+  port: '2082'
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-38-62-25.s5.db-link02.top
+    path: /dabai.in104.18.42.172
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 604-1A
+  network: tcp
+  port: '41400'
+  server: 38.33.19.71
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 608
+  network: ws
+  port: '8080'
+  server: s1.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-79-28-26.s1.db-link01.top
+    path: /dabai.in172.64.55.203
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 607-1A
+  network: ws
+  port: '8443'
+  server: 89.116.180.69
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 522-1A
+  network: ws
+  port: '8080'
+  server: s4.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-80-77-140.s4.db-link02.top
+    path: /dabai.in104.19.103.96
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 580-1A
+  network: ws
+  port: '2086'
+  server: s2.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-171-104-238.s2.db-link02.top
+    path: /dabai.in172.64.43.14
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国 03 | WS
+  network: ws
+  port: '20014'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 18|🇺🇸 UNITED STATES 483-1A
+  network: ws
+  port: '38007'
+  server: 38.174.190.75
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/251724052818
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:

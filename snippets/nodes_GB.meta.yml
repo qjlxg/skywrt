@@ -74,13 +74,117 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 LV1 英国2
+  name: 18|🇬🇧 UNITED KINGDOM 52-1B
+  network: ws
+  port: '443'
+  server: 149.7.16.188
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 50-1B
+  network: ws
+  port: '443'
+  server: 149.7.16.194
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国 02 | TCP
   network: tcp
-  port: '60042'
-  server: eu0136.alibabaokz.com
+  port: '20033'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
   tls: false
   type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 48-1B
+  network: ws
+  port: '443'
+  server: 149.7.16.75
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 47-1B
+  network: ws
+  port: '443'
+  server: 149.7.16.33
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vk.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 41-1A
+  network: ws
+  port: '8443'
+  server: 94.247.142.198
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 43-1B
+  network: ws
+  port: '443'
+  server: 149.7.16.174
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 51-1B
+  network: ws
+  port: '443'
+  server: 68.168.31.242
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 68.168.31.242
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 46-1B
+  network: ws
+  port: '443'
+  server: 149.7.16.172
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 18|🇬🇧 LV1 英国1
@@ -90,6 +194,119 @@ proxies:
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 44
+  network: ws
+  port: '8443'
+  server: 31.22.116.136
+  tls: true
+  type: vmess
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  ws-opts:
+    headers:
+      Host: lax2.ibgfw.top
+    path: /dyajvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 英国 01 | WS
+  network: ws
+  port: '20032'
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 40-1A
+  network: ws
+  port: '443'
+  server: 68.168.31.196
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 68.168.31.196
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 LV1 英国2
+  network: tcp
+  port: '60042'
+  server: eu0136.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 42-1A
+  network: ws
+  port: '443'
+  server: 149.7.16.248
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vk.com
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 42-1B
+  network: ws
+  port: '443'
+  server: 172.99.190.50
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 49-1B
+  network: ws
+  port: '443'
+  server: 149.7.16.73
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 43-1A
+  network: ws
+  port: '8443'
+  server: 77.75.199.6
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 UNITED KINGDOM 45-1B
+  network: ws
+  port: '443'
+  server: 172.99.190.209
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:
