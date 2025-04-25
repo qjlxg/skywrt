@@ -72,24 +72,3 @@ proxies:
   skip-cert-verify: false
   sni: uk.mjt000.com
   type: trojan
-- name: 16|🇧 V2-英国03 K71
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 20820
-  server: 125.94.40.162
-  sni: k71.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇧 英国
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21007
-  server: tt07.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇧 V2-英国02 K30
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21179
-  server: 125.94.40.162
-  sni: k30.tudou211.com
-  type: trojan
-  udp: true

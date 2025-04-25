@@ -58,196 +58,15 @@ proxies:
   skip-cert-verify: false
   sni: waphk.mjt000.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭 香港-16
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11016
-  server: hk16.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭 香港-14-
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11014
-  server: hk14.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-20
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11020
-  server: hk20.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 IEPL×2-香港-04-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20004
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇰 V1-香港02 K2
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21011
-  server: 125.94.40.162
-  sni: k2.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-18
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11018
-  server: hk18.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-19
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11019
-  server: hk19.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-10
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10010
-  server: hk10.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇭🇰 V1-香港04 K4
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21061
-  server: 125.94.40.162
-  sni: k4.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-13-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11013
-  server: hk13.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇭🇰 V1-香港01 K1
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21135
-  server: 125.94.40.162
-  sni: k1.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 IEPL×2-香港-08
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20008
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-17
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11017
-  server: hk17.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-09
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10009
-  server: hk09.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-11-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11011
-  server: hk11.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 IEPL×2-香港-07
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20007
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-12-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11012
-  server: hk12.51feitu.com
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 16|🇭🇰 香港1
-  port: 11209
+  name: 18|🇭🇰 香港1
+  network: tcp
+  port: '11209'
   server: 9.wogg1.top
   tls: false
   type: vmess
-  udp: true
   uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-15-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11015
-  server: hk15.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇭🇰 V1-香港03 K3
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21042
-  server: 125.94.40.162
-  sni: k3.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇰 V1-香港05 K10
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21386
-  server: 125.94.40.162
-  sni: k10.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-03-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10003
-  server: hk03.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-01-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10001
-  server: hk01.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 IEPL×2-香港-05-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20005
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-02-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10002
-  server: hk02.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港 01
-  network: ws
-  port: '1081'
-  server: hk-cn-01.yumeifang.cn
-  tls: true
-  type: vmess
-  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
-  ws-opts:
-    headers:
-      Host: wamxoa.com
-    path: /asdd
 - alterId: 0
   cipher: auto
   name: 18|HK1
@@ -263,17 +82,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|HK2-1C
+  name: 18|🇭🇰 香港 01
   network: ws
-  port: '443'
-  server: hk2.rtmp.online
+  port: '1081'
+  server: hk-cn-01.yumeifang.cn
   tls: true
   type: vmess
-  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
   ws-opts:
     headers:
-      Host: hk2.rtmp.online
-    path: /
+      Host: wamxoa.com
+    path: /asdd
 - alterId: 0
   cipher: auto
   name: 18|🇭🇰 香港 02
@@ -287,6 +106,19 @@ proxies:
     headers:
       Host: www.ouabaua.com
     path: /zxascas
+- alterId: 0
+  cipher: auto
+  name: 18|HK2-1A
+  network: ws
+  port: '443'
+  server: hk2.rtmp.online
+  tls: true
+  type: vmess
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  ws-opts:
+    headers:
+      Host: hk2.rtmp.online
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:

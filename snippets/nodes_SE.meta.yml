@@ -1,13 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '16,18|SEVER PREMIUM #1'
+  name: 18|SEVER PREMIUM
   network: ws
   port: '80'
   server: 154.83.93.132
   tls: false
   type: vmess
-  udp: true
   uuid: 8afebdb9-33d5-4a47-935e-d8997c27daf6
   ws-opts:
     headers:

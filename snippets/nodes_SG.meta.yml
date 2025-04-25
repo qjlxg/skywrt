@@ -45,98 +45,6 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
-- name: 16|🇸🇬 V2-加坡01 K36
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 32702
-  server: xd-sh.timiwc.com
-  sni: k36.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 IEPL×2-加坡-05-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22005
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡-10
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12010
-  server: sg10.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇸 V2-新加坡03 K38
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21194
-  server: 125.94.40.162
-  sni: k38.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 新加坡-02-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12002
-  server: sg02.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇸🇬 V2-新加坡04 K39
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21170
-  server: 125.94.40.162
-  sni: k39.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 IEPL×2-新加坡-06
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22006
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇬 新加坡 03
-  password: 71603f7a-203c-4fce-a114-3402629af231
-  port: 12023
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 IEPL×2-新加坡-07
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22007
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 IEPL×2-新加坡-04-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22004
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡-01-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12001
-  server: sg01.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 IEPL×2-新加坡-08
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22008
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 新加坡-03-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12003
-  server: sg03.51feitu.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 18|SG1
@@ -169,7 +77,7 @@ proxies:
     headers:
       Host: ''
     path: ''
-- client-fingerprint: chrome
+- client-fingerprint: edge
   name: 29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084

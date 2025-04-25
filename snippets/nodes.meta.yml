@@ -573,1085 +573,7 @@ proxies:
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 16|IEPL2--05
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 23005
-  server: jp-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 日本-09
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 13009
-  server: jp09.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|S1
-  network: ws
-  port: 51515
-  server: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-- cipher: chacha20-ietf-poly1305
-  name: 16|未命名
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21001
-  server: tt01.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '16|未命名 #1'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21016
-  server: tt06.51feitu.com
-  type: ss
-  udp: true
-- name: 16|V3-04 K64
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21275
-  server: xd-js.timiwc.com
-  sni: k64.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|IEPL×2--06
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20006
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '16|未命名 #2'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21023
-  server: tt03.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭 香港-16
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11016
-  server: hk16.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|加-09
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12009
-  server: sg09.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇯🇵 V2-日本03 K73
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 16233
-  server: 125.94.40.162
-  sni: k73.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇵 日本 ISP OPENAI
-  password: bb10c254-7c36-4b5a-94f0-cf0d2f5cd90c
-  port: 21869
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|🇸🇬 V2-加坡01 K36
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 32702
-  server: xd-sh.timiwc.com
-  sni: k36.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '16|未命名 #3'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21026
-  server: tt06.51feitu.com
-  type: ss
-  udp: true
-- name: 16|法 10
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 21125
-  server: 120.232.217.96
-  sni: k12.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇯🇵 V1-日本04 K43
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21015
-  server: 125.94.40.162
-  sni: k43.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|严格遵守当地法律法规 4
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 57793
-  server: xd-sh.timiwc.com
-  sni: k18.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 IEPL×2-美国-06
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 24006
-  server: us-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭 香港-14-
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11014
-  server: hk14.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 IEPL×2-加坡-05-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22005
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|西
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21011
-  server: tt01.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇸 V3-美国01 K61
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21603
-  server: xd-js.timiwc.com
-  sni: k61.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇦 V2-01
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21192
-  server: 125.94.40.162
-  sni: k48.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '16|未命名 #4'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21010
-  server: tt10.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|IEPL×2--04
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 25004
-  server: tw-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇸 V3-美国07 K67
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21328
-  server: xd-js.timiwc.com
-  sni: k67.tudou211.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 16|🇼 TAIWAN 02
-  password: 89c8f09b-dd92-48c8-bd9c-cae663f2fee8
-  port: 11012
-  server: cesu-mnkxmvkcbaa4.v2.prod.hosts.geekspeed.lat
-  type: ss
-  udp: true
-- name: 16|V2-国01 K29
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21154
-  server: 125.94.40.162
-  sni: k29.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-20
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11020
-  server: hk20.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇵 日本-02
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 13002
-  server: jp02.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 IEPL×2-香港-04-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20004
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡-10
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12010
-  server: sg10.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇧 V2-英国03 K71
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 20820
-  server: 125.94.40.162
-  sni: k71.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇸 V2-新加坡03 K38
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21194
-  server: 125.94.40.162
-  sni: k38.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇳 日亚
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21002
-  server: tt02.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 美国-02
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 14002
-  server: us02.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇺🇸 V3-美国05 K65
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21332
-  server: xd-js.timiwc.com
-  sni: k65.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '16|未命名 #5'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21022
-  server: tt02.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 新加坡-02-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12002
-  server: sg02.51feitu.com
-  type: ss
-  udp: true
-- name: 16|V1-国03
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21185
-  server: 125.94.40.162
-  sni: k27.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|严格遵守当地法律法规 8
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 21135
-  server: 219.135.231.205
-  sni: k1.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇸🇬 V2-新加坡04 K39
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21170
-  server: 125.94.40.162
-  sni: k39.tudou211.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|🇸 美国1
-  port: 11217
-  server: 17.wogg1.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- name: 16|🇲🇾 V2-马来西亚02
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21079
-  server: 125.94.40.162
-  sni: k32.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21018
-  server: tt08.51feitu.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|U3
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- name: 16|🇵 V1-日本03 K42
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21183
-  server: 125.94.40.162
-  sni: k42.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|严格遵守当地法律法规 7
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 25441
-  server: xd-sh.timiwc.com
-  sni: k34.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇼 台湾-02
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 15002
-  server: tw02.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇵 日本 ISP 解锁OPENAI
-  password: b013a3e9-9bce-4aa7-bc0b-e83f64f58351
-  port: 21867
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|🇰 V1-香港02 K2
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21011
-  server: 125.94.40.162
-  sni: k2.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 IEPL×2-日本-06
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 23006
-  server: jp-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-18
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11018
-  server: hk18.51feitu.com
-  type: ss
-  udp: true
-- name: '16|未命名 #6'
-  password: fcac3d3c-6947-4c9e-a6a6-f29541aee1e6
-  port: 49921
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
-  udp: true
-- name: 16|V2-尼02 K57
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21362
-  server: 125.94.40.162
-  sni: k57.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇸 美国 03
-  password: 71603f7a-203c-4fce-a114-3402629af231
-  port: 12053
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 IEPL×2-新加坡-06
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22006
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|U4
-  network: ws
-  port: 443
-  server: u2.huvicloud.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
-  ws-opts:
-    headers:
-      Host: u2.huvicloud.com
-    path: /c6ec090c-db51-4ad7-9cd4-9c827e52ea40
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇼 台湾-01
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 15001
-  server: tw01.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇬 新加坡 03
-  password: 71603f7a-203c-4fce-a114-3402629af231
-  port: 12023
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 IEPL×2-美国-05
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 24005
-  server: us-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇸 美国二 ISP 解锁OPENAI
-  password: 867617f4-afbb-4393-b2c3-76ab796ae55a
-  port: 21865
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇺🇸 IEPL×2-美国-04
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 24004
-  server: us-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|IEPL |负载为IP
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 44591
-  server: hk01.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇧 英国
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21007
-  server: tt07.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-19
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11019
-  server: hk19.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 9
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 21056
-  server: 120.232.217.96
-  sni: k14.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 IEPL×2-新加坡-07
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22007
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 2
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 40808
-  server: xd-sh.timiwc.com
-  sni: k19.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-10
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10010
-  server: hk10.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇦 兰
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21025
-  server: tt05.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇦
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21027
-  server: tt07.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇵 IEPL×2-日本-07
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 23007
-  server: jp-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇭🇰 V1-香港04 K4
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21061
-  server: 125.94.40.162
-  sni: k4.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-13-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11013
-  server: hk13.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇪
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21006
-  server: tt06.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|H1
-  network: ws
-  port: 52511
-  server: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-- name: 16|🇧 V2-英国02 K30
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21179
-  server: 125.94.40.162
-  sni: k30.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇭🇰 V1-香港01 K1
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21135
-  server: 125.94.40.162
-  sni: k1.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇳 印
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21015
-  server: tt05.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇺🇸 美国-03
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 14003
-  server: us03.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|U6
-  network: ws
-  port: 52513
-  server: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-- cipher: chacha20-ietf-poly1305
-  name: '16|未命名 #7'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21004
-  server: tt04.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|U9
-  network: ws
-  port: 443
-  server: new3.huvicloud.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a10476b9-1c07-4de3-9d84-c51d24be599f
-  ws-opts:
-    headers:
-      Host: new3.huvicloud.com
-    path: /a10476b9-1c07-4de3-9d84-c51d24be599f
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇺
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21003
-  server: tt03.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 IEPL×2-香港-08
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20008
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-17
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11017
-  server: hk17.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-09
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10009
-  server: hk09.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|J1
-  network: ws
-  port: 52512
-  server: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-- alterId: 2
-  cipher: auto
-  name: 16|🇷 国 2
-  port: 11214
-  server: 14.wogg1.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇷
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21013
-  server: tt03.51feitu.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|U1
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 美国-10
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 14010
-  server: us10.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇹 国
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21014
-  server: tt04.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇸 V3-美国03 K63
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21148
-  server: xd-js.timiwc.com
-  sni: k63.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '16|🇸 #1'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21005
-  server: tt05.51feitu.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|🇼 台湾1
-  port: 11223
-  server: 23.wogg1.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇦 利亚
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21019
-  server: tt09.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 3
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 52047
-  server: xd-sh.timiwc.com
-  sni: k11.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-11-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11011
-  server: hk11.51feitu.com
-  type: ss
-  udp: true
-- name: '16|🇵 日本 ISP 解锁OPENAI #1'
-  password: b572f10c-e2de-4149-825e-979e48349b48
-  port: 21868
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|🇵 V2-日本04 K74
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 47479
-  server: 125.94.40.162
-  sni: k74.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇾 V2-马来西亚02 2
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21031
-  server: 125.94.40.162
-  sni: k54.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 IEPL×2-新加坡-04-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22004
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡-01-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12001
-  server: sg01.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇼 IEPL×2-台湾-05
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 25005
-  server: tw-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭 律
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21028
-  server: tt08.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇩 V2-印尼01 K56
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21168
-  server: 125.94.40.162
-  sni: k56.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|严格遵守当地法律法规
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21056
-  server: 125.94.40.162
-  sni: k14.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇵 日本
-  password: 967826a2-0ce8-4e63-9409-2313d7925504
-  port: 36045
-  server: zz1.jckumao.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|🇼 V2-台湾04 K41
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21156
-  server: 125.94.40.162
-  sni: k41.tudou211.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|U8
-  network: ws
-  port: 443
-  server: u8.huvicloud.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6796611b-260e-4d63-9016-20c27b12e420
-  ws-opts:
-    headers:
-      Host: u8.huvicloud.com
-    path: /6796611b-260e-4d63-9016-20c27b12e420
-- name: 16|🇷 韩国-1B
-  password: 2905aed6-f547-468f-b540-7a5aa2cc1d98
-  port: 36049
-  server: zz1.jckumao.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 IEPL×2-新加坡-08
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 22008
-  server: sg-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇵 IEPL×2-日本-04
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 23004
-  server: jp-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 12
-  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
-  port: 21012
-  server: 125.94.40.162
-  sni: k46.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇲 V2-马来西亚01
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21181
-  server: 125.94.40.162
-  sni: k31.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇼 V2-台湾01 K7
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21004
-  server: 125.94.40.162
-  sni: k7.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇺🇸 V3-美国02 K62
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 59599
-  server: xd-js.timiwc.com
-  sni: k62.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇯🇵 V2-日本02 K12
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21125
-  server: 125.94.40.162
-  sni: k12.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇷 法
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21008
-  server: tt08.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|兰
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21012
-  server: tt02.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 IEPL×2-香港-07
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20007
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-12-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11012
-  server: hk12.51feitu.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|🇭🇰 香港1
-  port: 11209
-  server: 9.wogg1.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- name: 16|🇷 V2-国02 2
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21003
-  server: 125.94.40.162
-  sni: k15.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-15-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 11015
-  server: hk15.51feitu.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|U5
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇺🇸 美国-09
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 14009
-  server: us09.51feitu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|U7
-  network: ws
-  port: 443
-  server: u7.huvicloud.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
-  ws-opts:
-    headers:
-      Host: u7.huvicloud.com
-    path: /7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
-- name: 16|🇸 美国 ISP 解锁OPENAI
-  password: 539b9350-55e1-4a6a-8103-8b898ceba308
-  port: 21864
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|🇷 V2-韩国03
-  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
-  port: 21017
-  server: 125.94.40.162
-  sni: k16.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇭 V2-国01 K45
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21346
-  server: 125.94.40.162
-  sni: k45.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇭🇰 V1-香港03 K3
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21042
-  server: 125.94.40.162
-  sni: k3.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|严格遵守当地法律法规 11
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 55296
-  server: xd-sh.timiwc.com
-  sni: k35.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇵 IEPL×2-日本-08
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 23008
-  server: jp-pro.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇼 台湾
-  password: 100a141c-5a7f-46c1-b113-b525c6a4bb42
-  port: 36046
-  server: zz1.jckumao.cc
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 日本-10
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 13010
-  server: jp10.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇰 V1-香港05 K10
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21386
-  server: 125.94.40.162
-  sni: k10.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港-03-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10003
-  server: hk03.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇷 韩国-1A
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21017
-  server: tt07.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 6
+- name: 16|法 6
   password: 4e5c7598-0bc4-4578-9c45-efef68373673
   port: 55040
   server: xd-sh.timiwc.com
@@ -1659,253 +581,187 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 日本-03
+  name: 16|-1A
   password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 13003
-  server: jp03.51feitu.com
-  type: ss
-  udp: true
-- name: 16|🇪 V1-德国04
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21102
-  server: 125.94.40.162
-  sni: k28.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21024
-  server: tt04.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-01-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10001
-  server: hk01.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 14
-  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
-  port: 26793
-  server: 125.94.40.162
-  sni: k77.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '16|🇷 #1'
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21020
-  server: tt10.51feitu.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 16|🇯🇵 日本 2
-  password: YzRlNjE4YjNiZDk0NDE1NDZlMmU5NGE1MmU1ZjBlZWY=
-  port: 25642
-  server: cdn.jp2.cocoduck.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇺🇸 IEPL×2-美国-07
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 24007
-  server: us-pro.51feitu.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|🇷 韩国 1
-  port: 11213
-  server: 13.wogg1.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇵 日本-01
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 13001
-  server: jp01.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 13
-  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
-  port: 36678
-  server: 125.94.40.162
-  sni: k75.tudou211.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 美国-01
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 14001
-  server: us01.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇪 德国
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21009
-  server: tt09.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 IEPL×2-香港-05-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 20005
-  server: hk-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21029
-  server: tt09.51feitu.com
-  type: ss
-  udp: true
-- name: 16|严格遵守当地法律法规 5
-  password: 4e5c7598-0bc4-4578-9c45-efef68373673
-  port: 29950
-  server: xd-sh.timiwc.com
-  sni: k21.tudou211.com
-  type: trojan
-  udp: true
-- name: 16|🇵 V1-日本05 K44
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21014
-  server: 125.94.40.162
-  sni: k44.tudou211.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|🇷 韩国 3
-  port: 11215
-  server: 15.wogg1.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 IEPL×2-美国-08
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 24008
-  server: us-pro.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇹🇼 台湾-03
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 15003
-  server: tw03.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇬 新加坡-03-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 12003
-  server: sg03.51feitu.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 16|🇵 日本1
-  port: 11220
-  server: 20.wogg1.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇰 香港-02-负载
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 10002
-  server: hk02.51feitu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇩 印度西亚
-  password: 23c7be24-205e-4a29-b10a-dfc3257d33d7
-  port: 21021
-  server: tt01.51feitu.com
+  port: 21017
+  server: tt07.51feitu.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: '16,18|SEVER PREMIUM #1'
+  name: 18|🇹🇼 台湾 AK NAT4动态
+  network: ws
+  port: '22100'
+  server: twnat4.gangko.cc
+  tls: false
+  type: vmess
+  uuid: 968fb6cd-015f-4b61-a2ee-10af3c7a78ea
+  ws-opts:
+    headers:
+      Host: twnat4.gangko.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|U6
+  network: ws
+  port: '52513'
+  server: aflzzul.meiquankongjian.com
+  tls: false
+  type: vmess
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 0
+  cipher: auto
+  name: 18|S1
+  network: ws
+  port: '51515'
+  server: aflzzul.meiquankongjian.com
+  tls: false
+  type: vmess
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 0
+  cipher: auto
+  name: 18|J1
+  network: ws
+  port: '52512'
+  server: aflzzul.meiquankongjian.com
+  tls: false
+  type: vmess
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 2
+  cipher: auto
+  name: 18|🇭🇰 香港1
+  network: tcp
+  port: '11209'
+  server: 9.wogg1.top
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
+- alterId: 2
+  cipher: auto
+  name: 18|🇰🇷 韩国 2
+  network: tcp
+  port: '11214'
+  server: 14.wogg1.top
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
+- alterId: 0
+  cipher: auto
+  name: 18|U7
+  network: ws
+  port: '443'
+  server: u7.huvicloud.com
+  tls: true
+  type: vmess
+  uuid: 7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
+  ws-opts:
+    headers:
+      Host: u7.huvicloud.com
+    path: /7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
+- alterId: 0
+  cipher: auto
+  name: 18|SEVER PREMIUM
   network: ws
   port: '80'
   server: 154.83.93.132
   tls: false
   type: vmess
-  udp: true
   uuid: 8afebdb9-33d5-4a47-935e-d8997c27daf6
   ws-opts:
     headers:
       Host: povo.jp
     path: /5gsieutocdo.com
-- flow: xtls-rprx-vision
-  name: 16|🇯🇵 日本2-1A
+- alterId: 2
+  cipher: auto
+  name: 18|🇰🇷 韩国 1
   network: tcp
-  port: 8847
-  reality-opts:
-    public-key: o-Whevq6UGcKNv6HqK8BqRQ6Ypmn5Rjwpo5tB6zxB1g
-    short-id: 0df3581a
-  server: jp2.naicn.top
-  servername: www.lovelive-anime.jp
-  tls: true
-  type: vless
-  uuid: 371ae420-5ca6-458e-9d8c-e0a6af267a58
-- name: 16|🇱 荷兰1-1B
-  network: ws
-  port: 80
-  server: tc1.naicn.top
-  tls: false
-  type: vless
-  uuid: 66968622-c531-431e-9dcb-a0baad95055c
-  ws-opts:
-    headers:
-      Host: tc1.naicn.top
-    path: /naiani123
-- name: 16|🇺🇸 2-1B
-  network: ws
-  port: 8080
-  server: sai2.naicn.top
-  tls: false
-  type: vless
-  uuid: 66968622-c531-431e-9dcb-a0baad95055c
-  ws-opts:
-    headers:
-      Host: sai2.naicn.top
-    path: /naiani123
-- alterId: 0
-  cipher: auto
-  name: 18|M1
-  network: ws
-  port: '8080'
-  server: m1.jiaoziyun.top
+  port: '11213'
+  server: 13.wogg1.top
   tls: false
   type: vmess
-  uuid: f814e479-7f91-460a-8e4e-0d7e06b083cd
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /dvwerw
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
+- alterId: 2
+  cipher: auto
+  name: 18|🇺🇸 美国1
+  network: tcp
+  port: '11217'
+  server: 17.wogg1.top
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港 01
+  name: 18|HK1
   network: ws
-  port: '1081'
-  server: hk-cn-01.yumeifang.cn
+  port: '443'
+  server: hk1.rtmp.online
   tls: true
   type: vmess
-  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
   ws-opts:
     headers:
-      Host: wamxoa.com
-    path: /asdd
+      Host: hk1.rtmp.online
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 18|🇯🇵 日本1
+  network: tcp
+  port: '11220'
+  server: 20.wogg1.top
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
+- alterId: 2
+  cipher: auto
+  name: 18|U5
+  network: ws
+  port: '22642'
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|U9
+  network: ws
+  port: '443'
+  server: new3.huvicloud.com
+  tls: true
+  type: vmess
+  uuid: a10476b9-1c07-4de3-9d84-c51d24be599f
+  ws-opts:
+    headers:
+      Host: new3.huvicloud.com
+    path: /a10476b9-1c07-4de3-9d84-c51d24be599f
+- alterId: 0
+  cipher: auto
+  name: 18|U8
+  network: ws
+  port: '443'
+  server: u8.huvicloud.com
+  tls: true
+  type: vmess
+  uuid: 6796611b-260e-4d63-9016-20c27b12e420
+  ws-opts:
+    headers:
+      Host: u8.huvicloud.com
+    path: /6796611b-260e-4d63-9016-20c27b12e420
 - alterId: 0
   cipher: auto
   name: 18|SG1
@@ -1921,42 +777,42 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 DUNG L NG-KO CH N 100 GB
-  network: ws
-  port: '90'
-  server: 103.178.234.168
-  tls: false
-  type: vmess
-  uuid: 8afebdb9-33d5-4a47-935e-d8997c27daf6
-  ws-opts:
-    headers:
-      Host: povo.jp
-    path: /5gsieutoc.fun
-- alterId: 0
-  cipher: auto
-  name: 18|HK1
+  name: 18|U4
   network: ws
   port: '443'
-  server: hk1.rtmp.online
+  server: u2.huvicloud.com
   tls: true
   type: vmess
-  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
   ws-opts:
     headers:
-      Host: hk1.rtmp.online
-    path: /
+      Host: u2.huvicloud.com
+    path: /c6ec090c-db51-4ad7-9cd4-9c827e52ea40
 - alterId: 0
   cipher: auto
-  name: 18|HK2-1C
+  name: 18|🇭🇰 香港 01
   network: ws
-  port: '443'
-  server: hk2.rtmp.online
+  port: '1081'
+  server: hk-cn-01.yumeifang.cn
   tls: true
   type: vmess
-  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
   ws-opts:
     headers:
-      Host: hk2.rtmp.online
+      Host: wamxoa.com
+    path: /asdd
+- alterId: 2
+  cipher: auto
+  name: 18|U3
+  network: ws
+  port: '22641'
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
@@ -1973,17 +829,87 @@ proxies:
     path: /zxascas
 - alterId: 0
   cipher: auto
-  name: 18|11
+  name: 18|H1
   network: ws
-  port: '10808'
-  server: hk.jiaoziyun.top
+  port: '52511'
+  server: aflzzul.meiquankongjian.com
   tls: false
   type: vmess
-  uuid: f814e479-7f91-460a-8e4e-0d7e06b083cd
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /sadasdqv
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 2
+  cipher: auto
+  name: 18|🇰🇷 韩国 3
+  network: tcp
+  port: '11215'
+  server: 15.wogg1.top
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国 AK CDN直连
+  network: ws
+  port: '443'
+  server: akdev6.12ip.cc
+  tls: false
+  type: vmess
+  uuid: 968fb6cd-015f-4b61-a2ee-10af3c7a78ea
+  ws-opts:
+    headers:
+      Host: akdev6.12ip.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 18|U1
+  network: ws
+  port: '22643'
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|HK2-1A
+  network: ws
+  port: '443'
+  server: hk2.rtmp.online
+  tls: true
+  type: vmess
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  ws-opts:
+    headers:
+      Host: hk2.rtmp.online
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 18|🇹🇼 台湾1
+  network: tcp
+  port: '11223'
+  server: 23.wogg1.top
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 DUNG L NG-KO CH N 99.84 GB
+  network: ws
+  port: '90'
+  server: 103.178.234.168
+  tls: false
+  type: vmess
+  uuid: 8afebdb9-33d5-4a47-935e-d8997c27daf6
+  ws-opts:
+    headers:
+      Host: povo.jp
+    path: /5gsieutoc.fun
 - flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
@@ -2128,7 +1054,8 @@ proxies:
     headers:
       Host: ''
     path: ''
-- name: 29|🇸🇬新加坡02/1x
+- client-fingerprint: edge
+  name: 29|🇸🇬新加坡02/1x
   network: tcp
   port: 10084
   reality-opts:
