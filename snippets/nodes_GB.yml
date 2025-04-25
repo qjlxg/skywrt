@@ -74,63 +74,80 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国A
+  name: 18|🇬🇧 IEPL专线 英国 NO1
   network: tcp
-  port: '30343'
-  server: 183.236.123.34
+  port: '54774'
+  server: sh3.needss.top
   tls: false
   type: vmess
-  uuid: 889d92fd-4b9b-419c-82ce-155e4dc7dd23
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国 01 | WS
+  name: 18|🇬🇧 伦敦专线
   network: ws
-  port: '20032'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
+  port: '30000'
+  server: xr004.louwangzhiyu.xyz
+  tls: true
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 英国 02 | TCP
+  name: 18|🇬🇧 英国2-1B
   network: tcp
-  port: '20033'
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  port: '45067'
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 LV1 英国2
+  name: 18|🇬🇧 英国1-1C
   network: tcp
-  port: '60042'
-  server: eu0136.alibabaokz.com
+  port: '45066'
+  server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+  uuid: 3f5122df-7761-473e-98ae-33b3427d449f
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 DATA C N L I 200 GB
+  name: 18|MFUU-VMESS-2OUK-3 80
   network: ws
   port: '80'
-  server: japan.4gsieutoc.tokyo
+  server: 51.79.102.253
   tls: false
   type: vmess
-  uuid: fb956a93-1da9-4528-bdda-2d9c399307a1
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     headers:
-      Host: m.tiktok.com
-    path: /4gsieutoc.tokyo
+      Host: 51.79.102.253
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 18|🇬🇧 LV1 英国1
-  network: tcp
-  port: '46719'
-  server: eu0097.alibabaokz.com
-  tls: false
+  name: 18|🇬🇧 GB-159
+  network: ws
+  port: '443'
+  server: 158.180.228.226
+  tls: true
   type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 GB-160
+  network: ws
+  port: '443'
+  server: 144.24.200.164
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws

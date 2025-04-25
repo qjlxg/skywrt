@@ -40,10 +40,45 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦 加拿大A
+  name: 18|🇨🇦 加拿大1-1C
   network: tcp
-  port: '30338'
-  server: 36.151.194.33
+  port: '45064'
+  server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 889d92fd-4b9b-419c-82ce-155e4dc7dd23
+  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大2-1B
+  network: tcp
+  port: '45065'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大 高速 CDN 1
+  network: ws
+  port: '443'
+  server: cdncdncdn.aikunapp.com
+  tls: true
+  type: vmess
+  uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1
+  ws-opts:
+    headers:
+      Host: cdn-ca.sm-node.com
+    path: /vmess_ws/smjc/index?ed=8192
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦 加拿大专线
+  network: ws
+  port: '30000'
+  server: xr003.louwangzhiyu.xyz
+  tls: true
+  type: vmess
+  uuid: 228f31f4-392c-4f8f-80d5-149fd6417ada
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz

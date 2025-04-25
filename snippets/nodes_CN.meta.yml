@@ -1,45 +1,276 @@
 proxies:
+- name: 16|🇨 CN-729
+  password: 8b6cd385-46fc-4fd2-99ef-c80334b6bf67
+  port: 27408
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳 镇江联通 01 | WS
+  name: 18|🇨🇳 中国 86
   network: ws
-  port: '80'
-  server: 103.56.63.19
+  port: '30840'
+  server: v40.heduian.link
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
+      Host: api100-core-quic-lf.amemv.com
+    path: /index
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳 徐州移动 01 | WS
-  network: ws
-  port: '80'
-  server: 36.151.251.63
+  name: 18|🇨🇳 中国 32
+  network: tcp
+  port: '51095'
+  server: 120.198.71.219
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 18|🇨🇳 PAWDROID-吉林省 移动
+  network: ws
+  port: '30825'
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 110
+  network: tcp
+  port: '54652'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 1
+  network: tcp
+  port: '37805'
+  server: 120.232.153.63
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 PAWDROID-广东省广州市 移动
+  network: tcp
+  port: '41902'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 PAWDROID-浙江省宁波市 移动
+  network: tcp
+  port: '45245'
+  server: ye.fxlcn.com
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 99
+  network: tcp
+  port: '35001'
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳 CN-125
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 87
+  network: tcp
+  port: '34652'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 89
+  network: tcp
+  port: '57852'
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 9
+  network: tcp
+  port: '59554'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 78
+  network: tcp
+  port: '32919'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 28
+  network: tcp
+  port: '42259'
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 68
+  network: tcp
+  port: '42355'
+  server: 120.198.71.219
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|中国-上海-HANG-IZTA-.-39
+  network: tcp
+  port: '50002'
+  server: 47.116.166.178
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 PAWDROID-广东省 联通
+  network: tcp
+  port: '5229'
+  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳 MFUU-广东省广州市 移动 2
+  network: tcp
+  port: '36609'
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 MFUU-广东省广州市 移动
+  network: tcp
+  port: '44491'
+  server: 120.232.153.41
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳 中国 37
+  network: ws
+  port: '443'
+  server: 45.194.53.81
+  tls: true
+  type: vmess
+  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  ws-opts:
+    headers:
+      Host: 3sdfgvcxxx.938.pp.ua
+    path: /P879mtCoHQqaWO67qEaMINZ1
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳 CN-127
+  network: tcp
+  port: '50002'
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳 中国 13
+  network: tcp
+  port: '50082'
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳 CN-126
+  network: tcp
+  port: '50002'
+  server: 47.92.152.169
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳 中国 18
+  network: tcp
+  port: '43121'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 18|🇨🇳 中国 67
+  network: tcp
+  port: '32980'
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 18|🇨🇳 PAWDROID-广东省 移动
+  network: ws
+  port: '22642'
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇨🇳 镇江联通 02 | TCP
+  name: 18|🇨🇳 CN-124
   network: tcp
-  port: '80'
-  server: 103.56.63.253
+  port: '59003'
+  server: 183.236.51.36
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳 徐州移动 02 | TCP
+  name: 18|中国-杭州-HANG-BSRL-D.-3
   network: tcp
-  port: '80'
-  server: 36.151.251.64
+  port: '50002'
+  server: 120.26.55.225
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

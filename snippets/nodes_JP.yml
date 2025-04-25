@@ -70,227 +70,87 @@ proxies:
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
-- cipher: aes-256-gcm
-  name: 16|🇯🇵 SVPN-JAPAN-4-1E
-  password: 836d6aeb-96ce-420b-a19d-656b17bc6038
-  port: 56789
-  server: japantv4.zhixiang.us
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本直连-VMESS-1P
-  network: ws
-  port: '8000'
-  server: v18.nmcf.me
+  name: 18|🇯🇵 日本NO.2-1A
+  network: tcp
+  port: '45057'
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: c05181cb-e8b6-46be-8c22-51e42483d2e6
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JP | 日本 LB-1H
+  network: ws
+  port: '443'
+  server: jpcft01.xqc.best
+  tls: true
+  type: vmess
+  uuid: 10a51121-41fb-4c90-9a5b-b94bf337e58f
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /nmkj
+      Host: d17ttua58dfmz.cloudfront.net
+    path: /stream
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 IEPL专线-日本-1-1S
-  network: ws
-  port: '8004'
-  server: 59.42.247.189
+  name: 18|🇯🇵 CM 隧道 日本 NO1
+  network: tcp
+  port: '52117'
+  server: i.needss.top
   tls: false
   type: vmess
-  uuid: 614f63a0-8c85-4346-b319-e1384442d6aa
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本NO.1-1A
+  network: tcp
+  port: '45056'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 2
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 01 NF
+  network: ws
+  port: '40000'
+  server: 122.192.189.41
+  tls: false
+  type: vmess
+  uuid: 7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /nmkj
+      Host: 167.179.68.118
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本-V6|06-1B
-  network: tcp
-  port: '22308'
-  server: greenip3.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 1-1C
-  network: tcp
-  port: '19015'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: 3094cc59-b351-480a-8ac7-7f92a1716045
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 LV1 日本0
-  network: tcp
-  port: '60008'
-  server: jp0088.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 LV1 日本3
-  network: tcp
-  port: '60034'
-  server: jp0159.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|05-1B
-  network: tcp
-  port: '22307'
-  server: greenip2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本 03 | TCP
-  network: tcp
-  port: '80'
-  server: d2f50be3-21cd-bb71-8651-96524dd88af1.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-2
+  name: 18|🇯🇵 日本-东京-KLAYER LLC-1
   network: ws
   port: '10805'
   server: kajpa.kia-ai.com
   tls: true
   type: vmess
-  uuid: 0d2cde3c-a820-4646-bdfa-a9f7876c1f12
+  uuid: f077ed2d-db1e-42e0-851f-e24aba75e002
   ws-opts:
     headers:
       Host: kajpa.kia-ai.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 LV1 日本1
+  name: 18|🇯🇵 节点日期 04-25
   network: tcp
-  port: '60030'
-  server: jp0103.alibabaokz.com
+  port: '46597'
+  server: 120.232.153.41
   tls: false
   type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 日本-V6|07-1A
+  name: 18|🇯🇵 JAPAN-NONE-VMESS-10113
   network: tcp
-  port: '22306'
-  server: vpsjp1.668918.xyz
+  port: '28976'
+  server: 116.206.92.184
   tls: false
   type: vmess
-  uuid: 26656894-f6f1-4618-9660-4544f3c754d0
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本软银独立服务器-1B
-  network: ws
-  port: '443'
-  server: jp-s1.bitfat.top
-  tls: true
-  type: vmess
-  uuid: 1689fecf-8802-4581-a9c3-8ec0f61f6058
-  ws-opts:
-    headers:
-      Host: jp-s1.bitfat.top
-    path: /bitfat
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|04-1B
-  network: tcp
-  port: '22306'
-  server: greenip1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|02-1A
-  network: tcp
-  port: '22307'
-  server: greenchais2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: 26656894-f6f1-4618-9660-4544f3c754d0
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|01-1B
-  network: tcp
-  port: '22306'
-  server: greenchais1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本 02 | WS
-  network: ws
-  port: '80'
-  server: a8aed529-1960-4a84-695a-58bb33a7d896.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 LV1 日本2
-  network: tcp
-  port: '60115'
-  server: jp0116.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-1-1A
-  network: ws
-  port: '10805'
-  server: kajp.kia-ai.com
-  tls: true
-  type: vmess
-  uuid: 0d2cde3c-a820-4646-bdfa-a9f7876c1f12
-  ws-opts:
-    headers:
-      Host: kajp.kia-ai.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本 01 | WS
-  network: ws
-  port: '80'
-  server: d9479ad0-2f0d-4dd0-253d-67606186a1ed.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 LV1 日本5
-  network: tcp
-  port: '60029'
-  server: jp0095.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本 04 | TCP
-  network: tcp
-  port: '80'
-  server: 4c82f4c8-9b80-1217-b2f0-829001215497.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: d1f1022b-cd43-49e4-b736-7744d1e11a79

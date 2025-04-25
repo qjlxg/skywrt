@@ -1,1 +1,40 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 18|AUTOPROXY--EEUO-AL 2
+  network: ws
+  port: '443'
+  server: nginx.com
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      Host: creativeservices.netflix.com.wukong.asolole.biz.id
+    path: /cold-dawn-9246.fly.dev/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: 18|MAHDIBLAND-6OEE-ERAL
+  network: ws
+  port: '443'
+  server: cdnjs.com
+  tls: true
+  type: vmess
+  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
+  ws-opts:
+    headers:
+      Host: fastclubcloud.alpha-panel.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|BARABAMA-加-REEN-AL 2
+  network: ws
+  port: '443'
+  server: api.jquery.com
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: sub234.freewell.top
+    path: /ivideos.sbs/linkws

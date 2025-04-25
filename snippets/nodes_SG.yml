@@ -45,161 +45,71 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
+- name: 16|🇸🇬 2-1C
+  password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa
+  port: 18489
+  server: nbae7a7.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇸🇬 SINGAPORE丨08
+  password: 2e0e1142-1dc4-4453-977e-5fffc918e51e
+  port: 18008
+  server: sg008.dogsvip.site
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡-2D
-  network: ws
-  port: '30167'
-  server: 47.236.119.64
-  tls: false
-  type: vmess
-  uuid: bcb92b58-7897-4107-b537-b8f0426422ac
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡直连-VMESS-1x
-  network: ws
-  port: '8000'
-  server: v7.nmcf.me
-  tls: false
-  type: vmess
-  uuid: 5989bf45-a99c-4754-8ff1-7c115d98d293
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 IEPL专线-新加坡-1-1L
-  network: ws
-  port: '8001'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: 68261662-982a-41b5-94ff-dad406a41c03
-  ws-opts:
-    headers:
-      Host: v3.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡 02 | WS
-  network: ws
-  port: '80'
-  server: 0989a4f1-856a-4d0b-530b-aed9bf289ad8.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-2F
-  network: ws
-  port: '33441'
-  server: 47.236.119.64
-  tls: false
-  type: vmess
-  uuid: bcb92b58-7897-4107-b537-b8f0426422ac
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1F
-  network: ws
-  port: '30147'
-  server: 47.236.119.64
-  tls: false
-  type: vmess
-  uuid: 0b22a6fd-1af8-4f64-b16e-7ad4c47ac055
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 LV1 新加坡1
+  name: 18|🇸🇬 新加坡NO.1-1B
   network: tcp
-  port: '60041'
-  server: sg0112.alibabaokz.com
+  port: '45054'
+  server: haa.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡 03 | TCP
-  network: tcp
-  port: '80'
-  server: 09950cba-4d03-9ef3-38fd-f9078fae743e.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡1-CDN
+  name: 18|🇸🇬 SG | 新加坡 LB-1A
   network: ws
-  port: '2053'
-  server: cloudflare.182682.xyz
+  port: '443'
+  server: sgcft01.xqc.best
   tls: true
   type: vmess
-  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
+  uuid: e9ce293d-5a2a-48f1-bb6e-32bf7ed108e6
   ws-opts:
     headers:
-      Host: sg1.pavo.eu.org
-    path: /sg1vmess
+      Host: d16henb377mok4.cloudfront.net
+    path: /stream
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 LV1 新加坡6
+  name: 18|🇸🇬 新加坡NO.2-1B
   network: tcp
-  port: '60119'
-  server: sg0120.alibabaokz.com
+  port: '45055'
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+  uuid: b25287a3-09ae-4810-bbae-8c8cffdeb446
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 SINGAPORE 1-1A
-  network: tcp
-  port: '28673'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: d30d50e3-a217-475c-af70-d36533ec80e7
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡 04 | TCP
-  network: tcp
-  port: '80'
-  server: bc81e2ce-d674-41f8-0ee5-259c589d48d3.castlepeakhospital.moe
-  tls: false
-  type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡A QQ客服943793367
-  network: tcp
-  port: '30334'
-  server: 183.238.50.22
-  tls: false
-  type: vmess
-  uuid: 889d92fd-4b9b-419c-82ce-155e4dc7dd23
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡 01 | WS
+  name: 18|🇸🇬 新加坡05极速节点|油管速度优化
   network: ws
   port: '80'
-  server: 06809388-302a-29e7-ec15-006f5353d530.castlepeakhospital.moe
+  server: yx.sulink.one
   tls: false
   type: vmess
-  uuid: 7006225a-38b9-443b-a741-3b4427b96c0d
+  uuid: b0f463eb-3387-4be9-a7c8-3c7280bf86f7
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: sg05.sulink.one
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 IEPL专线 新加坡 NO1
+  network: tcp
+  port: '44412'
+  server: i.needss.top
+  tls: false
+  type: vmess
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567

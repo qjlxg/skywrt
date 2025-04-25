@@ -1,11 +1,13 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 16|VN HO CHI MINH 30
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.25
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇦 CHINA-GUANGZHOU-VMESS-10118
+  network: tcp
+  port: '4135'
+  server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
 - mport: 35000-39000
   name: 31|🇨🇭瑞士苏黎世 | 高速专线-hy2
   password: 4f0e94e6-b781-41ec-98a1-7f2176d4263c

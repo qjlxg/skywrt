@@ -1,10 +1,93 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷 法国A
+  name: 18|🇫🇷 CM 隧道 法国 NO1
   network: tcp
-  port: '30344'
-  server: 183.236.123.34
+  port: '52108'
+  server: sh3.needss.top
   tls: false
   type: vmess
-  uuid: 889d92fd-4b9b-419c-82ce-155e4dc7dd23
+  uuid: 000a0d18-02fe-4cda-a68e-96b55e067567
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 法国2-1B
+  network: tcp
+  port: '45071'
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 法国1-1B
+  network: tcp
+  port: '45072'
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 09216880-6484-4c36-89b1-3fe4093b47b6
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 FR-148
+  network: ws
+  port: '443'
+  server: 51.77.20.132
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: a.baradiha.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 FR-149
+  network: ws
+  port: '443'
+  server: az05.beyondy.cfd
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 FR-151
+  network: ws
+  port: '443'
+  server: 51.77.20.137
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 FR-147
+  network: ws
+  port: '443'
+  server: 51.77.20.136
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: capellare.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 FR-150
+  network: ws
+  port: '443'
+  server: 163.5.159.231
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
