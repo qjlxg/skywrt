@@ -36,19 +36,19 @@ proxies:
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国-V6|01 0.5x
+  name: 18|🇩🇪 德国-V6|02 0.5x
   network: tcp
-  port: '22305'
-  server: netcp1.616626.xyz
+  port: '22306'
+  server: netcp2.616626.xyz
   tls: false
   type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇩🇪 德国-V6|02 0.5x
+  name: 18|🇩🇪 德国-V6|01 0.5x
   network: tcp
-  port: '22306'
-  server: netcp2.616626.xyz
+  port: '22305'
+  server: netcp1.616626.xyz
   tls: false
   type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423

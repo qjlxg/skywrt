@@ -1,17 +1,32 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 16|🇰🇷 KR-IDC-2-1E
-  password: e6b27bb1-036b-4c1a-a0fe-708258e10045
-  port: 30001
-  server: 146.56.132.194
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 18|🇰🇷 LV1 韩国5
   network: tcp
   port: '60198'
   server: kr0199.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 IEPL专线-韩国-1-1A
+  network: ws
+  port: '8002'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
+  ws-opts:
+    headers:
+      Host: v7.nmcf.me
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 LV1 韩国1
+  network: tcp
+  port: '60019'
+  server: kr0020.alibabaokz.com
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
@@ -24,12 +39,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 LV1 韩国1
-  network: tcp
-  port: '60019'
-  server: kr0020.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472

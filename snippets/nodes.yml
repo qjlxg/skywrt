@@ -573,632 +573,24 @@ proxies:
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
-- name: 16|🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1M
-  password: d4ed7ec8-b9d3-48fc-969a-33f9817c3c5d
-  port: 28505
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: 16|UNITED KINGDOM 51-1A
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.43.240.209
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|UNITED STATES 380-1A
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.143.66.87
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 16|THE NETHERLANDS 16-1B
-  network: ws
-  port: 80
-  server: hdfy8d1.cpionline.co
+  name: 16|V6|11
+  port: 10022
+  server: hkvm62.656888.xyz
   tls: false
   type: vmess
   udp: true
-  uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1
-  ws-opts:
-    headers:
-      Host: hdfy8d1.cpionline.co
-    path: /Av8czorIlYicU6D349brWUw6a
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 日本8-1C
-  password: 5b3fc518-3fc1-443b-8ed4-bb7c32273d64
-  port: 34439
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 16|🇺🇸 UNITED STATES 603
-  network: ws
-  port: 36002
-  server: 38.33.34.38
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1738432110766
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇯🇵 日本V
-  network: ws
-  port: '443'
-  server: bookmyshow.com
-  servername: jpv.xiaoqi555.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 UNITED STATES 9-1A
-  password: oXGp1+ihlfKg826H
-  port: 1866
-  server: 172.232.171.192
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 日本1-2C
-  password: 73e27134-4035-4559-886e-deffbdd2a68e
-  port: 51021
-  server: cname03-ncpbbyhazxjnwkrx.222schweinshaxe.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇰🇷 IEPL专线-韩国-1-1B
-  network: ws
-  port: '8002'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
-  ws-opts:
-    headers:
-      Host: v7.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇺🇸 圣何塞2
-  network: ws
-  port: '443'
-  server: bestcf.mfwl.art
-  servername: shs111.kejixiaoqi666.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: shs111.kejixiaoqi666.store
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 16|SS-1B
-  password: f6f2202c-feed-411d-b255-4e4e0c286f2a
-  port: 1081
-  server: test.xiaoshihoukepangle.sbs
-  type: ss
-  udp: true
-- name: 16|🇯🇵 日本05-1F
-  network: ws
-  password: fdd1d613-f234-40f6-b63d-97517e0fc4b3
-  port: 20230
-  server: jp005.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.alibaba.com
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇭🇰 香港直连-VMESS-1A
-  network: ws
-  port: '8001'
-  server: v4.nmcf.me
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- cipher: aes-256-gcm
-  name: 16|GERMANY 41-1A
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 217.182.198.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|6-1K
-  password: ca9569dd-3641-4335-be45-4c0814455ee7
-  port: 10050
-  server: 188.64.106.212
-  type: ss
-  udp: true
-- name: 16|🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1Q
-  password: bf9a8ba7-2be8-4567-a8b2-26dad4278123
-  port: 28504
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇸 UNITED STATES 15-1A
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 23.157.40.95
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇺🇸 美国直连-VMESS-1B
-  network: ws
-  port: '8002'
-  server: v5.nmcf.me
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- cipher: aes-256-gcm
-  name: 16|🇸 UNITED STATES 356-1B
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 38.75.136.21
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 ICELAND 2
-  password: Y2E2ZTU2
-  port: 1443
-  server: 89.221.224.94
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇰🇷 KR-IDC-2-1E
-  password: e6b27bb1-036b-4c1a-a0fe-708258e10045
-  port: 30001
-  server: 146.56.132.194
-  type: ss
-  udp: true
-- name: 16|🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1U
-  password: 54088fd2-0df5-4311-9632-d80fd40327a5
-  port: 28503
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|🇪 国 AK CDN直连-1C
-  network: ws
-  port: 443
-  server: akdev6.12ip.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9fb1534b-8a38-4d1a-83d1-23ee0ed75eae
-  ws-opts:
-    headers:
-      Host: akdev6.12ip.cc
-    path: /
-- cipher: aes-256-gcm
-  name: 16|🇺🇸 UNITED STATES 203-1B
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.86.135.117
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 16|ONLY FOR GAME 03 HWZY0
-  password: qwerREWQ@@
-  port: 53139
-  server: p199.panda003.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭 国9-1L
-  password: 0c7ebf00-abc7-4e12-8c67-4967e44d7fce
-  port: 34331
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- name: 16|LUXEMBOURG 7
-  password: '3767107462583558144'
-  port: 443
-  server: 95.85.93.45
-  sni: major-ape.goat627.mom
-  type: trojan
-  udp: true
-- name: 16|🇸🇬 07|流媒体-1C
-  network: ws
-  password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9
-  port: 20230
-  server: sg007.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.alibaba.com
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|🇸 UNITED STATES 490
-  network: ws
-  port: 8080
-  server: s5.db-link02.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-149-191-2.s5.db-link02.top
-    path: /dabai.in104.20.16.209
-- alterId: 0
-  cipher: auto
-  name: 16|🇺 RUSSIA 4
-  network: ws
-  port: 8443
-  server: 46.254.92.45
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
-  ws-opts:
-    headers:
-      Host: lax2.ibgfw.top
-    path: /dyajvws
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇭🇰 HK-01 VMESS
-  network: ws
-  port: '10081'
-  server: 205.198.64.79
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 834890e9-f547-4f0a-83cc-f10aa19bd258
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess-ws
-- cipher: aes-256-gcm
-  name: 16|🇯🇵 JAPAN 6-1A
-  password: QFR3FSQMQRZL4HQ2
-  port: 18002
-  server: 156.231.104.12
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇺🇸 圣何塞1
-  network: ws
-  port: '443'
-  server: 443ip.yangmie.online
-  servername: shs111.kejixiaoqi666.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: shs111.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-gcm
-  name: 16|🇸 UNITED STATES 321-1B
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.86.135.117
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸 UNITED STATES 591
-  network: ws
-  port: 8443
-  server: 86.38.214.52
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
-  ws-opts:
-    headers:
-      Host: lax2.ibgfw.top
-    path: /dyajvws
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇺🇸 圣何塞3
-  network: ws
-  port: '443'
-  server: bestcf.top
-  servername: shs111.kejixiaoqi666.store
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: shs111.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-gcm
-  name: 16|🇺🇸 US| SHADOWSOCKS-1J
-  password: 91d30223-04c2-46b9-affb-eaf7508dec0f
-  port: 23655
-  server: 38.130.98.152
-  type: ss
-  udp: true
-- name: 16|🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-3B
-  password: 28a8f22a-af56-4314-932d-ad3d4ded1363
-  port: 28506
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇺🇸 IEPL专线-美国-1-1A
-  network: ws
-  port: '8008'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
-  ws-opts:
-    headers:
-      Host: v3.nmcf.me
-    path: /nmkj
-- name: 16|🇷 -中转3-1B
-  network: ws
-  password: ffd7d998-d5a6-4d2e-94c7-cfc795d3fa9c
-  port: 443
-  server: b5.wxlljc520.com
-  skip-cert-verify: true
-  sni: golinkwuxian.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: golinkwuxian.top
-    path: /apple
-- cipher: aes-256-gcm
-  name: 16|🇺🇸 UNITED STATES 122-1B
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 139.64.165.230
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|🇸 UNITED STATES 519-1A
-  network: ws
-  port: 443
-  server: 172.111.36.108
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸 US| VMESS WEBSOCKET-1J
-  network: ws
-  port: 23552
-  server: 38.126.114.213
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 91d30223-04c2-46b9-affb-eaf7508dec0f
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 16|🇺🇸 UNITED STATES 582-1B
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.157.40.113
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16,18|🇭🇰 HK-02 VMESS
-  network: ws
-  port: '10081'
-  server: 205.198.65.107
-  servername: tls.drt-acs.org
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 834890e9-f547-4f0a-83cc-f10aa19bd258
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess-ws
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭 泰国4-1E
-  password: 3ab66b08-a216-446e-b3ab-86dae459b6c9
-  port: 34335
-  server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡2无中转-1K
-  password: ca9569dd-3641-4335-be45-4c0814455ee7
-  port: 10050
-  server: 176.221.19.131
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇪 GERMANY 46
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 217.182.198.219
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|🇺 RUSSIA 3-1A
-  network: ws
-  port: 8443
-  server: 77.232.140.180
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- cipher: aes-256-gcm
-  name: 16|🇺🇸 UNITED STATES 289-1B
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.75.136.49
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: web
-  name: 16|🇺🇸 US| V2RAY GRPC-1A
-  network: grpc
-  port: 8443
-  server: test.api-aws.com
-  servername: test.api-aws.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9dcf9d5c-aefb-4e00-a9c9-97b9e0d8b8ce
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇳 3无中转-1H
-  password: cc113fcf-1ad9-45dd-bf3a-db941f59117c
-  port: 10050
-  server: 185.126.134.56
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇺🇸 UNITED STATES 13-1A
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.157.40.103
-  type: ss
-  udp: true
-- name: 16|🇷 FRANCE 96-1A
-  password: '3767107462583558144'
-  port: 443
-  server: modest-bulldog.goat627.mom
-  sni: modest-bulldog.goat627.mom
-  type: trojan
-  udp: true
-- name: 16|VIETNAM 4
-  password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad
-  port: 443
-  server: cmc3.5gsieuvip.vn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸 SPAIN 2-1B
-  password: 6PwyQi3Ost6YWMKinMdgcS
-  port: 40076
-  server: 194.87.45.189
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 IEPL专线-新加坡-1-1B
-  network: ws
-  port: '8001'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
-  ws-opts:
-    headers:
-      Host: v3.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 LV1 英国2
-  network: tcp
-  port: '60042'
-  server: eu0136.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|专线2
-  network: tcp
-  port: '60001'
-  server: hk0003.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONGKONG 3-1B
-  network: tcp
-  port: '38913'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 LV1 韩国5
-  network: tcp
-  port: '60198'
-  server: kr0199.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|03 0.5x
-  network: tcp
-  port: '22307'
-  server: netcp3.616626.xyz
-  tls: false
-  type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇷 土耳其-1A
-  network: tcp
-  port: '27831'
-  server: ppx1.6128888.xyz
+  name: 16|🇭🇰 香港V6|13
+  port: 6668
+  server: hkvm64.656888.xyz
   tls: false
   type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+  udp: true
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
   name: 18|🇭🇰 香港V6|11
@@ -1210,6 +602,82 @@ proxies:
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
+  name: '18|🇭🇰 香港V6|13 #1'
+  network: tcp
+  port: '6668'
+  server: hkvm64.656888.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|专线4
+  network: tcp
+  port: '60237'
+  server: hk0194.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞1
+  network: ws
+  port: '443'
+  server: 443ip.yangmie.online
+  tls: true
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国-V6|03 0.5x
+  network: tcp
+  port: '22307'
+  server: netcp3.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 LV1 新加坡1
+  network: tcp
+  port: '60041'
+  server: sg0112.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷 法国
+  network: tcp
+  port: '27835'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 LV1 香港5
+  network: tcp
+  port: '60045'
+  server: hk0046.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 LV1 韩国5
+  network: tcp
+  port: '60198'
+  server: kr0199.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
   name: 18|🇳🇱 荷兰-V6|03 0.5x
   network: tcp
   port: '22308'
@@ -1219,58 +687,93 @@ proxies:
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港V6|18
+  name: 18|🇦🇪 LV1 迪拜
   network: tcp
-  port: '6668'
-  server: hytrob.656888.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|08
-  network: tcp
-  port: '10507'
-  server: greenhk2.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|05 0.5x
-  network: tcp
-  port: '18002'
-  server: nathk.91ai.de
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 LV1 美国1
-  network: tcp
-  port: '60174'
-  server: us0175.alibabaokz.com
+  port: '60108'
+  server: db0109.alibabaokz.com
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-德克萨斯州
+  name: 18|🇸🇬 LV1 新加坡6
   network: tcp
-  port: '443'
-  server: ourfast.asia
-  tls: true
-  type: vmess
-  uuid: be858b42-541f-4a92-9ae7-2c0b2b1dfb3b
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 韩国
-  network: tcp
-  port: '27842'
-  server: ppx1.6128888.xyz
+  port: '60119'
+  server: sg0120.alibabaokz.com
   tls: false
   type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 SINGAPORE 1-1B
+  network: tcp
+  port: '28673'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HONGKONG 1-1B
+  network: tcp
+  port: '17993'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
+- alterId: 0
+  cipher: auto
+  name: 18|🇻🇳 LV1 越南
+  network: tcp
+  port: '60040'
+  server: yn0075.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞4
+  network: ws
+  port: '443'
+  server: xiaoqi.yangmie.online
+  tls: true
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|01
+  network: tcp
+  port: '22306'
+  server: greenchais1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|04
+  network: tcp
+  port: '22310'
+  server: hostip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港直连-VMESS-1A
+  network: ws
+  port: '8001'
+  server: v4.nmcf.me
+  tls: false
+  type: vmess
+  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
 - alterId: 0
   cipher: auto
   name: 18|🇹🇼 LV1 台湾1
@@ -1291,229 +794,10 @@ proxies:
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 圣何塞4
-  network: ws
-  port: '443'
-  server: xiaoqi.yangmie.online
-  tls: true
-  type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: shs111.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国1-1B
+  name: 18|🇯🇵 LV1 日本1
   network: tcp
-  port: '27821'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本2-1B
-  network: tcp
-  port: '27827'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 UNITED STATES 1-1B
-  network: tcp
-  port: '15327'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国3-1A
-  network: tcp
-  port: '27823'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本直连-VMESS-1B
-  network: ws
-  port: '8000'
-  server: v18.nmcf.me
-  tls: false
-  type: vmess
-  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 LV1 香港
-  network: tcp
-  port: '60049'
-  server: hk0074.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|06
-  network: tcp
-  port: '10505'
-  server: greenhk0.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 IEPL专线-香港-1-1A
-  network: ws
-  port: '8007'
-  server: 59.42.247.189
-  tls: false
-  type: vmess
-  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
-  ws-opts:
-    headers:
-      Host: v7.nmcf.me
-    path: /nmkj
-- alterId: 0
-  cipher: auto
-  name: 18|🇦🇪 LV1 迪拜
-  network: tcp
-  port: '60108'
-  server: db0109.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|专线1
-  network: tcp
-  port: '60001'
-  server: hk0002.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|专线7
-  network: tcp
-  port: '60238'
-  server: hk0004.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|02
-  network: tcp
-  port: '22307'
-  server: greenchais2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 LV1 香港4
-  network: tcp
-  port: '60066'
-  server: hk0067.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 SINGAPORE 1-1B
-  network: tcp
-  port: '28673'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港1-1B
-  network: tcp
-  port: '27824'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 HONGKONG 5-1B
-  network: tcp
-  port: '39840'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
-- alterId: 0
-  cipher: auto
-  name: 18|🇦🇹 LV1 奥地利
-  network: tcp
-  port: '60044'
-  server: us0078.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|12
-  network: tcp
-  port: '6667'
-  server: hkvm63.656888.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡-1A
-  network: tcp
-  port: '27838'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|07
-  network: tcp
-  port: '10506'
-  server: greenhk1.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|04
-  network: tcp
-  port: '22310'
-  server: hostip3.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|专线4
-  network: tcp
-  port: '60237'
-  server: hk0194.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 LV1 美国4
-  network: tcp
-  port: '60157'
-  server: us0147.alibabaokz.com
+  port: '60030'
+  server: jp0103.alibabaokz.com
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
@@ -1528,120 +812,6 @@ proxies:
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港
-  network: tcp
-  port: '443'
-  server: node3.ourfast.asia
-  tls: true
-  type: vmess
-  uuid: be858b42-541f-4a92-9ae7-2c0b2b1dfb3b
-- alterId: 0
-  cipher: auto
-  name: 18|专线3
-  network: tcp
-  port: '60237'
-  server: hk0107.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 LV2 香港
-  network: tcp
-  port: '60049'
-  server: hk0172.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 JAPAN 1-1B
-  network: tcp
-  port: '19015'
-  server: svip1.pingboy.top
-  tls: false
-  type: vmess
-  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|02
-  network: tcp
-  port: '22308'
-  server: hostip1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 LV1 日本3
-  network: tcp
-  port: '60034'
-  server: jp0159.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国-加利福尼亚州
-  network: tcp
-  port: '443'
-  server: node4.ourfast.asia
-  tls: true
-  type: vmess
-  uuid: be858b42-541f-4a92-9ae7-2c0b2b1dfb3b
-- alterId: 0
-  cipher: auto
-  name: 18|🇳🇱 LV1 荷兰2
-  network: tcp
-  port: '60251'
-  server: hl0252.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 LV1 美国3
-  network: tcp
-  port: '60140'
-  server: us0141.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|专线6
-  network: tcp
-  port: '60126'
-  server: hk0127.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: 666100k.666811.xyz
-  name: 18|🇺🇸 美国 GRCP-1A
-  network: grpc
-  port: '8443'
-  server: 666100k.666811.xyz
-  tls: true
-  type: vmess
-  uuid: f47366bb-df70-466c-a1f7-137345788265
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 新加坡直连-VMESS-1A
-  network: ws
-  port: '8000'
-  server: v7.nmcf.me
-  tls: false
-  type: vmess
-  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
-- alterId: 0
-  cipher: auto
   name: 18|🇭🇰 香港V6|10
   network: tcp
   port: '6666'
@@ -1651,23 +821,23 @@ proxies:
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|VMESS
+  name: 18|🇯🇵 日本直连-VMESS-1A
   network: ws
-  port: '1082'
-  server: test1.xiaoshihoukepangle.sbs
-  tls: true
+  port: '8000'
+  server: v18.nmcf.me
+  tls: false
   type: vmess
-  uuid: 91139c46-ba99-4e75-824f-0d9f0f049903
+  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
   ws-opts:
     headers:
       Host: www.bing.com
-    path: /xiaoshihoukepangleVmess
+    path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 LV1 美国6
+  name: 18|🇲🇾 LV1 马来西亚 X5
   network: tcp
-  port: '60146'
-  server: us0153.alibabaokz.com
+  port: '60024'
+  server: ml0070.alibabaokz.com
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
@@ -1682,281 +852,68 @@ proxies:
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 HONGKONG 1-1B
+  name: 18|专线1
   network: tcp
-  port: '17993'
-  server: svip1.pingboy.top
+  port: '60001'
+  server: hk0002.alibabaokz.com
   tls: false
   type: vmess
-  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 圣何塞5
-  network: ws
-  port: '443'
-  server: time.is
+  name: 18|🇭🇰 香港-V6|02
+  network: tcp
+  port: '22308'
+  server: hostip1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: 666100k.666811.xyz
+  name: 18|🇺🇸 美国 GRCP-1B
+  network: grpc
+  port: '8443'
+  server: 666100k.666811.xyz
   tls: true
   type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: shs111.kejixiaoqi666.store
-    path: /
+  uuid: f47366bb-df70-466c-a1f7-137345788265
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 LV1 香港7
-  network: tcp
-  port: '60243'
-  server: hk0208.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇳🇱 荷兰-V6|02 0.5x
-  network: tcp
-  port: '22306'
-  server: naran2.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇭 泰國-曼谷 X10
-  network: tcp
-  port: '60225'
-  server: tg0226.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇳🇱 荷兰-V6|04 0.5x
-  network: tcp
-  port: '22310'
-  server: naran4.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 LV1 日本2
-  network: tcp
-  port: '60115'
-  server: jp0116.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|01 0.5x
-  network: tcp
-  port: '22305'
-  server: netcp1.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇰🇷 LV1 韩国1
-  network: tcp
-  port: '60019'
-  server: kr0020.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 深港中转-IEPL专线-US-1-1A
+  name: 18|🇰🇷 IEPL专线-韩国-1-1A
   network: ws
-  port: '8006'
+  port: '8002'
   server: 59.42.247.189
   tls: false
   type: vmess
   uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
   ws-opts:
     headers:
-      Host: www.bing.com
+      Host: v7.nmcf.me
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 新加坡CF
+  name: 18|🇭🇰 IEPL专线-香港-1-1B
   network: ws
-  port: '80'
-  server: time.is
-  tls: false
-  type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: mgsg2.zhousi.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|01
-  network: tcp
-  port: '22306'
-  server: greenchais1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 IEPL专线-日本-1-1B
-  network: ws
-  port: '8004'
+  port: '8007'
   server: 59.42.247.189
   tls: false
   type: vmess
   uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
   ws-opts:
     headers:
-      Host: www.bing.com
+      Host: v7.nmcf.me
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 LV1 香港6
+  name: 18|🇭🇰 HONGKONG 5-1B
   network: tcp
-  port: '60207'
-  server: hk0208.alibabaokz.com
+  port: '39840'
+  server: svip1.pingboy.top
   tls: false
   type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇦🇷 LV1 阿根廷 X10
-  network: tcp
-  port: '60216'
-  server: agt0217.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|专线5
-  network: tcp
-  port: '60126'
-  server: hk0106.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|菲律賓 X10
-  network: tcp
-  port: '60227'
-  server: flb0227.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港2-1A
-  network: tcp
-  port: '27825'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国-V6|03
-  network: tcp
-  port: '22306'
-  server: dmitv62.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港-V6|03
-  network: tcp
-  port: '22309'
-  server: hostip2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|05
-  network: tcp
-  port: '22307'
-  server: greenip2.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬 LV1 新加坡1
-  network: tcp
-  port: '60041'
-  server: sg0112.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 LV1 美国2
-  network: tcp
-  port: '60231'
-  server: us0232.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇩🇪 德国-V6|02 0.5x
-  network: tcp
-  port: '22306'
-  server: netcp2.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇲🇾 LV1 马来西亚 X5
-  network: tcp
-  port: '60024'
-  server: ml0070.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇹🇼 LV1 台湾2
-  network: tcp
-  port: '60181'
-  server: tw0182.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇻🇳 LV1 越南
-  network: tcp
-  port: '60040'
-  server: yn0075.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|04
-  network: tcp
-  port: '22306'
-  server: greenip1.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷 法国-1A
-  network: tcp
-  port: '27835'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸 VMESS-直连-US-1B
@@ -1972,52 +929,7 @@ proxies:
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬 LV1 新加坡6
-  network: tcp
-  port: '60119'
-  server: sg0120.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇦🇺 澳大利亚
-  network: tcp
-  port: '27833'
-  server: ppx1.6128888.xyz
-  tls: false
-  type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 LV1 香港5
-  network: tcp
-  port: '60045'
-  server: hk0046.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港V6|13
-  network: tcp
-  port: '6668'
-  server: hkvm64.656888.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇬🇧 LV1 英国1
-  network: tcp
-  port: '46719'
-  server: eu0097.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 美国2-1B
+  name: 18|🇺🇸 美国2-1C
   network: tcp
   port: '27822'
   server: ppx1.6128888.xyz
@@ -2026,116 +938,67 @@ proxies:
   uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
 - alterId: 0
   cipher: auto
-  name: 18|🇯🇵 LV1 日本1
+  name: 18|🇩🇪 德国-V6|02 0.5x
   network: tcp
-  port: '60030'
-  server: jp0103.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本VULTR1
-  network: ws
-  port: '443'
-  server: www.visa.com
-  tls: true
-  type: vmess
-  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
-  ws-opts:
-    headers:
-      Host: jpv.xiaoqi555.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本-V6|06
-  network: tcp
-  port: '22308'
-  server: greenip3.668918.xyz
+  port: '22306'
+  server: netcp2.616626.xyz
   tls: false
   type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港V6|09
+  name: 18|🇭🇰 香港-V6|05 0.5x
   network: tcp
-  port: '10211'
-  server: khanhk6.668918.xyz
+  port: '18002'
+  server: nathk.91ai.de
   tls: false
   type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇮🇩 LV1 印尼 X5
+  name: 18|🇹🇭 泰國-曼谷 X10
   network: tcp
-  port: '60037'
-  server: yn0038.alibabaokz.com
+  port: '60225'
+  server: tg0226.alibabaokz.com
   tls: false
   type: vmess
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸 美国-V6|01
+  name: 18|🇺🇸 美国1-1C
   network: tcp
-  port: '22308'
-  server: crun6.668918.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸 LV1 美国5
-  network: tcp
-  port: '60145'
-  server: us0150.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 LV1 日本5
-  network: tcp
-  port: '60029'
-  server: jp0095.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
-  name: 18|🇳🇱 荷兰-V6|01 0.5x
-  network: tcp
-  port: '22305'
-  server: naran1.616626.xyz
-  tls: false
-  type: vmess
-  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
-- alterId: 0
-  cipher: auto
-  name: 18|🇯🇵 日本1-1C
-  network: tcp
-  port: '27846'
+  port: '27821'
   server: ppx1.6128888.xyz
   tls: false
   type: vmess
   uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰 香港-V6|01
+  name: 18|🇭🇰 HONGKONG 3-1B
   network: tcp
-  port: '22307'
-  server: hosyun6.91ai.de
+  port: '38913'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|07
+  network: tcp
+  port: '10506'
+  server: greenhk1.616626.xyz
   tls: false
   type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 台湾
+  name: 18|🇺🇸 UNITED STATES 1-1B
   network: tcp
-  port: '27830'
-  server: ppx1.6128888.xyz
+  port: '15327'
+  server: svip1.pingboy.top
   tls: false
   type: vmess
-  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵 日本-V6|07
@@ -2156,6 +1019,468 @@ proxies:
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
+  name: 18|专线3
+  network: tcp
+  port: '60237'
+  server: hk0107.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|菲律賓 X10
+  network: tcp
+  port: '60227'
+  server: flb0227.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国2
+  network: tcp
+  port: '60231'
+  server: us0232.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 LV1 英国2
+  network: tcp
+  port: '60042'
+  server: eu0136.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇦🇷 LV1 阿根廷 X10
+  network: tcp
+  port: '60216'
+  server: agt0217.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 LV1 香港4
+  network: tcp
+  port: '60066'
+  server: hk0067.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|06
+  network: tcp
+  port: '22308'
+  server: greenip3.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡直连-VMESS-1B
+  network: ws
+  port: '8000'
+  server: v7.nmcf.me
+  tls: false
+  type: vmess
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港V6|18
+  network: tcp
+  port: '6668'
+  server: hytrob.656888.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HK-02 VMESS
+  network: ws
+  port: '10081'
+  server: 205.198.65.107
+  tls: true
+  type: vmess
+  uuid: 834890e9-f547-4f0a-83cc-f10aa19bd258
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|06
+  network: tcp
+  port: '10505'
+  server: greenhk0.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|专线6
+  network: tcp
+  port: '60126'
+  server: hk0127.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 深港中转-IEPL专线-US-1-1B
+  network: ws
+  port: '8006'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 LV1 日本3
+  network: tcp
+  port: '60034'
+  server: jp0159.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡CF
+  network: ws
+  port: '80'
+  server: time.is
+  tls: false
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: mgsg2.zhousi.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞2
+  network: ws
+  port: '443'
+  server: bestcf.mfwl.art
+  tls: true
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 LV1 韩国1
+  network: tcp
+  port: '60019'
+  server: kr0020.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 台湾
+  network: tcp
+  port: '27830'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本V
+  network: ws
+  port: '443'
+  server: bookmyshow.com
+  tls: true
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 IEPL专线-日本-1-1A
+  network: ws
+  port: '8004'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: d05cda56-965a-4fca-a5d8-af5f3c3f4914
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 新加坡
+  network: tcp
+  port: '27838'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 荷兰-V6|02 0.5x
+  network: tcp
+  port: '22306'
+  server: naran2.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 荷兰-V6|01 0.5x
+  network: tcp
+  port: '22305'
+  server: naran1.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|04
+  network: tcp
+  port: '22306'
+  server: greenip1.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|01
+  network: tcp
+  port: '22308'
+  server: crun6.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇦🇹 LV1 奥地利
+  network: tcp
+  port: '60044'
+  server: us0078.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国3
+  network: tcp
+  port: '27823'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬 IEPL专线-新加坡-1-1B
+  network: ws
+  port: '8001'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
+  ws-opts:
+    headers:
+      Host: v3.nmcf.me
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 LV1 香港6
+  network: tcp
+  port: '60207'
+  server: hk0208.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本1-1D
+  network: tcp
+  port: '27846'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞5
+  network: ws
+  port: '443'
+  server: time.is
+  tls: true
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国3
+  network: tcp
+  port: '60140'
+  server: us0141.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 IEPL专线-美国-1-1B
+  network: ws
+  port: '8008'
+  server: 59.42.247.189
+  tls: false
+  type: vmess
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
+  ws-opts:
+    headers:
+      Host: v3.nmcf.me
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|专线2
+  network: tcp
+  port: '60001'
+  server: hk0003.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港V6|12
+  network: tcp
+  port: '6667'
+  server: hkvm63.656888.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 JAPAN 1-1B
+  network: tcp
+  port: '19015'
+  server: svip1.pingboy.top
+  tls: false
+  type: vmess
+  uuid: f46daba9-b823-4229-a3bf-c8fefddbb84c
+- alterId: 0
+  cipher: auto
+  name: 18|专线7
+  network: tcp
+  port: '60238'
+  server: hk0004.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国1
+  network: tcp
+  port: '60174'
+  server: us0175.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国直连-VMESS-1B
+  network: ws
+  port: '8002'
+  server: v5.nmcf.me
+  tls: false
+  type: vmess
+  uuid: b0c2f4e7-0743-4141-896c-1d58452ee05c
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 18|🇮🇩 LV1 印尼 X5
+  network: tcp
+  port: '60037'
+  server: yn0038.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 LV1 荷兰2
+  network: tcp
+  port: '60251'
+  server: hl0252.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本VULTR1
+  network: ws
+  port: '443'
+  server: www.visa.com
+  tls: true
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港2
+  network: tcp
+  port: '27825'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|专线5
+  network: tcp
+  port: '60126'
+  server: hk0106.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港1-1B
+  network: tcp
+  port: '27824'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧 LV1 英国1
+  network: tcp
+  port: '46719'
+  server: eu0097.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
   name: 18|🇺🇸 美国-V6|05
   network: tcp
   port: '22309'
@@ -2163,6 +1488,243 @@ proxies:
   tls: false
   type: vmess
   uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇩🇪 德国-V6|01 0.5x
+  network: tcp
+  port: '22305'
+  server: netcp1.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇰🇷 韩国
+  network: tcp
+  port: '27842'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|08
+  network: tcp
+  port: '10507'
+  server: greenhk2.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港V6|09
+  network: tcp
+  port: '10211'
+  server: khanhk6.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 LV1 日本5
+  network: tcp
+  port: '60029'
+  server: jp0095.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国5
+  network: tcp
+  port: '60145'
+  server: us0150.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇳🇱 荷兰-V6|04 0.5x
+  network: tcp
+  port: '22310'
+  server: naran4.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 LV2 香港
+  network: tcp
+  port: '60049'
+  server: hk0172.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 圣何塞3
+  network: ws
+  port: '443'
+  server: bestcf.top
+  tls: true
+  type: vmess
+  uuid: 90a60512-d76d-4942-ae7b-fab00b159327
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 LV1 香港
+  network: tcp
+  port: '60049'
+  server: hk0074.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 LV1 香港7
+  network: tcp
+  port: '60243'
+  server: hk0208.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国4
+  network: tcp
+  port: '60157'
+  server: us0147.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 LV1 美国6
+  network: tcp
+  port: '60146'
+  server: us0153.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|VMESS
+  network: ws
+  port: '1082'
+  server: test1.xiaoshihoukepangle.sbs
+  tls: true
+  type: vmess
+  uuid: 91139c46-ba99-4e75-824f-0d9f0f049903
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /xiaoshihoukepangleVmess
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|05
+  network: tcp
+  port: '22307'
+  server: greenip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|01
+  network: tcp
+  port: '22307'
+  server: hosyun6.91ai.de
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 HK-01 VMESS
+  network: ws
+  port: '10081'
+  server: 205.198.64.79
+  tls: false
+  type: vmess
+  uuid: 834890e9-f547-4f0a-83cc-f10aa19bd258
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇷 土耳其
+  network: tcp
+  port: '27831'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 LV1 台湾2
+  network: tcp
+  port: '60181'
+  server: tw0182.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本2-1C
+  network: tcp
+  port: '27827'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇭🇰 香港-V6|03
+  network: tcp
+  port: '22309'
+  server: hostip2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 日本-V6|02
+  network: tcp
+  port: '22307'
+  server: greenchais2.668918.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇦🇺 澳大利亚
+  network: tcp
+  port: '27833'
+  server: ppx1.6128888.xyz
+  tls: false
+  type: vmess
+  uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸 美国-V6|03
+  network: tcp
+  port: '22306'
+  server: dmitv62.616626.xyz
+  tls: false
+  type: vmess
+  uuid: f06ebad3-8023-40b9-8ba8-5809d3898423
+- alterId: 0
+  cipher: auto
+  name: 18|🇯🇵 LV1 日本2
+  network: tcp
+  port: '60115'
+  server: jp0116.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - name: 29|🇿🇦南非/1x
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10900

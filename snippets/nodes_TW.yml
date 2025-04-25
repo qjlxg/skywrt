@@ -96,15 +96,6 @@ proxies:
   uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
 - alterId: 0
   cipher: auto
-  name: 18|🇹🇼 LV1 台湾2
-  network: tcp
-  port: '60181'
-  server: tw0182.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
-- alterId: 0
-  cipher: auto
   name: 18|🇹🇼 台湾
   network: tcp
   port: '27830'
@@ -112,3 +103,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 94093499-e035-4cba-a0f6-16bcb6a318dc
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼 LV1 台湾2
+  network: tcp
+  port: '60181'
+  server: tw0182.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 4cc24bf4-3dfc-4a14-90ed-c0a98acb0472
