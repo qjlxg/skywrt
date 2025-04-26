@@ -60,19 +60,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 18|HK2-1A
-  network: ws
-  port: '443'
-  server: hk2.rtmp.online
-  tls: true
-  type: vmess
-  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
-  ws-opts:
-    headers:
-      Host: hk2.rtmp.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 18|🇭🇰 香港 02
   network: ws
   port: '1086'
@@ -84,6 +71,19 @@ proxies:
     headers:
       Host: www.ouabaua.com
     path: /zxascas
+- alterId: 0
+  cipher: auto
+  name: 18|HK2-1C
+  network: ws
+  port: '443'
+  server: hk2.rtmp.online
+  tls: true
+  type: vmess
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  ws-opts:
+    headers:
+      Host: hk2.rtmp.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇭🇰 香港 01
@@ -99,7 +99,7 @@ proxies:
     path: /asdd
 - alterId: 0
   cipher: auto
-  name: 18|HK1-1A
+  name: 18|HK1-1B
   network: ws
   port: '443'
   server: hk1.rtmp.online
