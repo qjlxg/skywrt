@@ -98,12 +98,3 @@ proxies:
     headers:
       Host: twnat4.gangko.cc
     path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇹🇼 台湾1
-  network: tcp
-  port: '11223'
-  server: 23.wogg1.top
-  tls: false
-  type: vmess
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27

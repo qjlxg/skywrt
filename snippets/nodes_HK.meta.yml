@@ -58,41 +58,19 @@ proxies:
   skip-cert-verify: false
   sni: waphk.mjt000.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 18|🇭🇰 香港1
-  network: tcp
-  port: '11209'
-  server: 9.wogg1.top
-  tls: false
-  type: vmess
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
 - alterId: 0
   cipher: auto
-  name: 18|HK1
+  name: 18|HK2-1A
   network: ws
   port: '443'
-  server: hk1.rtmp.online
+  server: hk2.rtmp.online
   tls: true
   type: vmess
   uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
   ws-opts:
     headers:
-      Host: hk1.rtmp.online
+      Host: hk2.rtmp.online
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇭🇰 香港 01
-  network: ws
-  port: '1081'
-  server: hk-cn-01.yumeifang.cn
-  tls: true
-  type: vmess
-  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
-  ws-opts:
-    headers:
-      Host: wamxoa.com
-    path: /asdd
 - alterId: 0
   cipher: auto
   name: 18|🇭🇰 香港 02
@@ -108,16 +86,29 @@ proxies:
     path: /zxascas
 - alterId: 0
   cipher: auto
-  name: 18|HK2-1A
+  name: 18|🇭🇰 香港 01
+  network: ws
+  port: '1081'
+  server: hk-cn-01.yumeifang.cn
+  tls: true
+  type: vmess
+  uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55
+  ws-opts:
+    headers:
+      Host: wamxoa.com
+    path: /asdd
+- alterId: 0
+  cipher: auto
+  name: 18|HK1-1A
   network: ws
   port: '443'
-  server: hk2.rtmp.online
+  server: hk1.rtmp.online
   tls: true
   type: vmess
   uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
   ws-opts:
     headers:
-      Host: hk2.rtmp.online
+      Host: hk1.rtmp.online
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

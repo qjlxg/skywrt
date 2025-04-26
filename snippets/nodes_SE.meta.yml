@@ -7,7 +7,7 @@ proxies:
   server: 154.83.93.132
   tls: false
   type: vmess
-  uuid: 8afebdb9-33d5-4a47-935e-d8997c27daf6
+  uuid: 87911244-8096-4dfd-8bbd-6bc9adf47215
   ws-opts:
     headers:
       Host: povo.jp

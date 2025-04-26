@@ -47,7 +47,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|SG1
+  name: 18|SG1-1A
   network: ws
   port: '443'
   server: sg1.rtmp.online

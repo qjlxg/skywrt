@@ -70,15 +70,6 @@ proxies:
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 18|🇯🇵 日本1
-  network: tcp
-  port: '11220'
-  server: 20.wogg1.top
-  tls: false
-  type: vmess
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:

@@ -45,15 +45,6 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇺🇸 美国1
-  network: tcp
-  port: '11217'
-  server: 17.wogg1.top
-  tls: false
-  type: vmess
-  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts:
